@@ -16,6 +16,8 @@ This repository publishes the technologies themselves. **MOFUMORI / もふもふ
 
 A technology is listed as **COMPLETE / VERIFIED** only after implementation, boundary/authority testing, fresh-extract validation, replay/reproducibility checks where applicable, verification evidence, and artifact hashing are complete.
 
+**Formal completion progress: 6 / 188**
+
 Current published set:
 
 | ID | Technology | Status |
@@ -23,8 +25,11 @@ Current published set:
 | 001 | AI Supervisor / AI監督官 | COMPLETE / VERIFIED |
 | 002 | Semantic Firewall / 意味ベースファイアウォール | COMPLETE / VERIFIED |
 | 003 | AI Development Guard / AI開発ガード | COMPLETE / VERIFIED |
+| 004 | Pre-Execution Simulator / 実行前シミュレーター | COMPLETE / VERIFIED |
+| 005 | Data Leak Prevention Layer / 情報漏洩防止レイヤー | COMPLETE / VERIFIED |
+| 006 | AI-to-AI Arbitrator / AI同士の仲裁役 | COMPLETE / VERIFIED |
 
-See each numbered directory for verification details and artifact hashes.
+See each numbered directory for verification details, authority boundaries, artifact seals, and SHA-256 records.
 
 ## Authorship
 
