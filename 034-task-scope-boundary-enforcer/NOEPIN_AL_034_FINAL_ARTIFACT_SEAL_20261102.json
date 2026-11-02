@@ -1,0 +1,32 @@
+{
+  "technology_number": 34,
+  "technology_name": "タスク範囲境界エンフォーサー / Task Scope Boundary Enforcer",
+  "version": "2.0.0-successor.20261102",
+  "creator": "NOEPIN / のえぴん",
+  "project_owner": "NOEPIN / のえぴん",
+  "original_concept": "NOEPIN / のえぴん",
+  "architecture_direction": "NOEPIN / のえぴん",
+  "implementation_support": "AI-assisted implementation / analysis / documentation support using ChatGPT",
+  "license": "NOT SPECIFIED",
+  "status": "COMPLETE / VERIFIED — TECHNOLOGY ARTIFACT",
+  "final_artifact": "NOEPIN_AL_034_TASK_SCOPE_BOUNDARY_ENFORCER_SUCCESSOR_V2_20261102.zip",
+  "artifact_zip_sha256": "ac18dba3b3697d2de40dfdffaf178efb131d2d15fe994b7f2d43996001ce85eb",
+  "source_sha256": "f8432ce13727609f487171b9dcf4c8ca083e76bc976aa9864b4a1a96d1285c5d",
+  "test_sha256": "66c1b8909046cac8f61cda9ff4486aa732f5f1040acca85537ad57ca50b34435",
+  "unit_tests": {"passed": 81, "failed": 0},
+  "fresh_extract_tests": {"passed": 81, "failed": 0},
+  "replay": {"normal_runs": 3, "fresh_extract_runs": 3, "evaluations_per_run": 1000, "divergence": 0, "fingerprint": "b905464b2cb1ca0611f3cd21788fb93cbc2c65d042a24f0d2ac440abd305dfa6"},
+  "baseline_mutation": 0,
+  "external_mutation_execution_paths_in_control": 0,
+  "dcsr_application_level": "LIMITED",
+  "benchmark": {
+    "exact_state_condition": "exact repeated in-scope request; 20000 evaluations per batch x7",
+    "cache_enabled_median_ms": 285.998,
+    "cache_disabled_median_ms": 372.144,
+    "delta_condition": "2000 allowed path prefixes; 25 changed; host set changed",
+    "full_payload_bytes": 39540,
+    "delta_payload_bytes": 1422,
+    "delta_ratio": 0.035964,
+    "claim_scope": "condition-specific; no universal speed or compression guarantee"
+  }
+}
