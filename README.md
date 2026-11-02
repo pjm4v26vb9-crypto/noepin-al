@@ -39,8 +39,13 @@ Official public repository for NOEPIN AL technologies created by **NOEPIN / の�
 | 023 | [Resource & Cost Limit Guard / 資源・コスト制限ガード](works/023-resource-cost-limit-guard.md) | COMPLETE / VERIFIED |
 | 024 | [AI Output Validation & Typed Action Conversion / AI出力検証・型付きアクション変換](works/024-ai-output-validation-typed-action-conversion.md) | COMPLETE / VERIFIED |
 | 025 | [Fact & Hallucination Verification Layer / 事実確認・幻覚検証レイヤー](works/025-fact-hallucination-verification-layer.md) | COMPLETE / VERIFIED |
+| 026 | [Policy-as-Code Rule Engine / Policy-as-Codeルールエンジン](works/026-policy-as-code-rule-engine.md) | COMPLETE / VERIFIED |
+| 027 | [Automatic Rollback & Snapshot / 自動ロールバック・スナップショット](works/027-automatic-rollback-snapshot.md) | COMPLETE / VERIFIED |
+| 028 | [Multiple-AI Quorum Decision / 複数AI合議・クォーラム判定](works/028-multiple-ai-quorum-decision.md) | COMPLETE / VERIFIED |
+| 029 | [Uncertainty & Hold Decision Engine / 不確実性・保留判断エンジン](works/029-uncertainty-hold-decision-engine.md) | COMPLETE / VERIFIED |
+| 030 | [AI Registry & Lifecycle Management / AI登録・ライフサイクル管理](works/030-ai-registry-lifecycle-management.md) | COMPLETE / VERIFIED |
 
-**Formal completion / publication progress: 25 / 188**
+**Formal completion / publication progress: 30 / 188**
 
 [作品一覧ページを開く](works/)
 
