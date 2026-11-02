@@ -1,0 +1,28 @@
+{
+  "technology_number": 24,
+  "technology_name": "AI出力検証・型付きアクション変換 / AI Output Validation & Typed Action Conversion",
+  "version": "2.0.0-successor.20261102",
+  "creator": "NOEPIN / のえぴん",
+  "project_owner": "NOEPIN / のえぴん",
+  "original_concept": "NOEPIN / のえぴん",
+  "architecture_direction": "NOEPIN / のえぴん",
+  "implementation_support": "AI-assisted implementation / analysis / documentation support using ChatGPT",
+  "license": "NOT SPECIFIED",
+  "status": "COMPLETE / VERIFIED — TECHNOLOGY ARTIFACT",
+  "final_artifact": "NOEPIN_AL_024_TYPED_ACTION_CONVERTER_SUCCESSOR_V2_20261102.zip",
+  "artifact_zip_sha256": "483fb6e34e4ca85ed77b0bb7f804a78146fe9389afe2539b0cfdf6aff3a568f3",
+  "source_sha256": "0c39d8de479c1ed1529136e66dc6897e7a345f9666d265c446ce6fa8f8a49007",
+  "test_sha256": "e0f91dfc727723492a9c05b792028cbc1775759346ae3b9ff88e3e1237e01e75",
+  "unit_tests": {"passed": 66, "failed": 0},
+  "fresh_extract_tests": {"passed": 66, "failed": 0},
+  "replay": {"normal_runs": 3, "fresh_extract_runs": 3, "evaluations_per_run": 1000, "divergence": 0, "fingerprint": "3e24e4779e763cb8e7ba4197456f8441bf35e8e0c00046357e982679a1195b5a"},
+  "baseline_mutation": 0,
+  "execution_commit_primitive_paths_in_converter": 0,
+  "dcsr_application_level": "AUXILIARY",
+  "benchmark": {
+    "condition": "exact repeated typed-action candidate; 20000 evaluations per batch x 7 batches",
+    "cache_enabled_median_ms": 265.089,
+    "cache_disabled_median_ms": 544.869,
+    "claim_scope": "condition-specific; no universal speed guarantee"
+  }
+}
