@@ -33,8 +33,11 @@ Official public repository for NOEPIN AL technologies created by **NOEPIN / の�
 | 017 | [Rogue AI Kill Switch / 暴走AIキルスイッチ](works/017-rogue-ai-kill-switch.md) | COMPLETE / VERIFIED |
 | 018 | [Audit & Forensic Ledger / 監査・フォレンジック台帳](works/018-audit-forensic-ledger.md) | COMPLETE / VERIFIED |
 | 019 | [Source & Trust Labeler / 情報出典・信頼ラベラー](works/019-source-trust-labeler.md) | COMPLETE / VERIFIED |
+| 020 | [Confidential Information & External Egress Guard / 機密情報・外部送信ガード](works/020-confidential-egress-guard.md) | COMPLETE / VERIFIED |
+| 021 | [Network Destination Allow Control / ネットワーク宛先許可制御](works/021-network-destination-allow-control.md) | COMPLETE / VERIFIED |
+| 022 | [Secret Key & Credential Gate / 秘密鍵・認証情報ゲート](works/022-secret-credential-gate.md) | COMPLETE / VERIFIED |
 
-**Formal completion / publication progress: 19 / 188**
+**Formal completion / publication progress: 22 / 188**
 
 [作品一覧ページを開く](works/)
 
