@@ -1,0 +1,23 @@
+{
+  "technology_number": 6,
+  "technology_name": "AI同士の仲裁役 / AI-to-AI Arbitrator",
+  "version": "2.0.0-successor.20261102",
+  "creator": "NOEPIN / のえぴん",
+  "project_owner": "NOEPIN / のえぴん",
+  "original_concept": "NOEPIN / のえぴん",
+  "architecture_direction": "NOEPIN / のえぴん",
+  "implementation_support": "AI-assisted implementation / analysis / documentation support using ChatGPT",
+  "license": "NOT SPECIFIED",
+  "status": "COMPLETE / VERIFIED — TECHNOLOGY ARTIFACT",
+  "final_artifact": "NOEPIN_AL_006_AI_ARBITRATOR_SUCCESSOR_V2_20261102.zip",
+  "artifact_zip_sha256": "22078f19b3fed04099adbd5686af23420b7a8265ff66bdd31c260eb53757f33a",
+  "source_sha256": "9d0bd198bed1866f8f13d35a3eb276998dbd2380e2526510b63cb5d12269a7c2",
+  "test_sha256": "27f3e80da9859942002bf57c16cd98689613264823f2c5d70131c38ee51c12be",
+  "unit_tests": {"passed":49,"failed":0},
+  "fresh_extract_tests": {"passed":49,"failed":0},
+  "replay": {"normal_runs":3,"fresh_extract_runs":3,"arbitrations_per_run":1000,"divergence":0,"fingerprint":"4c739f6ed8a1076032bf19ed51693a6aadc1bc984b5db5b37b1c90c6f16bc1e0"},
+  "baseline_mutation": 0,
+  "external_action_or_commit_paths": 0,
+  "dcsr_application_level": "AUXILIARY",
+  "benchmark": {"condition":"exact repeated arbitration; 20000 evaluations per batch x 7 batches","cache_enabled_median_ms":914.035,"cache_disabled_median_ms":1770.753,"claim_scope":"condition-specific; no universal speedup claim"}
+}
