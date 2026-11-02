@@ -36,8 +36,11 @@ Official public repository for NOEPIN AL technologies created by **NOEPIN / の�
 | 020 | [Confidential Information & External Egress Guard / 機密情報・外部送信ガード](works/020-confidential-egress-guard.md) | COMPLETE / VERIFIED |
 | 021 | [Network Destination Allow Control / ネットワーク宛先許可制御](works/021-network-destination-allow-control.md) | COMPLETE / VERIFIED |
 | 022 | [Secret Key & Credential Gate / 秘密鍵・認証情報ゲート](works/022-secret-credential-gate.md) | COMPLETE / VERIFIED |
+| 023 | [Resource & Cost Limit Guard / 資源・コスト制限ガード](works/023-resource-cost-limit-guard.md) | COMPLETE / VERIFIED |
+| 024 | [AI Output Validation & Typed Action Conversion / AI出力検証・型付きアクション変換](works/024-ai-output-validation-typed-action-conversion.md) | COMPLETE / VERIFIED |
+| 025 | [Fact & Hallucination Verification Layer / 事実確認・幻覚検証レイヤー](works/025-fact-hallucination-verification-layer.md) | COMPLETE / VERIFIED |
 
-**Formal completion / publication progress: 22 / 188**
+**Formal completion / publication progress: 25 / 188**
 
 [作品一覧ページを開く](works/)
 
