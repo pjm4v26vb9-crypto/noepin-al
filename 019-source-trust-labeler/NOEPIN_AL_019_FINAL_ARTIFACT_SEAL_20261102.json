@@ -1,0 +1,23 @@
+{
+  "technology_number": 19,
+  "technology_name": "情報出典・信頼ラベラー / Source & Trust Labeler",
+  "version": "2.0.0-successor.20261102",
+  "creator": "NOEPIN / のえぴん",
+  "project_owner": "NOEPIN / のえぴん",
+  "original_concept": "NOEPIN / のえぴん",
+  "architecture_direction": "NOEPIN / のえぴん",
+  "implementation_support": "AI-assisted implementation / analysis / documentation support using ChatGPT",
+  "license": "NOT SPECIFIED",
+  "status": "COMPLETE / VERIFIED — TECHNOLOGY ARTIFACT",
+  "final_artifact": "NOEPIN_AL_019_SOURCE_TRUST_LABELER_SUCCESSOR_V2_20261102.zip",
+  "artifact_zip_sha256": "c1f63cff06479772f158e594f785a019d4ef4fd41b87fb361b499aa8b9ae211b",
+  "source_sha256": "ecd17698173aa1c0412b483fd5f26905d731daddec3eb376e643154ec780b13a",
+  "test_sha256": "292ed97bdf8f2d5e65b6f034687ca8932c62353528efb21c5003a8dcce75398a",
+  "unit_tests": {"passed":55,"failed":0},
+  "fresh_extract_tests": {"passed":55,"failed":0},
+  "replay": {"normal_runs":3,"fresh_extract_runs":3,"evaluations_per_run":1000,"divergence":0,"fingerprint":"25272f2872b93a7bba46a3bcdd89c89a0986fdeb94b97539d771f76dc86d3f7c"},
+  "baseline_mutation": 0,
+  "memory_write_external_transfer_action_execution_paths": 0,
+  "dcsr_application_level": "AUXILIARY",
+  "benchmark": {"condition":"exact repeated source observation; 20000 evaluations per batch x 7 batches","cache_enabled_median_ms":548.495,"cache_disabled_median_ms":1163.635,"claim_scope":"condition-specific; no universal speed guarantee"}
+}
