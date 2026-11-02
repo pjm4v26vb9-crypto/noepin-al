@@ -12,14 +12,16 @@ Official public repository for NOEPIN AL technologies created by **NOEPIN / の�
 
 | ID | Technology | Status |
 |---|---|---|
-| 001 | [AI Supervisor / AI監督官](001-ai-supervisor/) | COMPLETE / VERIFIED |
-| 002 | [Semantic Firewall / 意味ベースファイアウォール](002-semantic-firewall/) | COMPLETE / VERIFIED |
-| 003 | [AI Development Guard / AI開発ガード](003-ai-development-guard/) | COMPLETE / VERIFIED |
-| 004 | [Pre-Execution Simulator / 実行前シミュレーター](004-pre-execution-simulator/) | COMPLETE / VERIFIED |
-| 005 | [Data Leak Prevention Layer / 情報漏洩防止レイヤー](005-data-leak-prevention/) | COMPLETE / VERIFIED |
-| 006 | [AI-to-AI Arbitrator / AI同士の仲裁役](006-ai-to-ai-arbitrator/) | COMPLETE / VERIFIED |
+| 001 | [AI Supervisor / AI監督官](works/001-ai-supervisor.md) | COMPLETE / VERIFIED |
+| 002 | [Semantic Firewall / 意味ベースファイアウォール](works/002-semantic-firewall.md) | COMPLETE / VERIFIED |
+| 003 | [AI Development Guard / AI開発ガード](works/003-ai-development-guard.md) | COMPLETE / VERIFIED |
+| 004 | [Pre-Execution Simulator / 実行前シミュレーター](works/004-pre-execution-simulator.md) | COMPLETE / VERIFIED |
+| 005 | [Data Leak Prevention Layer / 情報漏洩防止レイヤー](works/005-data-leak-prevention.md) | COMPLETE / VERIFIED |
+| 006 | [AI-to-AI Arbitrator / AI同士の仲裁役](works/006-ai-to-ai-arbitrator.md) | COMPLETE / VERIFIED |
 
 **Formal completion progress: 6 / 188 published here.**
+
+[作品一覧ページを開く](works/)
 
 ## Purpose
 
