@@ -1,0 +1,23 @@
+{
+  "technology_number": 21,
+  "technology_name": "ネットワーク宛先許可制御 / Network Destination Allow Control",
+  "version": "2.0.0-successor.20261102",
+  "creator": "NOEPIN / のえぴん",
+  "project_owner": "NOEPIN / のえぴん",
+  "original_concept": "NOEPIN / のえぴん",
+  "architecture_direction": "NOEPIN / のえぴん",
+  "implementation_support": "AI-assisted implementation / analysis / documentation support using ChatGPT",
+  "license": "NOT SPECIFIED",
+  "status": "COMPLETE / VERIFIED — TECHNOLOGY ARTIFACT",
+  "final_artifact": "NOEPIN_AL_021_NETWORK_DESTINATION_CONTROL_SUCCESSOR_V2_20261102.zip",
+  "artifact_zip_sha256": "a2040a62716cf7031af2c597ccdf61281c56ae6248ce10ebe572e2f29849b182",
+  "source_sha256": "80662a6486ee0ca6146c91e0a66a5ce0fe36143fc6765854df5f9118aa7a97f7",
+  "test_sha256": "d214e1541ba6981f5d6c58a652169a7ad624d68921f3fba833ccb6b83b45b61b",
+  "unit_tests": {"passed":52,"failed":0},
+  "fresh_extract_tests": {"passed":52,"failed":0},
+  "replay": {"normal_runs":3,"fresh_extract_runs":3,"evaluations_per_run":1000,"divergence":0,"fingerprint":"de0638468465f500a6b6361d65f1a3815e904fd0fc2bf57a9cca32d529ee715d"},
+  "baseline_mutation": 0,
+  "network_execution_paths_in_control": 0,
+  "dcsr_application_level": "DIRECT INTEGRATION",
+  "benchmark": {"condition":"exact repeated network request; 20000 evaluations per batch x 7 batches","cache_enabled_median_ms":1118.168,"cache_disabled_median_ms":2366.707,"claim_scope":"condition-specific; no universal speed guarantee"}
+}
