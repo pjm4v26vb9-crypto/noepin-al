@@ -88,6 +88,6 @@ Final V2 ZIPはCompletion Record上で検証・Seal済みです。GitHubでは�
 - Original Concept: **NOEPIN / のえぴん**
 - Architecture Direction: **NOEPIN / のえぴん**
 - Implementation / analysis / documentation support: AI-assisted using ChatGPT
-- License / Rights: **NOT SPECIFIED**
+- License: **Apache License 2.0** — see repository [LICENSE](../LICENSE) and [NOTICE](../NOTICE).
 
 ゲーム制作そのものを安全に進めるための開発基盤として生まれた技術ですが、公開物は汎用Controlとして分離されています。
