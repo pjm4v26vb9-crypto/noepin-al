@@ -1,50 +1,35 @@
 # 003 — AI Development Guard / AI開発ガード
 
-**Status: COMPLETE / VERIFIED**
+> AIを開発作業へ参加させるとき、**提案・準備・実行を同一視しない**ための開発安全Control。
 
-Created by **NOEPIN / のえぴん**.
+**Status:** COMPLETE / VERIFIED  
+**Category:** Development Safety  
+**Creator:** **NOEPIN / のえぴん**
 
-## Purpose
+## この技術は何か
 
-Controls the change-preparation boundary when AI is used for code editing, Unity work, refactoring, batch processing, and file operations.
+AIをコード編集、Unity作業、Refactoring、Batch processingなどへ組み込むと、提案された変更と実際の変更が混同される危険があります。
 
-It deterministically checks project-relative path allowlists, protected prefixes, versioned-successor requirements, source/proposed/diff SHA-256 values, human confirmation requirements for destructive operations, rollback references, and execution-root limits.
+AI開発ガードは、AIが出した開発変更をまず独立した「準備候補」として評価し、保護対象、対象範囲、変更条件、Rollback条件、Human Confirmation条件などを確認します。
 
-Even an ALLOW_PREPARE result keeps:
-- `action_executed = false`
-- `commit_performed = false`
+重要なのは、**準備可能という判定が、そのまま実行・成功・確定を意味しない**ことです。
 
-## Verification
+## 想定用途
 
-- Unit / Boundary / Authority: **61 / 61 PASS**
-- Final Fresh Extract: **61 / 61 PASS**
-- Replay: **3,000 + 3,000 = 6,000 evaluations**
-- Replay divergence: **0**
-- Baseline mutation: **0**
-- Guard external mutation / commit paths: **0**
-- Replay fingerprint: `06a18b4a003a584b623658d84ba96937f86ad27f19141668ce6015e16af90e14`
+- AI支援によるコード開発
+- Unityプロジェクト作業
+- Refactoring
+- Batch processing
+- 自動化された開発Agent
+- 保護対象を含むプロジェクトの安全管理
 
-## DCSR boundary
+## 設計の中心
 
-DCSR is an **auxiliary integration**. Only exact Development Request + Policy Version state may be reused through fingerprint/exact-state cache.
+このControlは、Project boundary、保護領域、versioned successor方針、変更前後の整合性、Human Confirmation、Rollback evidence、Policy versionなどを独立した条件として扱います。
 
-The cache performs decision reuse only. It does not create, modify, delete, rename, execute, or commit files.
+変更候補が安全条件を満たしても、Guard自身が外部変更を確定することはありません。
 
-Synthetic exact-state benchmark:
-- 20,000 evaluations × 7 batches
-- cache enabled median: **637.070 ms**
-- cache disabled median: **757.990 ms**
-
-This is a single-environment exact-state observation and is not a general performance guarantee.
-
-## Integrity
-
-- Final artifact: `NOEPIN_AL_003_AI_DEV_GUARD_SUCCESSOR_V2_20261102.zip`
-- Final ZIP SHA-256: `84f18818e5cbb4f078db639026db8d124ada19485e0f9d2a9f0d39c292e6a9d8`
-- Source SHA-256: `727c69461089c0b141801231db34d8e62e2ea0c3aeb0338078923debc3ab42a9`
-- Test SHA-256: `7d6ffe480f3f0a0c870a5d146f06a651aa06e4f35a45fcd56059c7efb0dacfb9`
-
-## Authority / execution boundaries
+## Authority / execution boundary
 
 - Guard ALLOW_PREPARE ≠ Action Success
 - Human Approval Evidence ≠ Operation Execution
@@ -53,11 +38,56 @@ This is a single-environment exact-state observation and is not a general perfor
 - Partial / Provisional State ≠ Safely Published State
 - DCSR State ≠ Commit Authority
 
-## Publication note
+## DCSRとの関係
 
-The final V2 ZIP was verified and sealed in the completion record, but the canonical Notion page records that the final V2 ZIP itself was not attached there. This repository therefore does not substitute the older V1 artifact or regenerate a replacement.
+DCSRは**補助統合**です。
 
-The exact V2 source/package will be added only when the verified artifact can be transferred without changing identity.
+完全一致するDevelopment Request + Policy Versionに限って、判定に必要な既知StateをFingerprint / exact-state cacheで再利用します。
 
-Creator / Origin / Project Owner / Original Concept / Architecture Direction: **NOEPIN / のえぴん**  
-Implementation / analysis / documentation support: AI-assisted using ChatGPT.
+DCSRは開発AuthorityやCommit Authorityを取得しません。
+
+Synthetic exact-state benchmark:
+
+- 20,000 evaluations × 7 batches
+- cache enabled median: **637.070 ms**
+- cache disabled median: **757.990 ms**
+
+これは単一環境・完全一致Requestでの条件付き観測であり、一般的な高速化保証ではありません。
+
+## Verification
+
+- Unit / Boundary / Authority: **61 / 61 PASS**
+- Final Fresh Extract: **61 / 61 PASS**
+- Replay: **3,000 + 3,000 = 6,000 evaluations**
+- Replay divergence: **0**
+- Replay fingerprint: `06a18b4a003a584b623658d84ba96937f86ad27f19141668ce6015e16af90e14`
+- Baseline mutation: **0**
+- Guard external mutation / commit paths: **0**
+
+## Integrity
+
+- Final artifact: `NOEPIN_AL_003_AI_DEV_GUARD_SUCCESSOR_V2_20261102.zip`
+- Final ZIP SHA-256: `84f18818e5cbb4f078db639026db8d124ada19485e0f9d2a9f0d39c292e6a9d8`
+- Source SHA-256: `727c69461089c0b141801231db34d8e62e2ea0c3aeb0338078923debc3ab42a9`
+- Test SHA-256: `7d6ffe480f3f0a0c870a5d146f06a651aa06e4f35a45fcd56059c7efb0dacfb9`
+
+## このフォルダにあるもの
+
+- README — 技術説明
+- Final Verification Report — 検証条件と結果
+- Artifact Seal — 完成Artifactの識別情報とhash
+
+## 公開状態
+
+Final V2 ZIPはCompletion Record上で検証・Seal済みです。GitHubでは旧版を代用品として扱わず、検証済みV2本体を同一性を保って取得できた時点で追加します。
+
+## Provenance
+
+- Creator / Origin: **NOEPIN / のえぴん**
+- Project Owner: **NOEPIN / のえぴん**
+- Original Concept: **NOEPIN / のえぴん**
+- Architecture Direction: **NOEPIN / のえぴん**
+- Implementation / analysis / documentation support: AI-assisted using ChatGPT
+- License / Rights: **NOT SPECIFIED**
+
+ゲーム制作そのものを安全に進めるための開発基盤として生まれた技術ですが、公開物は汎用Controlとして分離されています。
