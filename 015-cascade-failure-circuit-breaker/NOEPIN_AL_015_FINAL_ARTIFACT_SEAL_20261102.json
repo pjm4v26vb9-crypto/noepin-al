@@ -1,0 +1,23 @@
+{
+  "technology_number": 15,
+  "technology_name": "連鎖障害サーキットブレーカー / Cascade Failure Circuit Breaker",
+  "version": "2.0.0-successor.20261102",
+  "creator": "NOEPIN / のえぴん",
+  "project_owner": "NOEPIN / のえぴん",
+  "original_concept": "NOEPIN / のえぴん",
+  "architecture_direction": "NOEPIN / のえぴん",
+  "implementation_support": "AI-assisted implementation / analysis / documentation support using ChatGPT",
+  "license": "NOT SPECIFIED",
+  "status": "COMPLETE / VERIFIED — TECHNOLOGY ARTIFACT",
+  "final_artifact": "NOEPIN_AL_015_CASCADE_CIRCUIT_BREAKER_SUCCESSOR_V2_20261102.zip",
+  "artifact_zip_sha256": "1520b25381954bab2b45302cdb7bf3f6863007e94dea3413988e4977c17a0a92",
+  "source_sha256": "47b8ba3142de67c72f8ca37968684758c78362ca22587394ab329c7f9b516155",
+  "test_sha256": "8b2ba890d38ef121f94a829d06b2dfd069736741c8b082481c98784ee66fa7c4",
+  "unit_tests": {"passed":53,"failed":0},
+  "fresh_extract_tests": {"passed":53,"failed":0},
+  "replay": {"normal_runs":3,"fresh_extract_runs":3,"evaluations_per_run":1000,"divergence":0,"fingerprint":"27a175ff4c6e9e1c5ab68d8152afdb4f40eed0d24a579fe78f842a8ba1b1b5a6"},
+  "baseline_mutation": 0,
+  "dependency_stop_restart_retry_commit_paths": 0,
+  "dcsr_application_level": "DIRECT INTEGRATION",
+  "benchmark": {"condition":"exact repeated cascade signal; 20000 evaluations per batch x 7 batches","cache_enabled_median_ms":769.508,"cache_disabled_median_ms":1489.638,"claim_scope":"condition-specific; no universal speed guarantee"}
+}
