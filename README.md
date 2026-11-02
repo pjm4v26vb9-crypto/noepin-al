@@ -29,8 +29,12 @@ Official public repository for NOEPIN AL technologies created by **NOEPIN / の�
 | 013 | [Unexpected Code Execution Guard / 予期しないコード実行ガード](works/013-unexpected-code-execution-guard.md) | COMPLETE / VERIFIED |
 | 014 | [Secure AI-to-AI Communication Broker / AI間セキュア通信ブローカー](works/014-secure-ai-communication-broker.md) | COMPLETE / VERIFIED |
 | 015 | [Cascade Failure Circuit Breaker / 連鎖障害サーキットブレーカー](works/015-cascade-failure-circuit-breaker.md) | COMPLETE / VERIFIED |
+| 016 | [Human Approval Risk Scorer / 人間承認リスクスコアラー](works/016-human-approval-risk-scorer.md) | COMPLETE / VERIFIED |
+| 017 | [Rogue AI Kill Switch / 暴走AIキルスイッチ](works/017-rogue-ai-kill-switch.md) | COMPLETE / VERIFIED |
+| 018 | [Audit & Forensic Ledger / 監査・フォレンジック台帳](works/018-audit-forensic-ledger.md) | COMPLETE / VERIFIED |
+| 019 | [Source & Trust Labeler / 情報出典・信頼ラベラー](works/019-source-trust-labeler.md) | COMPLETE / VERIFIED |
 
-**Formal completion / publication progress: 15 / 188**
+**Formal completion / publication progress: 19 / 188**
 
 [作品一覧ページを開く](works/)
 
