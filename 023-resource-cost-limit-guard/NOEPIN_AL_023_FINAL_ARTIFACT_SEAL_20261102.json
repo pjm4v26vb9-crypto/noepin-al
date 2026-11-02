@@ -1,0 +1,28 @@
+{
+  "technology_number": 23,
+  "technology_name": "資源・コスト制限ガード / Resource & Cost Limit Guard",
+  "version": "2.0.0-successor.20261102",
+  "creator": "NOEPIN / のえぴん",
+  "project_owner": "NOEPIN / のえぴん",
+  "original_concept": "NOEPIN / のえぴん",
+  "architecture_direction": "NOEPIN / のえぴん",
+  "implementation_support": "AI-assisted implementation / analysis / documentation support using ChatGPT",
+  "license": "NOT SPECIFIED",
+  "status": "COMPLETE / VERIFIED — TECHNOLOGY ARTIFACT",
+  "final_artifact": "NOEPIN_AL_023_RESOURCE_COST_GUARD_SUCCESSOR_V2_20261102.zip",
+  "artifact_zip_sha256": "d9fd670d1dccf465e41ad6824150c4939975f92d2339f003aa2e7dd0dcf5d675",
+  "source_sha256": "5ce869192ef5a5e2501a4f8eeedeaa9618e190917f8eee28a3b0d7d16fc97fb4",
+  "test_sha256": "5b2fadcd4ae1e5d28026a05a39796aeb32860d687b921ce634933d00b31b59ed",
+  "unit_tests": {"passed": 63, "failed": 0},
+  "fresh_extract_tests": {"passed": 63, "failed": 0},
+  "replay": {"normal_runs": 3, "fresh_extract_runs": 3, "evaluations_per_run": 1000, "divergence": 0, "fingerprint": "076a55ca7305bac7b2dcbd30931d936010dbdbdc50667f12ae1604605d9d9d7a"},
+  "baseline_mutation": 0,
+  "enforcement_execution_paths_in_guard": 0,
+  "dcsr_application_level": "AUXILIARY",
+  "benchmark": {
+    "condition": "exact repeated resource request; 20000 evaluations per batch x 7 batches",
+    "cache_enabled_median_ms": 1109.913,
+    "cache_disabled_median_ms": 2224.050,
+    "claim_scope": "condition-specific; no universal speed guarantee"
+  }
+}
