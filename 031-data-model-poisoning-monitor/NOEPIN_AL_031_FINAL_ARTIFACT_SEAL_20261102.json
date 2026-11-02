@@ -1,0 +1,33 @@
+{
+  "technology_number": 31,
+  "technology_name": "データ・モデル汚染監視 / Data & Model Poisoning Monitor",
+  "version": "2.0.0-successor.20261102",
+  "creator": "NOEPIN / のえぴん",
+  "project_owner": "NOEPIN / のえぴん",
+  "original_concept": "NOEPIN / のえぴん",
+  "architecture_direction": "NOEPIN / のえぴん",
+  "implementation_support": "AI-assisted implementation / analysis / documentation support using ChatGPT",
+  "license": "NOT SPECIFIED",
+  "status": "COMPLETE / VERIFIED — TECHNOLOGY ARTIFACT",
+  "final_artifact": "NOEPIN_AL_031_DATA_MODEL_POISONING_MONITOR_SUCCESSOR_V2_20261102.zip",
+  "artifact_zip_sha256": "84f7a0f920002fe73089d3517c29ed774c97d88f86ba84cc597f9b17544a70ce",
+  "source_sha256": "5e70748a6766f2a1b84860996487668a983dde27f1ec871603e39f62542e903e",
+  "test_sha256": "bc39bab8c46cfcffdf85e2e07acdac7e288c0ac85e35580038a7020964f2e533",
+  "unit_tests": {"passed": 85, "failed": 0},
+  "fresh_extract_tests": {"passed": 85, "failed": 0},
+  "replay": {"normal_runs": 3, "fresh_extract_runs": 3, "evaluations_per_run": 1000, "divergence": 0, "fingerprint": "5ed0a8f5ba04f0dadc1e24fefd5ac8ffd8d0d63d66b52976373ef2383f747846"},
+  "baseline_mutation": 0,
+  "external_mutation_execution_paths_in_monitor": 0,
+  "dcsr_application_level": "DIRECT INTEGRATION",
+  "benchmark": {
+    "exact_state_condition": "small Asset Observation; 20000 evaluations per batch x7",
+    "cache_enabled_median_ms": 594.860,
+    "cache_disabled_median_ms": 486.260,
+    "cache_conclusion": "cache slower in this condition; no speedup claim",
+    "delta_condition": "5000 baseline items; 50 changed; 5 removed; 5 added",
+    "full_payload_bytes": 383876,
+    "delta_payload_bytes": 4398,
+    "delta_ratio": 0.011457,
+    "claim_scope": "condition-specific; no universal speed or compression guarantee"
+  }
+}
