@@ -1,0 +1,34 @@
+{
+  "technology_number": 25,
+  "technology_name": "事実確認・幻覚検証レイヤー / Fact & Hallucination Verification Layer",
+  "version": "2.0.0-successor.20261102",
+  "creator": "NOEPIN / のえぴん",
+  "project_owner": "NOEPIN / のえぴん",
+  "original_concept": "NOEPIN / のえぴん",
+  "architecture_direction": "NOEPIN / のえぴん",
+  "implementation_support": "AI-assisted implementation / analysis / documentation support using ChatGPT",
+  "license": "NOT SPECIFIED",
+  "status": "COMPLETE / VERIFIED — TECHNOLOGY ARTIFACT",
+  "final_artifact": "NOEPIN_AL_025_FACT_VERIFICATION_LAYER_SUCCESSOR_V2_20261102.zip",
+  "artifact_zip_sha256": "530048e1fc273dff768a5cf4e8db7ccb61c1384b72219474a226d36fdf47f123",
+  "source_sha256": "7d0cad64c886db36b359ceba90f03c677c20c60c59d9cdd83c636c3804132f7e",
+  "test_sha256": "090ba0bd5bef355156e0c8708efb5fcdd0916963a456220009efb8fce56c6825",
+  "unit_tests": {"passed": 61, "failed": 0},
+  "fresh_extract_tests": {"passed": 61, "failed": 0},
+  "replay": {
+    "normal_runs": 3,
+    "fresh_extract_runs": 3,
+    "evaluations_per_run": 1000,
+    "divergence": 0,
+    "fingerprint": "df8c7e0ddb627cc0238ffe611dabf9a3ad62166ad6a882cb51678a4383f6419b"
+  },
+  "baseline_mutation": 0,
+  "external_execution_paths_in_layer": 0,
+  "dcsr_application_level": "AUXILIARY",
+  "benchmark": {
+    "condition": "exact repeated small verification request; 20000 evaluations per batch x 7 batches",
+    "cache_enabled_median_ms": 1017.108,
+    "cache_disabled_median_ms": 1019.588,
+    "conclusion": "near parity; no material speedup claim"
+  }
+}
