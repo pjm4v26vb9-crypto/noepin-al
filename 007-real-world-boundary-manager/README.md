@@ -24,4 +24,4 @@ Final ZIP SHA-256: `f3edbeb5916c2aa20f30d6892566fa35c069151d1137d35fc7c45895e1a4
 
 Creator / Project Owner / Original Concept / Architecture Direction: **NOEPIN / のえぴん**  
 Implementation / analysis / documentation support: AI-assisted using ChatGPT  
-License / Rights: **NOT SPECIFIED**
+License: **Apache License 2.0** — see repository [LICENSE](../LICENSE) and [NOTICE](../NOTICE).
