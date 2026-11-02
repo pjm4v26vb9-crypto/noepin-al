@@ -1,0 +1,32 @@
+{
+  "technology_number": 27,
+  "technology_name": "自動ロールバック・スナップショット / Automatic Rollback & Snapshot",
+  "version": "2.0.0-successor.20261102",
+  "creator": "NOEPIN / のえぴん",
+  "project_owner": "NOEPIN / のえぴん",
+  "original_concept": "NOEPIN / のえぴん",
+  "architecture_direction": "NOEPIN / のえぴん",
+  "implementation_support": "AI-assisted implementation / analysis / documentation support using ChatGPT",
+  "license": "NOT SPECIFIED",
+  "status": "COMPLETE / VERIFIED — TECHNOLOGY ARTIFACT",
+  "final_artifact": "NOEPIN_AL_027_AUTOMATIC_ROLLBACK_SNAPSHOT_SUCCESSOR_V2_20261102.zip",
+  "artifact_zip_sha256": "6c723272aadd68b41eedb748a7e22aca99eacb006db700feb5ce1127e5e960bb",
+  "source_sha256": "fb2cf2d51ae55920325b587f7745a8425009fd946b67d22953602b09c96dd53b",
+  "test_sha256": "104d8c258948d73af1e23cbcc84c4d871bb2a1f71740d25cfc482b017f489820",
+  "unit_tests": {"passed": 70, "failed": 0},
+  "fresh_extract_tests": {"passed": 70, "failed": 0},
+  "replay": {"normal_runs": 3, "fresh_extract_runs": 3, "evaluations_per_run": 1000, "divergence": 0, "fingerprint": "0a05b9818fbc724d398d8d45f4e956fdd3aa73ff592596bbc713ce3e6a606bd0"},
+  "baseline_mutation": 0,
+  "persistence_write_rollback_commit_paths_in_control": 0,
+  "dcsr_application_level": "DIRECT INTEGRATION",
+  "benchmark": {
+    "condition": "2000-key state; 40 changed entries; 60 evaluations per batch x7",
+    "cache_enabled_median_ms": 585.107,
+    "cache_disabled_median_ms": 2400.848,
+    "full_payload_bytes": 75951,
+    "delta_payload_bytes": 1111,
+    "delta_ratio": 0.014628,
+    "mode": "DELTA",
+    "claim_scope": "condition-specific; no universal speed or compression guarantee"
+  }
+}
