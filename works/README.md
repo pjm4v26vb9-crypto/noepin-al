@@ -15,8 +15,12 @@ NOEPIN / のえぴんによるNOEPIN AL技術作品の公開一覧です。
 | 007 | [現実世界との境界管理 / Real-World Boundary Manager](007-real-world-boundary-manager.md) | COMPLETE / VERIFIED |
 | 008 | [エージェントID・権限ブローカー / Agent ID & Permission Broker](008-agent-id-permission-broker.md) | COMPLETE / VERIFIED |
 | 009 | [MCP・ツール権限コントローラー / MCP & Tool Permission Controller](009-mcp-tool-permission-controller.md) | COMPLETE / VERIFIED |
+| 010 | [目標乗っ取り検知 / Goal Hijack Detector](010-goal-hijack-detector.md) | COMPLETE / VERIFIED |
+| 011 | [メモリ・文脈汚染ガード / Memory & Context Contamination Guard](011-memory-context-contamination-guard.md) | COMPLETE / VERIFIED |
+| 012 | [AIサプライチェーン監視 / AI Supply Chain Monitor](012-ai-supply-chain-monitor.md) | COMPLETE / VERIFIED |
+| 013 | [予期しないコード実行ガード / Unexpected Code Execution Guard](013-unexpected-code-execution-guard.md) | COMPLETE / VERIFIED |
 
-**Published works: 9 / 188**
+**Published works: 13 / 188**
 
 Creator / Project Owner / Original Concept / Architecture Direction: **NOEPIN / のえぴん**
 
