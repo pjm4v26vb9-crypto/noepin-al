@@ -1,0 +1,28 @@
+{
+  "technology_number": 35,
+  "technology_name": "安全ブラウザ・メール・文書読取ゲート / Safe Browser, Email & Document Read Gate",
+  "version": "2.0.0-successor.20261102",
+  "creator": "NOEPIN / のえぴん",
+  "project_owner": "NOEPIN / のえぴん",
+  "original_concept": "NOEPIN / のえぴん",
+  "architecture_direction": "NOEPIN / のえぴん",
+  "implementation_support": "AI-assisted implementation / analysis / documentation support using ChatGPT",
+  "license": "NOT SPECIFIED",
+  "status": "COMPLETE / VERIFIED — TECHNOLOGY ARTIFACT",
+  "final_artifact": "NOEPIN_AL_035_SAFE_BROWSER_EMAIL_DOCUMENT_READ_GATE_SUCCESSOR_V2_20261102.zip",
+  "artifact_zip_sha256": "d4a1bdbb2426715c9c670da30d312deca63cb2a0b26dc737b3587bcaff744153",
+  "source_sha256": "96369fc6f4c008a46667b34259001fb3919055fea1842886e406067d37a2df3d",
+  "test_sha256": "e0c694a1e9de9e86b0e50a75e94196a375ba76aae8294c7d9f5b6751586a68d3",
+  "unit_tests": {"passed": 85, "failed": 0},
+  "fresh_extract_tests": {"passed": 85, "failed": 0},
+  "replay": {"normal_runs": 3, "fresh_extract_runs": 3, "evaluations_per_run": 1000, "divergence": 0, "fingerprint": "dd1a45702d302194cd6c2f660bb9dff1749f7046d73028170685fb9af08fbb6e"},
+  "baseline_mutation": 0,
+  "external_execution_mutation_paths_in_gate": 0,
+  "dcsr_application_level": "AUXILIARY",
+  "benchmark": {
+    "condition": "exact repeated read-only external-content request; 20000 evaluations per batch x7",
+    "cache_enabled_median_ms": 546.270,
+    "cache_disabled_median_ms": 569.831,
+    "claim_scope": "small condition-specific difference; no universal speed guarantee"
+  }
+}
