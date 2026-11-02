@@ -1,0 +1,40 @@
+{
+  "technology_number": 3,
+  "technology_name": "AI開発ガード / AI Development Guard",
+  "version": "2.0.0-successor.20261102",
+  "creator": "NOEPIN / のえぴん",
+  "project_owner": "NOEPIN / のえぴん",
+  "original_concept": "NOEPIN / のえぴん",
+  "architecture_direction": "NOEPIN / のえぴん",
+  "implementation_support": "AI-assisted implementation / analysis / documentation support using ChatGPT",
+  "license": "NOT SPECIFIED",
+  "status": "COMPLETE / VERIFIED — TECHNOLOGY ARTIFACT",
+  "final_artifact": "NOEPIN_AL_003_AI_DEV_GUARD_SUCCESSOR_V2_20261102.zip",
+  "artifact_zip_sha256": "84f18818e5cbb4f078db639026db8d124ada19485e0f9d2a9f0d39c292e6a9d8",
+  "source_sha256": "727c69461089c0b141801231db34d8e62e2ea0c3aeb0338078923debc3ab42a9",
+  "test_sha256": "7d6ffe480f3f0a0c870a5d146f06a651aa06e4f35a45fcd56059c7efb0dacfb9",
+  "unit_tests": {
+    "passed": 61,
+    "failed": 0
+  },
+  "final_fresh_extract_tests": {
+    "passed": 61,
+    "failed": 0
+  },
+  "replay": {
+    "normal_runs": 3,
+    "fresh_extract_runs": 3,
+    "evaluations_per_run": 1000,
+    "divergence": 0,
+    "fingerprint": "06a18b4a003a584b623658d84ba96937f86ad27f19141668ce6015e16af90e14"
+  },
+  "baseline_mutation": 0,
+  "external_mutation_paths_in_guard": 0,
+  "dcsr_application_level": "AUXILIARY",
+  "benchmark": {
+    "condition": "exact repeated guard request; 20000 evaluations per batch x 7 batches",
+    "cache_enabled_median_ms": 637.07,
+    "cache_disabled_median_ms": 757.99,
+    "claim_scope": "condition-specific; no universal speed guarantee"
+  }
+}
