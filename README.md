@@ -21,8 +21,12 @@ Official public repository for NOEPIN AL technologies created by **NOEPIN / の�
 | 007 | [Real-World Boundary Manager / 現実世界との境界管理](works/007-real-world-boundary-manager.md) | COMPLETE / VERIFIED |
 | 008 | [Agent ID & Permission Broker / エージェントID・権限ブローカー](works/008-agent-id-permission-broker.md) | COMPLETE / VERIFIED |
 | 009 | [MCP & Tool Permission Controller / MCP・ツール権限コントローラー](works/009-mcp-tool-permission-controller.md) | COMPLETE / VERIFIED |
+| 010 | [Goal Hijack Detector / 目標乗っ取り検知](works/010-goal-hijack-detector.md) | COMPLETE / VERIFIED |
+| 011 | [Memory & Context Contamination Guard / メモリ・文脈汚染ガード](works/011-memory-context-contamination-guard.md) | COMPLETE / VERIFIED |
+| 012 | [AI Supply Chain Monitor / AIサプライチェーン監視](works/012-ai-supply-chain-monitor.md) | COMPLETE / VERIFIED |
+| 013 | [Unexpected Code Execution Guard / 予期しないコード実行ガード](works/013-unexpected-code-execution-guard.md) | COMPLETE / VERIFIED |
 
-**Formal completion / publication progress: 9 / 188**
+**Formal completion / publication progress: 13 / 188**
 
 [作品一覧ページを開く](works/)
 
