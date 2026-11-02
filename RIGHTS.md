@@ -12,6 +12,10 @@ Subject to the Apache License 2.0, you may use, copy, modify, redistribute, subl
 
 No separate fee or individual permission from NOEPIN / のえぴん is required for uses already permitted by the Apache License 2.0.
 
+## Historical verification records
+
+Some immutable Verification Reports / Artifact Seals were created before the repository license was selected and may retain `License / Rights: NOT SPECIFIED`. This is historical metadata only. It does **not** override the current Apache License 2.0 terms for materials published in this repository.
+
 ## Attribution
 
 Redistributions and derivative works must preserve the applicable copyright and attribution notices and the repository's **NOTICE** file as required by the Apache License 2.0.
