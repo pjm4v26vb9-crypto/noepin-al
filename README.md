@@ -1,5 +1,7 @@
 # NOEPIN AL
 
+**NOEPIN Technology / のえぴんテクノロジー**
+
 Official public repository for NOEPIN AL technologies created by **NOEPIN / のえぴん**.
 
 > Status: public technology archive / verified releases in progress  
@@ -50,6 +52,15 @@ The creator and origin of the NOEPIN AL technologies in this repository is **NOE
 
 ## License
 
-No public-use license has been selected yet. See [RIGHTS.md](RIGHTS.md).
+This repository is licensed under the **Apache License 2.0**.
+
+You may use, modify, redistribute, and commercially use the published NOEPIN AL materials under the license terms. Redistributions and derivative works must preserve the applicable license, copyright, attribution, and **NOTICE** information required by Apache-2.0.
+
+- [LICENSE](LICENSE)
+- [NOTICE](NOTICE)
+- [RIGHTS.md](RIGHTS.md)
+- [PROVENANCE.md](PROVENANCE.md)
+
+**MOFUMORI / もふもふの森, RUFA, game-specific runtime, character data, scenarios, world-specific data, and unreleased game assets are outside this repository's license scope unless separately published under their own terms.**
 
 Created by **NOEPIN / のえぴん**.
