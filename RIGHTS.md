@@ -14,7 +14,7 @@ No separate fee or individual permission from NOEPIN / のえぴん is required 
 
 ## Historical verification records
 
-Some immutable Verification Reports / Artifact Seals were created before the repository license was selected and may retain `License / Rights: NOT SPECIFIED`. This is historical metadata only. It does **not** override the current Apache License 2.0 terms for materials published in this repository.
+Some immutable Verification Reports / Artifact Seals were created before the repository license was selected and therefore retain pre-license metadata. This is historical evidence only. It does **not** override the current Apache License 2.0 terms for materials published in this repository.
 
 ## Attribution
 
