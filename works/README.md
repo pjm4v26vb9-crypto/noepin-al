@@ -25,8 +25,11 @@ NOEPIN / のえぴんによるNOEPIN AL技術作品の公開一覧です。
 | 017 | [暴走AIキルスイッチ / Rogue AI Kill Switch](017-rogue-ai-kill-switch.md) | COMPLETE / VERIFIED |
 | 018 | [監査・フォレンジック台帳 / Audit & Forensic Ledger](018-audit-forensic-ledger.md) | COMPLETE / VERIFIED |
 | 019 | [情報出典・信頼ラベラー / Source & Trust Labeler](019-source-trust-labeler.md) | COMPLETE / VERIFIED |
+| 020 | [機密情報・外部送信ガード / Confidential Information & External Egress Guard](020-confidential-egress-guard.md) | COMPLETE / VERIFIED |
+| 021 | [ネットワーク宛先許可制御 / Network Destination Allow Control](021-network-destination-allow-control.md) | COMPLETE / VERIFIED |
+| 022 | [秘密鍵・認証情報ゲート / Secret Key & Credential Gate](022-secret-credential-gate.md) | COMPLETE / VERIFIED |
 
-**Published works: 19 / 188**
+**Published works: 22 / 188**
 
 Creator / Project Owner / Original Concept / Architecture Direction: **NOEPIN / のえぴん**
 
