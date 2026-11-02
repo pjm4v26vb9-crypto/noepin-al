@@ -1,0 +1,28 @@
+{
+  "technology_number": 28,
+  "technology_name": "複数AI合議・クォーラム判定 / Multiple-AI Quorum Decision",
+  "version": "2.0.0-successor.20261102",
+  "creator": "NOEPIN / のえぴん",
+  "project_owner": "NOEPIN / のえぴん",
+  "original_concept": "NOEPIN / のえぴん",
+  "architecture_direction": "NOEPIN / のえぴん",
+  "implementation_support": "AI-assisted implementation / analysis / documentation support using ChatGPT",
+  "license": "NOT SPECIFIED",
+  "status": "COMPLETE / VERIFIED — TECHNOLOGY ARTIFACT",
+  "final_artifact": "NOEPIN_AL_028_MULTI_AI_QUORUM_SUCCESSOR_V2_20261102.zip",
+  "artifact_zip_sha256": "47c3828c071608ad11a9b69fef1b2e29fd8b1aa40b8cfdf8e28be4e8438c7a5f",
+  "source_sha256": "1f984afe40e1fbd6918b852007e8e5b35ef2f923646cab69623443aaf964eb41",
+  "test_sha256": "8ed02c2e714817c0d10a1323e96c931e65a4a52991df8cf57b3e52918c8ac9d9",
+  "unit_tests": {"passed": 72, "failed": 0},
+  "fresh_extract_tests": {"passed": 72, "failed": 0},
+  "replay": {"normal_runs": 3, "fresh_extract_runs": 3, "evaluations_per_run": 1000, "divergence": 0, "fingerprint": "e6db22074da84561c32716768a74e32ffa6f221c661f88d49a4980e9ea2a2c6e"},
+  "baseline_mutation": 0,
+  "execution_commit_grant_paths_in_control": 0,
+  "dcsr_application_level": "LIMITED",
+  "benchmark": {
+    "condition": "8-vote exact repeated quorum request; 20000 evaluations per batch x7",
+    "cache_enabled_median_ms": 1618.030,
+    "cache_disabled_median_ms": 2065.468,
+    "claim_scope": "condition-specific; no universal speed guarantee"
+  }
+}
