@@ -61,7 +61,7 @@ The creator and origin of the NOEPIN AL technologies in this repository is **NOE
 
 This repository is licensed under the **Apache License 2.0**.
 
-**Historical verification records:** some immutable Verification Reports / Artifact Seals created before the repository license was selected may contain `License / Rights: NOT SPECIFIED`. That field records the completion-time state only and does **not** override the current Apache-2.0 license for materials published in this repository.
+**Historical verification records:** some immutable Verification Reports / Artifact Seals were created before the repository license was selected and therefore retain pre-license metadata. Those completion-time records do **not** override the current Apache-2.0 license for materials published in this repository.
 
 You may use, modify, redistribute, and commercially use the published NOEPIN AL materials under the license terms. Redistributions and derivative works must preserve the applicable license, copyright, attribution, and **NOTICE** information required by Apache-2.0.
 
