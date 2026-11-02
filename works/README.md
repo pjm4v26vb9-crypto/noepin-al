@@ -21,8 +21,12 @@ NOEPIN / のえぴんによるNOEPIN AL技術作品の公開一覧です。
 | 013 | [予期しないコード実行ガード / Unexpected Code Execution Guard](013-unexpected-code-execution-guard.md) | COMPLETE / VERIFIED |
 | 014 | [AI間セキュア通信ブローカー / Secure AI-to-AI Communication Broker](014-secure-ai-communication-broker.md) | COMPLETE / VERIFIED |
 | 015 | [連鎖障害サーキットブレーカー / Cascade Failure Circuit Breaker](015-cascade-failure-circuit-breaker.md) | COMPLETE / VERIFIED |
+| 016 | [人間承認リスクスコアラー / Human Approval Risk Scorer](016-human-approval-risk-scorer.md) | COMPLETE / VERIFIED |
+| 017 | [暴走AIキルスイッチ / Rogue AI Kill Switch](017-rogue-ai-kill-switch.md) | COMPLETE / VERIFIED |
+| 018 | [監査・フォレンジック台帳 / Audit & Forensic Ledger](018-audit-forensic-ledger.md) | COMPLETE / VERIFIED |
+| 019 | [情報出典・信頼ラベラー / Source & Trust Labeler](019-source-trust-labeler.md) | COMPLETE / VERIFIED |
 
-**Published works: 15 / 188**
+**Published works: 19 / 188**
 
 Creator / Project Owner / Original Concept / Architecture Direction: **NOEPIN / のえぴん**
 
