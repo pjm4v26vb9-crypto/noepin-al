@@ -19,8 +19,10 @@ NOEPIN / のえぴんによるNOEPIN AL技術作品の公開一覧です。
 | 011 | [メモリ・文脈汚染ガード / Memory & Context Contamination Guard](011-memory-context-contamination-guard.md) | COMPLETE / VERIFIED |
 | 012 | [AIサプライチェーン監視 / AI Supply Chain Monitor](012-ai-supply-chain-monitor.md) | COMPLETE / VERIFIED |
 | 013 | [予期しないコード実行ガード / Unexpected Code Execution Guard](013-unexpected-code-execution-guard.md) | COMPLETE / VERIFIED |
+| 014 | [AI間セキュア通信ブローカー / Secure AI-to-AI Communication Broker](014-secure-ai-communication-broker.md) | COMPLETE / VERIFIED |
+| 015 | [連鎖障害サーキットブレーカー / Cascade Failure Circuit Breaker](015-cascade-failure-circuit-breaker.md) | COMPLETE / VERIFIED |
 
-**Published works: 13 / 188**
+**Published works: 15 / 188**
 
 Creator / Project Owner / Original Concept / Architecture Direction: **NOEPIN / のえぴん**
 
