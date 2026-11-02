@@ -1,0 +1,33 @@
+{
+  "technology_number": 32,
+  "technology_name": "ベクトルDB・埋め込み整合性ガード / Vector DB & Embedding Integrity Guard",
+  "version": "2.0.0-successor.20261102",
+  "creator": "NOEPIN / のえぴん",
+  "project_owner": "NOEPIN / のえぴん",
+  "original_concept": "NOEPIN / のえぴん",
+  "architecture_direction": "NOEPIN / のえぴん",
+  "implementation_support": "AI-assisted implementation / analysis / documentation support using ChatGPT",
+  "license": "NOT SPECIFIED",
+  "status": "COMPLETE / VERIFIED — TECHNOLOGY ARTIFACT",
+  "final_artifact": "NOEPIN_AL_032_VECTOR_DB_EMBEDDING_INTEGRITY_GUARD_SUCCESSOR_V2_20261102.zip",
+  "artifact_zip_sha256": "51ca99fb65b9755e045ae908a6932cefd70379920397c3fbf1fe36e334a95762",
+  "source_sha256": "a8d798f9196077401a64ef0186b45d61befd2a6b319f5decf9f270ecd88aba30",
+  "test_sha256": "e12392cc9cc1fe7c4a4cf4a044eb0d6d3ae42813b7882db96a51cf777ac8dabd",
+  "unit_tests": {"passed": 86, "failed": 0},
+  "fresh_extract_tests": {"passed": 86, "failed": 0},
+  "replay": {"normal_runs": 3, "fresh_extract_runs": 3, "evaluations_per_run": 1000, "divergence": 0, "fingerprint": "68596ec471928f3fd1bf8cf4f14ccc0b8ef3d9da9e68f9b6cf7b316b53a74b43"},
+  "baseline_mutation": 0,
+  "external_mutation_execution_paths_in_guard": 0,
+  "dcsr_application_level": "DIRECT INTEGRATION",
+  "benchmark": {
+    "exact_state_condition": "small Asset Observation; 20000 evaluations per batch x7",
+    "cache_enabled_median_ms": 1054.958,
+    "cache_disabled_median_ms": 1056.091,
+    "cache_conclusion": "near parity; no material speedup claim",
+    "delta_condition": "5000 baseline documents; 50 changed; 5 removed; 5 added",
+    "full_payload_bytes": 1240051,
+    "delta_payload_bytes": 13962,
+    "delta_ratio": 0.011259,
+    "claim_scope": "condition-specific; no universal speed or compression guarantee"
+  }
+}
