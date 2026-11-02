@@ -1,0 +1,28 @@
+{
+  "technology_number": 29,
+  "technology_name": "不確実性・保留判断エンジン / Uncertainty & Hold Decision Engine",
+  "version": "2.0.0-successor.20261102",
+  "creator": "NOEPIN / のえぴん",
+  "project_owner": "NOEPIN / のえぴん",
+  "original_concept": "NOEPIN / のえぴん",
+  "architecture_direction": "NOEPIN / のえぴん",
+  "implementation_support": "AI-assisted implementation / analysis / documentation support using ChatGPT",
+  "license": "NOT SPECIFIED",
+  "status": "COMPLETE / VERIFIED — TECHNOLOGY ARTIFACT",
+  "final_artifact": "NOEPIN_AL_029_UNCERTAINTY_HOLD_ENGINE_SUCCESSOR_V2_20261102.zip",
+  "artifact_zip_sha256": "18af8d9329b6259fce14b9d841f0eb15b401acaf840e2da9e4d46d06d75b6976",
+  "source_sha256": "c41a7d457ae31f9d1591b6665d6e0e9f84d8832a388bcb3d8a5b517d8211b966",
+  "test_sha256": "2a1e5d422a6a2707e84c9f3f1d084963bbc69560502521db012b91efd5448a41",
+  "unit_tests": {"passed": 74, "failed": 0},
+  "fresh_extract_tests": {"passed": 74, "failed": 0},
+  "replay": {"normal_runs": 3, "fresh_extract_runs": 3, "evaluations_per_run": 1000, "divergence": 0, "fingerprint": "a0437e1f4ecae714bcf17a0a448bebe612f16fa737279c206283d9cc3af7eb5a"},
+  "baseline_mutation": 0,
+  "research_approval_execution_commit_paths_in_engine": 0,
+  "dcsr_application_level": "AUXILIARY",
+  "benchmark": {
+    "condition": "exact repeated uncertainty request; 20000 evaluations per batch x7",
+    "cache_enabled_median_ms": 486.396,
+    "cache_disabled_median_ms": 524.882,
+    "claim_scope": "modest condition-specific difference; no universal speed guarantee"
+  }
+}
