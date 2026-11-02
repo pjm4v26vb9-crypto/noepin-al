@@ -25,8 +25,10 @@ Official public repository for NOEPIN AL technologies created by **NOEPIN / の�
 | 011 | [Memory & Context Contamination Guard / メモリ・文脈汚染ガード](works/011-memory-context-contamination-guard.md) | COMPLETE / VERIFIED |
 | 012 | [AI Supply Chain Monitor / AIサプライチェーン監視](works/012-ai-supply-chain-monitor.md) | COMPLETE / VERIFIED |
 | 013 | [Unexpected Code Execution Guard / 予期しないコード実行ガード](works/013-unexpected-code-execution-guard.md) | COMPLETE / VERIFIED |
+| 014 | [Secure AI-to-AI Communication Broker / AI間セキュア通信ブローカー](works/014-secure-ai-communication-broker.md) | COMPLETE / VERIFIED |
+| 015 | [Cascade Failure Circuit Breaker / 連鎖障害サーキットブレーカー](works/015-cascade-failure-circuit-breaker.md) | COMPLETE / VERIFIED |
 
-**Formal completion / publication progress: 13 / 188**
+**Formal completion / publication progress: 15 / 188**
 
 [作品一覧ページを開く](works/)
 
