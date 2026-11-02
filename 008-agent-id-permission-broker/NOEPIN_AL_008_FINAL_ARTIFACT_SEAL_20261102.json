@@ -1,0 +1,23 @@
+{
+  "technology_number": 8,
+  "technology_name": "エージェントID・権限ブローカー / Agent ID & Permission Broker",
+  "version": "2.0.0-successor.20261102",
+  "creator": "NOEPIN / のえぴん",
+  "project_owner": "NOEPIN / のえぴん",
+  "original_concept": "NOEPIN / のえぴん",
+  "architecture_direction": "NOEPIN / のえぴん",
+  "implementation_support": "AI-assisted implementation / analysis / documentation support using ChatGPT",
+  "license": "NOT SPECIFIED",
+  "status": "COMPLETE / VERIFIED — TECHNOLOGY ARTIFACT",
+  "final_artifact": "NOEPIN_AL_008_PERMISSION_BROKER_SUCCESSOR_V2_20261102.zip",
+  "artifact_zip_sha256": "5dc5265ed74587b00357089c3c5afc5692b7a7088cd30540298ef0e20f2a8d95",
+  "source_sha256": "f6019e53a15a5a76ff19240932ae54cc0a8d6d4bac9c97e474ccb5f41a90f266",
+  "test_sha256": "3795bdcbd76f7a7960a7fea5506571486a95aab285dc460fbc195de834ee0998",
+  "unit_tests": {"passed":51,"failed":0},
+  "fresh_extract_tests": {"passed":51,"failed":0},
+  "replay": {"normal_runs":3,"fresh_extract_runs":3,"decisions_per_run":1000,"divergence":0,"fingerprint":"533e6c20edcb79a7b76b3882a63ebfa974218788703f8379ea92b38e510f1de4"},
+  "baseline_mutation": 0,
+  "external_action_or_commit_paths": 0,
+  "dcsr_application_level": "LIMITED",
+  "benchmark": {"condition":"exact repeated permission request; 20000 decisions per batch x 7 batches","cache_enabled_median_ms":944.95,"cache_disabled_median_ms":1951.802,"claim_scope":"condition-specific; no universal speed guarantee"}
+}
