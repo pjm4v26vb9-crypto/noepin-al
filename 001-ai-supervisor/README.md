@@ -83,6 +83,6 @@ Policy versionが変われば再利用Stateは破棄され、Cached Decisionが�
 - Original Concept: **NOEPIN / のえぴん**
 - Architecture Direction: **NOEPIN / のえぴん**
 - Implementation / analysis / documentation support: AI-assisted using ChatGPT
-- License / Rights: **NOT SPECIFIED**
+- License: **Apache License 2.0** — see repository [LICENSE](../LICENSE) and [NOTICE](../NOTICE).
 
 この技術は、NOEPIN / のえぴんのゲーム制作過程で必要になった汎用技術基盤の一つとして開発されました。ゲーム固有データやMOFUMORI / RUFA固有資産はこの公開物には含みません。
