@@ -1,0 +1,23 @@
+{
+  "technology_number": 20,
+  "technology_name": "機密情報・外部送信ガード / Confidential Information & External Egress Guard",
+  "version": "2.0.0-successor.20261102",
+  "creator": "NOEPIN / のえぴん",
+  "project_owner": "NOEPIN / のえぴん",
+  "original_concept": "NOEPIN / のえぴん",
+  "architecture_direction": "NOEPIN / のえぴん",
+  "implementation_support": "AI-assisted implementation / analysis / documentation support using ChatGPT",
+  "license": "NOT SPECIFIED",
+  "status": "COMPLETE / VERIFIED — TECHNOLOGY ARTIFACT",
+  "final_artifact": "NOEPIN_AL_020_CONFIDENTIAL_EGRESS_GUARD_SUCCESSOR_V2_20261102.zip",
+  "artifact_zip_sha256": "fa822c03c40a5a902c5537c7474d56e357c3711c781ed1d2a8483857d4d60613",
+  "source_sha256": "634a719e86ee78801e2e41393a3fd11a5abce255bcb03fcad2d9edf6b88a5a6a",
+  "test_sha256": "dd27b404ecbe756079f7af71d6cec019b130b80000432e018df4551bb0e3aae6",
+  "unit_tests": {"passed":48,"failed":0},
+  "fresh_extract_tests": {"passed":48,"failed":0},
+  "replay": {"normal_runs":3,"fresh_extract_runs":3,"evaluations_per_run":1000,"divergence":0,"fingerprint":"6741ae50d71f8ffbffc03f6ed7c329d4cdd0d5499305d59be30f1a9bf51887b0"},
+  "baseline_mutation": 0,
+  "external_transfer_network_memory_action_paths": 0,
+  "dcsr_application_level": "LIMITED",
+  "benchmark": {"condition":"exact repeated egress request; 20000 evaluations per batch x 7 batches","cache_enabled_median_ms":637.666,"cache_disabled_median_ms":1279.741,"claim_scope":"condition-specific; no universal speed guarantee"}
+}
