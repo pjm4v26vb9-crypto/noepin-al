@@ -1,0 +1,28 @@
+{
+  "technology_number": 26,
+  "technology_name": "Policy-as-Codeルールエンジン / Policy-as-Code Rule Engine",
+  "version": "2.0.0-successor.20261102",
+  "creator": "NOEPIN / のえぴん",
+  "project_owner": "NOEPIN / のえぴん",
+  "original_concept": "NOEPIN / のえぴん",
+  "architecture_direction": "NOEPIN / のえぴん",
+  "implementation_support": "AI-assisted implementation / analysis / documentation support using ChatGPT",
+  "license": "NOT SPECIFIED",
+  "status": "COMPLETE / VERIFIED — TECHNOLOGY ARTIFACT",
+  "final_artifact": "NOEPIN_AL_026_POLICY_AS_CODE_ENGINE_SUCCESSOR_V2_20261102.zip",
+  "artifact_zip_sha256": "712a6ee4edadc98c54d40c693f0ffe7be5ee70bf84fafcb251367cda72327b0b",
+  "source_sha256": "67f9a482ce0b839c6e029435cf14ef1225a7a3cc42e7f366bb43c8416d9ca022",
+  "test_sha256": "58ed7ee77aea28b06e38921051cfddd11923e9e3b8a91e9c0a7b51134e85aba8",
+  "unit_tests": {"passed": 70, "failed": 0},
+  "fresh_extract_tests": {"passed": 70, "failed": 0},
+  "replay": {"normal_runs": 3, "fresh_extract_runs": 3, "evaluations_per_run": 1000, "divergence": 0, "fingerprint": "fe899aa2bca6b268870b175f2eab88185376f3e64569e9a791a2909d4f5f7c99"},
+  "baseline_mutation": 0,
+  "execution_commit_grant_paths_in_engine": 0,
+  "dcsr_application_level": "LIMITED",
+  "benchmark": {
+    "condition": "257-rule policy; exact repeated request; 2500 evaluations per batch x 7",
+    "cache_enabled_median_ms": 937.760,
+    "cache_disabled_median_ms": 1047.204,
+    "claim_scope": "condition-specific; no universal speed guarantee"
+  }
+}
