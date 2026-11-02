@@ -1,0 +1,23 @@
+{
+  "technology_number": 5,
+  "technology_name": "情報漏洩防止レイヤー / Data Leak Prevention Layer",
+  "version": "2.0.0-successor.20261102",
+  "creator": "NOEPIN / のえぴん",
+  "project_owner": "NOEPIN / のえぴん",
+  "original_concept": "NOEPIN / のえぴん",
+  "architecture_direction": "NOEPIN / のえぴん",
+  "implementation_support": "AI-assisted implementation / analysis / documentation support using ChatGPT",
+  "license": "NOT SPECIFIED",
+  "status": "COMPLETE / VERIFIED — TECHNOLOGY ARTIFACT",
+  "final_artifact": "NOEPIN_AL_005_DLP_LAYER_SUCCESSOR_V2_20261102.zip",
+  "artifact_zip_sha256": "61ad5c0f6eefe7de8c39183a7d67f8ff497cbb668d6e8e70ec23874cbae0a793",
+  "source_sha256": "08bb0c71d54b1acffb9ea3380aee01bab5dc66fd8a57b14cd696b7132a5cb609",
+  "test_sha256": "a806d8533ecf52fe2bb518455e486235c446672eab171e274fca4e643c61b271",
+  "unit_tests": {"passed":54,"failed":0},
+  "fresh_extract_tests": {"passed":54,"failed":0},
+  "replay": {"normal_runs":3,"fresh_extract_runs":3,"evaluations_per_run":1000,"divergence":0,"fingerprint":"4e747b2c05623a49341fb4f499536afd8f02e355458603f70047f15ff41780fc"},
+  "baseline_mutation": 0,
+  "external_transfer_paths_in_dlp": 0,
+  "dcsr_application_level": "AUXILIARY",
+  "benchmark": {"condition":"exact repeated DLP request; 20000 evaluations per batch x 7 batches","cache_enabled_median_ms":633.122,"cache_disabled_median_ms":1241.202,"claim_scope":"condition-specific; no universal speed guarantee"}
+}
