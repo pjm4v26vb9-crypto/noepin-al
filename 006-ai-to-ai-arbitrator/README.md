@@ -102,6 +102,6 @@ Synthetic exact-state benchmark:
 - Original Concept: **NOEPIN / のえぴん**
 - Architecture Direction: **NOEPIN / のえぴん**
 - Implementation / analysis / documentation support: AI-assisted using ChatGPT
-- License / Rights: **NOT SPECIFIED**
+- License: **Apache License 2.0** — see repository [LICENSE](../LICENSE) and [NOTICE](../NOTICE).
 
 この技術は、NOEPIN / のえぴんのゲーム制作における複数AI協働を扱う必要から生まれた技術で、公開版では汎用Multi-Agent Controlとして独立させています。
