@@ -1,0 +1,23 @@
+{
+  "technology_number": 16,
+  "technology_name": "人間承認リスクスコアラー / Human Approval Risk Scorer",
+  "version": "2.0.0-successor.20261102",
+  "creator": "NOEPIN / のえぴん",
+  "project_owner": "NOEPIN / のえぴん",
+  "original_concept": "NOEPIN / のえぴん",
+  "architecture_direction": "NOEPIN / のえぴん",
+  "implementation_support": "AI-assisted implementation / analysis / documentation support using ChatGPT",
+  "license": "NOT SPECIFIED",
+  "status": "COMPLETE / VERIFIED — TECHNOLOGY ARTIFACT",
+  "final_artifact": "NOEPIN_AL_016_HUMAN_APPROVAL_RISK_SCORER_SUCCESSOR_V2_20261102.zip",
+  "artifact_zip_sha256": "1880ed2ccb8df6e7bd80b83140b29663a566a892f48a930d040cff6a9248f225",
+  "source_sha256": "d6c72fedd4a4a20d8d1c18b91cbc73bf18a27d065d0b95997595413ab7854822",
+  "test_sha256": "9ea0e7c27e1bbcabd63bf7e25ba0b54851c806492b90b7d2388af318f53d15d1",
+  "unit_tests": {"passed":58,"failed":0},
+  "fresh_extract_tests": {"passed":58,"failed":0},
+  "replay": {"normal_runs":3,"fresh_extract_runs":3,"evaluations_per_run":1000,"divergence":0,"fingerprint":"46727284317be278f0bc9dfcd479d76e52937fab06377fd353ab4d57696b4c15"},
+  "baseline_mutation": 0,
+  "approval_grant_action_execution_commit_paths": 0,
+  "dcsr_application_level": "LIMITED",
+  "benchmark": {"condition":"exact repeated risk request; 20000 evaluations per batch x 7 batches","cache_enabled_median_ms":700.865,"cache_disabled_median_ms":1386.472,"claim_scope":"condition-specific; no universal speed guarantee"}
+}
