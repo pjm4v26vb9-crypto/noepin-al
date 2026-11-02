@@ -1,0 +1,32 @@
+{
+  "technology_number": 30,
+  "technology_name": "AI登録・ライフサイクル管理 / AI Registry & Lifecycle Management",
+  "version": "2.0.0-successor.20261102",
+  "creator": "NOEPIN / のえぴん",
+  "project_owner": "NOEPIN / のえぴん",
+  "original_concept": "NOEPIN / のえぴん",
+  "architecture_direction": "NOEPIN / のえぴん",
+  "implementation_support": "AI-assisted implementation / analysis / documentation support using ChatGPT",
+  "license": "NOT SPECIFIED",
+  "status": "COMPLETE / VERIFIED — TECHNOLOGY ARTIFACT",
+  "final_artifact": "NOEPIN_AL_030_AGENT_LIFECYCLE_MANAGEMENT_SUCCESSOR_V2_20261102.zip",
+  "artifact_zip_sha256": "6df2f3d4b9395bed05bcd12bf445483aef5d507f3a5a6397a50a5265e255ec3b",
+  "source_sha256": "b92d5bade108cecb3241cc59c6b58f52d082f2fe344d809fbea0f43bc5cf0a4a",
+  "test_sha256": "0349fb6f9ccf9e3e0638473e07bf4a95e606bf33301ba4488d79b88ee7ecf77a",
+  "unit_tests": {"passed": 78, "failed": 0},
+  "fresh_extract_tests": {"passed": 78, "failed": 0},
+  "replay": {"normal_runs": 3, "fresh_extract_runs": 3, "evaluations_per_run": 1000, "divergence": 0, "fingerprint": "73ef406b78dad1d19b8cf5079c6920a36bb5b17ed030bbaddf4a068c99d514a7"},
+  "baseline_mutation": 0,
+  "external_stop_permission_persist_commit_paths_in_control": 0,
+  "dcsr_application_level": "DIRECT INTEGRATION",
+  "benchmark": {
+    "condition": "1200-agent registry; exact CHECK request; 20000 evaluations per batch x7",
+    "cache_enabled_median_ms": 391.873,
+    "cache_disabled_median_ms": 578.661,
+    "delta_condition": "1200-agent base; 25 changed; 5 removed; 5 added",
+    "full_payload_bytes": 330971,
+    "delta_payload_bytes": 7347,
+    "delta_ratio": 0.022198,
+    "claim_scope": "condition-specific; no universal speed or compression guarantee"
+  }
+}
