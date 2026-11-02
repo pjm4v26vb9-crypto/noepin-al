@@ -1,0 +1,28 @@
+{
+  "technology_number": 33,
+  "technology_name": "ユーザー意図ロック・同意管理 / User Intent Lock & Consent Management",
+  "version": "2.0.0-successor.20261102",
+  "creator": "NOEPIN / のえぴん",
+  "project_owner": "NOEPIN / のえぴん",
+  "original_concept": "NOEPIN / のえぴん",
+  "architecture_direction": "NOEPIN / のえぴん",
+  "implementation_support": "AI-assisted implementation / analysis / documentation support using ChatGPT",
+  "license": "NOT SPECIFIED",
+  "status": "COMPLETE / VERIFIED — TECHNOLOGY ARTIFACT",
+  "final_artifact": "NOEPIN_AL_033_USER_INTENT_CONSENT_MANAGEMENT_SUCCESSOR_V2_20261102.zip",
+  "artifact_zip_sha256": "ae00fbe22e53985c41ae5a9c2902416e17c4649053114392a1da0491fc121a65",
+  "source_sha256": "ad4f483baef0b9b025b8076d51f98cadadc811dcda82e9f4affe5576f146021b",
+  "test_sha256": "56ad0089cce1d0893a7b348c14ba2e9f0bce701033434f7e019df32f40198d8f",
+  "unit_tests": {"passed": 70, "failed": 0},
+  "fresh_extract_tests": {"passed": 70, "failed": 0},
+  "replay": {"normal_runs": 3, "fresh_extract_runs": 3, "evaluations_per_run": 1000, "divergence": 0, "fingerprint": "dbcfd70a85208af98f7791cabc5bbdfcf02ed0b2690f21baf97146854f9594a5"},
+  "baseline_mutation": 0,
+  "execution_commit_grant_persist_paths_in_control": 0,
+  "dcsr_application_level": "LIMITED",
+  "benchmark": {
+    "condition": "exact repeated in-scope request; 20000 evaluations per batch x7",
+    "cache_enabled_median_ms": 340.656,
+    "cache_disabled_median_ms": 885.379,
+    "claim_scope": "condition-specific; no universal speed guarantee"
+  }
+}
