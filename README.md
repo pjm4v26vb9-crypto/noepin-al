@@ -44,8 +44,13 @@ Official public repository for NOEPIN AL technologies created by **NOEPIN / の�
 | 028 | [Multiple-AI Quorum Decision / 複数AI合議・クォーラム判定](works/028-multiple-ai-quorum-decision.md) | COMPLETE / VERIFIED |
 | 029 | [Uncertainty & Hold Decision Engine / 不確実性・保留判断エンジン](works/029-uncertainty-hold-decision-engine.md) | COMPLETE / VERIFIED |
 | 030 | [AI Registry & Lifecycle Management / AI登録・ライフサイクル管理](works/030-ai-registry-lifecycle-management.md) | COMPLETE / VERIFIED |
+| 031 | [Data & Model Poisoning Monitor / データ・モデル汚染監視](works/031-data-model-poisoning-monitor.md) | COMPLETE / VERIFIED |
+| 032 | [Vector DB & Embedding Integrity Guard / ベクトルDB・埋め込み整合性ガード](works/032-vector-db-embedding-integrity-guard.md) | COMPLETE / VERIFIED |
+| 033 | [User Intent Lock & Consent Management / ユーザー意図ロック・同意管理](works/033-user-intent-consent-management.md) | COMPLETE / VERIFIED |
+| 034 | [Task Scope Boundary Enforcer / タスク範囲境界エンフォーサー](works/034-task-scope-boundary-enforcer.md) | COMPLETE / VERIFIED |
+| 035 | [Safe Browser, Email & Document Read Gate / 安全ブラウザ・メール・文書読取ゲート](works/035-safe-browser-email-document-read-gate.md) | COMPLETE / VERIFIED |
 
-**Formal completion / publication progress: 30 / 188**
+**Formal completion / publication progress: 35 / 188**
 
 [作品一覧ページを開く](works/)
 
