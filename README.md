@@ -18,8 +18,11 @@ Official public repository for NOEPIN AL technologies created by **NOEPIN / の�
 | 004 | [Pre-Execution Simulator / 実行前シミュレーター](works/004-pre-execution-simulator.md) | COMPLETE / VERIFIED |
 | 005 | [Data Leak Prevention Layer / 情報漏洩防止レイヤー](works/005-data-leak-prevention.md) | COMPLETE / VERIFIED |
 | 006 | [AI-to-AI Arbitrator / AI同士の仲裁役](works/006-ai-to-ai-arbitrator.md) | COMPLETE / VERIFIED |
+| 007 | [Real-World Boundary Manager / 現実世界との境界管理](works/007-real-world-boundary-manager.md) | COMPLETE / VERIFIED |
+| 008 | [Agent ID & Permission Broker / エージェントID・権限ブローカー](works/008-agent-id-permission-broker.md) | COMPLETE / VERIFIED |
+| 009 | [MCP & Tool Permission Controller / MCP・ツール権限コントローラー](works/009-mcp-tool-permission-controller.md) | COMPLETE / VERIFIED |
 
-**Formal completion progress: 6 / 188 published here.**
+**Formal completion / publication progress: 9 / 188**
 
 [作品一覧ページを開く](works/)
 
@@ -33,13 +36,7 @@ This repository publishes the technologies themselves. **MOFUMORI / もふもふ
 
 A technology is listed as **COMPLETE / VERIFIED** only after implementation, boundary/authority testing, fresh-extract validation, replay/reproducibility checks where applicable, verification evidence, and artifact hashing are complete.
 
-Each numbered technology directory is treated as an independent publication. It may contain:
-
-- README / work description
-- Verification Report
-- Artifact Seal
-- SHA-256 integrity records
-- Verified source / package when the exact verified artifact is available
+Each numbered technology is published as an independent work page plus its technical evidence directory.
 
 ## Authorship
 
