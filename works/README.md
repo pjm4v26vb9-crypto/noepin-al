@@ -28,8 +28,11 @@ NOEPIN / のえぴんによるNOEPIN AL技術作品の公開一覧です。
 | 020 | [機密情報・外部送信ガード / Confidential Information & External Egress Guard](020-confidential-egress-guard.md) | COMPLETE / VERIFIED |
 | 021 | [ネットワーク宛先許可制御 / Network Destination Allow Control](021-network-destination-allow-control.md) | COMPLETE / VERIFIED |
 | 022 | [秘密鍵・認証情報ゲート / Secret Key & Credential Gate](022-secret-credential-gate.md) | COMPLETE / VERIFIED |
+| 023 | [資源・コスト制限ガード / Resource & Cost Limit Guard](023-resource-cost-limit-guard.md) | COMPLETE / VERIFIED |
+| 024 | [AI出力検証・型付きアクション変換 / AI Output Validation & Typed Action Conversion](024-ai-output-validation-typed-action-conversion.md) | COMPLETE / VERIFIED |
+| 025 | [事実確認・幻覚検証レイヤー / Fact & Hallucination Verification Layer](025-fact-hallucination-verification-layer.md) | COMPLETE / VERIFIED |
 
-**Published works: 22 / 188**
+**Published works: 25 / 188**
 
 Creator / Project Owner / Original Concept / Architecture Direction: **NOEPIN / のえぴん**
 
