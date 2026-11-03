@@ -1,0 +1,41 @@
+{
+  "schema": "NOEPIN_AL_ARTIFACT_SEAL_V1",
+  "technology_number": 38,
+  "technology_name": "AI記憶保持・削除ガバナー",
+  "artifact_version": "2.0.0",
+  "date": "2026-11-03",
+  "status": "COMPLETE / VERIFIED — TECHNOLOGY ARTIFACT",
+  "creator": "NOEPIN / のえぴん",
+  "project_owner": "NOEPIN / のえぴん",
+  "original_concept": "NOEPIN / のえぴん",
+  "architecture_direction": "NOEPIN / のえぴん",
+  "ai_support": "AI-assisted implementation / analysis / documentation support using ChatGPT",
+  "license_rights": "NOT SPECIFIED",
+  "canonical_notion_page_id": "408a9510-8ac2-814e-b06b-c1f66804b720",
+  "normal_tests": {"passed": 135, "total": 135},
+  "fresh_extract_tests": {"passed": 135, "total": 135},
+  "normal_replay": {"evaluations": 3000, "divergence": 0, "digest": "95967d21684b8982a0b65ffba1e9d0537cd7ede0a48f0240f2dfd47ee37bb95b"},
+  "fresh_replay": {"evaluations": 3000, "divergence": 0, "digest": "95967d21684b8982a0b65ffba1e9d0537cd7ede0a48f0240f2dfd47ee37bb95b"},
+  "static_execution_mutation_paths": 0,
+  "unauthorized_write_paths": 0,
+  "baseline_mutation": 0,
+  "dcsr_application": "DIRECT INTEGRATION WITH FALLBACK",
+  "benchmark": {
+    "condition": "20,000 exact evaluations x 7 batches; Python standard library",
+    "normal_eval_median_ms": 38.556222,
+    "prepared_with_fingerprint_recompute_median_ms": 950.090440,
+    "prepared_with_prematerialized_fingerprints_median_ms": 3.200025,
+    "fallback": "Normal evaluation unless canonical fingerprints are already materialized",
+    "semantic_match": true
+  },
+  "delta": {"base_items": 5000, "changed": 50, "removed": 5, "added": 5, "full_bytes": 1082731, "delta_bytes": 12013, "ratio_percent": 1.1095091948, "reconstruction_fingerprint_match": true},
+  "sha256": {
+    "source": "5e0c25f7f76fe873c2d7d8ebd087bef23ecb9882c2f6be859b34a72c09ae3625",
+    "test": "ffe13c79704e11d7ae579cbb9d00ba6687cca01e8b971a0124a4cd642fd45dc8",
+    "replay": "0d42edf9e85f8fd5d940e2190d09f720dac00e598781dbf7e51160c9671d5ed7",
+    "benchmark": "bc5dcd13548b185c41af7730f5e5a8f7932702e8945e738656799b1f8d334d12",
+    "verification_report": "da848a954e4e5d3267f207f5a3a670773e9be401312423e60949082cb8710cf4",
+    "artifact_manifest": "7d9aa7aaafd296d1beeb5e2ca339a47dd13cb1d4288e1fe454846a0feff5c75f",
+    "final_zip": "7d064227d0fe0a183f0417826af35b12c3f4ac4e74da6fddfcc0794cdcf20cd5"
+  }
+}
