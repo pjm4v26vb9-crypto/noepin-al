@@ -51,8 +51,11 @@ Official public repository for NOEPIN AL technologies created by **NOEPIN / の�
 | 035 | [Safe Browser, Email & Document Read Gate / 安全ブラウザ・メール・文書読取ゲート](works/035-safe-browser-email-document-read-gate.md) | COMPLETE / VERIFIED |
 | 036 | [Digital Twin Pre-Execution Impact Predictor / デジタルツイン・実行前影響予測](works/036-digital-twin-pre-execution-impact-predictor.md) | COMPLETE / VERIFIED |
 | 037 | [Critical System Safety Mode / 重要システム安全モード](works/037-critical-system-safety-mode.md) | COMPLETE / VERIFIED |
+| 038 | [AI Memory Retention & Deletion Governor / AI記憶保持・削除ガバナー](works/038-ai-memory-retention-deletion-governor.md) | COMPLETE / VERIFIED |
+| 039 | [Standards & Internal Policy Conformance Engine / 規格・社内ルール照合エンジン](works/039-standards-internal-policy-conformance-engine.md) | COMPLETE / VERIFIED |
+| 040 | [Continuous AI Red-Team Test / 継続AIレッドチーム試験](works/040-continuous-ai-red-team-test.md) | COMPLETE / VERIFIED |
 
-**Formal completion / publication progress: 37 / 188**
+**Formal completion / publication progress: 40 / 188**
 
 [作品一覧ページを開く](works/)
 
