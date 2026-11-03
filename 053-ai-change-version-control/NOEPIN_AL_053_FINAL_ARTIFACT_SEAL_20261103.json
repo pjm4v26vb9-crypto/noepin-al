@@ -1,0 +1,130 @@
+{
+  "ai_support": "AI-assisted implementation / analysis / documentation support using ChatGPT",
+  "al_production_use": {
+    "evidence_file": "AL_PRODUCTION_GATE_RESULT.json",
+    "gate_pass": true,
+    "required": true,
+    "technologies_used": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52
+    ]
+  },
+  "architecture_direction": "NOEPIN / のえぴん",
+  "artifact_version": "2.0.0",
+  "authority_boundaries": [
+    "Version Match != Deployment Success",
+    "Approved Change != Executed Change",
+    "Rollback Point != Rollback Executed",
+    "Known Parent != Safe Parent",
+    "Fingerprint Match != Authority Match",
+    "Change Candidate != Commit",
+    "Human Approval Evidence != Change Execution",
+    "Prepared Version Registry != Authoritative Current State"
+  ],
+  "baseline_mutation": 0,
+  "benchmark": {
+    "claim_scope": "condition-specific only",
+    "condition": "1500 version records + 1500 approval evidence + 1500 rollback points; 15 evaluations per batch; 5 batches; Python standard library",
+    "full_materialization_median_ms": 2235.825179999665,
+    "prepared_registry_median_ms": 599.0441570011171,
+    "semantic_match": true
+  },
+  "canonical_notion_page_id": "408a9510-8ac2-81f3-ac47-efef51761106",
+  "creator": "NOEPIN / のえぴん",
+  "date": "2026-11-03",
+  "dcsr_application": "DIRECT INTEGRATION",
+  "defect_classification": {
+    "benchmark_harness_defects": 0,
+    "production_defects": 0,
+    "production_gate_helper_defect": "Initial 052->053 gate-template adaptation left module unpack count and two build identifiers stale; helper corrected before first successful gate result; production semantics unchanged.",
+    "test_fixture_defects": 0
+  },
+  "delta": {
+    "added_approvals": 5,
+    "added_rollbacks": 5,
+    "added_versions": 5,
+    "base_approvals": 1500,
+    "base_rollbacks": 1500,
+    "base_versions": 1500,
+    "changed_approvals": 50,
+    "changed_rollbacks": 50,
+    "changed_versions": 50,
+    "delta_bytes": 49773,
+    "full_bytes": 1342547,
+    "ratio_percent": 3.707356241531954,
+    "reconstruction_fingerprint_match": true,
+    "removed_approvals": 5,
+    "removed_rollbacks": 5,
+    "removed_versions": 5,
+    "target_approvals": 1500,
+    "target_rollbacks": 1500,
+    "target_versions": 1500
+  },
+  "fresh_extract_tests": {
+    "passed": 160,
+    "total": 160
+  },
+  "fresh_replay": {
+    "digest": "c2aa5be5fa5be520a226bb8b417d765a42cec21bbea632dff60443f2ed39ecd7",
+    "divergence": 0,
+    "evaluations": 3000
+  },
+  "license_rights": "NOT SPECIFIED",
+  "normal_replay": {
+    "digest": "c2aa5be5fa5be520a226bb8b417d765a42cec21bbea632dff60443f2ed39ecd7",
+    "divergence": 0,
+    "evaluations": 3000
+  },
+  "normal_tests": {
+    "passed": 160,
+    "total": 160
+  },
+  "original_concept": "NOEPIN / のえぴん",
+  "project_owner": "NOEPIN / のえぴん",
+  "schema": "NOEPIN_AL_ARTIFACT_SEAL_V1",
+  "sha256": {
+    "al_production_gate_result": "8595a5f5085fbc1815f4f64f41ac65d0d6863a8d6cf9b34e8393b191f9f58169",
+    "al_production_gate_script": "bee25cd195953043996a08d0540b891181472d725c513a9f450d79ce8b215920",
+    "artifact_manifest": "4ed0dbdf682e84026e89a5a5299f68987c980ae3c9f2b4f23d155c8dc2d7bf8b",
+    "benchmark": "e978a58e7ed70f66d25c242fefbb5370797867e5dc4203c6bc2b2f8bc4eb4a2c",
+    "benchmark_result": "a2081a87f574d5dad326bd53b8fd4160a9490c9fe9c449c33aa83a516bd6dcf1",
+    "final_zip": "bc390493beebae5307f1f446429328e3a55f887b051f997ee61623991997b096",
+    "replay": "70708f82a7c3a305aaa38138bc478a2e84f2a95c74a856fee8dd9e3940450c81",
+    "replay_result": "6c6da540a20e7f4fda613261744e2088442c335d7201770e40caae631c5f152a",
+    "source": "12d28052c7d80383bea647b3431381ba0db9e815542a7724b7b794456b943555",
+    "test": "b7bf031ccc3b86885404a1d5017ae8f12020086f4674b92e7f91107d15ab8cee",
+    "verification_report": "b3881e5b54ae79fd63e195f23085aa3c261e5b45d75252a86f09d07505fd7e84"
+  },
+  "static_execution_mutation_paths": 0,
+  "status": "COMPLETE / VERIFIED — TECHNOLOGY ARTIFACT",
+  "sync_plan": {
+    "change_commit_authorized": false,
+    "deployment_authorized": false,
+    "full_resend_required": false,
+    "metadata_bytes_required": 8991,
+    "missing_or_changed_approvals": 10,
+    "missing_or_changed_rollbacks": 10,
+    "missing_or_changed_versions": 10,
+    "permission_granted": false,
+    "remote_known": 4470,
+    "rollback_execution_authorized": false,
+    "target_records": 4500
+  },
+  "technology_name": "AI変更管理・バージョン統制",
+  "technology_number": 53,
+  "unauthorized_write_paths": 0
+}
