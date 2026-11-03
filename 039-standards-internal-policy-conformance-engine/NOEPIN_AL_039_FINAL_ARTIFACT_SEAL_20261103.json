@@ -1,0 +1,63 @@
+{
+  "schema": "NOEPIN_AL_ARTIFACT_SEAL_V1",
+  "technology_number": 39,
+  "technology_name": "規格・社内ルール照合エンジン",
+  "artifact_version": "2.0.0",
+  "date": "2026-11-03",
+  "status": "COMPLETE / VERIFIED — TECHNOLOGY ARTIFACT",
+  "creator": "NOEPIN / のえぴん",
+  "project_owner": "NOEPIN / のえぴん",
+  "original_concept": "NOEPIN / のえぴん",
+  "architecture_direction": "NOEPIN / のえぴん",
+  "ai_support": "AI-assisted implementation / analysis / documentation support using ChatGPT",
+  "license_rights": "NOT SPECIFIED",
+  "canonical_notion_page_id": "408a9510-8ac2-811a-9f9b-e1240d32d313",
+  "normal_tests": {"passed": 118, "total": 118},
+  "fresh_extract_tests": {"passed": 118, "total": 118},
+  "normal_replay": {"evaluations": 3000, "divergence": 0, "digest": "39582bafd19ce936c5b34aa0cf8569bf7a4a84c9e59f578646b061f1d822e035"},
+  "fresh_replay": {"evaluations": 3000, "divergence": 0, "digest": "39582bafd19ce936c5b34aa0cf8569bf7a4a84c9e59f578646b061f1d822e035"},
+  "static_execution_mutation_paths": 0,
+  "unauthorized_write_paths": 0,
+  "baseline_mutation": 0,
+  "dcsr_application": "LIMITED APPLICATION",
+  "authority_boundaries": [
+    "Rule Match != Compliance Proven",
+    "Checklist PASS != Real-world Compliance",
+    "Evidence Present != Evidence Valid",
+    "Evidence Valid != Truth",
+    "ALLOW != Permission Grant",
+    "Gap Report != Remediation Success",
+    "Fingerprint Match != Verification PASS",
+    "Prepared State != Authoritative Current State"
+  ],
+  "defects_closed": [
+    {"type": "test_fixture_defect", "description": "empty rule profile fixture substituted a default rule"},
+    {"type": "production_defect", "description": "rule-array order affected profile fingerprint and result ordering; canonical Rule ID ordering added"},
+    {"type": "benchmark_harness_defect", "description": "changed-rule count was hard-coded before removals; actual delta counts now reported"}
+  ],
+  "benchmark": {
+    "condition": "400-rule profile; 60 evaluations per batch; 5 batches; Python standard library",
+    "full_parse_eval_median_ms": 652.327714,
+    "prepared_eval_median_ms": 267.397221,
+    "semantic_match": true,
+    "claim_scope": "condition-specific only"
+  },
+  "delta": {
+    "changed": 15,
+    "removed": 5,
+    "added": 5,
+    "full_bytes": 94071,
+    "delta_bytes": 5043,
+    "ratio_percent": 5.3608444685,
+    "reconstruction_fingerprint_match": true
+  },
+  "sha256": {
+    "source": "f0640fe47533381efb02aa380bfe3de15799a378c13ebce4156987cbbc5e8f6d",
+    "test": "269ffe02e2669c294dd56bba69168c718f7c66c04bbc700315bcb156bb2613ed",
+    "replay": "670702a0736b448e53806fbc5a419725d849f61f8c252218919335106d7bf104",
+    "benchmark": "5149a94859a45e50d6d752f71389b570b6caba9b3879c8c8b1ef1de0af9ef627",
+    "verification_report": "19b9cfd1d1ac3ca79b453cb35763dc771ba1084271b7d09d6e21e2cc4d93958c",
+    "artifact_manifest": "02d9d1beb6599f4f1018d04395dd3b1ab9a52959aae06e9bdc683d44f8e32090",
+    "final_zip": "89deae5c0d98967559ff1d22ab9da88a937faff0f31506c6b092c265cd46b971"
+  }
+}
