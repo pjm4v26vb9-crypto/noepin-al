@@ -1,0 +1,83 @@
+{
+  "schema": "NOEPIN_AL_ARTIFACT_SEAL_V1",
+  "technology_number": 44,
+  "technology_name": "データ分類・目的制限エンジン",
+  "artifact_version": "2.0.0",
+  "date": "2026-11-03",
+  "status": "COMPLETE / VERIFIED — TECHNOLOGY ARTIFACT",
+  "creator": "NOEPIN / のえぴん",
+  "project_owner": "NOEPIN / のえぴん",
+  "original_concept": "NOEPIN / のえぴん",
+  "architecture_direction": "NOEPIN / のえぴん",
+  "ai_support": "AI-assisted implementation / analysis / documentation support using ChatGPT",
+  "license_rights": "NOT SPECIFIED",
+  "canonical_notion_page_id": "408a9510-8ac2-813a-8a78-dc2f7ee896ec",
+  "normal_tests": {"passed": 160, "total": 160},
+  "fresh_extract_tests": {"passed": 160, "total": 160},
+  "normal_replay": {"evaluations": 3000, "divergence": 0, "digest": "d8ea494638c8e76ae1b35042e40e5b4959fc3c2e96554b72bf6757d3317c5c29"},
+  "fresh_replay": {"evaluations": 3000, "divergence": 0, "digest": "d8ea494638c8e76ae1b35042e40e5b4959fc3c2e96554b72bf6757d3317c5c29"},
+  "static_execution_mutation_paths": 0,
+  "unauthorized_write_paths": 0,
+  "baseline_mutation": 0,
+  "dcsr_application": "DIRECT INTEGRATION",
+  "al_production_use": {
+    "required": true,
+    "evidence_file": "AL_PRODUCTION_GATE_RESULT.json",
+    "gate_pass": true,
+    "technologies_used": [37, 38, 39, 40, 41, 42, 43]
+  },
+  "authority_boundaries": [
+    "Classification Label != Truth",
+    "Classification Candidate != Authoritative Classification",
+    "Purpose Match != Permission Grant",
+    "Allowed Data Candidate != Data Sent",
+    "Human Approval Evidence != Transfer Executed",
+    "Context Match != External Send Authorization",
+    "Fingerprint Match != Authority Match",
+    "Prepared Data Registry != Authoritative Current State",
+    "DCSR Metadata Sync != Payload Transfer Authorization"
+  ],
+  "defect_classification": [
+    {"type": "production_gate_fixture_defect", "description": "Initial Technology 042 gate field reference used a non-existent field; corrected to evidence_preserved / persistence_performed. Production semantics unchanged."},
+    {"type": "production_defect", "count": 0},
+    {"type": "test_fixture_defect", "count": 0},
+    {"type": "benchmark_harness_defect", "count": 0}
+  ],
+  "benchmark": {
+    "condition": "2,000 metadata states; 40 evaluations per batch; 5 batches; Python standard library",
+    "full_materialization_median_ms": 2472.416865,
+    "prepared_registry_median_ms": 7.724792,
+    "semantic_match": true,
+    "claim_scope": "condition-specific only"
+  },
+  "delta": {
+    "base_items": 5000,
+    "target_items": 5000,
+    "changed": 50,
+    "removed": 5,
+    "added": 5,
+    "full_bytes": 1828532,
+    "delta_bytes": 19908,
+    "ratio_percent": 1.088742226004248,
+    "reconstruction_fingerprint_match": true
+  },
+  "sync_plan": {
+    "target_items": 5000,
+    "remote_known": 4990,
+    "missing_or_changed": 10,
+    "metadata_bytes_required": 3590,
+    "full_resend_required": false,
+    "payload_transfer_authorized": false
+  },
+  "sha256": {
+    "source": "49ac22bd1576d1232f4ae85cb58f57dfa2f0e8fef2c2734c9fb137b957258c1c",
+    "test": "66c0880ba79c5c834fd4575881ff855986e17637cbdd6075939818cd561cc66b",
+    "replay": "e6bcd3889ccb36abeb21ac4e9507a911e6239fd467e3c33183ef4e891c248046",
+    "benchmark": "54c6926b9e2d6fc677c1a0b7db79f525ecb25bf3269376ab3d367a0c35532132",
+    "al_production_gate_script": "a000f95cc81f6a6f3847ca97373f47aebe58b008a48da2d02d21cde416f513be",
+    "al_production_gate_result": "b4bfc353b39dfa2d4ffb2a09ac10a128452995811b6aa1d08aa2477f45ebaa43",
+    "verification_report": "7ee94622aeed2f7ef3ff4167f73a8ee062b50fb017149c38f8447c654ce3c0f6",
+    "artifact_manifest": "124ec6090aafab805fae4f3f631e658e9d6e684eeec8218b00911ec0aa748e79",
+    "final_zip": "1b046ed6f3c27a619ea7c1104277a93ef87f68c0aad1c9e1e473a8724fb65c1e"
+  }
+}
