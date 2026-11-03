@@ -1,0 +1,86 @@
+{
+  "schema": "NOEPIN_AL_ARTIFACT_SEAL_V1",
+  "technology_number": 49,
+  "technology_name": "モデル選択・信頼ルーター",
+  "artifact_version": "2.0.0",
+  "date": "2026-11-03",
+  "status": "COMPLETE / VERIFIED — TECHNOLOGY ARTIFACT",
+  "creator": "NOEPIN / のえぴん",
+  "project_owner": "NOEPIN / のえぴん",
+  "original_concept": "NOEPIN / のえぴん",
+  "architecture_direction": "NOEPIN / のえぴん",
+  "ai_support": "AI-assisted implementation / analysis / documentation support using ChatGPT",
+  "license_rights": "NOT SPECIFIED",
+  "canonical_notion_page_id": "408a9510-8ac2-81a4-9591-d03fe9d18a38",
+  "normal_tests": {"passed": 160, "total": 160},
+  "fresh_extract_tests": {"passed": 160, "total": 160},
+  "normal_replay": {"evaluations": 3000, "divergence": 0, "digest": "ab73c1796c2d1da6677b98ef3c9867c0067e7f9516c014399f65c56eac20ce95"},
+  "fresh_replay": {"evaluations": 3000, "divergence": 0, "digest": "ab73c1796c2d1da6677b98ef3c9867c0067e7f9516c014399f65c56eac20ce95"},
+  "static_execution_mutation_paths": 0,
+  "unauthorized_write_paths": 0,
+  "baseline_mutation": 0,
+  "dcsr_application": "DIRECT INTEGRATION",
+  "al_production_use": {
+    "required": true,
+    "evidence_file": "AL_PRODUCTION_GATE_RESULT.json",
+    "gate_pass": true,
+    "technologies_used": [37,38,39,40,41,42,43,44,45,46,47,48]
+  },
+  "authority_boundaries": [
+    "Route Candidate != Model Invocation",
+    "Trust Score != Truth",
+    "Local Preferred != Local Mandatory Authority",
+    "Cloud Allowed != Data Transfer Authorized",
+    "Human Approval Evidence != Model Invocation",
+    "Fingerprint Match != Verification PASS / Authority Match",
+    "Prepared Model Registry != Authoritative Current State"
+  ],
+  "defect_classification": {
+    "production_defects": 0,
+    "test_fixture_defect": "Cloud-allowed sensitivity fixture was narrowed without narrowing cloud-approval sensitivity; fixture corrected only.",
+    "replay_helper_defect": "Risk value/request variable collision; helper corrected only.",
+    "benchmark_harness_condition": "Initial 2000-profile / 40-evaluation condition exceeded execution time; measurement condition reduced without production-semantic change.",
+    "benchmark_reporting_defect": "base_items was initially hardcoded to 5000 after benchmark base reduction to 2000; result reporting corrected only."
+  },
+  "benchmark": {
+    "condition": "400 model profiles; 10 evaluations per batch; 5 batches; Python standard library",
+    "full_materialization_median_ms": 281.38042200043856,
+    "prepared_registry_median_ms": 85.56747900001938,
+    "semantic_match": true,
+    "claim_scope": "condition-specific only"
+  },
+  "delta": {
+    "base_items": 2000,
+    "target_items": 2000,
+    "changed": 50,
+    "removed": 5,
+    "added": 5,
+    "full_bytes": 745709,
+    "delta_bytes": 20638,
+    "ratio_percent": 2.767567509578133,
+    "reconstruction_fingerprint_match": true
+  },
+  "sync_plan": {
+    "target_items": 2000,
+    "remote_known": 1990,
+    "missing_or_changed": 10,
+    "metadata_bytes_required": 3727,
+    "full_resend_required": false,
+    "permission_granted": false,
+    "model_invocation_authorized": false,
+    "data_transfer_authorized": false
+  },
+  "sha256": {
+    "source": "c2f708d124592fbc7eb4ce00375151fc9c4ecb6c9e564a41f44ae98db4de4410",
+    "test": "fae0d1f8fc667427657bc64350b2218acb98212109ceb9247a02b6f5b0feec4b",
+    "replay": "92d809b19f3800edd373c8980e060cd709a25c0c250ede235464ae177a036266",
+    "benchmark": "9788716d8ee3276102e8d5466b92c3bdd3cd19a4a7c9ff3c2ff9392c8a20f61a",
+    "al_production_gate_script": "c2bf448e4d796f2fbe3bbd700b2334c165b56a72ce65cf2ffe2d46c096fbab78",
+    "al_production_gate_result": "e8031c3f8a1fe240912113d228435626640cbd00f4515b6a1425cc0042d6a93e",
+    "replay_result": "5a5c298adf804679a5ac07e034ee270a417170119ccfc4e35d0bd97da0144929",
+    "benchmark_result": "3f29d1128df83f60c61e0d9a77b74f8f95d9ad3077e2ca0999694930a803da15",
+    "verification_report": "1eaf89cb4fd28240052be3ea0d40e4d99b2846dd1e98e42d7ff565b9b5dbeaa9",
+    "artifact_manifest": "fb6b580d259a5b9155ee4566961d0c7a68e275ce5327a88434759434756a0d88",
+    "final_zip": "389d345f989dc84a5a76baf22eb8fc110a16203b55a22c6ed9d8791cac1e86ed"
+  }
+}
