@@ -1,0 +1,82 @@
+{
+  "schema": "NOEPIN_AL_ARTIFACT_SEAL_V1",
+  "technology_number": 45,
+  "technology_name": "Undo優先アクションプランナー",
+  "artifact_version": "2.0.0",
+  "date": "2026-11-03",
+  "status": "COMPLETE / VERIFIED — TECHNOLOGY ARTIFACT",
+  "creator": "NOEPIN / のえぴん",
+  "project_owner": "NOEPIN / のえぴん",
+  "original_concept": "NOEPIN / のえぴん",
+  "architecture_direction": "NOEPIN / のえぴん",
+  "ai_support": "AI-assisted implementation / analysis / documentation support using ChatGPT",
+  "license_rights": "NOT SPECIFIED",
+  "canonical_notion_page_id": "408a9510-8ac2-8104-b0a5-d7c1808dca31",
+  "normal_tests": {"passed": 160, "total": 160},
+  "fresh_extract_tests": {"passed": 160, "total": 160},
+  "normal_replay": {"evaluations": 3000, "divergence": 0, "digest": "06216567e8d27560b82d7de2da559d3bfd5f7a15c4cb12c5ad25da3703d70ee6"},
+  "fresh_replay": {"evaluations": 3000, "divergence": 0, "digest": "06216567e8d27560b82d7de2da559d3bfd5f7a15c4cb12c5ad25da3703d70ee6"},
+  "static_execution_mutation_paths": 0,
+  "unauthorized_write_paths": 0,
+  "baseline_mutation": 0,
+  "dcsr_application": "DIRECT INTEGRATION",
+  "al_production_use": {
+    "required": true,
+    "evidence_file": "AL_PRODUCTION_GATE_RESULT.json",
+    "gate_pass": true,
+    "technologies_used": [37, 38, 39, 40, 41, 42, 43, 44]
+  },
+  "authority_boundaries": [
+    "Plan Candidate != Action Execution",
+    "Undoable != Safe",
+    "Reversibility Score != Safety Proof",
+    "Draft Candidate != Message Sent",
+    "Trash Candidate != Delete Completed",
+    "Human Approval Evidence != Action Success",
+    "ALLOW != Permission Grant",
+    "Fingerprint Match != Authority Match",
+    "Prepared Action Catalog != Authoritative Current State"
+  ],
+  "defect_classification": [
+    {"type": "production_defect", "count": 0},
+    {"type": "test_fixture_defect", "count": 0},
+    {"type": "benchmark_harness_defect", "description": "Initial Delta fixture overlapped changed and removed entries; corrected to non-overlapping 50 changed / 5 removed / 5 added. Production semantics unchanged."}
+  ],
+  "benchmark": {
+    "condition": "2,000 action candidates; 40 evaluations per batch; 5 batches; Python standard library",
+    "full_materialization_median_ms": 1621.927351,
+    "prepared_catalog_median_ms": 10.308062,
+    "semantic_match": true,
+    "claim_scope": "condition-specific only"
+  },
+  "delta": {
+    "base_items": 5000,
+    "target_items": 5000,
+    "changed": 50,
+    "removed": 5,
+    "added": 5,
+    "full_bytes": 1197176,
+    "delta_bytes": 13373,
+    "ratio_percent": 1.1170454469518265,
+    "reconstruction_fingerprint_match": true
+  },
+  "sync_plan": {
+    "target_items": 5000,
+    "remote_known": 4990,
+    "missing_or_changed": 10,
+    "metadata_bytes_required": 2375,
+    "full_resend_required": false,
+    "action_execution_authorized": false
+  },
+  "sha256": {
+    "source": "6b07c47a6f5c13433979a8a108507861495c9d561b870c7c61a2e5593b24b0f8",
+    "test": "cea8038a5ba02453e1d1199d34b03530fca3c0456d9ef16e9099114f45083697",
+    "replay": "7992ccffbdaeb7c70cabfa173f47a7c97c82e7b21bad325f1c1d012d13f266e1",
+    "benchmark": "d35cd25ec6a998c3991b1923357602164e485a3699cbb9fa3fbd1f9d31d0c0eb",
+    "al_production_gate_script": "29d2922c9b053672933ce92ea54fb0072277d3569ccb3b469fda7dd3c1c2bcc5",
+    "al_production_gate_result": "ce7aa37a765c0343f755b57dcdc15e30165d1c69c88185033846da43b4fa13bf",
+    "verification_report": "cb9b07ed3c3262508be72d47bbd0fa767f9b49c117970aa0f707c01842037ce3",
+    "artifact_manifest": "795f9ce2b4c43a2b9ba39b64af0bf0947e98079c7b29ef146fd0225ebc8f29c4",
+    "final_zip": "6894ce1431d1c3d077bdca1f638bc3aacb9a9fe34ef20371650954e4f4aa030d"
+  }
+}
