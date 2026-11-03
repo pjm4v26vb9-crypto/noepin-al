@@ -1,0 +1,77 @@
+{
+  "schema": "NOEPIN_AL_ARTIFACT_SEAL_V1",
+  "technology_number": 42,
+  "technology_name": "AIインシデント対応・証拠保全",
+  "artifact_version": "2.0.0",
+  "date": "2026-11-03",
+  "status": "COMPLETE / VERIFIED — TECHNOLOGY ARTIFACT",
+  "creator": "NOEPIN / のえぴん",
+  "project_owner": "NOEPIN / のえぴん",
+  "original_concept": "NOEPIN / のえぴん",
+  "architecture_direction": "NOEPIN / のえぴん",
+  "ai_support": "AI-assisted implementation / analysis / documentation support using ChatGPT",
+  "license_rights": "NOT SPECIFIED",
+  "canonical_notion_page_id": "408a9510-8ac2-8176-bdcb-d7dbe09cfaaa",
+  "normal_tests": {"passed": 160, "total": 160},
+  "fresh_extract_tests": {"passed": 160, "total": 160},
+  "normal_replay": {"evaluations": 3000, "divergence": 0, "digest": "3e5395f724c83dd37c87ef99c2b567116f4800587183013c10eb482f6d016a87"},
+  "fresh_replay": {"evaluations": 3000, "divergence": 0, "digest": "3e5395f724c83dd37c87ef99c2b567116f4800587183013c10eb482f6d016a87"},
+  "static_execution_mutation_paths": 0,
+  "unauthorized_write_paths": 0,
+  "baseline_mutation": 0,
+  "dcsr_application": "DIRECT INTEGRATION",
+  "al_production_use": {
+    "required": true,
+    "evidence_file": "AL_PRODUCTION_GATE_RESULT.json",
+    "gate_pass": true,
+    "technologies_used": [37, 38, 39, 40, 41]
+  },
+  "authority_boundaries": [
+    "Evidence Integrity Verified != Evidence Truth Proven",
+    "Preservation Complete Candidate != Evidence Persisted",
+    "Bundle Complete != Incident Resolved",
+    "Containment Candidate != Containment Executed",
+    "ALLOW != Permission Grant",
+    "Fingerprint Match != Authority Match",
+    "Prepared Incident State != Authoritative Current State"
+  ],
+  "defect_classification": {
+    "production_defects": 0,
+    "test_fixture_defects": 0,
+    "benchmark_harness_defects": 0
+  },
+  "benchmark": {
+    "condition": "1,000 evidence segments; 30 evaluations per batch; 5 batches; Python standard library",
+    "full_materialization_median_ms": 1512.584246,
+    "prepared_state_median_ms": 137.652398,
+    "semantic_match": true,
+    "claim_scope": "condition-specific only"
+  },
+  "delta": {
+    "base_segments": 5000,
+    "changed": 50,
+    "removed": 5,
+    "added": 5,
+    "full_bytes": 2244540,
+    "delta_bytes": 25098,
+    "ratio_percent": 1.1181801170841241,
+    "reconstruction_fingerprint_match": true
+  },
+  "transfer_plan": {
+    "target_segments": 5000,
+    "remote_known": 4990,
+    "missing": 10,
+    "full_resend_required": false
+  },
+  "sha256": {
+    "source": "a0f1e26c4f484eaa43e6232033e772fa0a7df6006b2f3cb919905baedc488d97",
+    "test": "8c289d83667583171b6e27dba4ec7939cd9cff4716ef92d3d579961927f430eb",
+    "replay": "2d17f3687745d6662b27d93d6d5d4ab96d2bac7925b409756f19d5f6a91aa4d7",
+    "benchmark": "8548de56a303488009370e7c4539d37fa77cc71cc6dfb8a807e878452b990d3e",
+    "al_production_gate_script": "6b543a5564244c60a5e993949de5952488145184ea2ca65f9ea53ef869d2d582",
+    "al_production_gate_result": "70c73be57b41fb68e91fb568637eeeb4a9cd27d7e78d89fc73404b8b095e5c6d",
+    "verification_report": "a6581bfe353d888c108e6e688607beb42ef515a33283f386ef416e90d789794c",
+    "artifact_manifest": "1c9a333d3fe6dd1e898ebe7cb89c72e0d2592891746d1c8da05f841fdf48c68c",
+    "final_zip": "d61f0356e0a8e061fb197a1e93f3629ac0355d0d73b6362ed197e1c097b02d7a"
+  }
+}
