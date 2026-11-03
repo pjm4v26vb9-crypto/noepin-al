@@ -1,0 +1,119 @@
+{
+  "ai_support": "AI-assisted implementation / analysis / documentation support using ChatGPT",
+  "al_production_use": {
+    "evidence_file": "AL_PRODUCTION_GATE_RESULT.json",
+    "gate_pass": true,
+    "required": true,
+    "technologies_used": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54
+    ]
+  },
+  "architecture_direction": "NOEPIN / のえぴん",
+  "artifact_version": "2.0.0",
+  "authority_boundaries": [
+    "Manipulation Signal != Intent Truth",
+    "Human Re-confirmation Candidate != Human Approval Completed",
+    "Low Risk != Safe Persuasion",
+    "User Decline != Override Permission",
+    "ALLOW != Permission Grant",
+    "Fingerprint Match != Authority Match",
+    "Prepared Interaction Registry != Authoritative Current State"
+  ],
+  "baseline_mutation": 0,
+  "benchmark": {
+    "claim_scope": "condition-specific only",
+    "condition": "2000 interaction evidence; 20 evaluations per batch; 5 batches; Python standard library",
+    "full_materialization_median_ms": 1986.3027789997432,
+    "prepared_registry_median_ms": 618.4459279993462,
+    "semantic_match": true
+  },
+  "canonical_notion_page_id": "408a9510-8ac2-81c7-b7be-d296bd28f810",
+  "creator": "NOEPIN / のえぴん",
+  "date": "2026-11-03",
+  "dcsr_application": "AUXILIARY INTEGRATION",
+  "defect_classification": {
+    "benchmark_harness_defects": 0,
+    "production_default_policy_calibration_defect": "Initial Review/Deny thresholds 18/34 did not escalate intended composite high-pressure patterns; corrected to 12/26; full suite rerun; authority boundaries unchanged.",
+    "production_gate_helper_defect": "054->055 template adaptation initially left module unpack count and red-team description stale; helper corrected before first successful gate result.",
+    "test_fixture_defects": 0
+  },
+  "delta": {
+    "added": 5,
+    "base_items": 3000,
+    "changed": 50,
+    "delta_bytes": 29555,
+    "full_bytes": 1606771,
+    "ratio_percent": 1.839403374843086,
+    "reconstruction_fingerprint_match": true,
+    "removed": 5,
+    "target_items": 3000
+  },
+  "fresh_extract_tests": {
+    "passed": 160,
+    "total": 160
+  },
+  "fresh_replay": {
+    "digest": "8adc09a6ed667ac90e4ecee840d633617869c88d6b42123e3c0a1b1dc852d30c",
+    "divergence": 0,
+    "evaluations": 3000
+  },
+  "license_rights": "NOT SPECIFIED",
+  "normal_replay": {
+    "digest": "8adc09a6ed667ac90e4ecee840d633617869c88d6b42123e3c0a1b1dc852d30c",
+    "divergence": 0,
+    "evaluations": 3000
+  },
+  "normal_tests": {
+    "passed": 160,
+    "total": 160
+  },
+  "original_concept": "NOEPIN / のえぴん",
+  "project_owner": "NOEPIN / のえぴん",
+  "schema": "NOEPIN_AL_ARTIFACT_SEAL_V1",
+  "sha256": {
+    "al_production_gate_result": "a1754194a69aa3c3fc7b11d8655648d58074304f607ab5335645221dc5713233",
+    "al_production_gate_script": "47a15ff088c18a6e2c6c2b4cca4423fb095c7b1ac32ddccdabb6177f0e53d21e",
+    "artifact_manifest": "dbc435030bd42fb602c7e48f7d3f6b6d4d60ec651235805026a6c2db190f504c",
+    "benchmark": "97adc0a3ce751797bb200f5b78a95bb972588bdf0ae9ee60502d435d75287cbc",
+    "benchmark_result": "8d470bd505f350b9ba4510978ac8dc0ad00719e88ceb2816c058980b3ac9b1c7",
+    "final_zip": "20564161ca1d2cb6c2c5449e26a3e4dbee9f316a86ce1525e3d3ff48bd17ef18",
+    "replay": "2901496497d90ee305dbdc1563734936c9583d28bd61bfdd37cc4a631988ad3c",
+    "replay_result": "f0542cc5aca87a784bc693b752cefcd55c26ce3d44cf199c182d992c898d5836",
+    "source": "ad47b050071ca9f1aeb243e36c423dd93c8181c487195f5865b192c851841706",
+    "test": "32b1cc4401474d48743d772abfea04a1ddd4238ff56a03adf466f25863fd6e98",
+    "verification_report": "579c675d23cb2f5f5b61d16a9ff515b09586a073aa4ea21b340a2eec486f654a"
+  },
+  "static_execution_mutation_paths": 0,
+  "status": "COMPLETE / VERIFIED — TECHNOLOGY ARTIFACT",
+  "sync_plan": {
+    "approval_execution_authorized": false,
+    "full_resend_required": false,
+    "message_send_authorized": false,
+    "metadata_bytes_required": 5371,
+    "missing_or_changed": 10,
+    "permission_granted": false,
+    "remote_known": 2990,
+    "target_items": 3000,
+    "user_decision_override_authorized": false
+  },
+  "technology_name": "人間向けソーシャルエンジニアリング検知",
+  "technology_number": 55,
+  "unauthorized_write_paths": 0
+}
