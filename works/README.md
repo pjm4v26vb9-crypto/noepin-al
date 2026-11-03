@@ -46,8 +46,18 @@ NOEPIN / のえぴんによるNOEPIN AL技術作品の公開一覧です。
 | 038 | [AI記憶保持・削除ガバナー / AI Memory Retention & Deletion Governor](038-ai-memory-retention-deletion-governor.md) | COMPLETE / VERIFIED |
 | 039 | [規格・社内ルール照合エンジン / Standards & Internal Policy Conformance Engine](039-standards-internal-policy-conformance-engine.md) | COMPLETE / VERIFIED |
 | 040 | [継続AIレッドチーム試験 / Continuous AI Red-Team Test](040-continuous-ai-red-team-test.md) | COMPLETE / VERIFIED |
+| 041 | [AI行動異常検知 / AI Behavior Anomaly Detection](041-ai-behavior-anomaly-detection.md) | COMPLETE / VERIFIED |
+| 042 | [AIインシデント対応・証拠保全 / AI Incident Response & Evidence Preservation](042-ai-incident-response-evidence-preservation.md) | COMPLETE / VERIFIED |
+| 043 | [安全なAI委譲・ハンドオフ制御 / Safe AI Delegation & Handoff Control](043-safe-ai-delegation-handoff-control.md) | COMPLETE / VERIFIED |
+| 044 | [データ分類・目的制限エンジン / Data Classification & Purpose Limitation Engine](044-data-classification-purpose-limitation-engine.md) | COMPLETE / VERIFIED |
+| 045 | [Undo優先アクションプランナー / Undo-First Action Planner](045-undo-first-action-planner.md) | COMPLETE / VERIFIED |
+| 046 | [二者承認・Four-Eyes制御 / Two-Person Approval / Four-Eyes Control](046-four-eyes-control.md) | COMPLETE / VERIFIED |
+| 047 | [リスク予算・安全予算管理 / Risk & Safety Budget Management](047-risk-safety-budget-management.md) | COMPLETE / VERIFIED |
+| 048 | [ツール連鎖プラン検査 / Tool Chain Plan Inspection](048-tool-chain-plan-inspection.md) | COMPLETE / VERIFIED |
+| 049 | [モデル選択・信頼ルーター / Model Selection & Trust Router](049-model-selection-trust-router.md) | COMPLETE / VERIFIED |
+| 050 | [独立安全モニター / Independent Safety Monitor](050-independent-safety-monitor.md) | COMPLETE / VERIFIED |
 
-**Published works: 40 / 188**
+**Published works: 50 / 188**
 
 Creator / Project Owner / Original Concept / Architecture Direction: **NOEPIN / のえぴん**
 
