@@ -1,0 +1,87 @@
+{
+  "ai_support": "AI-assisted implementation / analysis / documentation support using ChatGPT",
+  "al_production_use": {
+    "authority_note": "AL production gates are control evidence only; no execution success, memory persistence, compliance truth, or production authority is promoted.",
+    "evidence_file": "AL_PRODUCTION_GATE_RESULT.json",
+    "gate_pass": true,
+    "required": true,
+    "technologies_used": [
+      37,
+      38,
+      39
+    ]
+  },
+  "architecture_direction": "NOEPIN / のえぴん",
+  "artifact_version": "2.0.0",
+  "authority_boundaries": [
+    "Red-team PASS != System Safe",
+    "Test Case != Attack Execution",
+    "Observation != Truth",
+    "Evidence Verified != Global Truth",
+    "ALLOW != Permission Grant",
+    "Fingerprint Match != Security Proof",
+    "DCSR Impact Selection != Full Regression Waiver",
+    "Prepared Corpus != Authoritative Current State"
+  ],
+  "baseline_mutation": 0,
+  "benchmark": {
+    "claim_scope": "condition-specific only",
+    "condition": "5,000-case corpus; 2 changed components; 250 selections per batch; 7 batches; Python standard library",
+    "full_scan_median_ms": 147.682477,
+    "prepared_index_median_ms": 37.965549,
+    "selected_case_count": 256,
+    "semantic_match": true
+  },
+  "canonical_notion_page_id": "408a9510-8ac2-815a-a426-ff9ec9b13517",
+  "creator": "NOEPIN / のえぴん",
+  "date": "2026-11-03",
+  "dcsr_application": "DIRECT INTEGRATION",
+  "delta": {
+    "added": 5,
+    "base_cases": 5000,
+    "changed": 50,
+    "delta_bytes": 14519,
+    "full_bytes": 1260472,
+    "ratio_percent": 1.1518700931079786,
+    "reconstruction_fingerprint_match": true,
+    "removed": 5
+  },
+  "fresh_extract_tests": {
+    "passed": 160,
+    "total": 160
+  },
+  "fresh_replay": {
+    "digest": "1b8372ad51eb3bc24895aa2b0faf23a384b01e4f06e06c91b3bdb85905c023d8",
+    "divergence": 0,
+    "evaluations": 3000
+  },
+  "license_rights": "NOT SPECIFIED",
+  "normal_replay": {
+    "digest": "1b8372ad51eb3bc24895aa2b0faf23a384b01e4f06e06c91b3bdb85905c023d8",
+    "divergence": 0,
+    "evaluations": 3000
+  },
+  "normal_tests": {
+    "passed": 160,
+    "total": 160
+  },
+  "original_concept": "NOEPIN / のえぴん",
+  "project_owner": "NOEPIN / のえぴん",
+  "schema": "NOEPIN_AL_ARTIFACT_SEAL_V1",
+  "sha256": {
+    "al_production_gate_result": "5c4a925e24b97443b7c92da0f672796b711aa7554ce2d84374581e444bd9879b",
+    "al_production_gate_script": "cb2b3f9c4fcb97a67c1c02a755ad263a8e8b7d82d742c209b221333293f7c8e0",
+    "artifact_manifest": "d8f55f52c4f443070bb50f0fe0faf7cb0b5a9d9f5a90f8bc4d7fe157eaf63676",
+    "benchmark": "25ad71362ce76d64aefbd95304709995f1a680cd16f7fe94b0eedd0500be103f",
+    "final_zip": "14b4530d44744b7ebca5deac2d30a837d7f195561de239ff083d57bfb8a6f457",
+    "replay": "7b30349cc60eb14cb7a3f5508f04e24730c6fef05cab3c1395e3720cdc5a0914",
+    "source": "17bd9189c54827c4f71a1fadde09e6ca23bdad09d85cb967b740c4301a9e17a4",
+    "test": "bf7f001210e9cd35698266ebaf8bef0dd44a85301e8dfb1cb7922a1848fbe612",
+    "verification_report": "542bc9a85caf2016ed8fd0b52d22b2f0bd54b6435c0b0c08495799b81eda7f2f"
+  },
+  "static_execution_mutation_paths": 0,
+  "status": "COMPLETE / VERIFIED — TECHNOLOGY ARTIFACT",
+  "technology_name": "継続AIレッドチーム試験",
+  "technology_number": 40,
+  "unauthorized_write_paths": 0
+}
