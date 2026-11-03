@@ -1,0 +1,123 @@
+{
+  "ai_support": "AI-assisted implementation / analysis / documentation support using ChatGPT",
+  "al_production_use": {
+    "evidence_file": "AL_PRODUCTION_GATE_RESULT.json",
+    "gate_pass": true,
+    "required": true,
+    "technologies_used": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57
+    ]
+  },
+  "architecture_direction": "NOEPIN / のえぴん",
+  "artifact_version": "2.0.0",
+  "authority_boundaries": [
+    "Credential Candidate != Credential Issued",
+    "Expiry Check != Permission Grant",
+    "Revocation Candidate != Revocation Executed",
+    "Run Binding != Task Success",
+    "Cached Credential State != Authoritative Current State",
+    "Fingerprint Match != Authority Match",
+    "ALLOW != Credential Use / Permission Grant",
+    "Automatic Revoke Candidate != Revocation Executed"
+  ],
+  "baseline_mutation": 0,
+  "benchmark": {
+    "claim_scope": "condition-specific only",
+    "condition": "2000 credential records; 20 evaluations per batch; 5 batches; Python standard library",
+    "full_materialization_median_ms": 2675.4764659999637,
+    "prepared_registry_median_ms": 783.1454810000196,
+    "semantic_match": true
+  },
+  "canonical_notion_page_id": "408a9510-8ac2-81f6-95cf-fe7b77683761",
+  "creator": "NOEPIN / のえぴん",
+  "date": "2026-11-04",
+  "dcsr_application": "LIMITED APPLICATION",
+  "defect_classification": {
+    "benchmark_harness_defects": 0,
+    "production_defects": 0,
+    "production_gate_helper_defects": 0,
+    "test_fixture_defects": 0
+  },
+  "delta": {
+    "added": 5,
+    "base_items": 3000,
+    "changed": 50,
+    "delta_bytes": 17000,
+    "full_bytes": 931583,
+    "ratio_percent": 1.8248508184455918,
+    "reconstruction_fingerprint_match": true,
+    "removed": 5,
+    "target_items": 3000
+  },
+  "fresh_extract_tests": {
+    "passed": 160,
+    "total": 160
+  },
+  "fresh_replay": {
+    "digest": "7f33dc44f4267ec4706800e21081e7467246fde7fc7d3fc5fb047f5a8b18a1d2",
+    "divergence": 0,
+    "evaluations": 3000
+  },
+  "license_rights": "NOT SPECIFIED",
+  "normal_replay": {
+    "digest": "7f33dc44f4267ec4706800e21081e7467246fde7fc7d3fc5fb047f5a8b18a1d2",
+    "divergence": 0,
+    "evaluations": 3000
+  },
+  "normal_tests": {
+    "passed": 160,
+    "total": 160
+  },
+  "original_concept": "NOEPIN / のえぴん",
+  "project_owner": "NOEPIN / のえぴん",
+  "schema": "NOEPIN_AL_ARTIFACT_SEAL_V1",
+  "sha256": {
+    "al_production_gate_result": "6b51d32ee7b7281c91a0d5bbecc0bc88ed0b2a9a823c5b4a5befa660cf39fd99",
+    "al_production_gate_script": "735b772f3d5753f0024e589cbc90b0ad913ba21acb28cfe2e0337e506248feb3",
+    "artifact_manifest": "fbb065499709c70d5c2d7d4f679b3b3fc224605bd8f3b4f535da7f9464dcda38",
+    "benchmark": "cc1cbe47beb67f18989c587654092433d4f463d7dd333cf2a8c347fe4172926c",
+    "benchmark_result": "46997af9997dec4b0f6cb6df6464909f7786a0b607f98e70a219f055f8fbf4ba",
+    "final_zip": "d64f27bc6edd72a85f70cc4ac9c1c6d5bd762e0ad9ea2e91795ade25867841cc",
+    "replay": "2652c986a6a3a356c2139ae29ef530a993875892e7cfdb9d28f85a1ddd11addf",
+    "replay_result": "bb64e2dd02e3b5410b01ab65aee5f5ef0e546f8b3d7e97c2d3bfb23a9220e4b2",
+    "source": "b2d2802b739a1cd4b6fb9fc5674f7e1f234ac87fbb06f0ec6d09600c6607d1ad",
+    "test": "95ec94df87e41f7f5fcd848f24db9e35484990ec44cfb3204f5cdc9119d3043b",
+    "verification_report": "bcd22813799b5cf3c981559fe76901ad143432bf469cbd1490b32fe3fec83515"
+  },
+  "static_execution_mutation_paths": 0,
+  "status": "COMPLETE / VERIFIED — TECHNOLOGY ARTIFACT",
+  "sync_plan": {
+    "credential_issue_authorized": false,
+    "credential_use_authorized": false,
+    "full_resend_required": false,
+    "metadata_bytes_required": 3083,
+    "missing_or_changed": 10,
+    "permission_granted": false,
+    "remote_known": 2990,
+    "revocation_execution_authorized": false,
+    "target_items": 3000
+  },
+  "technology_name": "タスク単位短命資格情報",
+  "technology_number": 58,
+  "unauthorized_write_paths": 0
+}
