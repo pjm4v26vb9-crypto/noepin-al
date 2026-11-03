@@ -54,8 +54,18 @@ Official public repository for NOEPIN AL technologies created by **NOEPIN / の�
 | 038 | [AI Memory Retention & Deletion Governor / AI記憶保持・削除ガバナー](works/038-ai-memory-retention-deletion-governor.md) | COMPLETE / VERIFIED |
 | 039 | [Standards & Internal Policy Conformance Engine / 規格・社内ルール照合エンジン](works/039-standards-internal-policy-conformance-engine.md) | COMPLETE / VERIFIED |
 | 040 | [Continuous AI Red-Team Test / 継続AIレッドチーム試験](works/040-continuous-ai-red-team-test.md) | COMPLETE / VERIFIED |
+| 041 | [AI Behavior Anomaly Detection / AI行動異常検知](works/041-ai-behavior-anomaly-detection.md) | COMPLETE / VERIFIED |
+| 042 | [AI Incident Response & Evidence Preservation / AIインシデント対応・証拠保全](works/042-ai-incident-response-evidence-preservation.md) | COMPLETE / VERIFIED |
+| 043 | [Safe AI Delegation & Handoff Control / 安全なAI委譲・ハンドオフ制御](works/043-safe-ai-delegation-handoff-control.md) | COMPLETE / VERIFIED |
+| 044 | [Data Classification & Purpose Limitation Engine / データ分類・目的制限エンジン](works/044-data-classification-purpose-limitation-engine.md) | COMPLETE / VERIFIED |
+| 045 | [Undo-First Action Planner / Undo優先アクションプランナー](works/045-undo-first-action-planner.md) | COMPLETE / VERIFIED |
+| 046 | [Two-Person Approval / Four-Eyes Control / 二者承認・Four-Eyes制御](works/046-four-eyes-control.md) | COMPLETE / VERIFIED |
+| 047 | [Risk & Safety Budget Management / リスク予算・安全予算管理](works/047-risk-safety-budget-management.md) | COMPLETE / VERIFIED |
+| 048 | [Tool Chain Plan Inspection / ツール連鎖プラン検査](works/048-tool-chain-plan-inspection.md) | COMPLETE / VERIFIED |
+| 049 | [Model Selection & Trust Router / モデル選択・信頼ルーター](works/049-model-selection-trust-router.md) | COMPLETE / VERIFIED |
+| 050 | [Independent Safety Monitor / 独立安全モニター](works/050-independent-safety-monitor.md) | COMPLETE / VERIFIED |
 
-**Formal completion / publication progress: 40 / 188**
+**Formal completion / publication progress: 50 / 188**
 
 [作品一覧ページを開く](works/)
 
