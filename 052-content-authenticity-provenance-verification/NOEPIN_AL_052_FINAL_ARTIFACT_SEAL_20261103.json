@@ -1,0 +1,92 @@
+{
+  "ai_support": "AI-assisted implementation / analysis / documentation support using ChatGPT",
+  "al_production_use": {
+    "evidence_file": "AL_PRODUCTION_GATE_RESULT.json",
+    "gate_pass": true,
+    "required": true,
+    "technologies_used": [37,38,39,40,41,42,43,44,45,46,47,48,49,50,51]
+  },
+  "architecture_direction": "NOEPIN / のえぴん",
+  "artifact_version": "2.0.0",
+  "authority_boundaries": [
+    "Provenance Match != Truth",
+    "Signature Verification Evidence Valid != Content Truth",
+    "Known Origin != Permission Grant",
+    "Trust Label != Safety Proof",
+    "Human Review Candidate != Human Approval Completed",
+    "Fingerprint Match != Verification PASS / Authority Match",
+    "Prepared Authenticity Registry != Authoritative Current State"
+  ],
+  "baseline_mutation": 0,
+  "benchmark": {
+    "claim_scope": "condition-specific only",
+    "condition": "2000 provenance steps + 2000 signature evidence; 20 evaluations per batch; 5 batches; Python standard library",
+    "full_materialization_median_ms": 1735.8950220004772,
+    "prepared_registry_median_ms": 197.74326000151632,
+    "semantic_match": true
+  },
+  "canonical_notion_page_id": "408a9510-8ac2-8100-86aa-d3aa5e30f634",
+  "creator": "NOEPIN / のえぴん",
+  "date": "2026-11-03",
+  "dcsr_application": "DIRECT INTEGRATION",
+  "defect_classification": {
+    "benchmark_harness_defects": 0,
+    "production_defects": 0,
+    "test_fixture_defects": 0
+  },
+  "delta": {
+    "added_signatures": 5,
+    "added_steps": 5,
+    "base_signatures": 2000,
+    "base_steps": 2000,
+    "changed_signatures": 50,
+    "changed_steps": 50,
+    "delta_bytes": 50565,
+    "full_bytes": 1824020,
+    "ratio_percent": 2.7721735507286103,
+    "reconstruction_fingerprint_match": true,
+    "removed_signatures": 5,
+    "removed_steps": 5,
+    "target_signatures": 2000,
+    "target_steps": 2000
+  },
+  "fresh_extract_tests": {"passed": 160, "total": 160},
+  "fresh_replay": {"digest": "23092a7dc8c57605685e4630e7858bd2e94baedc2c098cdeea9e6ff84c7e2d26", "divergence": 0, "evaluations": 3000},
+  "license_rights": "NOT SPECIFIED",
+  "normal_replay": {"digest": "23092a7dc8c57605685e4630e7858bd2e94baedc2c098cdeea9e6ff84c7e2d26", "divergence": 0, "evaluations": 3000},
+  "normal_tests": {"passed": 160, "total": 160},
+  "original_concept": "NOEPIN / のえぴん",
+  "project_owner": "NOEPIN / のえぴん",
+  "schema": "NOEPIN_AL_ARTIFACT_SEAL_V1",
+  "sha256": {
+    "al_production_gate_result": "817290ae81c2aabf06178dd51a655a2d19d80a99fba9005b2dd048cb0370559f",
+    "al_production_gate_script": "ac6b621ae6c5a4655d0bb8484aa1d32c885da55f55ab3887509de20c0cb08d53",
+    "artifact_manifest": "a38cb647c3b7aaa47578cd7640e677071644424f47a37e3b805a2d26dd271bc7",
+    "benchmark": "dafd24f9fb99df08ce335827e61a0a00ea8f24ad0304f8705c4b841d843d45f7",
+    "benchmark_result": "5b7f52cffd78d03f05175eb88c5820341287ee799c9a588c8a8d1158eeec4ce4",
+    "final_zip": "9943116289cfc66d9bb19807d96209ee0ea6badb82a4d6fbe8f4595d34714d73",
+    "replay": "5d47933f853de4452966cc5aebcaee8c1375138c0b1850df7c41ff25e9d50519",
+    "replay_result": "f58b9d45be7d8ac920bdc41765aae5a3539e7b0bbe2972d676d0135c8ba8148d",
+    "source": "0f247d9dbf15ef6c248e36a0ceab236d14ef1988615d3f3f6944f33239320ce4",
+    "test": "6fd9340ba105b23c1933bf20a737d7ee5068ecdadc7aeb127c4fb4c3a0c18f7e",
+    "verification_report": "3ed96638dff62a4280f39c9e48c45df01fb8554fa57290fe1a2a1d12a08e9c43"
+  },
+  "signature_check_scope": "Validates binding/freshness/trust of externally produced signature-verification evidence; does not implement public-key cryptographic verification itself.",
+  "static_execution_mutation_paths": 0,
+  "status": "COMPLETE / VERIFIED — TECHNOLOGY ARTIFACT",
+  "sync_plan": {
+    "content_execution_authorized": false,
+    "content_use_authorized": false,
+    "data_transfer_authorized": false,
+    "full_resend_required": false,
+    "metadata_bytes_required": 9140,
+    "missing_or_changed_signatures": 10,
+    "missing_or_changed_steps": 10,
+    "permission_granted": false,
+    "remote_known": 3980,
+    "target_records": 4000
+  },
+  "technology_name": "コンテンツ真正性・由来確認",
+  "technology_number": 52,
+  "unauthorized_write_paths": 0
+}
