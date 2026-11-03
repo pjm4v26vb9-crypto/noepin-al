@@ -1,0 +1,73 @@
+{
+  "ai_support": "AI-assisted implementation / analysis / documentation support using ChatGPT",
+  "architecture_direction": "NOEPIN / のえぴん",
+  "artifact_version": "2.0.0",
+  "authority_boundaries": [
+    "Safety decision != action execution",
+    "ALLOW != permission grant",
+    "Human approval evidence != action execution",
+    "Manual override request != override authority",
+    "Scoped override != explicit-deny bypass",
+    "Offline mode != safe by itself",
+    "DCSR cache hit != authority match",
+    "Reconstructed state != authoritative current state",
+    "Fingerprint match != domain authority"
+  ],
+  "baseline_mutation": 0,
+  "benchmark": {
+    "claim_scope": "condition-specific only",
+    "condition": "500 allowed operations; 1,000 evaluations/batch; 5 batches; Python standard library",
+    "full_parse_reference_median_ms": 1190.384298,
+    "prepared_dcsr_median_ms": 250.052412,
+    "semantic_digest_match": true
+  },
+  "canonical_notion_page_id": "408a9510-8ac2-81d3-b864-db8c36524cd5",
+  "creator": "NOEPIN / のえぴん",
+  "date": "2026-11-03",
+  "dcsr_application": "LIMITED APPLICATION",
+  "delta": {
+    "added": 5,
+    "base_items": 5000,
+    "delta_bytes": 466,
+    "full_bytes": 120478,
+    "ratio_percent": 0.3867926094390677,
+    "reconstruction_fingerprint_match": true,
+    "removed": 5
+  },
+  "fresh_extract_tests": {
+    "passed": 104,
+    "total": 104
+  },
+  "fresh_replay": {
+    "digest": "56fdfcdfdb0769d7320448d922d088ee05ac671ac847e4c73af74c9c75a2ddd1",
+    "divergence": 0,
+    "evaluations": 3000
+  },
+  "license_rights": "NOT SPECIFIED",
+  "normal_replay": {
+    "digest": "56fdfcdfdb0769d7320448d922d088ee05ac671ac847e4c73af74c9c75a2ddd1",
+    "divergence": 0,
+    "evaluations": 3000
+  },
+  "normal_tests": {
+    "passed": 104,
+    "total": 104
+  },
+  "original_concept": "NOEPIN / のえぴん",
+  "project_owner": "NOEPIN / のえぴん",
+  "schema": "NOEPIN_AL_ARTIFACT_SEAL_V1",
+  "sha256": {
+    "artifact_manifest": "5cca1f42ee565da095aa10cdc149517e71a081e66e8c012918ddd9237d131524",
+    "benchmark": "fe6277f72aa2ae3fa5c80c7db874452d7f68e3900e6484dd72b4b88f26d61f75",
+    "final_zip": "9b1f0d214d67f8fd5a75eb1e129b5c09b556e60f7de45def1c56c9956040fb5a",
+    "replay": "c7376a2943f2b694908520529d2cf29d8e5b3734325ff810a6748810ca91e556",
+    "source": "fbef7bd5841a16d2fe12b9e3695c387be19d7da1909a4bebdda056893e936a19",
+    "test": "777b11d9136def42cba5623182eb26ad85afc2c622ef5ddf62c8600a46d4515a",
+    "verification_report": "09f4295b193f03941e2f7d243c067eff483b59d093af31e3d0675135be0d8412"
+  },
+  "static_execution_mutation_paths": 0,
+  "status": "COMPLETE / VERIFIED — TECHNOLOGY ARTIFACT",
+  "technology_name": "重要システム安全モード",
+  "technology_number": 37,
+  "unauthorized_write_paths": 0
+}
