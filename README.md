@@ -64,8 +64,18 @@ Official public repository for NOEPIN AL technologies created by **NOEPIN / の�
 | 048 | [Tool Chain Plan Inspection / ツール連鎖プラン検査](works/048-tool-chain-plan-inspection.md) | COMPLETE / VERIFIED |
 | 049 | [Model Selection & Trust Router / モデル選択・信頼ルーター](works/049-model-selection-trust-router.md) | COMPLETE / VERIFIED |
 | 050 | [Independent Safety Monitor / 独立安全モニター](works/050-independent-safety-monitor.md) | COMPLETE / VERIFIED |
+| 051 | [Safe RAG & Search Gateway / 安全RAG・検索ゲートウェイ](works/051-safe-rag-search-gateway.md) | COMPLETE / VERIFIED |
+| 052 | [Content Authenticity & Provenance Verification / コンテンツ真正性・由来確認](works/052-content-authenticity-provenance-verification.md) | COMPLETE / VERIFIED |
+| 053 | [AI Change Management & Version Control / AI変更管理・バージョン統制](works/053-ai-change-version-control.md) | COMPLETE / VERIFIED |
+| 054 | [Isolated Test Environment Orchestrator / 隔離テスト環境オーケストレーター](works/054-isolated-test-environment-orchestrator.md) | COMPLETE / VERIFIED |
+| 055 | [Human Social Engineering Detection / 人間向けソーシャルエンジニアリング検知](works/055-human-social-engineering-detection.md) | COMPLETE / VERIFIED |
+| 056 | [Decision Reason & Explanation Layer / 判断理由・説明レイヤー](works/056-decision-reason-explanation-layer.md) | COMPLETE / VERIFIED |
+| 057 | [Emergency Safe Mode & Offline Operation / 緊急セーフモード・オフライン運転](works/057-emergency-safe-mode-offline-operation.md) | COMPLETE / VERIFIED |
+| 058 | [Task-Scoped Short-Lived Credentials / タスク単位短命資格情報](works/058-task-scoped-short-lived-credentials.md) | COMPLETE / VERIFIED |
+| 059 | [External AI & Tool Trust Score / 外部AI・ツール信頼スコア](works/059-external-ai-tool-trust-score.md) | COMPLETE / VERIFIED |
+| 060 | [AI Stop & Completion Condition Checker / AI停止条件・完了条件チェッカー](works/060-ai-stop-completion-condition-checker.md) | COMPLETE / VERIFIED |
 
-**Formal completion / publication progress: 50 / 188**
+**Formal completion / publication progress: 60 / 188**
 
 [作品一覧ページを開く](works/)
 
