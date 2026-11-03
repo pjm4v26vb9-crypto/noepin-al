@@ -1,0 +1,102 @@
+{
+  "ai_support": "AI-assisted implementation / analysis / documentation support using ChatGPT",
+  "al_production_use": {
+    "evidence_file": "AL_PRODUCTION_GATE_RESULT.json",
+    "gate_pass": true,
+    "required": true,
+    "technologies_used": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42
+    ]
+  },
+  "architecture_direction": "NOEPIN / のえぴん",
+  "artifact_version": "2.0.0",
+  "authority_boundaries": [
+    "Delegation Candidate != Permission Grant",
+    "Inherited Scope != New Authority",
+    "Scope Attenuation PASS != Action Authorization",
+    "Handoff Accepted Candidate != Handoff Executed",
+    "Context Received Candidate != Context Truth",
+    "Parent-child Trace != Action Success",
+    "ALLOW != Permission Grant",
+    "Fingerprint Match != Authority Match",
+    "Prepared Context Manifest != Authoritative Current State"
+  ],
+  "baseline_mutation": 0,
+  "benchmark": {
+    "claim_scope": "condition-specific only",
+    "condition": "2,000 Context Items; 40 evaluations per batch; 5 batches; Python standard library",
+    "full_materialization_median_ms": 2210.3702529998372,
+    "prepared_manifest_median_ms": 735.8415440003228,
+    "semantic_match": true
+  },
+  "canonical_notion_page_id": "408a9510-8ac2-81e6-a08f-c8f61e27354f",
+  "creator": "NOEPIN / のえぴん",
+  "date": "2026-11-03",
+  "dcsr_application": "DIRECT INTEGRATION",
+  "defect_classification": {
+    "benchmark_harness_defects": 0,
+    "production_defects": 0,
+    "test_fixture_defects": 0
+  },
+  "delta": {
+    "added": 5,
+    "base_items": 5000,
+    "changed": 50,
+    "delta_bytes": 11770,
+    "full_bytes": 1044981,
+    "ratio_percent": 1.1263362683149263,
+    "reconstruction_fingerprint_match": true,
+    "removed": 5,
+    "target_items": 5000
+  },
+  "fresh_extract_tests": {
+    "passed": 160,
+    "total": 160
+  },
+  "fresh_replay": {
+    "digest": "2cfdc9f1e5869d5af99d60aec1c817c9ec69bf5de731089c3f12e13ca9bb85db",
+    "divergence": 0,
+    "evaluations": 3000
+  },
+  "license_rights": "NOT SPECIFIED",
+  "normal_replay": {
+    "digest": "2cfdc9f1e5869d5af99d60aec1c817c9ec69bf5de731089c3f12e13ca9bb85db",
+    "divergence": 0,
+    "evaluations": 3000
+  },
+  "normal_tests": {
+    "passed": 160,
+    "total": 160
+  },
+  "original_concept": "NOEPIN / のえぴん",
+  "project_owner": "NOEPIN / のえぴん",
+  "schema": "NOEPIN_AL_ARTIFACT_SEAL_V1",
+  "sha256": {
+    "al_production_gate_result": "62663d4d224c16c040a5841c3f4482b89e8b72a590bcfc1130a6b6d7ab11f014",
+    "al_production_gate_script": "b49da35506314e60aee42ce534407139770a4da14c7d7a78fe7208a4c417a2f6",
+    "artifact_manifest": "8d1846d3ef66c0db1fd73c7b28f128dd49f3f8cc83be5386f2eb7bbfaf7d5102",
+    "benchmark": "cffd997251a423593cc9d4c69083873cc3ab76f1bcd3d58e2622cc66f3f5bcbc",
+    "final_zip": "61cc01d1bcd44b27620317dda8ec8c86070143b2bfc4e45a8b6fd71088a2ec10",
+    "replay": "55d85cf00d644ed84aadaa29fb00f82674bcb306e08d9a8717b46e290728c741",
+    "source": "8f934364bc82dbe36b15f019e3bfca4231a55eafc56fbd8290c4324bdfa32d55",
+    "test": "5a5e642204c4e1e40228f20d19f5e424879192b1c9e7726ff7cc8b8cb6855e4c",
+    "verification_report": "d190472eb0961b554f6469747ccccaa3a3e9b71109f30a6c4793ddc23f58e907"
+  },
+  "static_execution_mutation_paths": 0,
+  "status": "COMPLETE / VERIFIED — TECHNOLOGY ARTIFACT",
+  "technology_name": "安全なAI委譲・ハンドオフ制御",
+  "technology_number": 43,
+  "transfer_plan": {
+    "bytes_required": 71,
+    "full_resend_required": false,
+    "missing": 10,
+    "remote_known": 4990,
+    "target_items": 5000
+  },
+  "unauthorized_write_paths": 0
+}
