@@ -1,0 +1,93 @@
+{
+  "schema": "NOEPIN_AL_ARTIFACT_SEAL_V1",
+  "technology_number": 59,
+  "technology_name": "外部AI・ツール信頼スコア",
+  "artifact_version": "2.0.0",
+  "date": "2026-11-04",
+  "status": "COMPLETE / VERIFIED — TECHNOLOGY ARTIFACT",
+  "creator": "NOEPIN / のえぴん",
+  "project_owner": "NOEPIN / のえぴん",
+  "original_concept": "NOEPIN / のえぴん",
+  "architecture_direction": "NOEPIN / のえぴん",
+  "ai_support": "AI-assisted implementation / analysis / documentation support using ChatGPT",
+  "license_rights": "NOT SPECIFIED",
+  "canonical_notion_page_id": "408a9510-8ac2-81d3-b689-e52f81751787",
+  "normal_tests": {"passed": 160, "total": 160},
+  "fresh_extract_tests": {"passed": 160, "total": 160},
+  "normal_replay": {"evaluations": 3000, "divergence": 0, "digest": "4407ffcf990ca8e70484f703e9e4a9a152728f5212d2cb45f700d20e7267154a"},
+  "fresh_replay": {"evaluations": 3000, "divergence": 0, "digest": "4407ffcf990ca8e70484f703e9e4a9a152728f5212d2cb45f700d20e7267154a"},
+  "static_execution_mutation_paths": 0,
+  "unauthorized_write_paths": 0,
+  "baseline_mutation": 0,
+  "dcsr_application": "DIRECT INTEGRATION",
+  "al_production_use": {
+    "required": true,
+    "evidence_file": "AL_PRODUCTION_GATE_RESULT.json",
+    "gate_pass": true,
+    "technologies_used": [37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58]
+  },
+  "authority_boundaries": [
+    "Trust Score != Truth",
+    "Trust Tier != Permission Grant",
+    "Probation PASS != High-Privilege Authorization",
+    "History Evidence != Future Safety",
+    "Provider Trust != Entity Safety Truth",
+    "Fingerprint Match != Authority Match",
+    "Connection Candidate != Connection Established",
+    "Prepared Trust Registry != Authoritative Current State"
+  ],
+  "defect_classification": {
+    "production_defects": 0,
+    "test_fixture_defects": 0,
+    "benchmark_harness_fixture_defect": "Initial Delta fixture changed first 50 records and then removed first 5, yielding 45 changed. Harness-only corrected to non-overlapping 50 changed / 5 removed / 5 added; production semantics unchanged.",
+    "production_gate_helper_defects": 0
+  },
+  "benchmark": {
+    "condition": "1500 profiles + 1500 evidence records; 15 evaluations per batch; 5 batches; Python standard library",
+    "full_materialization_median_ms": 1520.526934999907,
+    "prepared_registry_median_ms": 448.3563270000559,
+    "semantic_match": true,
+    "claim_scope": "condition-specific only"
+  },
+  "delta": {
+    "base_profiles": 2000,
+    "base_evidence": 2000,
+    "target_profiles": 2000,
+    "target_evidence": 2000,
+    "changed_profiles": 50,
+    "changed_evidence": 50,
+    "removed_profiles": 5,
+    "removed_evidence": 5,
+    "added_profiles": 5,
+    "added_evidence": 5,
+    "full_bytes": 918027,
+    "delta_bytes": 25664,
+    "ratio_percent": 2.7955604791580204,
+    "reconstruction_fingerprint_match": true
+  },
+  "sync_plan": {
+    "target_records": 4000,
+    "remote_known": 3990,
+    "missing_or_changed_profiles": 5,
+    "missing_or_changed_evidence": 5,
+    "metadata_bytes_required": 2322,
+    "full_resend_required": false,
+    "permission_granted": false,
+    "connection_authorized": false,
+    "high_privilege_authorized": false,
+    "probation_completion_authorized": false
+  },
+  "sha256": {
+    "source": "210e7be643be659b6997bf2dc7123c086eb8efd7c434ac7a8a7e0c7ab1a972fa",
+    "test": "89384c5b65fc5e4408569fe097b627591fd1351eb2c7653b0c18c0218e8a263e",
+    "replay": "e6504968189dad565de66fb6e98f665d2574f2abdfa8e7009d759c9ea2033ab8",
+    "benchmark": "d92baabcea3184fa628341408582dec6f2a88f9f7db041b4ddb97bc3d4100372",
+    "al_production_gate_script": "71cfe9912a2ee08e9cf7f966a47405bb007169efbff5875716a85ec31aa6c20e",
+    "al_production_gate_result": "c3c5b9d1f761173d354c675fe78d7d0203a9cf512ef5676585cd3c5cafe7f967",
+    "replay_result": "6332b185aad9d93ce386a0e9e4eafc14136910071c9e53a17cc0ec468f4a68bc",
+    "benchmark_result": "7f8a232df048d1f6132681f5ebc2b028f18c7adb1d1906f65ebc2b16e051e5a8",
+    "verification_report": "b683b768ca8c9827d32666b00663bb85a9cb5f770a855c722bf637da8382b2c1",
+    "artifact_manifest": "985be6117bd720ba082e389f7b20e89aaf63bc100106916b06b00408def3ee49",
+    "final_zip": "bca249131ba4e87569cd87e1abf4d9cdf64b709e178b30b371173977c78ff70e"
+  }
+}
