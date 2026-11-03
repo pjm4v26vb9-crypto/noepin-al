@@ -1,0 +1,115 @@
+{
+  "ai_support": "AI-assisted implementation / analysis / documentation support using ChatGPT",
+  "al_production_use": {
+    "evidence_file": "AL_PRODUCTION_GATE_RESULT.json",
+    "gate_pass": true,
+    "required": true,
+    "technologies_used": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50
+    ]
+  },
+  "architecture_direction": "NOEPIN / のえぴん",
+  "artifact_version": "2.0.0",
+  "authority_boundaries": [
+    "Retrieved Document != Trusted Truth",
+    "ACL Match != Permission Grant",
+    "Source Trust Score != Truth",
+    "Quarantine Clear != Safe-to-Execute",
+    "RAG Candidate != Model Context Commit",
+    "Human Review Candidate != Human Approval Completed",
+    "Fingerprint Match != Verification PASS / Authority Match",
+    "Prepared Document Registry != Authoritative Current State"
+  ],
+  "baseline_mutation": 0,
+  "benchmark": {
+    "claim_scope": "condition-specific only",
+    "condition": "2000 documents; 20 evaluations per batch; 5 batches; Python standard library",
+    "full_materialization_median_ms": 1983.267399999022,
+    "prepared_registry_median_ms": 679.0003960013564,
+    "semantic_match": true
+  },
+  "canonical_notion_page_id": "408a9510-8ac2-8139-a5c2-cde9b08a5d6a",
+  "creator": "NOEPIN / のえぴん",
+  "date": "2026-11-03",
+  "dcsr_application": "DIRECT INTEGRATION",
+  "defect_classification": {
+    "benchmark_harness_defect": "Initial Delta fixture overlapped changed and removed documents, reporting 45 changed; harness-only corrected to non-overlapping 50 changed / 5 removed / 5 added; production semantics unchanged.",
+    "production_defects": 0,
+    "test_fixture_defects": 0
+  },
+  "delta": {
+    "added": 5,
+    "base_items": 2000,
+    "changed": 50,
+    "delta_bytes": 23752,
+    "full_bytes": 857836,
+    "ratio_percent": 2.7688276080742704,
+    "reconstruction_fingerprint_match": true,
+    "removed": 5,
+    "target_items": 2000
+  },
+  "fresh_extract_tests": {
+    "passed": 160,
+    "total": 160
+  },
+  "fresh_replay": {
+    "digest": "52bc719055ddec2d72a412e4ec4539a91751c1bcdb5a4fbdd2ec400fdaba5765",
+    "divergence": 0,
+    "evaluations": 3000
+  },
+  "license_rights": "NOT SPECIFIED",
+  "normal_replay": {
+    "digest": "52bc719055ddec2d72a412e4ec4539a91751c1bcdb5a4fbdd2ec400fdaba5765",
+    "divergence": 0,
+    "evaluations": 3000
+  },
+  "normal_tests": {
+    "passed": 160,
+    "total": 160
+  },
+  "original_concept": "NOEPIN / のえぴん",
+  "project_owner": "NOEPIN / のえぴん",
+  "schema": "NOEPIN_AL_ARTIFACT_SEAL_V1",
+  "sha256": {
+    "al_production_gate_result": "220fddd040bcd5e1133ba22d4e6b8b448b0746599dd6f0ceab08d4ecb9607f18",
+    "al_production_gate_script": "6dc2c4d31730258ac0b311a5e78628ecad0db22a58b0af6acc96944004974425",
+    "artifact_manifest": "9f07f99e4dd6f70e6021322624064f583619d1efe21b6fb8742e7a7b5d57ae8b",
+    "benchmark": "82879fea78edc49c01884ed4a6eec305b87b5d32a8c37b819e55c6de493eb200",
+    "benchmark_result": "20bc4e23ea962e25078f314d9e827853216eb1861ff47822bad8925683549b2c",
+    "final_zip": "330d71ac03dd33b2396390e17e7a37e2985a52fe98e9642b7262f096cc9b4ce6",
+    "replay": "8bf3a1707aca4e7dbffaba3a81cb8797496b43d9a71c7c755b3093ef6aeea471",
+    "replay_result": "777a5de2fe30e2201644f4593f7f6b73b47a1aa3ac70ae5ecaf60b628439baa2",
+    "source": "ead16cd169024fc7bf8425cd3ac1273f40387a8ca536c5906dce07be9fbd7561",
+    "test": "e70c8197f2f2de6acbba457593157607a41a5e2fcc322f83cbef165d0ac8e17d",
+    "verification_report": "f7f47c5e7193f7d0d16b608de9b531e264989a0f050054b27eafee4ecd2361a1"
+  },
+  "static_execution_mutation_paths": 0,
+  "status": "COMPLETE / VERIFIED — TECHNOLOGY ARTIFACT",
+  "sync_plan": {
+    "context_commit_authorized": false,
+    "data_transfer_authorized": false,
+    "full_resend_required": false,
+    "metadata_bytes_required": 4326,
+    "missing_or_changed": 10,
+    "model_invocation_authorized": false,
+    "permission_granted": false,
+    "remote_known": 1990,
+    "target_items": 2000
+  },
+  "technology_name": "安全RAG・検索ゲートウェイ",
+  "technology_number": 51,
+  "unauthorized_write_paths": 0
+}
