@@ -43,8 +43,11 @@ NOEPIN / のえぴんによるNOEPIN AL技術作品の公開一覧です。
 | 035 | [安全ブラウザ・メール・文書読取ゲート / Safe Browser, Email & Document Read Gate](035-safe-browser-email-document-read-gate.md) | COMPLETE / VERIFIED |
 | 036 | [デジタルツイン・実行前影響予測 / Digital Twin Pre-Execution Impact Predictor](036-digital-twin-pre-execution-impact-predictor.md) | COMPLETE / VERIFIED |
 | 037 | [重要システム安全モード / Critical System Safety Mode](037-critical-system-safety-mode.md) | COMPLETE / VERIFIED |
+| 038 | [AI記憶保持・削除ガバナー / AI Memory Retention & Deletion Governor](038-ai-memory-retention-deletion-governor.md) | COMPLETE / VERIFIED |
+| 039 | [規格・社内ルール照合エンジン / Standards & Internal Policy Conformance Engine](039-standards-internal-policy-conformance-engine.md) | COMPLETE / VERIFIED |
+| 040 | [継続AIレッドチーム試験 / Continuous AI Red-Team Test](040-continuous-ai-red-team-test.md) | COMPLETE / VERIFIED |
 
-**Published works: 37 / 188**
+**Published works: 40 / 188**
 
 Creator / Project Owner / Original Concept / Architecture Direction: **NOEPIN / のえぴん**
 
