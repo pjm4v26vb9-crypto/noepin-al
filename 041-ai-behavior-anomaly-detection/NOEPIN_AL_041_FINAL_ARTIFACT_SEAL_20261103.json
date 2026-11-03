@@ -1,0 +1,72 @@
+{
+  "schema": "NOEPIN_AL_ARTIFACT_SEAL_V1",
+  "technology_number": 41,
+  "technology_name": "AI行動異常検知",
+  "artifact_version": "2.0.0",
+  "date": "2026-11-03",
+  "status": "COMPLETE / VERIFIED — TECHNOLOGY ARTIFACT",
+  "creator": "NOEPIN / のえぴん",
+  "project_owner": "NOEPIN / のえぴん",
+  "original_concept": "NOEPIN / のえぴん",
+  "architecture_direction": "NOEPIN / のえぴん",
+  "ai_support": "AI-assisted implementation / analysis / documentation support using ChatGPT",
+  "license_rights": "NOT SPECIFIED",
+  "canonical_notion_page_id": "408a9510-8ac2-817b-a0f7-c8cec2f0e815",
+  "normal_tests": {"passed": 160, "total": 160},
+  "fresh_extract_tests": {"passed": 160, "total": 160},
+  "normal_replay": {"evaluations": 3000, "divergence": 0, "digest": "2126da9bf071dd66ba94ed511deba679a15055cc4fc0f10ceca58db3205acb9b"},
+  "fresh_replay": {"evaluations": 3000, "divergence": 0, "digest": "2126da9bf071dd66ba94ed511deba679a15055cc4fc0f10ceca58db3205acb9b"},
+  "static_execution_mutation_paths": 0,
+  "unauthorized_write_paths": 0,
+  "baseline_mutation": 0,
+  "dcsr_application": "DIRECT INTEGRATION",
+  "al_production_use": {
+    "required": true,
+    "evidence_file": "AL_PRODUCTION_GATE_RESULT.json",
+    "gate_pass": true,
+    "technologies_used": [37, 38, 39, 40]
+  },
+  "authority_boundaries": [
+    "Anomaly Detected != Compromise Proven",
+    "Baseline Match != System Safe",
+    "Anomaly Score != Truth",
+    "Alert Candidate != Alert Executed",
+    "Stop Recommended != Stop Executed",
+    "ALLOW != Permission Grant",
+    "Evidence Verified != Global Truth",
+    "Fingerprint Match != Security Proof / Authority Match",
+    "Prepared Baseline != Authoritative Current State"
+  ],
+  "defect_classification": [
+    {"type": "production_gate_fixture_defect", "description": "Initial AL 038 request used positional binding; corrected to explicit keyword binding. Production semantics unchanged."},
+    {"type": "benchmark_harness_condition", "description": "Initial benchmark exceeded execution time; condition reduced without changing production behavior."},
+    {"type": "production_defect", "count": 0}
+  ],
+  "benchmark": {
+    "condition": "2,000 tool-operation pairs; 40 evaluations per batch; 5 batches; Python standard library",
+    "full_materialization_median_ms": 399.711394,
+    "prepared_baseline_median_ms": 16.553378,
+    "semantic_match": true,
+    "claim_scope": "condition-specific only"
+  },
+  "delta": {
+    "changed": 50,
+    "removed": 5,
+    "added": 5,
+    "full_bytes": 56104,
+    "delta_bytes": 1876,
+    "ratio_percent": 3.3437901041,
+    "reconstruction_fingerprint_match": true
+  },
+  "sha256": {
+    "source": "eed2325c1aae8741b3073e4d522ec3104e00f464abed702e44a47fd95347dd41",
+    "test": "72b0d46cf099c778aaf7ef0cbabd40be36f046a8468c51fd8d6dc8ff34812bbe",
+    "replay": "a9bbf7492de0013a6ef6d9400313b6ac3eb07ba55be9bf29f98334eecd3a5055",
+    "benchmark": "d2cb0190d2557026a91f87ac3084f8ae234bb35379c567a2e86d970b7907d515",
+    "al_production_gate_script": "d218034e899c9757b8f8805ca9f18e9978c8467366139bac8ce67ffd76ba8f6b",
+    "al_production_gate_result": "a4a17cce488e1bb4eafd1f294d527e6bb98a883d5d8baecf134572ec5408c2ee",
+    "verification_report": "6b5820b754174828e67d902ed974544f555021573e3c7534213e0ece3f518de0",
+    "artifact_manifest": "eb6556b1eb67d1244fccdc351e2a2fce599de3c512ba833aa8a057bc18932c88",
+    "final_zip": "e4aae0b80f7bf9f1cdeea23ebb32f78fe24de7e7d80c5f7b58a0a5e23b27f14a"
+  }
+}
