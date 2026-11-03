@@ -41,8 +41,10 @@ NOEPIN / のえぴんによるNOEPIN AL技術作品の公開一覧です。
 | 033 | [ユーザー意図ロック・同意管理 / User Intent Lock & Consent Management](033-user-intent-consent-management.md) | COMPLETE / VERIFIED |
 | 034 | [タスク範囲境界エンフォーサー / Task Scope Boundary Enforcer](034-task-scope-boundary-enforcer.md) | COMPLETE / VERIFIED |
 | 035 | [安全ブラウザ・メール・文書読取ゲート / Safe Browser, Email & Document Read Gate](035-safe-browser-email-document-read-gate.md) | COMPLETE / VERIFIED |
+| 036 | [デジタルツイン・実行前影響予測 / Digital Twin Pre-Execution Impact Predictor](036-digital-twin-pre-execution-impact-predictor.md) | COMPLETE / VERIFIED |
+| 037 | [重要システム安全モード / Critical System Safety Mode](037-critical-system-safety-mode.md) | COMPLETE / VERIFIED |
 
-**Published works: 35 / 188**
+**Published works: 37 / 188**
 
 Creator / Project Owner / Original Concept / Architecture Direction: **NOEPIN / のえぴん**
 
