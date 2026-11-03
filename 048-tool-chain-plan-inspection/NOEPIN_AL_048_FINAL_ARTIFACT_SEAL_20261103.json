@@ -1,0 +1,122 @@
+{
+  "ai_support": "AI-assisted implementation / analysis / documentation support using ChatGPT",
+  "al_production_use": {
+    "evidence_file": "AL_PRODUCTION_GATE_RESULT.json",
+    "gate_pass": true,
+    "required": true,
+    "technologies_used": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47
+    ]
+  },
+  "architecture_direction": "NOEPIN / のえぴん",
+  "artifact_version": "2.0.0",
+  "authority_boundaries": [
+    "Plan PASS != Tool Execution",
+    "Safe Individual Tools != Safe Chain",
+    "Data-flow Reachability != Data Sent",
+    "Combination Match != Compromise Proven",
+    "ALLOW != Permission Grant",
+    "Fingerprint Match != Authority Match",
+    "Prepared Plan Graph != Authoritative Current State"
+  ],
+  "baseline_mutation": 0,
+  "benchmark": {
+    "condition": "400 nodes; 10 evaluations per batch; 5 batches; Python standard library",
+    "delta": {
+      "added_edges": 0,
+      "added_nodes": 5,
+      "base_nodes": 2000,
+      "changed_edges": 0,
+      "changed_nodes": 50,
+      "delta_bytes": 13677,
+      "full_bytes": 707120,
+      "ratio_percent": 1.9341837311913113,
+      "reconstruction_fingerprint_match": true,
+      "removed_edges": 6,
+      "removed_nodes": 5
+    },
+    "full_materialization_median_ms": 296.17187099938747,
+    "prepared_graph_median_ms": 102.43111199997657,
+    "semantic_match": true,
+    "sync": {
+      "data_transfer_authorized": false,
+      "full_resend_required": false,
+      "metadata_bytes_required": 1692,
+      "missing_edges": 5,
+      "missing_nodes": 5,
+      "permission_granted": false,
+      "tool_execution_authorized": false
+    }
+  },
+  "canonical_notion_page_id": "408a9510-8ac2-81f9-9b36-d8f0190301ec",
+  "creator": "NOEPIN / のえぴん",
+  "date": "2026-11-03",
+  "dcsr_application": "DIRECT INTEGRATION",
+  "defect_classification": {
+    "benchmark_harness_condition": "Initial benchmark condition timed out; reduced to 400 nodes / 10 evaluations x 5 without changing production semantics.",
+    "production_defects": 0,
+    "test_fixture_defects": 0
+  },
+  "fresh_extract_tests": {
+    "passed": 160,
+    "total": 160
+  },
+  "fresh_replay": {
+    "digest": "031e15c9294349ff550eaede359b5a1324955212d2ed99175c110d0ed5b05aea",
+    "digests": [
+      "031e15c9294349ff550eaede359b5a1324955212d2ed99175c110d0ed5b05aea",
+      "031e15c9294349ff550eaede359b5a1324955212d2ed99175c110d0ed5b05aea",
+      "031e15c9294349ff550eaede359b5a1324955212d2ed99175c110d0ed5b05aea"
+    ],
+    "divergence": 0,
+    "evaluations_per_run": 1000,
+    "runs": 3,
+    "total_evaluations": 3000
+  },
+  "license_rights": "NOT SPECIFIED",
+  "normal_replay": {
+    "digest": "031e15c9294349ff550eaede359b5a1324955212d2ed99175c110d0ed5b05aea",
+    "digests": [
+      "031e15c9294349ff550eaede359b5a1324955212d2ed99175c110d0ed5b05aea",
+      "031e15c9294349ff550eaede359b5a1324955212d2ed99175c110d0ed5b05aea",
+      "031e15c9294349ff550eaede359b5a1324955212d2ed99175c110d0ed5b05aea"
+    ],
+    "divergence": 0,
+    "evaluations_per_run": 1000,
+    "runs": 3,
+    "total_evaluations": 3000
+  },
+  "normal_tests": {
+    "passed": 160,
+    "total": 160
+  },
+  "original_concept": "NOEPIN / のえぴん",
+  "project_owner": "NOEPIN / のえぴん",
+  "schema": "NOEPIN_AL_ARTIFACT_SEAL_V1",
+  "sha256": {
+    "al_production_gate_result": "446c4cbd3f92cc9be2b5edc2152c290e0baaa1f2e2957ebff143bebf16cc94b2",
+    "al_production_gate_script": "ea531186d39a19fa8646a9ee31b077b220a7a878a1c9caad9bd327b76ffddc4c",
+    "artifact_manifest": "7fe954048d89ac78087bdbf4ae15666739de9c8f58a47158f02fb66a0ac3828d",
+    "benchmark": "9c5146d3005cee40f64448b5ee7a404f59ca49833271fb3c99aec2160208d174",
+    "final_zip": "88e3b230175806a7791e1f9a549907bfe14aecdabac405f8cfc15249ee411345",
+    "replay": "85df87dce3ed3138c20380932309cf43537037239b722f364cb41c610f253d5b",
+    "source": "f7cb798eb18a6820ffd802af232d636d24652d49fc3ffe193bc70c21516e8a09",
+    "test": "046ead2f61c10f855d530d21e985f1bda0c45410984b16324541f7727df3d81c",
+    "verification_report": "49c65c3d81ac5e6eada82fc9fb780c4c68a3e5da597c4a121229ac5b31b25da4"
+  },
+  "static_execution_mutation_paths": 0,
+  "status": "COMPLETE / VERIFIED — TECHNOLOGY ARTIFACT",
+  "technology_name": "ツール連鎖プラン検査",
+  "technology_number": 48,
+  "unauthorized_write_paths": 0
+}
