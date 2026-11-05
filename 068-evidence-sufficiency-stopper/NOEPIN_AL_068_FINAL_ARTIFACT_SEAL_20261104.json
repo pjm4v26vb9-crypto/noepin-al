@@ -1,0 +1,79 @@
+{
+  "ai_support": "AI-assisted implementation / analysis / documentation support using ChatGPT",
+  "al_production_gate_evidence": {
+    "actual_al_range": "037-067",
+    "filename": "NOEPIN_AL_068_AL_PRODUCTION_GATE_EVIDENCE.json",
+    "pass_count": 31,
+    "sha256": "d994fe5292cea1f126136d0e9fd8e32c9b7b47ebacc298245c71096169722440",
+    "total": 31
+  },
+  "artifact": "Sequential Successor V2",
+  "baseline_preservation": true,
+  "canonical_id": "NOEPIN-AL-068",
+  "creator": "NOEPIN / のえぴん",
+  "date": "2026-11-04",
+  "dcsr": {
+    "delta_bytes": 15200,
+    "delta_ratio_percent": 2.0336461402199015,
+    "full_bytes": 747426,
+    "full_median_ms": 1134.4453609999903,
+    "full_resend_required": false,
+    "level": "LIMITED / 限定適用",
+    "metadata_bytes_required": 119,
+    "missing_evidence": 10,
+    "prepared_median_ms": 17.147633000007545,
+    "semantic_match": true
+  },
+  "defects": {
+    "benchmark_harness": 0,
+    "execution_harness_invocation": 0,
+    "production": 0,
+    "production_gate_helper": 0,
+    "replay_helper": 0,
+    "test_fixture": 0
+  },
+  "exact_origin_guid_freshly_extracted": false,
+  "final_fresh": {
+    "core_identity": true,
+    "gate": "31/31 PASS",
+    "gate_byte_identical": true,
+    "manifest_entries": 22,
+    "manifest_identity": true,
+    "replay_digest_match": true,
+    "replay_divergence": 0,
+    "replay_total": 3000,
+    "report_identity": true,
+    "tests": "160/160 PASS"
+  },
+  "final_verification_report": {
+    "filename": "NOEPIN_AL_068_FINAL_VERIFICATION_REPORT_20261104.md",
+    "sha256": "a62445e741c9ee5e5a19fa888a1fd5579bc86efd0000a2ff9067ad88644f1c81"
+  },
+  "final_zip": {
+    "filename": "NOEPIN_AL_068_EVIDENCE_SUFFICIENCY_STOPPER_SUCCESSOR_V2_20261104.zip",
+    "sha256": "7a74c51f78722ce2ba665e16b4a4cff7550afa9cc746aa13df567fa2603e8594"
+  },
+  "license_rights": "NOT SPECIFIED",
+  "master_readback": "PENDING_AT_SEAL_CREATION",
+  "normal": {
+    "replay_digest": "e6e6578eab9ecef0d167aa5b1acb8a17a3bbb879f4b5dc373e0aa50186b73096",
+    "replay_divergence": 0,
+    "replay_total": 3000,
+    "static_external_paths": 0,
+    "tests": "160/160 PASS",
+    "unauthorized_write_paths": 0
+  },
+  "notion_readback": "PENDING_AT_SEAL_CREATION",
+  "preexisting_v1_byte_identity_freshly_reverified": false,
+  "provisional_fresh": {
+    "gate": "31/31 PASS",
+    "gate_byte_identical": true,
+    "manifest_entries": 21,
+    "replay_divergence": 0,
+    "replay_total": 3000,
+    "tests": "160/160 PASS"
+  },
+  "schema": "NOEPIN_AL_FINAL_ARTIFACT_SEAL_V1",
+  "technology": 68,
+  "title": "68｜証拠十分性ストッパー / AL Evidence Sufficiency Stopper"
+}
