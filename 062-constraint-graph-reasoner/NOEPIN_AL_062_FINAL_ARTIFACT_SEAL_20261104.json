@@ -1,0 +1,115 @@
+{
+  "ai_support": "AI-assisted implementation / analysis / documentation support using ChatGPT",
+  "artifact_version": "Sequential Successor V2",
+  "authority_boundary": [
+    "Graph ALLOW Candidate != Permission Grant",
+    "Candidate Path != Action Executable / Action Executed",
+    "Constraint Satisfaction != Truth / World Fact",
+    "Conflict Set != World Fact",
+    "Approval Node Satisfaction != Approval Execution",
+    "Policy Match != Permission Grant",
+    "Fingerprint Match != Authority Match",
+    "Prepared Graph State != Authoritative Current State",
+    "DCSR Reconstruction != Domain Authority / Action Success"
+  ],
+  "authority_outputs": {
+    "action_executed": false,
+    "action_success": false,
+    "approval_executed": false,
+    "commit_performed": false,
+    "constraint_truth_proven": false,
+    "graph_truth_proven": false,
+    "permission_granted": false,
+    "safety_proven": false,
+    "world_fact_proven": false
+  },
+  "baseline_preservation": {
+    "existing_canonical_v1_preserved": true,
+    "existing_download_overwritten": false,
+    "origin_guid_exact_value_reextracted": false,
+    "preexisting_notion_attachment_byte_identity_reverified": false,
+    "signed_provenance_v3_registration_confirmed": true
+  },
+  "canonical_id": "NOEPIN-AL-062",
+  "canonical_page_id": "408a9510-8ac2-81e3-a0e2-db58d8b44ad7",
+  "canonical_readback": "PENDING_AT_SEAL_CREATION",
+  "creator_project_owner_original_concept_architecture_direction": "NOEPIN / のえぴん",
+  "date": "2026-11-04",
+  "dcsr": {
+    "application_level": "AUXILIARY INTEGRATION",
+    "delta_bytes": 25000,
+    "delta_ratio_percent": 2.7596682216477206,
+    "full_bytes": 905906,
+    "full_materialization_median_ms": 32.466870000007475,
+    "full_resend_required": false,
+    "metadata_bytes_required": 4395,
+    "missing_or_changed_edges": 10,
+    "missing_or_changed_nodes": 10,
+    "prepared_graph_median_ms": 20.955979999996543,
+    "semantic_match": true
+  },
+  "defects": {
+    "benchmark_harness": 0,
+    "execution_harness_invocation": 1,
+    "execution_harness_invocation_status": "CORRECTED — shell argument formatting only; no production/gate semantic change",
+    "production": 1,
+    "production_gate_helper": 0,
+    "production_status": "CORRECTED BEFORE SEAL — repeated full-graph fingerprint validation defeated DCSR reuse; corrected with explicit one-time prepared-state validation plus per-evaluation current graph/policy identity checks",
+    "replay_helper": 0,
+    "test_fixture": 0
+  },
+  "english_name": "AL Constraint Graph Reasoner",
+  "final_zip": {
+    "filename": "NOEPIN_AL_062_CONSTRAINT_GRAPH_REASONER_SUCCESSOR_V2_20261104.zip",
+    "sha256": "c20f9d0732243591e48ca9a62203253aa6e13d61c7af9f83b9e629bb7ef076c6",
+    "sha_embedded_inside_zip": false
+  },
+  "license_rights": "NOT SPECIFIED",
+  "master_readback": "PENDING_AT_SEAL_CREATION",
+  "schema": "NOEPIN_AL_FINAL_ARTIFACT_SEAL_V1",
+  "sources": {
+    "AL_PRODUCTION_GATE_RESULT.json": "a665b92ddadfd0dfedae59235cb4992b141a8afea95fc0d53c1fbd38ee81f1e5",
+    "ARTIFACT_MANIFEST.json": "c62cfd6f8253cc6ef05216dabf10f17950623981d321ed8185b7869061a1fe13",
+    "BENCHMARK_RESULT.json": "fce3297d379cc3d5877fa2c0ef0e38c23c48158494470bc3ff2b73486231e703",
+    "FRESH_VERIFICATION_RESULT.json": "1199d7d63f36a9472203c8dae2bf92b422907dd3ed5e2a2199f8e61646926e23",
+    "REPLAY_RESULT.json": "ba7ad5f3cde15681bcea480b4ec7b3fc9a1b076b54b8ed037a37db41546ec09e",
+    "al_production_gate_062.py": "82957fe5516783fb50b7c1738efa2c9c3f512c3fd32e5da2fbaf55a79b9ba113",
+    "benchmark_062.py": "78463cdc54b568f6abd8af7bea61dccdc7411e23b1562828a0157a607b236ee6",
+    "noepin_al_062_constraint_graph_reasoner.py": "1080fd7e0dc068b36fee1d3be09fcd66053565830dd7e2e33236b532769fd58b",
+    "replay_062.py": "c484fbc1c3e028dccf44eb5de4e66cb57cac73c85171b255794c8d953ca9db93",
+    "test_noepin_al_062.py": "a7c99289eaf925c01c4a00d613595c0677985cd50b6ca936b13f32f369950370"
+  },
+  "status": "COMPLETE / VERIFIED — TECHNOLOGY ARTIFACT",
+  "technology": 62,
+  "technology_name": "制約グラフ推論器",
+  "verification": {
+    "al_production_gate": "037–061 / 25 of 25 PASS",
+    "final_fresh_tests": "160 / 160 PASS",
+    "fresh_tests": "160 / 160 PASS",
+    "manifest_identity": true,
+    "normal_tests": "160 / 160 PASS",
+    "replay_final_fresh": {
+      "digest": "b4ff54cd3df605782471754e6bf6491b4eb68eff2c22dd6fbb50c8645379cbc7",
+      "divergence": 0,
+      "evaluations": 3000
+    },
+    "replay_fresh": {
+      "digest": "b4ff54cd3df605782471754e6bf6491b4eb68eff2c22dd6fbb50c8645379cbc7",
+      "divergence": 0,
+      "evaluations": 3000
+    },
+    "replay_normal": {
+      "digest": "b4ff54cd3df605782471754e6bf6491b4eb68eff2c22dd6fbb50c8645379cbc7",
+      "divergence": 0,
+      "evaluations": 3000
+    },
+    "report_byte_identity": true,
+    "source_identity": true,
+    "static_external_execution_paths": 0,
+    "unauthorized_write_paths": 0
+  },
+  "verification_report": {
+    "filename": "NOEPIN_AL_062_FINAL_VERIFICATION_REPORT_20261104.md",
+    "sha256": "bde76eb8c938a5f8426b8f2d01ab4eaf55056200c958f0664a7ce8cac5d563f0"
+  }
+}
