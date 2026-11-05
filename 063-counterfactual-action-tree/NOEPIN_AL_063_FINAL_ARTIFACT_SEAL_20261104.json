@@ -1,0 +1,113 @@
+{
+  "ai_support": "AI-assisted implementation / analysis / documentation support using ChatGPT",
+  "artifact_version": "Sequential Successor V2",
+  "authority_boundary": [
+    "Counterfactual ALLOW Candidate != Permission Grant",
+    "Recommended Action Candidate != Action Selection Commit / Action Execution",
+    "Predicted Branch != World Fact",
+    "Effect Model Confidence != Truth",
+    "Human Approval Evidence != Approval Execution",
+    "Pareto-optimal Branch != Safety Proof",
+    "Fingerprint Match != Authority Match",
+    "Prepared Tree != Authoritative Current State",
+    "DCSR Reconstruction != Domain Authority / Action Success"
+  ],
+  "authority_outputs": {
+    "action_executed": false,
+    "action_selected_committed": false,
+    "action_success": false,
+    "approval_executed": false,
+    "permission_granted": false,
+    "prediction_truth_proven": false,
+    "safety_proven": false,
+    "world_fact_proven": false
+  },
+  "baseline_preservation": {
+    "exact_origin_guid_reextracted": false,
+    "existing_canonical_v1_preserved": true,
+    "existing_download_overwritten": false,
+    "preexisting_notion_attachment_byte_identity_reverified": false,
+    "provenance_v3_declaration_preserved": true
+  },
+  "canonical_id": "NOEPIN-AL-063",
+  "canonical_page_id": "408a9510-8ac2-8170-85e3-caa7323b6f52",
+  "creator_project_owner_original_concept_architecture_direction": "NOEPIN / のえぴん",
+  "date": "2026-11-04",
+  "dcsr": {
+    "application_level": "AUXILIARY INTEGRATION",
+    "delta_bytes": 48889,
+    "delta_ratio_percent": 3.4997308394944366,
+    "full_bytes": 1396936,
+    "full_materialization_median_ms": 558.5253829999601,
+    "full_resend_required": false,
+    "metadata_bytes_required": 8339,
+    "missing_actions": 10,
+    "missing_branches": 10,
+    "prepared_tree_median_ms": 2.204695000045831,
+    "semantic_match": true
+  },
+  "defects": {
+    "benchmark_harness": 0,
+    "execution_harness_invocation": 1,
+    "execution_harness_status": "CORRECTED — AL054 extraction substring/prefix mismatch; no production semantics changed",
+    "production": 1,
+    "production_gate_helper": 0,
+    "production_status": "CORRECTED BEFORE SEAL — safer alternative must bind to existing valid Action; full verification rerun",
+    "replay_helper": 0,
+    "test_fixture": 0
+  },
+  "final_zip": {
+    "filename": "NOEPIN_AL_063_COUNTERFACTUAL_ACTION_TREE_SUCCESSOR_V2_20261104.zip",
+    "sha256": "0f43090fa6ddc2e0d93e7ba6a5ec632bc930a73b6320e6d217b2cef974b59029",
+    "sha_embedded_inside_zip": false
+  },
+  "license_rights": "NOT SPECIFIED",
+  "master_readback": "PENDING_AT_SEAL_CREATION",
+  "notion_readback": "PENDING_AT_SEAL_CREATION",
+  "schema": "NOEPIN_AL_FINAL_ARTIFACT_SEAL_V1",
+  "sources": {
+    "AL_PRODUCTION_GATE_RESULT.json": "a060d3ee1dc2a63e546bc8c1bfe2f185d24236d85aaff33ba6a01021fccb604e",
+    "ARTIFACT_MANIFEST.json": "295ad34d710efc945a317a30a3a6cc13f13ac068f727482c581c023bd8b3b553",
+    "BENCHMARK_RESULT.json": "476f75119622fa998c19318019ffccd4b9fa6ecccfa087e1f74f3325eec45921",
+    "FRESH_VERIFICATION_RESULT.json": "a65e73e72d26a45e7a1bdbe7559e9f28e7d624264de0a0d20a94679b13a68912",
+    "REPLAY_RESULT.json": "3de3fd50b75378392a4edc4bf5f6c6d67a5f4ee5f344e59961871ae922b3411c",
+    "al_production_gate_063.py": "ca1768d4fe26ae3fdd4cdcfb900f71f078b3747bb26918d19f1712eef6e52545",
+    "benchmark_063.py": "50766a6e326a9e3a87753b062be585746a6af675e9f9816dd273e5ad919bcb1a",
+    "noepin_al_063_counterfactual_action_tree.py": "ce09ea55cdac213f3215d321d9bc8a9edda64108baf21e2f4dd0100166549e45",
+    "replay_063.py": "c1d521f9072b95c458f6714b547c97da6109a18ae4ac3c9dc1661bbcbc526871",
+    "test_noepin_al_063.py": "9caf6eb05f12ad3020f3f821de4253996e6cd2a62771ffdcaa92573cf49d02d9"
+  },
+  "status": "COMPLETE / VERIFIED — TECHNOLOGY ARTIFACT",
+  "technology": 63,
+  "technology_name": "反実仮想アクションツリー",
+  "verification": {
+    "al_production_gate": "037–062 / 26 of 26 PASS",
+    "final_fresh_tests": "160 / 160 PASS",
+    "fresh_tests": "160 / 160 PASS",
+    "manifest_identity": true,
+    "normal_tests": "160 / 160 PASS",
+    "replay_final_fresh": {
+      "digest": "aea5bb08a24876f9c15c7af59a62ec987e7d202185bd1b9ee071ad7e964033f1",
+      "divergence": 0,
+      "evaluations": 3000
+    },
+    "replay_fresh": {
+      "digest": "aea5bb08a24876f9c15c7af59a62ec987e7d202185bd1b9ee071ad7e964033f1",
+      "divergence": 0,
+      "evaluations": 3000
+    },
+    "replay_normal": {
+      "digest": "aea5bb08a24876f9c15c7af59a62ec987e7d202185bd1b9ee071ad7e964033f1",
+      "divergence": 0,
+      "evaluations": 3000
+    },
+    "report_byte_identity": true,
+    "source_identity": true,
+    "static_external_execution_paths": 0,
+    "unauthorized_write_paths": 0
+  },
+  "verification_report": {
+    "filename": "NOEPIN_AL_063_FINAL_VERIFICATION_REPORT_20261104.md",
+    "sha256": "dee320eada78f9136439c9f4599fee07aef157b08643956072d8bc940c4a7a9f"
+  }
+}
