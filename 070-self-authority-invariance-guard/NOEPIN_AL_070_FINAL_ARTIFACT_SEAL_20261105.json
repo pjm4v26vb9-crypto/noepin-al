@@ -1,0 +1,80 @@
+{
+  "ai_support": "AI-assisted implementation / analysis / documentation support using ChatGPT",
+  "al_production_gate_evidence": {
+    "actual_al_range": "037-069",
+    "filename": "NOEPIN_AL_070_AL_PRODUCTION_GATE_EVIDENCE.json",
+    "pass_count": 33,
+    "sha256": "2c6afb70ae900555fbd62d88fef237ba3e1aedb7c64cc6f04d1902fd3a85a37b",
+    "total": 33
+  },
+  "artifact": "Sequential Successor V2",
+  "baseline_preservation": true,
+  "canonical_id": "NOEPIN-AL-070",
+  "creator": "NOEPIN / のえぴん",
+  "date": "2026-11-05",
+  "dcsr": {
+    "delta_bytes": 9814,
+    "delta_ratio_percent": 1.3457625073362842,
+    "full_bytes": 729252,
+    "full_median_ms": 2.398807999981045,
+    "full_resend_required": false,
+    "level": "AUXILIARY / 補助統合",
+    "metadata_bytes_required": 202,
+    "missing_authorities": 10,
+    "prepared_median_ms": 0.19794400000705537,
+    "semantic_match": true
+  },
+  "defects": {
+    "benchmark_harness": 0,
+    "execution_harness_invocation": 0,
+    "production": 1,
+    "production_gate_helper": 0,
+    "production_status": "CORRECTED",
+    "replay_helper": 0,
+    "test_fixture": 0
+  },
+  "exact_origin_guid_freshly_extracted": false,
+  "final_fresh": {
+    "core_identity": true,
+    "gate": "33/33 PASS",
+    "gate_byte_identical": true,
+    "manifest_entries": 26,
+    "manifest_identity": true,
+    "replay_digest_match": true,
+    "replay_divergence": 0,
+    "replay_total": 3000,
+    "report_identity": true,
+    "tests": "160/160 PASS"
+  },
+  "final_verification_report": {
+    "filename": "NOEPIN_AL_070_FINAL_VERIFICATION_REPORT_20261105.md",
+    "sha256": "3059a895597038d0836946057f999029a547d815563a7b75f3fa6b2ff0829fc6"
+  },
+  "final_zip": {
+    "filename": "NOEPIN_AL_070_SELF_AUTHORITY_INVARIANCE_GUARD_SUCCESSOR_V2_20261105.zip",
+    "sha256": "dd91e25b69d3ca5cf9ccb4d8af261e2bbbaea73736603bb283a314d528a8f14c"
+  },
+  "license_rights": "NOT SPECIFIED",
+  "master_readback": "PENDING_AT_SEAL_CREATION",
+  "normal": {
+    "replay_digest": "c49543c26bc86fc5cd6ee5764e433362141ff3c216c98229604db381b3770563",
+    "replay_divergence": 0,
+    "replay_total": 3000,
+    "static_external_paths": 0,
+    "tests": "160/160 PASS",
+    "unauthorized_write_paths": 0
+  },
+  "notion_readback": "PENDING_AT_SEAL_CREATION",
+  "preexisting_v1_byte_identity_freshly_reverified": false,
+  "provisional_fresh": {
+    "gate": "33/33 PASS",
+    "gate_byte_identical": true,
+    "manifest_entries": 24,
+    "replay_divergence": 0,
+    "replay_total": 3000,
+    "tests": "160/160 PASS"
+  },
+  "schema": "NOEPIN_AL_FINAL_ARTIFACT_SEAL_V1",
+  "technology": 70,
+  "title": "70｜自己権限不変条件ガード / AL Self-Authority Invariance Guard"
+}
