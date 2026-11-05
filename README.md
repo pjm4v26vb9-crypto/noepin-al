@@ -74,8 +74,19 @@ Official public repository for NOEPIN AL technologies created by **NOEPIN / の�
 | 058 | [Task-Scoped Short-Lived Credentials / タスク単位短命資格情報](works/058-task-scoped-short-lived-credentials.md) | COMPLETE / VERIFIED |
 | 059 | [External AI & Tool Trust Score / 外部AI・ツール信頼スコア](works/059-external-ai-tool-trust-score.md) | COMPLETE / VERIFIED |
 | 060 | [AI Stop & Completion Condition Checker / AI停止条件・完了条件チェッカー](works/060-ai-stop-completion-condition-checker.md) | COMPLETE / VERIFIED |
+| 061 | [Logical Execution Interlock / 論理実行インターロック](works/061-logical-execution-interlock.md) | COMPLETE / VERIFIED |
+| 062 | [Constraint Graph Reasoner / 制約グラフ推論器](works/062-constraint-graph-reasoner.md) | COMPLETE / VERIFIED |
+| 063 | [Counterfactual Action Tree / 反実仮想アクションツリー](works/063-counterfactual-action-tree.md) | COMPLETE / VERIFIED |
+| 064 | [Least-Privilege Solver / 最小権限ソルバー](works/064-least-privilege-solver.md) | COMPLETE / VERIFIED |
+| 065 | [Minimal-Change Optimizer / 最小変更オプティマイザー](works/065-minimal-change-optimizer.md) | COMPLETE / VERIFIED |
+| 066 | [Intent Consistency Checker / 意図整合性チェッカー](works/066-intent-consistency-checker.md) | COMPLETE / VERIFIED |
+| 067 | [Assumption Verification Graph / 前提条件検証グラフ](works/067-assumption-verification-graph.md) | COMPLETE / VERIFIED |
+| 068 | [Evidence Sufficiency Stopper / 証拠十分性ストッパー](works/068-evidence-sufficiency-stopper.md) | COMPLETE / VERIFIED |
+| 069 | [Dependency Order Verifier / 依存順序検証器](works/069-dependency-order-verifier.md) | COMPLETE / VERIFIED |
+| 070 | [Self-Authority Invariance Guard / 自己権限不変条件ガード](works/070-self-authority-invariance-guard.md) | COMPLETE / VERIFIED |
+| 071 | [Policy Immutability Kernel / ポリシー不変カーネル](works/071-policy-immutability-kernel.md) | COMPLETE / VERIFIED |
 
-**Formal completion / publication progress: 60 / 188**
+**Formal completion / publication progress: 71 / 188**
 
 [作品一覧ページを開く](works/)
 
