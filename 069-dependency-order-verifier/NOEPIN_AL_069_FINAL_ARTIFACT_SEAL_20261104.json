@@ -1,0 +1,76 @@
+{
+  "ai_support": "AI-assisted implementation / analysis / documentation support using ChatGPT",
+  "al_production_gate_evidence": {
+    "actual_al_range": "037-068",
+    "filename": "NOEPIN_AL_069_AL_PRODUCTION_GATE_EVIDENCE.json",
+    "pass_count": 32,
+    "sha256": "bf5e30a50ab430ba2c502c6b4b4cb2e15097ed03266da158b795a5d2fd1099da",
+    "total": 32
+  },
+  "artifact": "Sequential Successor V2",
+  "baseline_preservation": true,
+  "canonical_id": "NOEPIN-AL-069",
+  "creator": "NOEPIN / のえぴん",
+  "date": "2026-11-04",
+  "dcsr": {
+    "delta_bytes": 15497,
+    "delta_ratio_percent": 3.8141767167117897,
+    "full_bytes": 406300,
+    "full_median_ms": 923.0012359998909,
+    "full_resend_required": false,
+    "level": "AUXILIARY / 補助統合",
+    "metadata_bytes_required": 232,
+    "missing_actions": 10,
+    "prepared_median_ms": 2.307336000058058,
+    "semantic_match": true
+  },
+  "defects": {
+    "benchmark_harness_corrected": 1,
+    "execution_harness_invocation": 0,
+    "production": 0,
+    "production_gate_helper": 0,
+    "replay_helper": 0,
+    "test_fixture_corrected": 1
+  },
+  "exact_origin_guid_freshly_extracted": false,
+  "final_fresh": {
+    "al_production_gate": "32/32 PASS",
+    "compile": "PASS",
+    "core_identity": true,
+    "gate_byte_identical_to_normal": true,
+    "manifest": "PASS",
+    "manifest_entries": 24,
+    "manifest_identity": true,
+    "replay_digest": "8731ebde3e1ea925862b3b87244f57afb8f39dd0d1ff9203a2a0ec457cb06a23",
+    "replay_divergence": 0,
+    "replay_total": 3000,
+    "report_identity": true,
+    "schema": "NOEPIN_AL_FINAL_FRESH_VERIFICATION_V1",
+    "static_safety": "PASS",
+    "technology": 69,
+    "tests": "160/160 PASS"
+  },
+  "final_verification_report": {
+    "filename": "NOEPIN_AL_069_FINAL_VERIFICATION_REPORT_20261104.md",
+    "sha256": "b5dbed4b4296d738250d0ff42ff75ed617699c176003e10312054e743ead4db6"
+  },
+  "final_zip": {
+    "filename": "NOEPIN_AL_069_DEPENDENCY_ORDER_VERIFIER_SUCCESSOR_V2_20261104.zip",
+    "sha256": "2513adfa8fd2d9fe226e07c8bc3d94150eba1e3206c6dc26707556c542f56f10"
+  },
+  "license_rights": "NOT SPECIFIED",
+  "master_readback": "PENDING_AT_SEAL_CREATION",
+  "normal": {
+    "replay_digest": "8731ebde3e1ea925862b3b87244f57afb8f39dd0d1ff9203a2a0ec457cb06a23",
+    "replay_divergence": 0,
+    "replay_total": 3000,
+    "static_external_paths": 0,
+    "tests": "160/160 PASS",
+    "unauthorized_write_paths": 0
+  },
+  "notion_readback": "PENDING_AT_SEAL_CREATION",
+  "preexisting_v1_byte_identity_freshly_reverified": false,
+  "schema": "NOEPIN_AL_FINAL_ARTIFACT_SEAL_V1",
+  "technology": 69,
+  "title": "69｜依存順序検証器 / AL Dependency Order Verifier"
+}
