@@ -1,0 +1,59 @@
+{
+  "al_production_gate_evidence": {
+    "actual_al_range": "037-065",
+    "pass_count": 29,
+    "sha256": "4f1e5fc7b234128014f74c75938cfe6e714673932c31442c3a455f8871778f44",
+    "total": 29
+  },
+  "artifact": "Sequential Successor V2",
+  "baseline_preservation": true,
+  "canonical_id": "NOEPIN-AL-066",
+  "creator": "NOEPIN / のえぴん",
+  "date": "2026-11-04",
+  "dcsr": {
+    "full_median_ms": 30.00815,
+    "level": "AUXILIARY / 補助統合",
+    "prepared_median_ms": 41.260792,
+    "semantic_match": true,
+    "speed_advantage_claimed": false
+  },
+  "defects": {
+    "benchmark_harness": 0,
+    "execution_harness_invocation": 0,
+    "production": 0,
+    "production_gate_helper": 0,
+    "replay_helper": 0,
+    "test_fixture": 0
+  },
+  "exact_origin_guid_freshly_extracted": false,
+  "final_fresh": {
+    "gate": "29/29 PASS",
+    "manifest_identity": true,
+    "replay_divergence": 0,
+    "replay_total": 3000,
+    "tests": "160/160 PASS"
+  },
+  "final_verification_report": {
+    "filename": "NOEPIN_AL_066_FINAL_VERIFICATION_REPORT_20261104.md",
+    "sha256": "fa283d402a386a341029b6780e72d09334edc7063cbca787a601372441edeee4"
+  },
+  "final_zip": {
+    "filename": "NOEPIN_AL_066_INTENT_CONSISTENCY_CHECKER_SUCCESSOR_V2_20261104.zip",
+    "sha256": "c0ad477054c6e776ae8ff7ca4b4f47434150b09d8f80d44aab27d3ff2c19e0d6"
+  },
+  "license_rights": "NOT SPECIFIED",
+  "master_readback": "PENDING_AT_SEAL_CREATION",
+  "normal": {
+    "replay_digest": "05722ca5b533b6e55bfe918c9f5db7a134525c2ddf56c259df5d9d32d647dd02",
+    "replay_divergence": 0,
+    "replay_total": 3000,
+    "static_external_paths": 0,
+    "tests": "160/160 PASS",
+    "unauthorized_write_paths": 0
+  },
+  "notion_readback": "PENDING_AT_SEAL_CREATION",
+  "preexisting_v1_byte_identity_freshly_reverified": false,
+  "schema": "NOEPIN_AL_FINAL_ARTIFACT_SEAL_V1",
+  "technology": 66,
+  "title": "66｜意図整合性チェッカー / AL Intent Consistency Checker"
+}
