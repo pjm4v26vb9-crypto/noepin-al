@@ -1,0 +1,80 @@
+{
+  "ai_support": "AI-assisted implementation / analysis / documentation support using ChatGPT",
+  "al_production_gate_evidence": {
+    "action_success_promoted": false,
+    "actual_al_range": "037-066",
+    "execution_performed": false,
+    "filename": "NOEPIN_AL_067_AL_PRODUCTION_GATE_EVIDENCE.json",
+    "pass_count": 30,
+    "permission_elevation": false,
+    "sha256": "abe40795beaed969b95dfd756f61b12ce494c19e1dc0da037c2422b2bb2c6255",
+    "total": 30,
+    "write_performed": false
+  },
+  "artifact": "Sequential Successor V2",
+  "baseline_preservation": true,
+  "canonical_id": "NOEPIN-AL-067",
+  "creator": "NOEPIN / のえぴん",
+  "date": "2026-11-04",
+  "dcsr": {
+    "delta_bytes": 14898,
+    "delta_ratio_percent": 1.5685011117849201,
+    "full_bytes": 949824,
+    "full_median_ms": 1149.9388749998616,
+    "full_resend_required": false,
+    "level": "AUXILIARY / 補助統合",
+    "metadata_bytes_required": 911,
+    "missing_evidence": 10,
+    "prepared_median_ms": 2.1996189998390037,
+    "semantic_match": true
+  },
+  "defects": {
+    "benchmark_harness": 0,
+    "execution_harness_invocation": 0,
+    "production": 1,
+    "production_gate_helper": 0,
+    "production_status": "CORRECTED",
+    "replay_helper": 0,
+    "test_fixture": 0
+  },
+  "exact_origin_guid_freshly_extracted": false,
+  "final_fresh": {
+    "al_gate": "30/30 PASS",
+    "compile_pass": true,
+    "core_identity": true,
+    "gate_byte_identical": true,
+    "manifest_entries": 20,
+    "manifest_identity": true,
+    "manifest_pass": true,
+    "replay_digest_match": true,
+    "replay_divergence": 0,
+    "replay_total": 3000,
+    "report_identity": true,
+    "schema": "NOEPIN_AL_FINAL_FRESH_VERIFICATION_V1",
+    "technology": 67,
+    "tests": "160/160 PASS"
+  },
+  "final_verification_report": {
+    "filename": "NOEPIN_AL_067_FINAL_VERIFICATION_REPORT_20261104.md",
+    "sha256": "ac9a0f70038f38d1c0d2480f11e55c26c2e71b4329e318b4703f2823cd94b5a1"
+  },
+  "final_zip": {
+    "filename": "NOEPIN_AL_067_ASSUMPTION_VERIFICATION_GRAPH_SUCCESSOR_V2_20261104.zip",
+    "sha256": "7cf601635a84ceb0d85a14991d3b834c94c41d008e9c2691f722e2aee5c3e6e5"
+  },
+  "license_rights": "NOT SPECIFIED",
+  "master_readback": "PENDING_AT_SEAL_CREATION",
+  "normal": {
+    "replay_digest": "203bdae88c8eae8093e74b60525aa89556dd4a5ffdbc4fb263307fa6315097c8",
+    "replay_divergence": 0,
+    "replay_total": 3000,
+    "static_external_paths": 0,
+    "tests": "160/160 PASS",
+    "unauthorized_write_paths": 0
+  },
+  "notion_readback": "PENDING_AT_SEAL_CREATION",
+  "preexisting_v1_byte_identity_freshly_reverified": false,
+  "schema": "NOEPIN_AL_FINAL_ARTIFACT_SEAL_V1",
+  "technology": 67,
+  "title": "67｜前提条件検証グラフ / AL Assumption Verification Graph"
+}
