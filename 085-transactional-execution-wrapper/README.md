@@ -6,10 +6,10 @@
 
 複数StepのEvidenceと最終Verifyをまとめて確認し、すべて整った場合だけCommit Candidateを出し、途中失敗や不一致があればRollback Candidateへ切り替えるControlです。
 
-- All step evidence + final verify match => ALLOW candidate + Commit Candidate only.
-- Step failure / exception / timeout => no Commit Candidate; Rollback Candidate + HOLD.
-- Verify mismatch / exception / timeout / missing evidence => no Commit Candidate; Rollback Candidate + HOLD.
-- Verified rollback evidence can establish Rollback Evidence Verified, but never Rollback Execution by this module.
+- 全StepのEvidenceと最終Verifyが一致した場合だけ、ALLOW CandidateとCommit Candidateを返します。
+- Step failure・exception・timeoutがあればCommit Candidateは出さず、Rollback Candidate + HOLDにします。
+- Verifyの不一致・exception・timeout・Evidence不足でもCommit Candidateは出さず、Rollback Candidate + HOLDにします。
+- Rollback Evidenceを検証できても、このModule自身がRollbackを実行したことにはしません。
 
 ## Verification
 - Tests: **160/160 PASS**
