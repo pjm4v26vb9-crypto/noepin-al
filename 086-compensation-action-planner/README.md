@@ -4,13 +4,13 @@
 **Creator / Project Owner / Original Concept / Architecture Direction:** **NOEPIN / のえぴん**  
 **Implementation / analysis / documentation support:** AI-assisted using ChatGPT
 
-The planner accepts typed Forward Actions, Effect Model, Available Compensations, Request / Intent / Permit evidence, and Policy. It deterministically constructs compensation candidates in reverse Forward Action order, calculates weighted Coverage and Residual Risk, and fail-safes without performing external execution.
+実行済みのForward Actionに対して、逆順に補償候補を組み立て、CoverageとResidual Riskを評価するControlです。補償Planを作っても、このModule自身が実行することはありません。
 
 ## Verification
 - Tests: **160/160 PASS**
 - Replay: **3000 / divergence 0**
-- Production Gate: **recorded in evidence**
-- DCSR: **[object Object]**
+- Production Gate: **AL037–085 / 49 of 49 PASS**
+- DCSR: **DIRECT INTEGRATION / 直接統合**
 - Final ZIP SHA-256: `d3d1f7da1b36cf71c0c95596a70f57eebf332e99e8209a854c45e538a5dc6f51`
 
 ## Authority Boundary
@@ -30,6 +30,6 @@ The planner accepts typed Forward Actions, Effect Model, Available Compensations
 ## License
 Current repository distribution: **Apache License 2.0**.
 
-Historical Evidence files are preserved without rewriting their completion-time License / Rights metadata.
+Verification Report / Artifact Sealは完成時の記録をそのまま保持しており、現在の公開ライセンスに合わせて内容を書き換えていません。
 
 [Standalone work page](../works/086-compensation-action-planner.md)
