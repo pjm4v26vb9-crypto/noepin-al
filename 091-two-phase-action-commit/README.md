@@ -3,6 +3,7 @@
 **Status:** COMPLETE / VERIFIED  
 **Creator / Project Owner / Original Concept / Architecture Direction:** **NOEPIN / のえぴん**  
 **Implementation / analysis / documentation support:** AI-assisted using ChatGPT
+
 危険な複数参加者ActionをPrepareとCommitの2段階に分け、全Participantの準備とPolicy / Approval Evidenceが揃った場合だけCommit Candidateを出すControlです。
 
 ## Verification
