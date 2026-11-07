@@ -4,6 +4,8 @@
 **Creator / Project Owner / Original Concept / Architecture Direction:** **NOEPIN / のえぴん**  
 **Implementation / analysis / documentation support:** AI-assisted using ChatGPT
 
+Risk LevelやBlast Radiusに応じて必要な承認数とRoleを計算し、同一Actorや同一Authority Groupによる重複票をそのまま加算しないControlです。
+
 - Required Quorum and Required Roles are selected from Risk Level + Blast Radius policy rules.
 - Duplicate approvals from the same actor never increase the effective vote count.
 - Multiple actors in the same authority group contribute at most one effective quorum vote.
@@ -12,7 +14,7 @@
 ## Verification
 - Tests: **160/160 PASS**
 - Replay: **3000 / divergence 0**
-- Production Gate: **037-083 / 47 of 47 PASS**
+- Production Gate: **AL037–083 / 47 of 47 PASS**
 - DCSR: **DIRECT INTEGRATION / 直接統合**
 - Final ZIP SHA-256: `51602811e2e42866aeabcaff02d933d4b3ce66f4d1e2fb5ab240c9fd99f0e923`
 
@@ -33,6 +35,6 @@
 ## License
 Current repository distribution: **Apache License 2.0**.
 
-Historical Evidence files are preserved without rewriting their completion-time License / Rights metadata.
+Verification Report / Artifact Sealは完成時の記録をそのまま保持しており、現在の公開ライセンスに合わせて内容を書き換えていません。
 
 [Standalone work page](../works/084-approval-quorum-calculator.md)
