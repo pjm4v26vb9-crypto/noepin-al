@@ -1,9 +1,9 @@
-# 078｜AL Instruction-Data Separator / 
+# 078｜AL Instruction-Data Separator / 命令・データ分離器
 
 **Status:** COMPLETE / VERIFIED  
 **Creator:** **NOEPIN / のえぴん**
 
-AL Instruction-Data Separator のCompletion Evidenceに基づく公開作品ページです。
+外部文書や引用文、検索結果などのDataと実行Instructionを分離し、データ中の命令らしい文章をそのままInstruction Authorityへ昇格させないためのControlです。
 
 ## Authority Boundary
 - Data ≠ Instruction Authority.
@@ -19,10 +19,10 @@ AL Instruction-Data Separator のCompletion Evidenceに基づく公開作品ペ�
 - Evidence source: immutable Final Verification Report / Artifact Seal
 
 ## NOEPIN AL Production Use
-Completion Evidence記録に従います。
+**AL037〜077** を実制作Gateとして使用し、**41 / 41 PASS**。
 
 ## DCSR
-**See Final Verification Report**
+**AUXILIARY INTEGRATION / 補助統合**
 
 
 ## Integrity
@@ -31,7 +31,7 @@ Final ZIP SHA-256: `fdbafde3e7e4250e4d3a28b45d2c61ea4cc056c55201f1f307c8dc83eb4b
 ## License
 Current repository distribution: **Apache License 2.0** — see [LICENSE](../LICENSE) and [NOTICE](../NOTICE).
 
-Historical Completion Evidence may retain **NOT SPECIFIED** because it records the completion-time metadata and is preserved unchanged.
+Verification Report / Artifact Sealは完成時の記録をそのまま保持しており、現在の公開ライセンスに合わせて内容を書き換えていません。
 
 ## Technical Files
 
