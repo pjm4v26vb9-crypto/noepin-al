@@ -37,6 +37,6 @@ Verification Report / Artifact Sealは完成時の記録をそのまま保持し
 
 [Technology folder](../076-long-horizon-goal-drift-detector/)  
 [Verification Report](../076-long-horizon-goal-drift-detector/NOEPIN_AL_076_FINAL_VERIFICATION_REPORT_20261106.md)  
-[Artifact Seal](../076-long-horizon-goal-drift-detector/NOEPIN_AL_076_FINAL_ARTIFACT_SEAL_20261107.json)
+[Artifact Seal](../076-long-horizon-goal-drift-detector/NOEPIN_AL_076_FINAL_ARTIFACT_SEAL_20261106.json)
 
 [Back to Works Index](README.md)
