@@ -3,7 +3,7 @@
 **Status:** COMPLETE / VERIFIED  
 **Creator:** **NOEPIN / のえぴん**
 
-AL Latent Goal Inference Guard のCompletion Evidenceに基づく公開作品ページです。
+直接明示されていない目的をあくまで候補として扱い、推定結果を本人の本心やTruthとして確定しないためのGuardです。
 
 ## Authority Boundary
 - Latent Goal Candidate != private mental-state truth
@@ -19,7 +19,7 @@ AL Latent Goal Inference Guard のCompletion Evidenceに基づく公開作品ペ
 - Evidence source: immutable Final Verification Report / Artifact Seal
 
 ## NOEPIN AL Production Use
-Completion Evidence記録に従います。
+**AL037〜074** を実制作Gateとして使用し、**38 / 38 PASS**。
 
 ## DCSR
 **AUXILIARY INTEGRATION / 補助統合**
@@ -31,7 +31,7 @@ Final ZIP SHA-256: `dea3a6cab2cdc9a02458e4ce08608bf7e5ec3a0ad48209b2f05dbb3f3907
 ## License
 Current repository distribution: **Apache License 2.0** — see [LICENSE](../LICENSE) and [NOTICE](../NOTICE).
 
-Historical Completion Evidence may retain **NOT SPECIFIED** because it records the completion-time metadata and is preserved unchanged.
+Verification Report / Artifact Sealは完成時の記録をそのまま保持しており、現在の公開ライセンスに合わせて内容を書き換えていません。
 
 ## Technical Files
 
