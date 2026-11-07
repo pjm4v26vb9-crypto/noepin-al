@@ -16,7 +16,7 @@ Primary Planに対して意図的に反例や失敗条件を探し、見つか�
 ## Verification
 - Tests / Fresh / Final Fresh: **PASS / PASS / PASS**
 - Replay: **3000 / divergence 0**
-- Evidence source: immutable Final Verification Report / Artifact Seal
+- Verification Report / Artifact Sealを正式な検証記録として参照しています。
 
 ## NOEPIN AL Production Use
 **AL037〜079** を実制作Gateとして使用し、**43 / 43 PASS**。
