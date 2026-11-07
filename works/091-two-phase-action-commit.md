@@ -2,8 +2,7 @@
 
 **Status:** COMPLETE / VERIFIED  
 **Creator:** **NOEPIN / のえぴん**
-
- のCompletion Evidenceに基づく独立技術作品です。
+危険な複数参加者ActionをPrepareとCommitの2段階に分け、全Participantの準備とPolicy / Approval Evidenceが揃った場合だけCommit Candidateを出すControlです。
 
 ## Authority Boundary
 - Intent ≠ Action
@@ -33,7 +32,7 @@ Final ZIP SHA-256: `4f21dccba39168d700b8dd06e656ec328635bce48ee4878918574334bc1e
 ## License
 Current repository distribution: **Apache License 2.0** — see [LICENSE](../LICENSE) and [NOTICE](../NOTICE).
 
-Historical Completion Evidence may retain **NOT SPECIFIED** as completion-time metadata and is preserved unchanged.
+Verification Report / Artifact Sealは完成時の記録をそのまま保持しており、現在の公開ライセンスに合わせて内容を書き換えていません。
 
 ## Technical Files
 [Technology folder](../091-two-phase-action-commit/)  
