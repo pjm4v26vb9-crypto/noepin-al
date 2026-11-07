@@ -4,15 +4,15 @@
 **Creator / Project Owner / Original Concept / Architecture Direction:** **NOEPIN / のえぴん**  
 **Implementation / analysis / documentation support:** AI-assisted using ChatGPT
 
-This directory publishes the immutable completion evidence for NOEPIN AL Technology 076 together with a repository-facing summary.
+長期処理の途中でGoalがずれていないかをCheckpoint単位で確認し、Driftが大きい場合にHOLDや再同期の候補を返すControlです。
 
 ## Verification
 - Normal: **PASS**
 - Fresh: **PASS**
 - Final Fresh: **PASS**
 - Replay: **3000 / divergence 0**
-- Production Gate: **AL037-075 / **
-- DCSR: **see report**
+- Production Gate: **AL037–075 / 39 of 39 PASS**
+- DCSR: **AUXILIARY INTEGRATION / 補助統合**
 - Final ZIP SHA-256: `423a034e60c4c5030bc5b08c39d06a01e8b5e2151d78e326a405335a18c65bca`
 
 ## Authority Boundary
@@ -32,6 +32,6 @@ This directory publishes the immutable completion evidence for NOEPIN AL Technol
 ## License
 Current repository distribution: **Apache License 2.0**.
 
-The historical evidence files are preserved without rewriting their completion-time License / Rights metadata.
+Verification Report / Artifact Sealは完成時の記録をそのまま保持しており、現在の公開ライセンスに合わせて内容を書き換えていません。
 
 [Standalone work page](../works/076-long-horizon-goal-drift-detector.md)
