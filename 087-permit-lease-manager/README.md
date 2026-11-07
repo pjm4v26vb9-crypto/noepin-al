@@ -4,13 +4,13 @@
 **Creator / Project Owner / Original Concept / Architecture Direction:** **NOEPIN / のえぴん**  
 **Implementation / analysis / documentation support:** AI-assisted using ChatGPT
 
-The manager validates typed Permit lease evidence using issued time, TTL, usage limits, an active Nonce Store record, State/Scope fingerprints, signature-verification evidence and explicit clock-skew policy. A valid lease produces a **Consume Candidate only**; this module never consumes the permit, mutates the Nonce Store, grants permission, executes the action, commits or publishes state.
+Permitの発行時刻・TTL・使用回数・Nonce Store・State / Scope fingerprint・Signature Verification Evidenceを確認し、有効な場合でもConsume Candidateだけを返すControlです。
 
 ## Verification
 - Tests: **160/160 PASS**
 - Replay: **3000 / divergence 0**
-- Production Gate: **recorded in evidence**
-- DCSR: **[object Object]**
+- Production Gate: **AL037–086 / 50 of 50 PASS**
+- DCSR: **DIRECT INTEGRATION / 直接統合**
 - Final ZIP SHA-256: `f926e82cfe63ba16d8c4c5c158daf29a40b8bfe72b7a024ec1d147a7d4eb2447`
 
 ## Authority Boundary
@@ -30,6 +30,6 @@ The manager validates typed Permit lease evidence using issued time, TTL, usage 
 ## License
 Current repository distribution: **Apache License 2.0**.
 
-Historical Evidence files are preserved without rewriting their completion-time License / Rights metadata.
+Verification Report / Artifact Sealは完成時の記録をそのまま保持しており、現在の公開ライセンスに合わせて内容を書き換えていません。
 
 [Standalone work page](../works/087-permit-lease-manager.md)
