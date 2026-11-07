@@ -4,13 +4,13 @@
 **Creator / Project Owner / Original Concept / Architecture Direction:** **NOEPIN / のえぴん**  
 **Implementation / analysis / documentation support:** AI-assisted using ChatGPT
 
-The verifier computes a decision freshness window from Decision Time, dependency observation age, volatility, criticality, source/version/evidence identity and Risk. Freshness is control evidence only: a fresh cache is never promoted to Truth, Authority, Permission Grant, Action Execution, Commit, Safety Proof or Action Success.
+Decision Time、Observation age、Volatility、Criticality、Evidence identityなどから判断の有効期間を確認し、古くなった判断をそのまま使い回さないためのVerifierです。
 
 ## Verification
 - Tests: **160/160 PASS**
 - Replay: **3000 / divergence 0**
-- Production Gate: **AL037-087 / 51 of 51 PASS**
-- DCSR: **[object Object]**
+- Production Gate: **AL037–087 / 51 of 51 PASS**
+- DCSR: **LIMITED INTEGRATION / 限定適用**
 - Final ZIP SHA-256: `e1a254d5f5075c880e873756bd8b8005a710e861948081fb9f4171886e4a2c84`
 
 ## Authority Boundary
@@ -30,6 +30,6 @@ The verifier computes a decision freshness window from Decision Time, dependency
 ## License
 Current repository distribution: **Apache License 2.0**.
 
-Historical Evidence files are preserved without rewriting their completion-time License / Rights metadata.
+Verification Report / Artifact Sealは完成時の記録をそのまま保持しており、現在の公開ライセンスに合わせて内容を書き換えていません。
 
 [Standalone work page](../works/088-decision-freshness-window-verifier.md)
