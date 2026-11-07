@@ -16,7 +16,7 @@
 ## Verification
 - Tests / Fresh / Final Fresh: **160/160 PASS / 160/160 PASS / 160/160 PASS**
 - Replay: **3000 / divergence 0**
-- Evidence source: immutable Final Verification Report / Artifact Seal
+- Verification Report / Artifact Sealを正式な検証記録として参照しています。
 
 ## NOEPIN AL Production Use
 **AL037〜082** を実制作Gateとして使用し、**46 / 46 PASS**。
