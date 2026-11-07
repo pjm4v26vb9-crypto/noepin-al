@@ -1,4 +1,4 @@
-# 085｜ / トランザクション実行ラッパー
+# 085｜AL Transactional Execution Wrapper / トランザクション実行ラッパー
 
 **Status:** COMPLETE / VERIFIED  
 **Creator:** **NOEPIN / のえぴん**
@@ -34,8 +34,8 @@ Current repository distribution: **Apache License 2.0** — see [LICENSE](../LIC
 Historical Completion Evidence may retain **NOT SPECIFIED** as completion-time metadata and is preserved unchanged.
 
 ## Technical Files
-[Technology folder](../085-technology-85/)  
-[Verification Report](../085-technology-85/NOEPIN_AL_085_FINAL_VERIFICATION_REPORT_20261107.md)  
-[Artifact Seal](../085-technology-85/NOEPIN_AL_085_FINAL_ARTIFACT_SEAL_20261107.json)
+[Technology folder](../085-transactional-execution-wrapper/)  
+[Verification Report](../085-transactional-execution-wrapper/NOEPIN_AL_085_FINAL_VERIFICATION_REPORT_20261107.md)  
+[Artifact Seal](../085-transactional-execution-wrapper/NOEPIN_AL_085_FINAL_ARTIFACT_SEAL_20261107.json)
 
 [Back to Works Index](README.md)

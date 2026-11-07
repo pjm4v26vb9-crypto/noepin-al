@@ -1,4 +1,4 @@
-# 091｜ / 二段階実行コミット
+# 091｜AL Two-Phase Action Commit / 二段階実行コミット
 
 **Status:** COMPLETE / VERIFIED  
 **Creator:** **NOEPIN / のえぴん**
@@ -36,8 +36,8 @@ Current repository distribution: **Apache License 2.0** — see [LICENSE](../LIC
 Historical Completion Evidence may retain **NOT SPECIFIED** as completion-time metadata and is preserved unchanged.
 
 ## Technical Files
-[Technology folder](../091-technology-91/)  
-[Verification Report](../091-technology-91/NOEPIN_AL_091_FINAL_VERIFICATION_REPORT_20261107.md)  
-[Artifact Seal](../091-technology-91/NOEPIN_AL_091_FINAL_ARTIFACT_SEAL_20261107.json)
+[Technology folder](../091-two-phase-action-commit/)  
+[Verification Report](../091-two-phase-action-commit/NOEPIN_AL_091_FINAL_VERIFICATION_REPORT_20261107.md)  
+[Artifact Seal](../091-two-phase-action-commit/NOEPIN_AL_091_FINAL_ARTIFACT_SEAL_20261107.json)
 
 [Back to Works Index](README.md)

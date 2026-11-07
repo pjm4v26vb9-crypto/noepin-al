@@ -1,4 +1,4 @@
-# 085｜ / トランザクション実行ラッパー
+# 085｜AL Transactional Execution Wrapper / トランザクション実行ラッパー
 
 **Status:** COMPLETE / VERIFIED  
 **Creator / Project Owner / Original Concept / Architecture Direction:** **NOEPIN / のえぴん**  
@@ -28,4 +28,4 @@ Current repository distribution: **Apache License 2.0**.
 
 Historical Evidence files are preserved without rewriting their completion-time License / Rights metadata.
 
-[Standalone work page](../works/085-technology-85.md)
+[Standalone work page](../works/085-transactional-execution-wrapper.md)

@@ -1,4 +1,4 @@
-# 091｜ / 二段階実行コミット
+# 091｜AL Two-Phase Action Commit / 二段階実行コミット
 
 **Status:** COMPLETE / VERIFIED  
 **Creator / Project Owner / Original Concept / Architecture Direction:** **NOEPIN / のえぴん**  
@@ -32,4 +32,4 @@ Current repository distribution: **Apache License 2.0**.
 
 Historical Evidence files are preserved without rewriting their completion-time License / Rights metadata.
 
-[Standalone work page](../works/091-technology-91.md)
+[Standalone work page](../works/091-two-phase-action-commit.md)
