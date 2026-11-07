@@ -3,7 +3,7 @@
 **Status:** COMPLETE / VERIFIED  
 **Creator:** **NOEPIN / のえぴん**
 
-AL Postcondition Auditor のCompletion Evidenceに基づく公開作品ページです。
+AIの自己申告ではなく、独立に供給されたObserved StateとBefore / After DiffをExpected Postconditionsへ照合し、本当に必要条件を満たしたかを確認するControlです。
 
 ## Authority Boundary
 - Expected Postcondition ≠ World Truth
@@ -19,7 +19,7 @@ AL Postcondition Auditor のCompletion Evidenceに基づく公開作品ページ
 - Evidence source: immutable Final Verification Report / Artifact Seal
 
 ## NOEPIN AL Production Use
-**037〜080** を実制作Gateとして使用し、**44 / 44 PASS**。
+**AL037〜080** を実制作Gateとして使用し、**44 / 44 PASS**。
 
 ## DCSR
 **DIRECT INTEGRATION / 直接統合**
@@ -38,7 +38,7 @@ Final ZIP SHA-256: `9408e8f63c9fc97540ec3670a25f6025bd4e52656ced15962baf5e95a5d3
 ## License
 Current repository distribution: **Apache License 2.0** — see [LICENSE](../LICENSE) and [NOTICE](../NOTICE).
 
-Historical Completion Evidence may retain **NOT SPECIFIED** because it records the completion-time metadata and is preserved unchanged.
+Verification Report / Artifact Sealは完成時の記録をそのまま保持しており、現在の公開ライセンスに合わせて内容を書き換えていません。
 
 ## Technical Files
 
