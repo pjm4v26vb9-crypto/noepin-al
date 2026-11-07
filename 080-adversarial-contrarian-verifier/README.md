@@ -1,18 +1,18 @@
-# 080｜AL Adversarial Contrarian Verifier / 
+# 080｜AL Adversarial Contrarian Verifier / 反証専用検証器
 
 **Status:** COMPLETE / VERIFIED  
 **Creator / Project Owner / Original Concept / Architecture Direction:** **NOEPIN / のえぴん**  
 **Implementation / analysis / documentation support:** AI-assisted using ChatGPT
 
-This directory publishes the immutable completion evidence for NOEPIN AL Technology 080 together with a repository-facing summary.
+Primary Planに対して意図的に反例や失敗条件を探し、見つからなかったこと自体をSafety Proofにはせず、反証側から追加確認するためのVerifierです。
 
 ## Verification
 - Normal: **PASS**
 - Fresh: **PASS**
 - Final Fresh: **PASS**
 - Replay: **3000 / divergence 0**
-- Production Gate: **recorded in evidence / **
-- DCSR: **AUXILIARY INTEGRATION**
+- Production Gate: **AL037–079 / 43 of 43 PASS**
+- DCSR: **AUXILIARY INTEGRATION / 補助統合**
 - Final ZIP SHA-256: `b9e7eafc7deb92ca37c683373456d0cdd9492e7185f605df764435ab22f4fa7e`
 
 ## Authority Boundary
@@ -32,6 +32,6 @@ This directory publishes the immutable completion evidence for NOEPIN AL Technol
 ## License
 Current repository distribution: **Apache License 2.0**.
 
-The historical evidence files are preserved without rewriting their completion-time License / Rights metadata.
+Verification Report / Artifact Sealは完成時の記録をそのまま保持しており、現在の公開ライセンスに合わせて内容を書き換えていません。
 
 [Standalone work page](../works/080-adversarial-contrarian-verifier.md)
