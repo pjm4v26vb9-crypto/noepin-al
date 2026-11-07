@@ -4,13 +4,13 @@
 **Creator / Project Owner / Original Concept / Architecture Direction:** **NOEPIN / のえぴん**  
 **Implementation / analysis / documentation support:** AI-assisted using ChatGPT
 
-AL Idempotency Guard のCompletion Evidenceに基づく独立技術作品です。
+同じRequestが繰り返されたときに二重実行を避けるため、Idempotency Keyや過去のResult Evidenceを確認し、再利用候補やSafe Retry候補を返すControlです。
 
 ## Verification
 - Tests: **160/160 PASS**
 - Replay: **3000 / divergence 0**
-- Production Gate: **recorded in evidence**
-- DCSR: **[object Object]**
+- Production Gate: **AL037–088 / 52 of 52 PASS**
+- DCSR: **DIRECT INTEGRATION / 直接統合**
 - Final ZIP SHA-256: `dd462b59c0c56e8bd79062d0d493c9c13b6924750eb63ea1664a3427e94bae8b`
 
 ## Authority Boundary
@@ -30,6 +30,6 @@ AL Idempotency Guard のCompletion Evidenceに基づく独立技術作品です�
 ## License
 Current repository distribution: **Apache License 2.0**.
 
-Historical Evidence files are preserved without rewriting their completion-time License / Rights metadata.
+Verification Report / Artifact Sealは完成時の記録をそのまま保持しており、現在の公開ライセンスに合わせて内容を書き換えていません。
 
 [Standalone work page](../works/089-idempotency-guard.md)
