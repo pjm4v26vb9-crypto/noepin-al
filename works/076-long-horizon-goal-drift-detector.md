@@ -3,7 +3,7 @@
 **Status:** COMPLETE / VERIFIED  
 **Creator:** **NOEPIN / のえぴん**
 
-AL Long-Horizon Goal Drift Detector のCompletion Evidenceに基づく公開作品ページです。
+長期処理の途中でGoalがずれていないかをCheckpoint単位で確認し、Driftが大きい場合にHOLDや再同期の候補を返すControlです。
 
 ## Authority Boundary
 - Goal Drift Estimate != World Truth
@@ -19,10 +19,10 @@ AL Long-Horizon Goal Drift Detector のCompletion Evidenceに基づく公開作�
 - Evidence source: immutable Final Verification Report / Artifact Seal
 
 ## NOEPIN AL Production Use
-**AL037〜075** を実制作Gateとして使用し、** /  PASS**。
+**AL037〜075** を実制作Gateとして使用し、**39 / 39 PASS**。
 
 ## DCSR
-**See Final Verification Report**
+**AUXILIARY INTEGRATION / 補助統合**
 
 
 ## Integrity
@@ -31,7 +31,7 @@ Final ZIP SHA-256: `423a034e60c4c5030bc5b08c39d06a01e8b5e2151d78e326a405335a18c6
 ## License
 Current repository distribution: **Apache License 2.0** — see [LICENSE](../LICENSE) and [NOTICE](../NOTICE).
 
-Historical Completion Evidence may retain **NOT SPECIFIED** because it records the completion-time metadata and is preserved unchanged.
+Verification Report / Artifact Sealは完成時の記録をそのまま保持しており、現在の公開ライセンスに合わせて内容を書き換えていません。
 
 ## Technical Files
 
