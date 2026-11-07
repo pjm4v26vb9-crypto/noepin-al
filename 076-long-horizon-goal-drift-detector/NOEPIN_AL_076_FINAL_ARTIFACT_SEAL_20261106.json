@@ -1,0 +1,47 @@
+{
+  "ai_support": "AI-assisted implementation / analysis / documentation support using ChatGPT",
+  "al_production_gate_evidence": {
+    "filename": "NOEPIN_AL_076_AL_PRODUCTION_GATE_EVIDENCE.json",
+    "pass": "39/39",
+    "range": "AL037-075",
+    "sha256": "92bfe555e8d980113610fe983b30ef95452dd79e4f927fdd8697ac9e84b62287"
+  },
+  "artifact": "Sequential Successor V2",
+  "authority_boundary": [
+    "Goal Drift Estimate != World Truth",
+    "Checkpoint Evidence != Goal Mutation by this module",
+    "Baseline Update Candidate != Baseline Mutation Performed",
+    "Goal Alignment != Permission Grant",
+    "Prepared Drift State != Authoritative Current State",
+    "DCSR Reconstruction != Domain Authority / Safety Proof / Action Execution / Action Success"
+  ],
+  "canonical_id": "NOEPIN-AL-076",
+  "core_source": {
+    "filename": "noepin_al_076_long_horizon_goal_drift_detector.py",
+    "sha256": "3b9c52587149771ddbe7582a249271f29fc6e45869916c760b16d4732d63336f"
+  },
+  "creator_originator_project_owner_original_concept_architecture_direction": "NOEPIN / のえぴん",
+  "dcsr_level": "AUXILIARY INTEGRATION / 補助統合",
+  "final_fresh_verification": {
+    "filename": "NOEPIN_AL_076_FINAL_FRESH_VERIFICATION_RESULT.json",
+    "gate": "39/39",
+    "identity": "core/report/manifest/gate PASS",
+    "replay": "3000 divergence 0",
+    "sha256": "57814d1e5996ed7b016d0baa46835823ecbbcf1849e09cb95a8d522280506835",
+    "tests": "160/160"
+  },
+  "final_verification_report": {
+    "filename": "NOEPIN_AL_076_FINAL_VERIFICATION_REPORT_20261106.md",
+    "sha256": "e1815ebd6d01f25af2a6bea52512fccb7949da25384ab4117eac510f3d4f2b7a"
+  },
+  "final_zip": {
+    "filename": "NOEPIN_AL_076_LONG_HORIZON_GOAL_DRIFT_DETECTOR_SUCCESSOR_V2_20261106.zip",
+    "sha256": "423a034e60c4c5030bc5b08c39d06a01e8b5e2151d78e326a405335a18c65bca"
+  },
+  "final_zip_binary_attached_to_notion": false,
+  "license_rights": "NOT SPECIFIED",
+  "master_readback": "PENDING_AT_SEAL_CREATION",
+  "notion_readback": "PENDING_AT_SEAL_CREATION",
+  "schema": "NOEPIN_AL_FINAL_ARTIFACT_SEAL_V1",
+  "technology": 76
+}

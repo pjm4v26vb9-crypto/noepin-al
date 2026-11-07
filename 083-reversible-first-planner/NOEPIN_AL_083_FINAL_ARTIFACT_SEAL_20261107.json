@@ -1,0 +1,90 @@
+{
+  "ai_support": "AI-assisted implementation / analysis / documentation support using ChatGPT",
+  "al_production_gate_evidence": "NOEPIN_AL_083_AL_PRODUCTION_GATE_EVIDENCE.json",
+  "al_production_gate_evidence_sha256": "1f98b57624ba49d3d140d0caf03072820886a874046b957f2be7242c758b05ee",
+  "artifact": "Sequential Successor V2",
+  "authority_boundary": [
+    "Goal Candidate ≠ User Intent Truth",
+    "Reversibility Score ≠ Safety Proof",
+    "Cost / Risk Estimate ≠ World Truth",
+    "Human Approval Evidence ≠ Approval Execution",
+    "Chosen Action ≠ Action Execution",
+    "Ordered Plan ≠ Plan Commit",
+    "Rollback Option ≠ Rollback Execution",
+    "ALLOW Candidate ≠ Permission Grant",
+    "Prepared Frontier / Result ≠ Authoritative Current State",
+    "DCSR Reconstruction ≠ Domain Authority / Safety Proof / Action Execution / Action Success"
+  ],
+  "baseline_preservation": "PASS",
+  "canonical_id": "NOEPIN-AL-083",
+  "canonical_page_id": "408a9510-8ac2-819f-be17-c7b8349a0002",
+  "core_identity_verified": true,
+  "core_sha256": "a93084ca0fdef112060b9fa90c81717aea1242b63fc351606fa5346231cfe6fc",
+  "creator": "NOEPIN / のえぴん",
+  "dcsr": "AUXILIARY INTEGRATION / 補助統合",
+  "defects": {
+    "benchmark_harness": 0,
+    "execution_harness_invocation": 0,
+    "production": 1,
+    "production_gate_helper": 0,
+    "replay_helper": 0,
+    "test_fixture": 0
+  },
+  "english_name": "AL Reversible-First Planner",
+  "final_benchmark": {
+    "condition": "Python stdlib; 5000 Candidate Actions; 10 evaluations x 5 batches; prepared verified-result reuse",
+    "delta_bytes": 3187,
+    "delta_percent": 0.2412416488908334,
+    "full_bytes": 1321082,
+    "full_median_ms": 138.5349499998938,
+    "full_resend_required": false,
+    "missing_action_records": 10,
+    "missing_metadata_bytes": 275,
+    "prepared_median_ms": 0.007021000101303798,
+    "schema": "NOEPIN_AL_BENCHMARK_V1",
+    "semantic_match": true,
+    "technology": 83
+  },
+  "final_manifest": {
+    "checked": 72,
+    "mismatches": [],
+    "pass": true
+  },
+  "final_verification_report": "NOEPIN_AL_083_FINAL_VERIFICATION_REPORT_20261107.md",
+  "final_verification_report_sha256": "65a838a57b3da486c4bac6091970387c4036bff656b76637cd3d65f85e176f92",
+  "final_zip": "NOEPIN_AL_083_REVERSIBLE_FIRST_PLANNER_SUCCESSOR_V2_20261107.zip",
+  "final_zip_sha256": "93ee3f3c2325ae7d14d2bd84ea75fe012980086d6c59823fd8a83287f10699ad",
+  "license_rights": "NOT SPECIFIED",
+  "manifest_sha256": "05a9943cb71b8010f3eba5cc4f1c993ea9ef7963cfecd7e2b163aafe26cbc363",
+  "name_ja": "83｜可逆性優先プランナー",
+  "production_gate": {
+    "pass": true,
+    "pass_count": 46,
+    "range": "037-082",
+    "total": 46
+  },
+  "provenance_limitations": [
+    "exact registered Origin GUID was not freshly reverified",
+    "Pre-existing Notion V1 attachment byte identity was not freshly reverified"
+  ],
+  "replay": {
+    "digest": "cb401a88d5e359904fc6ea38083a75fb793a0688c72101da06adca72c02ee595",
+    "divergence": 0,
+    "iterations_per_run": 1000,
+    "runs": 3,
+    "total": 3000
+  },
+  "report_identity_verified": true,
+  "schema": "NOEPIN_AL_FINAL_ARTIFACT_SEAL_V1",
+  "static_safety": {
+    "external_execution_paths": 0,
+    "pass": true,
+    "unauthorized_write_paths": 0
+  },
+  "technology": 83,
+  "tests": {
+    "final_fresh": "160/160 PASS",
+    "fresh": "160/160 PASS",
+    "normal": "160/160 PASS"
+  }
+}

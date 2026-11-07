@@ -1,0 +1,55 @@
+{
+  "ai_support": "AI-assisted implementation / analysis / documentation support using ChatGPT",
+  "al_production_gate_evidence": {
+    "actual_al_range": "037-071",
+    "filename": "NOEPIN_AL_072_AL_PRODUCTION_GATE_EVIDENCE.json",
+    "pass_count": 35,
+    "sha256": "19d043ead0ad004e0514ef28b1a6572083df0a2e74ae0628b93306f6f274a666",
+    "total": 35
+  },
+  "artifact": "Sequential Successor V2",
+  "artifact_manifest_sha256": "c6dde671b1c300b1be7334e6ceead976ede640bd88b46b3462d9670f52b9e88a",
+  "canonical_id": "NOEPIN-AL-072",
+  "core": {
+    "filename": "noepin_al_072_approval_binding_digest.py",
+    "sha256": "0f1e72fc8f79b3fd46d0dabbe1fe5303da9f6289066973f5e1b23775d90b2b3c"
+  },
+  "creator": "NOEPIN / のえぴん",
+  "date": "2026-11-05",
+  "dcsr": "DIRECT INTEGRATION / 直接統合",
+  "defects": {
+    "benchmark_harness": "0",
+    "execution_harness_invocation": "0",
+    "production": "1 CORRECTED",
+    "production_gate_helper": "0",
+    "replay_helper": "0",
+    "test_fixture": "1 CORRECTED"
+  },
+  "english_name": "AL Approval-Binding Digest",
+  "final_verification_report": {
+    "filename": "NOEPIN_AL_072_FINAL_VERIFICATION_REPORT_20261105.md",
+    "sha256": "637b0c949da09801b5713aae83fa3d55d4d7930822ffa973c3f14a77bca495c1"
+  },
+  "final_zip": {
+    "attached_to_notion": false,
+    "filename": "NOEPIN_AL_072_APPROVAL_BINDING_DIGEST_SUCCESSOR_V2_20261105.zip",
+    "sha256": "21c8894594a509b9e3193be97219787ed82ed74d181ebffbad58140d8c078e79"
+  },
+  "license_rights": "NOT SPECIFIED",
+  "master_status_at_seal_creation": "PENDING_AT_SEAL_CREATION",
+  "notion_canonical_status_at_seal_creation": "PENDING_AT_SEAL_CREATION",
+  "provenance_limitation": "Exact registered Origin GUID and pre-existing Notion V1 attachment byte identity were not freshly reverified; no invented identity claim.",
+  "replay": {
+    "digest": "4e4d2ce6bc6f1b571227d3b467e44233c9ebbd238d976a3f5bec8f7d1f951f97",
+    "divergence": 0,
+    "total": 3000
+  },
+  "schema": "NOEPIN_AL_FINAL_ARTIFACT_SEAL_V1",
+  "technology": 72,
+  "technology_name": "承認束縛ダイジェスト",
+  "tests": {
+    "final_fresh": "160/160 PASS",
+    "fresh": "160/160 PASS",
+    "normal": "160/160 PASS"
+  }
+}

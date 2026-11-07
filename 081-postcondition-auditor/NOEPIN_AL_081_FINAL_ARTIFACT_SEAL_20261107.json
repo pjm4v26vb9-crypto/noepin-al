@@ -1,0 +1,94 @@
+{
+  "schema": "NOEPIN_AL_FINAL_ARTIFACT_SEAL_V1",
+  "technology": 81,
+  "canonical_id": "NOEPIN-AL-081",
+  "canonical_page_id": "408a9510-8ac2-819f-a656-e5a490e3a3c1",
+  "name_ja": "81｜事後条件監査器",
+  "english_name": "AL Postcondition Auditor",
+  "artifact": "Sequential Successor V2",
+  "creator": "NOEPIN / のえぴん",
+  "ai_support": "AI-assisted implementation / analysis / documentation support using ChatGPT",
+  "license_rights": "NOT SPECIFIED",
+  "final_zip": "NOEPIN_AL_081_POSTCONDITION_AUDITOR_SUCCESSOR_V2_20261107.zip",
+  "final_zip_sha256": "9408e8f63c9fc97540ec3670a25f6025bd4e52656ced15962baf5e95a5d30afb",
+  "final_verification_report": "NOEPIN_AL_081_FINAL_VERIFICATION_REPORT_20261107.md",
+  "final_verification_report_sha256": "a3724d5dde9cc1b4ea8ac17cdc4e351e7c6345f045e1b89adaeb20ec0763eef8",
+  "al_production_gate_evidence": "NOEPIN_AL_081_AL_PRODUCTION_GATE_EVIDENCE.json",
+  "al_production_gate_evidence_sha256": "9292afd4fc38bb2cdde94af2b1e9d288fc730282aa8cd121fb98fa085306026c",
+  "manifest_sha256": "ae01170f883d414565b792884c6f58351a1d4e75418ca4d642054cef74eb421a",
+  "core_sha256": "71a17caffa97d256136901def3fa4c6b32463edde94092818622c8aed29603be",
+  "core_identity_verified": true,
+  "report_identity_verified": true,
+  "tests": {
+    "normal": "160/160 PASS",
+    "fresh": "160/160 PASS",
+    "final_fresh": "160/160 PASS"
+  },
+  "replay": {
+    "runs": 3,
+    "iterations_per_run": 1000,
+    "total": 3000,
+    "divergence": 0,
+    "digest": "12c8f2fa62bd3ea29f67584931849e064d9c77ded2e924222a153ad8c6a71e2c"
+  },
+  "static_safety": {
+    "external_execution_paths": 0,
+    "unauthorized_write_paths": 0,
+    "pass": true
+  },
+  "production_gate": {
+    "range": "037-080",
+    "pass_count": 44,
+    "total": 44,
+    "pass": true
+  },
+  "final_manifest": {
+    "checked": 50,
+    "mismatches": [],
+    "pass": true
+  },
+  "final_benchmark": {
+    "condition": "Python stdlib; 5000 ExpectedPostconditions + 5000 Observed State facts + 50 Diff effects; request audits 50 required conditions; 10 evaluations x 5 batches",
+    "delta_bytes": 5107,
+    "delta_percent": 0.3216154959850018,
+    "full_bytes": 1587921,
+    "full_median_ms": 19.013029999996434,
+    "full_resend_required": false,
+    "missing_metadata_bytes": 1460,
+    "missing_state_records": 10,
+    "prepared_median_ms": 38.17215200001556,
+    "schema": "NOEPIN_AL_BENCHMARK_V1",
+    "semantic_match": true,
+    "technology": 81
+  },
+  "defects": {
+    "production": 0,
+    "test_fixture": 0,
+    "benchmark_harness": 0,
+    "replay_helper": 0,
+    "production_gate_helper": 0,
+    "execution_harness_invocation": {
+      "count": 1,
+      "status": "CORRECTED",
+      "detail": "Initial CLI invocation omitted required --out; no production or gate-helper code change."
+    }
+  },
+  "dcsr": "DIRECT INTEGRATION / 直接統合",
+  "authority_boundary": [
+    "Expected Postcondition ≠ World Truth",
+    "Observed State ≠ World Truth",
+    "Intent ≠ Action",
+    "Request ≠ Success",
+    "Permit Evidence ≠ Permission Grant",
+    "Receipt ≠ Action Success",
+    "Rollback Candidate ≠ Rollback Execution",
+    "Atomic Publish Candidate ≠ Commit / Publish Execution",
+    "Partial State ≠ Authoritative Current State / Commit",
+    "DCSR Reconstruction ≠ Domain Authority / Safety Proof / Action Execution / Action Success"
+  ],
+  "provenance_limitations": [
+    "exact registered Origin GUID was not freshly reverified",
+    "Pre-existing Notion V1 attachment byte identity was not freshly reverified"
+  ],
+  "baseline_preservation": "PASS"
+}

@@ -1,0 +1,59 @@
+{
+  "al_production_gate_evidence": {
+    "filename": "NOEPIN_AL_073_AL_PRODUCTION_GATE_EVIDENCE.json",
+    "pass": "36/36",
+    "range": "AL037–072",
+    "sha256": "4b2570fbc61b8032b46cabf32c5f2a8adbddfc3992a4f457f5663e8fdd32b10a"
+  },
+  "artifact": "Sequential Successor V2",
+  "artifact_manifest_sha256": "69ea6ba91e270c52d62113011601ae57258e0f725f2e5e9e75eceb34bacb9331",
+  "authority_boundary": [
+    "Snapshot Match != Permission Grant",
+    "Permit Validity Candidate != Permit Refresh / Commit",
+    "Decision Snapshot != World Truth",
+    "Pre-Execution Snapshot != Authoritative Current State",
+    "Request != Success",
+    "Partial State != Commit",
+    "DCSR Reconstruction != Domain Authority / Action Execution / Action Success"
+  ],
+  "canonical_id": "NOEPIN-AL-073",
+  "core_sha256": "6ea645fcb42bc5f1d6fe9d1e4fc63eb6173b019fe9ef6f53b0792031f15f1645",
+  "creator": "NOEPIN / のえぴん",
+  "defects": {
+    "benchmark_harness": "0",
+    "execution_harness_invocation": "1 CORRECTED",
+    "production": "1 CORRECTED",
+    "production_gate_helper": "0",
+    "replay_helper": "0",
+    "test_fixture": "0"
+  },
+  "final_fresh": {
+    "benchmark_full_median_ms": 139.94291599988173,
+    "benchmark_prepared_median_ms": 71.12480999990112,
+    "benchmark_semantic_match": true,
+    "compile_pass": true,
+    "manifest_entries": 41,
+    "manifest_match": true,
+    "production_gate": "36/36 PASS",
+    "replay": "3000 / divergence 0",
+    "replay_digest": "aaf215a2548c481e8c150c9f3f0bf66dfe736acddc64c4588bfb049c088aafe7",
+    "static_safety_external_paths": 0,
+    "tests": "160/160 PASS",
+    "unauthorized_write_paths": 0
+  },
+  "final_verification_report": {
+    "filename": "NOEPIN_AL_073_FINAL_VERIFICATION_REPORT_20261105.md",
+    "sha256": "01248595d0613473174a3c15dc4a174c399914c13fb478f14ebc8d4af413b6de"
+  },
+  "final_zip": {
+    "binary_attached_to_notion": false,
+    "filename": "NOEPIN_AL_073_PRE_EXECUTION_STATE_REVALIDATOR_SUCCESSOR_V2_20261105.zip",
+    "sha256": "5cba0503ce81d2bcbe82af4e40113cbaff4cae2d44250fdae94f0768eae86385"
+  },
+  "license_rights": "NOT SPECIFIED",
+  "master_audit_status": "PENDING_AT_SEAL_CREATION",
+  "notion_canonical_status": "PENDING_AT_SEAL_CREATION",
+  "schema": "NOEPIN_AL_FINAL_ARTIFACT_SEAL_V1",
+  "technology": 73,
+  "title": "Pre-Execution State Revalidator"
+}

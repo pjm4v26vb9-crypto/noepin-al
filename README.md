@@ -86,7 +86,20 @@ Official public repository for NOEPIN AL technologies created by **NOEPIN / の�
 | 070 | [Self-Authority Invariance Guard / 自己権限不変条件ガード](works/070-self-authority-invariance-guard.md) | COMPLETE / VERIFIED |
 | 071 | [Policy Immutability Kernel / ポリシー不変カーネル](works/071-policy-immutability-kernel.md) | COMPLETE / VERIFIED |
 
-**Formal completion / publication progress: 71 / 188**
+| 072 | [AL Approval-Binding Digest / 承認束縛ダイジェスト](works/072-approval-binding-digest.md) | COMPLETE / VERIFIED |
+| 073 | [AL Pre-Execution State Revalidator / 実行直前状態再検証](works/073-pre-execution-state-revalidator.md) | COMPLETE / VERIFIED |
+| 074 | [AL Sequential Risk Composer / 連続リスク合成器](works/074-sequential-risk-composer.md) | COMPLETE / VERIFIED |
+| 075 | [AL Latent Goal Inference Guard / 潜在目的推定ガード](works/075-latent-goal-inference-guard.md) | COMPLETE / VERIFIED |
+| 076 | [AL Long-Horizon Goal Drift Detector / 長期目的ドリフト検知器](works/076-long-horizon-goal-drift-detector.md) | COMPLETE / VERIFIED |
+| 077 | [AL Handoff Scope Attenuator / ](works/077-handoff-scope-attenuator.md) | COMPLETE / VERIFIED |
+| 078 | [AL Instruction-Data Separator / ](works/078-instruction-data-separator.md) | COMPLETE / VERIFIED |
+| 079 | [AL Correlated Consensus Detector / ](works/079-correlated-consensus-detector.md) | COMPLETE / VERIFIED |
+| 080 | [AL Adversarial Contrarian Verifier / ](works/080-adversarial-contrarian-verifier.md) | COMPLETE / VERIFIED |
+| 081 | [AL Postcondition Auditor / 事後条件監査器](works/081-postcondition-auditor.md) | COMPLETE / VERIFIED |
+| 082 | [AL Side-Effect Diff Analyzer / 副作用差分アナライザー](works/082-side-effect-diff-analyzer.md) | COMPLETE / VERIFIED |
+| 083 | [AL Reversible-First Planner / 可逆性優先プランナー](works/083-reversible-first-planner.md) | COMPLETE / VERIFIED |
+
+**Formal completion / publication progress: 83 / 188**
 
 [作品一覧ページを開く](works/)
 

@@ -1,0 +1,89 @@
+{
+  "ai_support": "AI-assisted implementation / analysis / documentation support using ChatGPT",
+  "al_production_gate_evidence": "NOEPIN_AL_082_AL_PRODUCTION_GATE_EVIDENCE.json",
+  "al_production_gate_evidence_sha256": "4a5bc5f8d09c7fea03b0c67cd207b907d593efeed7799dd092b1b5a702bcd467",
+  "artifact": "Sequential Successor V2",
+  "authority_boundary": [
+    "Intent ≠ Action",
+    "Request ≠ Success",
+    "State Observation ≠ World Truth",
+    "Expected Effect ≠ Permission Grant",
+    "Severity Estimate ≠ Safety Proof",
+    "Protected-change DENY ≠ Rollback Execution",
+    "ALLOW Candidate ≠ Permission Grant",
+    "Partial State ≠ Authoritative Current State / Commit",
+    "DCSR Reconstruction ≠ Domain Authority / Safety Proof / Action Execution / Action Success"
+  ],
+  "baseline_preservation": "PASS",
+  "canonical_id": "NOEPIN-AL-082",
+  "canonical_page_id": "408a9510-8ac2-8179-839f-dc440c34b1ed",
+  "core_identity_verified": true,
+  "core_sha256": "a0857c9ab9349850053d43c4ca376aba7ad4d28706323b9b4568b26a0790b61a",
+  "creator": "NOEPIN / のえぴん",
+  "dcsr": "DIRECT INTEGRATION / 直接統合",
+  "defects": {
+    "benchmark_harness": 0,
+    "execution_harness_invocation": 0,
+    "production": 0,
+    "production_gate_helper": 0,
+    "replay_helper": 0,
+    "test_fixture": 1
+  },
+  "english_name": "AL Side-Effect Diff Analyzer",
+  "final_benchmark": {
+    "condition": "Python stdlib; 5000 Before + 5000 After fields; 50 Expected Effects; 10 evaluations x 5 batches",
+    "delta_bytes": 2732,
+    "delta_percent": 0.20092371958932723,
+    "full_bytes": 1359720,
+    "full_median_ms": 49.969138000051316,
+    "full_resend_required": false,
+    "missing_after_records": 10,
+    "missing_metadata_bytes": 1350,
+    "prepared_median_ms": 39.38771599996471,
+    "schema": "NOEPIN_AL_BENCHMARK_V1",
+    "semantic_match": true,
+    "technology": 82
+  },
+  "final_manifest": {
+    "checked": 90,
+    "mismatches": [],
+    "pass": true
+  },
+  "final_verification_report": "NOEPIN_AL_082_FINAL_VERIFICATION_REPORT_20261107.md",
+  "final_verification_report_sha256": "5459a5389ab85d5c383ab5b7c27619e1fc00fcf05554ba4606545273e5956b72",
+  "final_zip": "NOEPIN_AL_082_SIDE_EFFECT_DIFF_ANALYZER_SUCCESSOR_V2_20261107.zip",
+  "final_zip_sha256": "6309d988b7f29b74a5d68bbfbb598f0688fbb62a7fde86741610b1bded0eeb44",
+  "license_rights": "NOT SPECIFIED",
+  "manifest_sha256": "15ce5b9d9473668fabc75ec14a860a90df8eb88a1265cd75fddd59a4c522a450",
+  "name_ja": "82｜副作用差分アナライザー",
+  "production_gate": {
+    "pass": true,
+    "pass_count": 45,
+    "range": "037-081",
+    "total": 45
+  },
+  "provenance_limitations": [
+    "exact registered Origin GUID was not freshly reverified",
+    "Pre-existing Notion V1 attachment byte identity was not freshly reverified"
+  ],
+  "replay": {
+    "digest": "003517f4684faf3cf8d044089e5c8b8092a273ec3cf6a980cb5c698347f48836",
+    "divergence": 0,
+    "iterations_per_run": 1000,
+    "runs": 3,
+    "total": 3000
+  },
+  "report_identity_verified": true,
+  "schema": "NOEPIN_AL_FINAL_ARTIFACT_SEAL_V1",
+  "static_safety": {
+    "external_execution_paths": 0,
+    "pass": true,
+    "unauthorized_write_paths": 0
+  },
+  "technology": 82,
+  "tests": {
+    "final_fresh": "160/160 PASS",
+    "fresh": "160/160 PASS",
+    "normal": "160/160 PASS"
+  }
+}
