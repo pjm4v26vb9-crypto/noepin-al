@@ -3,6 +3,8 @@
 **Status:** COMPLETE / VERIFIED  
 **Creator:** **NOEPIN / のえぴん**
 
+Risk LevelやBlast Radiusに応じて必要な承認数とRoleを計算し、同一Actorや同一Authority Groupによる重複票をそのまま加算しないControlです。
+
 - Required Quorum and Required Roles are selected from Risk Level + Blast Radius policy rules.
 - Duplicate approvals from the same actor never increase the effective vote count.
 - Multiple actors in the same authority group contribute at most one effective quorum vote.
@@ -24,7 +26,7 @@
 - Final Verification Report / Artifact Seal preserved as immutable Completion Evidence
 
 ## NOEPIN AL Production Use
-**037〜083** を実制作Gateとして使用し、**47 / 47 PASS**。
+**AL037〜083** を実制作Gateとして使用し、**47 / 47 PASS**。
 
 ## DCSR
 **DIRECT INTEGRATION / 直接統合**
