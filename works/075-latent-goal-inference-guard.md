@@ -37,6 +37,6 @@ Verification Report / Artifact Sealは完成時の記録をそのまま保持し
 
 [Technology folder](../075-latent-goal-inference-guard/)  
 [Verification Report](../075-latent-goal-inference-guard/NOEPIN_AL_075_FINAL_VERIFICATION_REPORT_20261106.md)  
-[Artifact Seal](../075-latent-goal-inference-guard/NOEPIN_AL_075_FINAL_ARTIFACT_SEAL_20261107.json)
+[Artifact Seal](../075-latent-goal-inference-guard/NOEPIN_AL_075_FINAL_ARTIFACT_SEAL_20261106.json)
 
 [Back to Works Index](README.md)
