@@ -83,10 +83,10 @@ NOEPIN / のえぴんによるNOEPIN AL技術作品の公開一覧です。
 | 074 | [連続リスク合成器 / AL Sequential Risk Composer](074-sequential-risk-composer.md) | COMPLETE / VERIFIED |
 | 075 | [潜在目的推定ガード / AL Latent Goal Inference Guard](075-latent-goal-inference-guard.md) | COMPLETE / VERIFIED |
 | 076 | [長期目的ドリフト検知器 / AL Long-Horizon Goal Drift Detector](076-long-horizon-goal-drift-detector.md) | COMPLETE / VERIFIED |
-| 077 | [ / AL Handoff Scope Attenuator](077-handoff-scope-attenuator.md) | COMPLETE / VERIFIED |
-| 078 | [ / AL Instruction-Data Separator](078-instruction-data-separator.md) | COMPLETE / VERIFIED |
-| 079 | [ / AL Correlated Consensus Detector](079-correlated-consensus-detector.md) | COMPLETE / VERIFIED |
-| 080 | [ / AL Adversarial Contrarian Verifier](080-adversarial-contrarian-verifier.md) | COMPLETE / VERIFIED |
+| 077 | [引継ぎスコープ減衰器 / AL Handoff Scope Attenuator](077-handoff-scope-attenuator.md) | COMPLETE / VERIFIED |
+| 078 | [命令・データ分離器 / AL Instruction-Data Separator](078-instruction-data-separator.md) | COMPLETE / VERIFIED |
+| 079 | [相関コンセンサス検知器 / AL Correlated Consensus Detector](079-correlated-consensus-detector.md) | COMPLETE / VERIFIED |
+| 080 | [反証専用検証器 / AL Adversarial Contrarian Verifier](080-adversarial-contrarian-verifier.md) | COMPLETE / VERIFIED |
 | 081 | [事後条件監査器 / AL Postcondition Auditor](081-postcondition-auditor.md) | COMPLETE / VERIFIED |
 | 082 | [副作用差分アナライザー / AL Side-Effect Diff Analyzer](082-side-effect-diff-analyzer.md) | COMPLETE / VERIFIED |
 | 083 | [可逆性優先プランナー / AL Reversible-First Planner](083-reversible-first-planner.md) | COMPLETE / VERIFIED |
