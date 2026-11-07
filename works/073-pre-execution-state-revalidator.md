@@ -38,6 +38,6 @@ Verification Report / Artifact Sealは完成時の記録をそのまま保持し
 
 [Technology folder](../073-pre-execution-state-revalidator/)  
 [Verification Report](../073-pre-execution-state-revalidator/NOEPIN_AL_073_FINAL_VERIFICATION_REPORT_20261105.md)  
-[Artifact Seal](../073-pre-execution-state-revalidator/NOEPIN_AL_073_FINAL_ARTIFACT_SEAL_20261107.json)
+[Artifact Seal](../073-pre-execution-state-revalidator/NOEPIN_AL_073_FINAL_ARTIFACT_SEAL_20261105.json)
 
 [Back to Works Index](README.md)
