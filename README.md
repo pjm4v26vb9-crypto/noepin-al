@@ -2,9 +2,11 @@
 
 **NOEPIN Technology / のえぴんテクノロジー**
 
-Official public repository for NOEPIN AL technologies created by **NOEPIN / のえぴん**.
+NOEPIN ALは、**NOEPIN / のえぴん**がゲーム「もふもふの森」を制作する中で生まれた課題や発想を、ゲーム固有部分から切り離し、独立した技術として整理・実装・検証しているプロジェクトです。
 
-> Status: public technology archive / verified releases in progress  
+現在、検証が完了した技術から順番にGitHubへ公開しています。
+
+> 公開進捗: **91 / 188**  
 > Creator / Project Owner / Original Concept / Architecture Direction: **NOEPIN / のえぴん**  
 > Implementation / analysis / documentation support: AI-assisted using ChatGPT
 
@@ -91,10 +93,10 @@ Official public repository for NOEPIN AL technologies created by **NOEPIN / の�
 | 074 | [AL Sequential Risk Composer / 連続リスク合成器](works/074-sequential-risk-composer.md) | COMPLETE / VERIFIED |
 | 075 | [AL Latent Goal Inference Guard / 潜在目的推定ガード](works/075-latent-goal-inference-guard.md) | COMPLETE / VERIFIED |
 | 076 | [AL Long-Horizon Goal Drift Detector / 長期目的ドリフト検知器](works/076-long-horizon-goal-drift-detector.md) | COMPLETE / VERIFIED |
-| 077 | [AL Handoff Scope Attenuator / ](works/077-handoff-scope-attenuator.md) | COMPLETE / VERIFIED |
-| 078 | [AL Instruction-Data Separator / ](works/078-instruction-data-separator.md) | COMPLETE / VERIFIED |
-| 079 | [AL Correlated Consensus Detector / ](works/079-correlated-consensus-detector.md) | COMPLETE / VERIFIED |
-| 080 | [AL Adversarial Contrarian Verifier / ](works/080-adversarial-contrarian-verifier.md) | COMPLETE / VERIFIED |
+| 077 | [AL Handoff Scope Attenuator / 引継ぎスコープ減衰器](works/077-handoff-scope-attenuator.md) | COMPLETE / VERIFIED |
+| 078 | [AL Instruction-Data Separator / 命令・データ分離器](works/078-instruction-data-separator.md) | COMPLETE / VERIFIED |
+| 079 | [AL Correlated Consensus Detector / 相関コンセンサス検知器](works/079-correlated-consensus-detector.md) | COMPLETE / VERIFIED |
+| 080 | [AL Adversarial Contrarian Verifier / 反証専用検証器](works/080-adversarial-contrarian-verifier.md) | COMPLETE / VERIFIED |
 | 081 | [AL Postcondition Auditor / 事後条件監査器](works/081-postcondition-auditor.md) | COMPLETE / VERIFIED |
 | 082 | [AL Side-Effect Diff Analyzer / 副作用差分アナライザー](works/082-side-effect-diff-analyzer.md) | COMPLETE / VERIFIED |
 | 083 | [AL Reversible-First Planner / 可逆性優先プランナー](works/083-reversible-first-planner.md) | COMPLETE / VERIFIED |
@@ -118,11 +120,15 @@ NOEPIN AL is a collection of general-purpose control, safety, state, reconstruct
 
 This repository publishes the technologies themselves. **MOFUMORI / もふもふの森, RUFA, game-specific runtime, scenarios, character data, world data, and unreleased game assets are not included.**
 
-## Publication rule
+## 公開方針 / Publication policy
 
-A technology is listed as **COMPLETE / VERIFIED** only after implementation, boundary/authority testing, fresh-extract validation, replay/reproducibility checks where applicable, verification evidence, and artifact hashing are complete.
+検証済みのSuccessor V2 / V3などの成果物は、正式な完成記録として管理しています。
 
-Each numbered technology is published as an independent work page plus its technical evidence directory.
+GitHubには、その検証済み成果物のうち、**内容を変更せずにそのまま移せるものから順次公開**しています。READMEなどの文書をもとに似たコードを再生成し、それを「検証済みの完成版」として置き換えることはしていません。
+
+各番号の **COMPLETE / VERIFIED** は正式な完成記録に基づく状態です。GitHub上では、説明用READMEと、正確に移送できたVerification Report / Artifact Sealなどの証跡を公開しています。検証済みソースやZIPを正確に移送できていない場合は、文書から作り直して補完しません。
+
+各技術は、独立した作品ページと技術証跡フォルダに分けて公開しています。
 
 ## Authorship
 
