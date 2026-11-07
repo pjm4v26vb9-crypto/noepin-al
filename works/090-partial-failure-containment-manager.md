@@ -3,7 +3,7 @@
 **Status:** COMPLETE / VERIFIED  
 **Creator:** **NOEPIN / のえぴん**
 
-AL Partial-Failure Containment Manager のCompletion Evidenceに基づく独立技術作品です。
+複数Stepの一部だけが失敗した場合に、影響範囲を分けてContainment / Continue / Full Stop / Recoveryの候補を評価するControlです。候補を出しても、このModule自身が停止や補償を実行することはありません。
 
 ## Authority Boundary
 - PASS / ALLOW Candidate ≠ Permission Grant / Action Execution / Action Success
@@ -14,10 +14,10 @@ AL Partial-Failure Containment Manager のCompletion Evidenceに基づく独立�
 - Final Verification Report / Artifact Seal preserved as immutable Completion Evidence
 
 ## NOEPIN AL Production Use
-Completion Evidence記録に従います。
+**AL037〜089** を実制作Gateとして使用し、**53 / 53 PASS**。
 
 ## DCSR
-**See Final Verification Report**
+**DIRECT INTEGRATION / 直接統合**
 
 - Level: **DIRECT INTEGRATION / 直接統合**
 - Canonical state: Request / Execution Graph / Step States / Compensation Evidence / Policy
@@ -44,7 +44,7 @@ Final ZIP SHA-256: `5ff5292f5b8e04db06d742a29097a7607ba23520f4f63d60b77ebd6824c2
 ## License
 Current repository distribution: **Apache License 2.0** — see [LICENSE](../LICENSE) and [NOTICE](../NOTICE).
 
-Historical Completion Evidence may retain **NOT SPECIFIED** as completion-time metadata and is preserved unchanged.
+Verification Report / Artifact Sealは完成時の記録をそのまま保持しており、現在の公開ライセンスに合わせて内容を書き換えていません。
 
 ## Technical Files
 [Technology folder](../090-partial-failure-containment-manager/)  
