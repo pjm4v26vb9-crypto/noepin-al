@@ -1,0 +1,91 @@
+{
+  "ai_support": "AI-assisted implementation / analysis / documentation support using ChatGPT",
+  "artifact": "Sequential Successor V2",
+  "authority_boundary": [
+    "Intent ≠ Action",
+    "Request ≠ Success",
+    "Prepared Evidence ≠ Commit Execution",
+    "All Prepared ≠ Permission Grant",
+    "Approval Evidence ≠ Approval Execution",
+    "Commit Candidate ≠ Commit Execution / Atomic Publish",
+    "Abort Candidate ≠ Abort Execution",
+    "Commit Outcome Evidence ≠ World Truth / Action Success",
+    "Compensation Candidate ≠ Compensation Execution",
+    "Coordinator Recovery Fingerprint Match ≠ World Truth",
+    "ALLOW Candidate ≠ Permission Grant / Action Execution / Action Success",
+    "Partial State ≠ Commit / Authoritative Current State",
+    "Prepared State ≠ Authoritative Current State",
+    "DCSR Reconstruction ≠ Domain Authority / Safety Proof / Action Execution / Action Success"
+  ],
+  "benchmark_final_fresh": {
+    "condition": "Python stdlib; 5000 Actions + 5000 Participants + 5000 Prepare records; 10 evaluations x 5 batches; prepared verified-result reuse",
+    "delta_bytes": 2701,
+    "delta_percent": 0.10209064712090013,
+    "full_bytes": 2645688,
+    "full_median_ms": 59.070576000067376,
+    "full_resend_required": false,
+    "missing_metadata_bytes": 171,
+    "missing_records": 10,
+    "prepared_median_ms": 0.007871999969211174,
+    "schema": "NOEPIN_AL_BENCHMARK_V1",
+    "semantic_match": true,
+    "technology": 91
+  },
+  "canonical_id": "NOEPIN-AL-091",
+  "core_filename": "noepin_al_091_two_phase_action_commit.py",
+  "core_identity_pass": true,
+  "core_sha256": "2c3b180d8362cd5882cc1b0de31a0009c4422e07cbe6ac404eb207c5f1c97eeb",
+  "creator_originator_project_owner_original_concept_architecture_direction": "NOEPIN / のえぴん",
+  "dcsr": "DIRECT INTEGRATION / 直接統合",
+  "defects": {
+    "benchmark_harness": "0",
+    "execution_harness_invocation": "0",
+    "production": "1 CORRECTED",
+    "production_gate_helper": "0",
+    "replay_helper": "0",
+    "test_fixture": "2 CORRECTED"
+  },
+  "final_manifest": {
+    "expected": 94,
+    "matched": 94,
+    "pass": true
+  },
+  "final_verification_report_filename": "NOEPIN_AL_091_FINAL_VERIFICATION_REPORT_20261107.md",
+  "final_verification_report_sha256": "978d8c1750e027bf82d9c8f87548688282b1a571a85b06e6dc683e5d82522cc2",
+  "final_zip_filename": "NOEPIN_AL_091_TWO_PHASE_ACTION_COMMIT_SUCCESSOR_V2_20261107.zip",
+  "final_zip_sha256": "4f21dccba39168d700b8dd06e656ec328635bce48ee4878918574334bc1e077b",
+  "identity_verification_sha256": "a604fa74a253cf9cd5a9ea325294d65b1ad8924ca9a60f0b3c730957cd43a7e5",
+  "license_rights": "NOT SPECIFIED",
+  "name_en": "AL Two-Phase Action Commit",
+  "name_ja": "91｜二段階実行コミット",
+  "production_gate": {
+    "actual_al_range": "AL037-090",
+    "evidence_sha256": "4e860f7a358ced0759894e8ae436e2ed9ce2872b058afab142379e7a7195b941",
+    "pass": true,
+    "pass_count": 54,
+    "total": 54
+  },
+  "provenance_limitations": [
+    "exact registered Origin GUID was not freshly reverified.",
+    "Pre-existing Notion V1 attachment byte identity was not freshly reverified."
+  ],
+  "replay": {
+    "digest": "f3b4bf16de88e44418ad36090c37254dc077868a08bc2c6ca7b88bb22942b7dc",
+    "divergence": 0,
+    "total": 3000
+  },
+  "report_identity_pass": true,
+  "schema": "NOEPIN_AL_FINAL_ARTIFACT_SEAL_V1",
+  "static_safety": {
+    "external_execution_paths": 0,
+    "pass": true,
+    "unauthorized_write_paths": 0
+  },
+  "technology": 91,
+  "tests": {
+    "final_fresh": "160/160 PASS",
+    "fresh": "160/160 PASS",
+    "normal": "160/160 PASS"
+  },
+  "zip_self_reference_rule": "Final ZIP SHA-256 is external and is not embedded inside the Final ZIP."
+}

@@ -99,7 +99,16 @@ Official public repository for NOEPIN AL technologies created by **NOEPIN / の�
 | 082 | [AL Side-Effect Diff Analyzer / 副作用差分アナライザー](works/082-side-effect-diff-analyzer.md) | COMPLETE / VERIFIED |
 | 083 | [AL Reversible-First Planner / 可逆性優先プランナー](works/083-reversible-first-planner.md) | COMPLETE / VERIFIED |
 
-**Formal completion / publication progress: 83 / 188**
+| 084 | [AL Approval Quorum Calculator / 承認クォーラム計算器](works/084-approval-quorum-calculator.md) | COMPLETE / VERIFIED |
+| 085 | [ / トランザクション実行ラッパー](works/085-technology-85.md) | COMPLETE / VERIFIED |
+| 086 | [AL Compensation Action Planner / 補償アクションプランナー](works/086-compensation-action-planner.md) | COMPLETE / VERIFIED |
+| 087 | [AL Permit Lease Manager / Permitリース管理器](works/087-permit-lease-manager.md) | COMPLETE / VERIFIED |
+| 088 | [AL Decision Freshness Window Verifier / 判断鮮度ウィンドウ検証器](works/088-decision-freshness-window-verifier.md) | COMPLETE / VERIFIED |
+| 089 | [AL Idempotency Guard / 冪等性ガード](works/089-idempotency-guard.md) | COMPLETE / VERIFIED |
+| 090 | [AL Partial-Failure Containment Manager / 部分失敗封じ込め器](works/090-partial-failure-containment-manager.md) | COMPLETE / VERIFIED |
+| 091 | [ / 二段階実行コミット](works/091-technology-91.md) | COMPLETE / VERIFIED |
+
+**Formal completion / publication progress: 91 / 188**
 
 [作品一覧ページを開く](works/)
 

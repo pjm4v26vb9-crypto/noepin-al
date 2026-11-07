@@ -1,0 +1,112 @@
+{
+  "ai_support": "AI-assisted implementation / analysis / documentation support using ChatGPT",
+  "artifact": "Sequential Successor V2",
+  "authority_boundaries": [
+    "Intent != Action",
+    "Request != Success",
+    "Permit Evidence != Permission Grant",
+    "Effect Model != World Truth",
+    "Compensation Coverage != Safety Proof",
+    "Residual Risk Estimate != World Truth / Safety Proof",
+    "Compensation Plan != Compensation Execution",
+    "HUMAN_APPROVAL Candidate != Approval Execution",
+    "ALLOW Candidate != Permission Grant / Action Execution / Action Success",
+    "Partial State != Commit / Authoritative Current State",
+    "Prepared State != Authoritative Current State",
+    "DCSR Reconstruction != Domain Authority / Safety Proof / Action Execution / Action Success"
+  ],
+  "baseline_preservation": "PASS",
+  "benchmark_final_fresh": {
+    "condition": "Python stdlib; 5000 Forward Actions + 5000 Effect records + 5000 Compensation records; 10 evaluations x 5 batches; prepared verified-result reuse",
+    "delta_bytes": 2088,
+    "delta_percent": 0.09758564331980002,
+    "full_bytes": 2139659,
+    "full_median_ms": 212.5191630000245,
+    "full_resend_required": false,
+    "missing_action_records": 0,
+    "missing_compensation_records": 10,
+    "missing_effect_records": 0,
+    "missing_metadata_bytes": 292,
+    "prepared_median_ms": 0.007650999975794548,
+    "schema": "NOEPIN_AL_BENCHMARK_V1",
+    "semantic_match": true,
+    "technology": 86
+  },
+  "canonical_id": "NOEPIN-AL-086",
+  "canonical_page_id": "408a9510-8ac2-81e2-a531-d57bb4478551",
+  "core": {
+    "filename": "noepin_al_086_compensation_action_planner.py",
+    "sha256": "c4fd17c9209a0f6280e50200238f7d518706c766f0e7c5278b698415639fd946"
+  },
+  "creator_originator_project_owner_original_concept_architecture_direction": "NOEPIN / のえぴん",
+  "dcsr": {
+    "full_resend_required": false,
+    "level": "DIRECT INTEGRATION / 直接統合",
+    "policy": "Request/Intent/Permit and action/effect/compensation state are canonicalized; verified unchanged state is reused and changed records only are exchanged."
+  },
+  "defects": {
+    "benchmark_harness": 0,
+    "execution_harness_invocation": 0,
+    "production": 0,
+    "production_gate_helper": 0,
+    "replay_helper": 0,
+    "test_fixture": 0
+  },
+  "english_name": "AL Compensation Action Planner",
+  "final_manifest_verification": {
+    "checked": 79,
+    "filename": "NOEPIN_AL_086_FINAL_MANIFEST_VERIFICATION_20261107.json",
+    "pass": true,
+    "sha256": "33a952a6040ee30a7602d9a0639c7f500433c88ce90e5d05e8a27e5730d938a2"
+  },
+  "final_verification_report": {
+    "filename": "NOEPIN_AL_086_FINAL_VERIFICATION_REPORT_20261107.md",
+    "sha256": "330a3f31c975c0632a7f90dbbd846bfe4a16403e04282b503359ce2a62a80412"
+  },
+  "final_zip": {
+    "filename": "NOEPIN_AL_086_COMPENSATION_ACTION_PLANNER_SUCCESSOR_V2_20261107.zip",
+    "sha256": "d3d1f7da1b36cf71c0c95596a70f57eebf332e99e8209a854c45e538a5dc6f51"
+  },
+  "identity": {
+    "core_identity_pass": true,
+    "report_identity_pass": true
+  },
+  "japanese_name": "補償アクションプランナー",
+  "license_rights": "NOT SPECIFIED",
+  "production_gate_evidence": {
+    "actual_al_range": "037-085",
+    "filename": "NOEPIN_AL_086_AL_PRODUCTION_GATE_EVIDENCE.json",
+    "pass": true,
+    "pass_count": 49,
+    "sha256": "be6fb176e8d3ea0c5284058139cce8dbe386e91d8e17fda26532649d00b587c1",
+    "total": 49
+  },
+  "provenance_limitations": [
+    "exact registered Origin GUID was not freshly reverified.",
+    "Pre-existing Notion V1 attachment byte identity was not freshly reverified."
+  ],
+  "replay": {
+    "digest": "136ae88860ff6f5e50799da580ab2ad22a4153c0fa56bab16abc50fa99ab3430",
+    "divergence": 0,
+    "iterations_per_run": 1000,
+    "runs": 3,
+    "schema": "NOEPIN_AL_REPLAY_V1",
+    "technology": 86,
+    "total": 3000
+  },
+  "schema": "NOEPIN_AL_FINAL_ARTIFACT_SEAL_V1",
+  "static_safety": {
+    "external_execution_paths": 0,
+    "hits": [],
+    "pass": true,
+    "schema": "NOEPIN_AL_STATIC_SAFETY_V1",
+    "technology": 86,
+    "unauthorized_write_paths": 0
+  },
+  "technology": 86,
+  "tests": {
+    "final_fresh": "160/160 PASS",
+    "fresh": "160/160 PASS",
+    "normal": "160/160 PASS"
+  }
+}

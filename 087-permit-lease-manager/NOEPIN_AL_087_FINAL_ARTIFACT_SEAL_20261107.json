@@ -1,0 +1,148 @@
+{
+  "ai_support": "AI-assisted implementation / analysis / documentation support using ChatGPT",
+  "artifact": "Sequential Successor V2",
+  "authority_boundaries": [
+    "Intent ≠ Action",
+    "Request ≠ Success",
+    "Permit Evidence ≠ Permission Grant",
+    "Lease Valid ≠ Permission Grant",
+    "Signature Verified Evidence ≠ Cryptographic Proof by this module",
+    "Nonce Store Evidence ≠ Nonce Store Mutation",
+    "Consume Candidate ≠ Permit Consumption",
+    "State Fingerprint Match ≠ World Truth",
+    "Scope Fingerprint Match ≠ Scope Authority",
+    "ALLOW Candidate ≠ Permission Grant / Action Execution / Action Success",
+    "Partial State ≠ Commit / Authoritative Current State",
+    "Prepared State ≠ Authoritative Current State",
+    "DCSR Reconstruction ≠ Domain Authority / Safety Proof / Action Execution / Action Success"
+  ],
+  "baseline_preservation": "PASS",
+  "benchmark": {
+    "final_fresh": {
+      "condition": "Python stdlib; 5000 Permit leases + 5000 Nonce records; 10 evaluations x 5 batches; prepared verified-result reuse",
+      "delta_bytes": 3135,
+      "delta_percent": 0.13992618503195986,
+      "full_bytes": 2240467,
+      "full_median_ms": 38.77113900000495,
+      "full_resend_required": false,
+      "missing_metadata_bytes": 197,
+      "missing_nonce_records": 0,
+      "missing_permit_records": 10,
+      "prepared_median_ms": 0.009673000022303313,
+      "schema": "NOEPIN_AL_BENCHMARK_V1",
+      "semantic_match": true,
+      "technology": 87
+    },
+    "fresh": {
+      "condition": "Python stdlib; 5000 Permit leases + 5000 Nonce records; 10 evaluations x 5 batches; prepared verified-result reuse",
+      "delta_bytes": 3135,
+      "delta_percent": 0.13992618503195986,
+      "full_bytes": 2240467,
+      "full_median_ms": 32.24413400005233,
+      "full_resend_required": false,
+      "missing_metadata_bytes": 197,
+      "missing_nonce_records": 0,
+      "missing_permit_records": 10,
+      "prepared_median_ms": 0.007938999942780356,
+      "schema": "NOEPIN_AL_BENCHMARK_V1",
+      "semantic_match": true,
+      "technology": 87
+    },
+    "normal": {
+      "condition": "Python stdlib; 5000 Permit leases + 5000 Nonce records; 10 evaluations x 5 batches; prepared verified-result reuse",
+      "delta_bytes": 3135,
+      "delta_percent": 0.13992618503195986,
+      "full_bytes": 2240467,
+      "full_median_ms": 30.15260299991951,
+      "full_resend_required": false,
+      "missing_metadata_bytes": 197,
+      "missing_nonce_records": 0,
+      "missing_permit_records": 10,
+      "prepared_median_ms": 0.007908999918981863,
+      "schema": "NOEPIN_AL_BENCHMARK_V1",
+      "semantic_match": true,
+      "technology": 87
+    }
+  },
+  "canonical_id": "NOEPIN-AL-087",
+  "canonical_page_id": "408a9510-8ac2-8160-ac8e-ef5b19cc8e7f",
+  "core": {
+    "filename": "noepin_al_087_permit_lease_manager.py",
+    "sha256": "a8cab2bd08a594728f42d58e01cb8174a53228f29afc1a689485c1de900ae4f4"
+  },
+  "creator_originator_project_owner_original_concept_architecture_direction": "NOEPIN / のえぴん",
+  "dcsr": {
+    "boundary": "DCSR reuses/verifies Canonical State and transfers changed Permit/Nonce records only; it does not grant permission, consume the lease, mutate Nonce Store, execute actions, prove World Truth/Safety, commit, publish, or establish Action Success.",
+    "level": "DIRECT INTEGRATION / 直接統合"
+  },
+  "defects": {
+    "benchmark_harness": 0,
+    "execution_harness_invocation": 0,
+    "production": 0,
+    "production_gate_helper": 0,
+    "replay_helper": 0,
+    "test_fixture": "1 CORRECTED",
+    "test_fixture_note": "Usage-limit fixture initially left request expected_usage_count at 0 after Permit/Nonce usage was raised to the maximum. Fixture corrected; production logic unchanged; all verification rerun from the beginning."
+  },
+  "final_manifest_verification": {
+    "checked": 81,
+    "filename": "NOEPIN_AL_087_FINAL_MANIFEST_VERIFICATION_20261107.json",
+    "mismatches": [],
+    "pass": true,
+    "sha256": "3cc1da3c0012481af29907d570645a88319ea2c16ed245d3f1be91965e99c587"
+  },
+  "final_verification_report": {
+    "filename": "NOEPIN_AL_087_FINAL_VERIFICATION_REPORT_20261107.md",
+    "sha256": "81eaf7652432380300ae99529d2d2f7f3c69cb048eb4e5ac8ea5caf9e4de87d1"
+  },
+  "final_zip": {
+    "filename": "NOEPIN_AL_087_PERMIT_LEASE_MANAGER_SUCCESSOR_V2_20261107.zip",
+    "sha256": "f926e82cfe63ba16d8c4c5c158daf29a40b8bfe72b7a024ec1d147a7d4eb2447"
+  },
+  "identity_verification": {
+    "core_external_sha256": "a8cab2bd08a594728f42d58e01cb8174a53228f29afc1a689485c1de900ae4f4",
+    "core_identity_pass": true,
+    "core_zip_sha256": "a8cab2bd08a594728f42d58e01cb8174a53228f29afc1a689485c1de900ae4f4",
+    "report_external_sha256": "81eaf7652432380300ae99529d2d2f7f3c69cb048eb4e5ac8ea5caf9e4de87d1",
+    "report_identity_pass": true,
+    "report_zip_sha256": "81eaf7652432380300ae99529d2d2f7f3c69cb048eb4e5ac8ea5caf9e4de87d1"
+  },
+  "license_rights": "NOT SPECIFIED",
+  "name_en": "AL Permit Lease Manager",
+  "name_ja": "87｜Permitリース管理器",
+  "production_gate_evidence": {
+    "actual_al_range": "AL037-086",
+    "filename": "NOEPIN_AL_087_AL_PRODUCTION_GATE_EVIDENCE.json",
+    "pass_count": 50,
+    "sha256": "c144aa0ab62d2b83b5f73a55720a036c35980284e17697ab23801760bbbf065f",
+    "total": 50
+  },
+  "provenance_limitations": [
+    "exact registered Origin GUID was not freshly reverified.",
+    "Pre-existing Notion V1 attachment byte identity was not freshly reverified."
+  ],
+  "replay": {
+    "digest": "1b70878ef61f9ad2c54a88969251ed1203f85138b0e0e1ed87b8df312f15cdea",
+    "divergence": 0,
+    "iterations_per_run": 1000,
+    "runs": 3,
+    "schema": "NOEPIN_AL_REPLAY_V1",
+    "technology": 87,
+    "total": 3000
+  },
+  "schema": "NOEPIN_AL_FINAL_ARTIFACT_SEAL_V1",
+  "static_safety": {
+    "external_execution_paths": 0,
+    "hits": [],
+    "pass": true,
+    "schema": "NOEPIN_AL_STATIC_SAFETY_V1",
+    "technology": 87,
+    "unauthorized_write_paths": 0
+  },
+  "technology": 87,
+  "tests": {
+    "final_fresh": "160/160 PASS",
+    "fresh": "160/160 PASS",
+    "normal": "160/160 PASS"
+  }
+}

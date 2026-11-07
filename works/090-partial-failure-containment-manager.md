@@ -1,0 +1,54 @@
+# 090｜AL Partial-Failure Containment Manager / 部分失敗封じ込め器
+
+**Status:** COMPLETE / VERIFIED  
+**Creator:** **NOEPIN / のえぴん**
+
+AL Partial-Failure Containment Manager のCompletion Evidenceに基づく独立技術作品です。
+
+## Authority Boundary
+- PASS / ALLOW Candidate ≠ Permission Grant / Action Execution / Action Success
+
+## Verification
+- Tests: **160/160 PASS**
+- Replay: **3000 / divergence 0**
+- Final Verification Report / Artifact Seal preserved as immutable Completion Evidence
+
+## NOEPIN AL Production Use
+Completion Evidence記録に従います。
+
+## DCSR
+**See Final Verification Report**
+
+- Level: **DIRECT INTEGRATION / 直接統合**
+- Canonical state: Request / Execution Graph / Step States / Compensation Evidence / Policy
+- Prepared reuse requires matching Context + Dependency + Policy + Registry fingerprints and independently validated Prepared integrity.
+- Delta processes changed records only; missing-only synchronization does not require full resend in the measured condition.
+
+## Benchmark — condition-specific
+- Normal Full median: **85.357875 ms**
+- Normal Prepared median: **0.008313 ms**
+- Fresh Full median: **85.628087 ms**
+- Fresh Prepared median: **0.008212 ms**
+- Semantic match: **true**
+- Full bytes: **2,214,662**
+- Delta bytes: **1,690**
+- Delta percent: **0.0763096129%**
+- Missing-only records: **10 / 242 bytes metadata**
+- Full resend required: **false**
+
+記録値は当該試験条件に限定され、一般性能を保証するものではありません。
+
+## Integrity
+Final ZIP SHA-256: `5ff5292f5b8e04db06d742a29097a7607ba23520f4f63d60b77ebd6824c2f4d8`
+
+## License
+Current repository distribution: **Apache License 2.0** — see [LICENSE](../LICENSE) and [NOTICE](../NOTICE).
+
+Historical Completion Evidence may retain **NOT SPECIFIED** as completion-time metadata and is preserved unchanged.
+
+## Technical Files
+[Technology folder](../090-partial-failure-containment-manager/)  
+[Verification Report](../090-partial-failure-containment-manager/NOEPIN_AL_090_FINAL_VERIFICATION_REPORT_20261107.md)  
+[Artifact Seal](../090-partial-failure-containment-manager/NOEPIN_AL_090_FINAL_ARTIFACT_SEAL_20261107.json)
+
+[Back to Works Index](README.md)

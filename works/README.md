@@ -91,7 +91,16 @@ NOEPIN / のえぴんによるNOEPIN AL技術作品の公開一覧です。
 | 082 | [副作用差分アナライザー / AL Side-Effect Diff Analyzer](082-side-effect-diff-analyzer.md) | COMPLETE / VERIFIED |
 | 083 | [可逆性優先プランナー / AL Reversible-First Planner](083-reversible-first-planner.md) | COMPLETE / VERIFIED |
 
-**Published works: 83 / 188**
+| 084 | [承認クォーラム計算器 / AL Approval Quorum Calculator](084-approval-quorum-calculator.md) | COMPLETE / VERIFIED |
+| 085 | [トランザクション実行ラッパー / ](085-technology-85.md) | COMPLETE / VERIFIED |
+| 086 | [補償アクションプランナー / AL Compensation Action Planner](086-compensation-action-planner.md) | COMPLETE / VERIFIED |
+| 087 | [Permitリース管理器 / AL Permit Lease Manager](087-permit-lease-manager.md) | COMPLETE / VERIFIED |
+| 088 | [判断鮮度ウィンドウ検証器 / AL Decision Freshness Window Verifier](088-decision-freshness-window-verifier.md) | COMPLETE / VERIFIED |
+| 089 | [冪等性ガード / AL Idempotency Guard](089-idempotency-guard.md) | COMPLETE / VERIFIED |
+| 090 | [部分失敗封じ込め器 / AL Partial-Failure Containment Manager](090-partial-failure-containment-manager.md) | COMPLETE / VERIFIED |
+| 091 | [二段階実行コミット / ](091-technology-91.md) | COMPLETE / VERIFIED |
+
+**Published works: 91 / 188**
 
 Creator / Project Owner / Original Concept / Architecture Direction: **NOEPIN / のえぴん**
 
