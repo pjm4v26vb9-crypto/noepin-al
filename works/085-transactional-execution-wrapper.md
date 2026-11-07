@@ -3,6 +3,8 @@
 **Status:** COMPLETE / VERIFIED  
 **Creator:** **NOEPIN / のえぴん**
 
+複数StepのEvidenceと最終Verifyをまとめて確認し、すべて整った場合だけCommit Candidateを出し、途中失敗や不一致があればRollback Candidateへ切り替えるControlです。
+
 - All step evidence + final verify match => ALLOW candidate + Commit Candidate only.
 - Step failure / exception / timeout => no Commit Candidate; Rollback Candidate + HOLD.
 - Verify mismatch / exception / timeout / missing evidence => no Commit Candidate; Rollback Candidate + HOLD.
