@@ -3,7 +3,7 @@
 **Status:** COMPLETE / VERIFIED  
 **Creator:** **NOEPIN / のえぴん**
 
-AL Side-Effect Diff Analyzer のCompletion Evidenceに基づく公開作品ページです。
+実行前に想定したEffectと、実行後に観測されたBefore / After Diffを比較し、予期しない副作用やProtected Changeが出ていないかを確認するControlです。
 
 ## Authority Boundary
 - Intent ≠ Action
@@ -19,7 +19,7 @@ AL Side-Effect Diff Analyzer のCompletion Evidenceに基づく公開作品ペ�
 - Evidence source: immutable Final Verification Report / Artifact Seal
 
 ## NOEPIN AL Production Use
-**037〜081** を実制作Gateとして使用し、**45 / 45 PASS**。
+**AL037〜081** を実制作Gateとして使用し、**45 / 45 PASS**。
 
 ## DCSR
 **DIRECT INTEGRATION / 直接統合**
@@ -38,7 +38,7 @@ Final ZIP SHA-256: `6309d988b7f29b74a5d68bbfbb598f0688fbb62a7fde86741610b1bded0e
 ## License
 Current repository distribution: **Apache License 2.0** — see [LICENSE](../LICENSE) and [NOTICE](../NOTICE).
 
-Historical Completion Evidence may retain **NOT SPECIFIED** because it records the completion-time metadata and is preserved unchanged.
+Verification Report / Artifact Sealは完成時の記録をそのまま保持しており、現在の公開ライセンスに合わせて内容を書き換えていません。
 
 ## Technical Files
 
