@@ -37,6 +37,6 @@ Verification Report / Artifact Sealは完成時の記録をそのまま保持し
 
 [Technology folder](../080-adversarial-contrarian-verifier/)  
 [Verification Report](../080-adversarial-contrarian-verifier/NOEPIN_AL_080_FINAL_VERIFICATION_REPORT_20261106.md)  
-[Artifact Seal](../080-adversarial-contrarian-verifier/NOEPIN_AL_080_FINAL_ARTIFACT_SEAL_20261107.json)
+[Artifact Seal](../080-adversarial-contrarian-verifier/NOEPIN_AL_080_FINAL_ARTIFACT_SEAL_20261106.json)
 
 [Back to Works Index](README.md)
