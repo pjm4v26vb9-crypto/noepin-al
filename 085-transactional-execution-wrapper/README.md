@@ -4,6 +4,8 @@
 **Creator / Project Owner / Original Concept / Architecture Direction:** **NOEPIN / のえぴん**  
 **Implementation / analysis / documentation support:** AI-assisted using ChatGPT
 
+複数StepのEvidenceと最終Verifyをまとめて確認し、すべて整った場合だけCommit Candidateを出し、途中失敗や不一致があればRollback Candidateへ切り替えるControlです。
+
 - All step evidence + final verify match => ALLOW candidate + Commit Candidate only.
 - Step failure / exception / timeout => no Commit Candidate; Rollback Candidate + HOLD.
 - Verify mismatch / exception / timeout / missing evidence => no Commit Candidate; Rollback Candidate + HOLD.
@@ -12,7 +14,7 @@
 ## Verification
 - Tests: **160/160 PASS**
 - Replay: **3000 / divergence 0**
-- Production Gate: **AL037-084 / 48 of 48 PASS**
+- Production Gate: **AL037–084 / 48 of 48 PASS**
 - DCSR: **DIRECT INTEGRATION / 直接統合**
 - Final ZIP SHA-256: `4ef581679a9ea4eaafc489fad8c672c14602a95da7ae5b7da87b565c57c47a20`
 
@@ -26,6 +28,6 @@
 ## License
 Current repository distribution: **Apache License 2.0**.
 
-Historical Evidence files are preserved without rewriting their completion-time License / Rights metadata.
+Verification Report / Artifact Sealは完成時の記録をそのまま保持しており、現在の公開ライセンスに合わせて内容を書き換えていません。
 
 [Standalone work page](../works/085-transactional-execution-wrapper.md)
