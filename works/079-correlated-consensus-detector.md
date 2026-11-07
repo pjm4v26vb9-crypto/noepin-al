@@ -37,6 +37,6 @@ Verification Report / Artifact Sealは完成時の記録をそのまま保持し
 
 [Technology folder](../079-correlated-consensus-detector/)  
 [Verification Report](../079-correlated-consensus-detector/NOEPIN_AL_079_FINAL_VERIFICATION_REPORT_20261106.md)  
-[Artifact Seal](../079-correlated-consensus-detector/NOEPIN_AL_079_FINAL_ARTIFACT_SEAL_20261107.json)
+[Artifact Seal](../079-correlated-consensus-detector/NOEPIN_AL_079_FINAL_ARTIFACT_SEAL_20261106.json)
 
 [Back to Works Index](README.md)
