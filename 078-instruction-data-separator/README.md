@@ -1,18 +1,18 @@
-# 078｜AL Instruction-Data Separator / 
+# 078｜AL Instruction-Data Separator / 命令・データ分離器
 
 **Status:** COMPLETE / VERIFIED  
 **Creator / Project Owner / Original Concept / Architecture Direction:** **NOEPIN / のえぴん**  
 **Implementation / analysis / documentation support:** AI-assisted using ChatGPT
 
-This directory publishes the immutable completion evidence for NOEPIN AL Technology 078 together with a repository-facing summary.
+外部文書や引用文、検索結果などのDataと実行Instructionを分離し、データ中の命令らしい文章をそのままInstruction Authorityへ昇格させないためのControlです。
 
 ## Verification
 - Normal: **PASS**
 - Fresh: **PASS**
 - Final Fresh: **PASS**
 - Replay: **3000 / divergence 0**
-- Production Gate: **recorded in evidence / **
-- DCSR: **see report**
+- Production Gate: **AL037–077 / 41 of 41 PASS**
+- DCSR: **AUXILIARY INTEGRATION / 補助統合**
 - Final ZIP SHA-256: `fdbafde3e7e4250e4d3a28b45d2c61ea4cc056c55201f1f307c8dc83eb4bbafd`
 
 ## Authority Boundary
@@ -32,6 +32,6 @@ This directory publishes the immutable completion evidence for NOEPIN AL Technol
 ## License
 Current repository distribution: **Apache License 2.0**.
 
-The historical evidence files are preserved without rewriting their completion-time License / Rights metadata.
+Verification Report / Artifact Sealは完成時の記録をそのまま保持しており、現在の公開ライセンスに合わせて内容を書き換えていません。
 
 [Standalone work page](../works/078-instruction-data-separator.md)
