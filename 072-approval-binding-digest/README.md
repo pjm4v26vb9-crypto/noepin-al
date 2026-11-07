@@ -4,14 +4,14 @@
 **Creator / Project Owner / Original Concept / Architecture Direction:** **NOEPIN / のえぴん**  
 **Implementation / analysis / documentation support:** AI-assisted using ChatGPT
 
-This directory publishes the immutable completion evidence for NOEPIN AL Technology 072 together with a repository-facing summary.
+承認内容をRequest ID・Actor・Action・Target・Parameters・Policy・Nonceなどに結び付け、別の要求への承認流用やReplayを防ぐためのControlです。
 
 ## Verification
 - Normal: **160/160 PASS**
 - Fresh: **160/160 PASS**
 - Final Fresh: **160/160 PASS**
 - Replay: **3000 / divergence 0**
-- Production Gate: **037-071 / 35 of 35 PASS**
+- Production Gate: **AL037–071 / 35 of 35 PASS**
 - DCSR: **DIRECT INTEGRATION / 直接統合**
 - Final ZIP SHA-256: `21c8894594a509b9e3193be97219787ed82ed74d181ebffbad58140d8c078e79`
 
@@ -31,6 +31,6 @@ This directory publishes the immutable completion evidence for NOEPIN AL Technol
 ## License
 Current repository distribution: **Apache License 2.0**.
 
-The historical evidence files are preserved without rewriting their completion-time License / Rights metadata.
+Verification Report / Artifact Sealは完成時の記録をそのまま保持しており、現在の公開ライセンスに合わせて内容を書き換えていません。
 
 [Standalone work page](../works/072-approval-binding-digest.md)
