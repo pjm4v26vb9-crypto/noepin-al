@@ -4,14 +4,14 @@
 **Creator / Project Owner / Original Concept / Architecture Direction:** **NOEPIN / のえぴん**  
 **Implementation / analysis / documentation support:** AI-assisted using ChatGPT
 
-This directory publishes the immutable completion evidence for NOEPIN AL Technology 082 together with a repository-facing summary.
+実行前に想定したEffectと、実行後に観測されたBefore / After Diffを比較し、予期しない副作用やProtected Changeが出ていないかを確認するControlです。
 
 ## Verification
 - Normal: **160/160 PASS**
 - Fresh: **160/160 PASS**
 - Final Fresh: **160/160 PASS**
 - Replay: **3000 / divergence 0**
-- Production Gate: **037-081 / 45 of 45 PASS**
+- Production Gate: **AL037–081 / 45 of 45 PASS**
 - DCSR: **DIRECT INTEGRATION / 直接統合**
 - Final ZIP SHA-256: `6309d988b7f29b74a5d68bbfbb598f0688fbb62a7fde86741610b1bded0eeb44`
 
@@ -32,6 +32,6 @@ This directory publishes the immutable completion evidence for NOEPIN AL Technol
 ## License
 Current repository distribution: **Apache License 2.0**.
 
-The historical evidence files are preserved without rewriting their completion-time License / Rights metadata.
+Verification Report / Artifact Sealは完成時の記録をそのまま保持しており、現在の公開ライセンスに合わせて内容を書き換えていません。
 
 [Standalone work page](../works/082-side-effect-diff-analyzer.md)
