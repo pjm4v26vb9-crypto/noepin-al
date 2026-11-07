@@ -4,14 +4,14 @@
 **Creator / Project Owner / Original Concept / Architecture Direction:** **NOEPIN / のえぴん**  
 **Implementation / analysis / documentation support:** AI-assisted using ChatGPT
 
-This directory publishes the immutable completion evidence for NOEPIN AL Technology 075 together with a repository-facing summary.
+直接明示されていない目的をあくまで候補として扱い、推定結果を本人の本心やTruthとして確定しないためのGuardです。
 
 ## Verification
 - Normal: **PASS**
 - Fresh: **PASS**
 - Final Fresh: **PASS**
 - Replay: **3000 / divergence 0**
-- Production Gate: **recorded in evidence / **
+- Production Gate: **AL037–074 / 38 of 38 PASS**
 - DCSR: **AUXILIARY INTEGRATION / 補助統合**
 - Final ZIP SHA-256: `dea3a6cab2cdc9a02458e4ce08608bf7e5ec3a0ad48209b2f05dbb3f3907b8dd`
 
@@ -31,6 +31,6 @@ This directory publishes the immutable completion evidence for NOEPIN AL Technol
 ## License
 Current repository distribution: **Apache License 2.0**.
 
-The historical evidence files are preserved without rewriting their completion-time License / Rights metadata.
+Verification Report / Artifact Sealは完成時の記録をそのまま保持しており、現在の公開ライセンスに合わせて内容を書き換えていません。
 
 [Standalone work page](../works/075-latent-goal-inference-guard.md)
