@@ -5,10 +5,10 @@
 
 Risk LevelやBlast Radiusに応じて必要な承認数とRoleを計算し、同一Actorや同一Authority Groupによる重複票をそのまま加算しないControlです。
 
-- Required Quorum and Required Roles are selected from Risk Level + Blast Radius policy rules.
-- Duplicate approvals from the same actor never increase the effective vote count.
-- Multiple actors in the same authority group contribute at most one effective quorum vote.
-- Conflict-of-interest approval evidence is excluded; an actor with conflict evidence is not counted.
+- 必要なQuorum数とRoleは、Risk LevelとBlast Radiusに対応するPolicy Ruleから決定します。
+- 同じActorによる重複承認は、有効票数を増やしません。
+- 同じAuthority Groupに属する複数Actorは、Quorum上は最大1票として扱います。
+- Conflict-of-interest Evidenceがある承認は除外し、そのActorを有効票として数えません。
 
 ## Authority Boundary
 - Approval Evidence ≠ Approval Execution
