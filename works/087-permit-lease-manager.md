@@ -3,7 +3,7 @@
 **Status:** COMPLETE / VERIFIED  
 **Creator:** **NOEPIN / のえぴん**
 
-The manager validates typed Permit lease evidence using issued time, TTL, usage limits, an active Nonce Store record, State/Scope fingerprints, signature-verification evidence and explicit clock-skew policy. A valid lease produces a **Consume Candidate only**; this module never consumes the permit, mutates the Nonce Store, grants permission, executes the action, commits or publishes state.
+Permitの発行時刻・TTL・使用回数・Nonce Store・State / Scope fingerprint・Signature Verification Evidenceを確認し、有効な場合でもConsume Candidateだけを返すControlです。
 
 ## Authority Boundary
 - Intent ≠ Action
@@ -21,10 +21,10 @@ The manager validates typed Permit lease evidence using issued time, TTL, usage 
 - Final Verification Report / Artifact Seal preserved as immutable Completion Evidence
 
 ## NOEPIN AL Production Use
-Completion Evidence記録に従います。
+**AL037〜086** を実制作Gateとして使用し、**50 / 50 PASS**。
 
 ## DCSR
-**[object Object]**
+**DIRECT INTEGRATION / 直接統合**
 
 - Full median: **30.152603 ms**
 - Prepared median: **0.007909 ms**
@@ -40,7 +40,7 @@ Final ZIP SHA-256: `f926e82cfe63ba16d8c4c5c158daf29a40b8bfe72b7a024ec1d147a7d4eb
 ## License
 Current repository distribution: **Apache License 2.0** — see [LICENSE](../LICENSE) and [NOTICE](../NOTICE).
 
-Historical Completion Evidence may retain **NOT SPECIFIED** as completion-time metadata and is preserved unchanged.
+Verification Report / Artifact Sealは完成時の記録をそのまま保持しており、現在の公開ライセンスに合わせて内容を書き換えていません。
 
 ## Technical Files
 [Technology folder](../087-permit-lease-manager/)  
