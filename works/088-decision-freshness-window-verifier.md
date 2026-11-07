@@ -3,7 +3,7 @@
 **Status:** COMPLETE / VERIFIED  
 **Creator:** **NOEPIN / のえぴん**
 
-The verifier computes a decision freshness window from Decision Time, dependency observation age, volatility, criticality, source/version/evidence identity and Risk. Freshness is control evidence only: a fresh cache is never promoted to Truth, Authority, Permission Grant, Action Execution, Commit, Safety Proof or Action Success.
+Decision Time、Observation age、Volatility、Criticality、Evidence identityなどから判断の有効期間を確認し、古くなった判断をそのまま使い回さないためのVerifierです。
 
 ## Authority Boundary
 - Freshness Cache ≠ Truth / Authority
@@ -24,7 +24,7 @@ The verifier computes a decision freshness window from Decision Time, dependency
 **AL037〜087** を実制作Gateとして使用し、**51 / 51 PASS**。
 
 ## DCSR
-**[object Object]**
+**LIMITED INTEGRATION / 限定適用**
 
 - Full median: **56.088380 ms**
 - Prepared median: **0.008115 ms**
@@ -40,7 +40,7 @@ Final ZIP SHA-256: `e1a254d5f5075c880e873756bd8b8005a710e861948081fb9f4171886e4a
 ## License
 Current repository distribution: **Apache License 2.0** — see [LICENSE](../LICENSE) and [NOTICE](../NOTICE).
 
-Historical Completion Evidence may retain **NOT SPECIFIED** as completion-time metadata and is preserved unchanged.
+Verification Report / Artifact Sealは完成時の記録をそのまま保持しており、現在の公開ライセンスに合わせて内容を書き換えていません。
 
 ## Technical Files
 [Technology folder](../088-decision-freshness-window-verifier/)  
