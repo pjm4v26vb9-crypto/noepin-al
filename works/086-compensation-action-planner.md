@@ -3,7 +3,7 @@
 **Status:** COMPLETE / VERIFIED  
 **Creator:** **NOEPIN / のえぴん**
 
-The planner accepts typed Forward Actions, Effect Model, Available Compensations, Request / Intent / Permit evidence, and Policy. It deterministically constructs compensation candidates in reverse Forward Action order, calculates weighted Coverage and Residual Risk, and fail-safes without performing external execution.
+実行済みのForward Actionに対して、逆順に補償候補を組み立て、CoverageとResidual Riskを評価するControlです。補償Planを作っても、このModule自身が実行することはありません。
 
 ## Authority Boundary
 - Intent ≠ Action
@@ -21,10 +21,10 @@ The planner accepts typed Forward Actions, Effect Model, Available Compensations
 - Final Verification Report / Artifact Seal preserved as immutable Completion Evidence
 
 ## NOEPIN AL Production Use
-Completion Evidence記録に従います。
+**AL037〜085** を実制作Gateとして使用し、**49 / 49 PASS**。
 
 ## DCSR
-**[object Object]**
+**DIRECT INTEGRATION / 直接統合**
 
 - Full median: **180.872223 ms**
 - Prepared median: **0.007001 ms**
