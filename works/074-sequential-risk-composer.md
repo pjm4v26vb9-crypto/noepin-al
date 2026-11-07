@@ -21,7 +21,7 @@
 - Evidence source: immutable Final Verification Report / Artifact Seal
 
 ## NOEPIN AL Production Use
-Completion Evidence記録に従います。
+**AL037〜073** を実制作Gateとして使用し、**37 / 37 PASS**。
 
 ## DCSR
 **AUXILIARY INTEGRATION / 補助統合**
@@ -33,7 +33,7 @@ Final ZIP SHA-256: `d24c8ea9330773d0ea9c133dcf277ac407adea370d065b9b801f897b2d1d
 ## License
 Current repository distribution: **Apache License 2.0** — see [LICENSE](../LICENSE) and [NOTICE](../NOTICE).
 
-Historical Completion Evidence may retain **NOT SPECIFIED** because it records the completion-time metadata and is preserved unchanged.
+Verification Report / Artifact Sealは完成時の記録をそのまま保持しており、現在の公開ライセンスに合わせて内容を書き換えていません。
 
 ## Technical Files
 
