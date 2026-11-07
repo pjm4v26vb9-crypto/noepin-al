@@ -3,13 +3,12 @@
 **Status:** COMPLETE / VERIFIED  
 **Creator / Project Owner / Original Concept / Architecture Direction:** **NOEPIN / のえぴん**  
 **Implementation / analysis / documentation support:** AI-assisted using ChatGPT
-
- のCompletion Evidenceに基づく独立技術作品です。
+危険な複数参加者ActionをPrepareとCommitの2段階に分け、全Participantの準備とPolicy / Approval Evidenceが揃った場合だけCommit Candidateを出すControlです。
 
 ## Verification
 - Tests: **160/160 PASS**
 - Replay: **3000 / divergence 0**
-- Production Gate: **AL037-090 / 54 of 54 PASS**
+- Production Gate: **AL037–090 / 54 of 54 PASS**
 - DCSR: **DIRECT INTEGRATION / 直接統合**
 - Final ZIP SHA-256: `4f21dccba39168d700b8dd06e656ec328635bce48ee4878918574334bc1e077b`
 
@@ -30,6 +29,6 @@
 ## License
 Current repository distribution: **Apache License 2.0**.
 
-Historical Evidence files are preserved without rewriting their completion-time License / Rights metadata.
+Verification Report / Artifact Sealは完成時の記録をそのまま保持しており、現在の公開ライセンスに合わせて内容を書き換えていません。
 
 [Standalone work page](../works/091-two-phase-action-commit.md)
