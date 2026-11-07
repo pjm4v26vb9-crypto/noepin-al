@@ -3,7 +3,7 @@
 **Status:** COMPLETE / VERIFIED  
 **Creator:** **NOEPIN / のえぴん**
 
-AL Reversible-First Planner のCompletion Evidenceに基づく公開作品ページです。
+同じGoalを達成できる候補の中から、より戻しやすく影響範囲の小さいActionを優先して並べるControlです。可逆性が高いこと自体をSafety Proofにはしません。
 
 ## Authority Boundary
 - Goal Candidate ≠ User Intent Truth
@@ -19,7 +19,7 @@ AL Reversible-First Planner のCompletion Evidenceに基づく公開作品ペー
 - Evidence source: immutable Final Verification Report / Artifact Seal
 
 ## NOEPIN AL Production Use
-**037〜082** を実制作Gateとして使用し、**46 / 46 PASS**。
+**AL037〜082** を実制作Gateとして使用し、**46 / 46 PASS**。
 
 ## DCSR
 **AUXILIARY INTEGRATION / 補助統合**
@@ -38,7 +38,7 @@ Final ZIP SHA-256: `93ee3f3c2325ae7d14d2bd84ea75fe012980086d6c59823fd8a83287f106
 ## License
 Current repository distribution: **Apache License 2.0** — see [LICENSE](../LICENSE) and [NOTICE](../NOTICE).
 
-Historical Completion Evidence may retain **NOT SPECIFIED** because it records the completion-time metadata and is preserved unchanged.
+Verification Report / Artifact Sealは完成時の記録をそのまま保持しており、現在の公開ライセンスに合わせて内容を書き換えていません。
 
 ## Technical Files
 
