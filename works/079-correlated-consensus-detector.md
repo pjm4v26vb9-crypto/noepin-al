@@ -1,9 +1,9 @@
-# 079｜AL Correlated Consensus Detector / 
+# 079｜AL Correlated Consensus Detector / 相関コンセンサス検知器
 
 **Status:** COMPLETE / VERIFIED  
 **Creator:** **NOEPIN / のえぴん**
 
-AL Correlated Consensus Detector のCompletion Evidenceに基づく公開作品ページです。
+複数AIの合議で、見かけ上は複数票でも同じ情報源や相関した出力に依存していないかを確認し、独立性を考慮してConsensusを評価するControlです。
 
 ## Authority Boundary
 - Adjusted Consensus ≠ Truth.
@@ -19,10 +19,10 @@ AL Correlated Consensus Detector のCompletion Evidenceに基づく公開作品�
 - Evidence source: immutable Final Verification Report / Artifact Seal
 
 ## NOEPIN AL Production Use
-Completion Evidence記録に従います。
+**AL037〜078** を実制作Gateとして使用し、**42 / 42 PASS**。
 
 ## DCSR
-**DIRECT INTEGRATION**
+**DIRECT INTEGRATION / 直接統合**
 
 
 ## Integrity
@@ -31,7 +31,7 @@ Final ZIP SHA-256: `65311f7e532fcf8e81fab4636a81dc2ec25f0d45494bb53cbe37a8b5e850
 ## License
 Current repository distribution: **Apache License 2.0** — see [LICENSE](../LICENSE) and [NOTICE](../NOTICE).
 
-Historical Completion Evidence may retain **NOT SPECIFIED** because it records the completion-time metadata and is preserved unchanged.
+Verification Report / Artifact Sealは完成時の記録をそのまま保持しており、現在の公開ライセンスに合わせて内容を書き換えていません。
 
 ## Technical Files
 
