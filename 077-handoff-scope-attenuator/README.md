@@ -1,18 +1,18 @@
-# 077｜AL Handoff Scope Attenuator / 
+# 077｜AL Handoff Scope Attenuator / 引継ぎスコープ減衰器
 
 **Status:** COMPLETE / VERIFIED  
 **Creator / Project Owner / Original Concept / Architecture Direction:** **NOEPIN / のえぴん**  
 **Implementation / analysis / documentation support:** AI-assisted using ChatGPT
 
-This directory publishes the immutable completion evidence for NOEPIN AL Technology 077 together with a repository-facing summary.
+AIやAgentへ処理を引き継ぐとき、親側のGoal・Data・Action・Target・Capabilityを上限として、子側のScopeが勝手に広がらないようにするControlです。
 
 ## Verification
 - Normal: **PASS**
 - Fresh: **PASS**
 - Final Fresh: **PASS**
 - Replay: **3000 / divergence 0**
-- Production Gate: **recorded in evidence / **
-- DCSR: **see report**
+- Production Gate: **AL037–076 / 40 of 40 PASS**
+- DCSR: **DIRECT INTEGRATION / 直接統合**
 - Final ZIP SHA-256: `a4e63a7a5f4fe3f7ef39e48a2b093d23f7a64ea8af7edb4802dca19fcb1ba97c`
 
 ## Authority Boundary
@@ -32,6 +32,6 @@ This directory publishes the immutable completion evidence for NOEPIN AL Technol
 ## License
 Current repository distribution: **Apache License 2.0**.
 
-The historical evidence files are preserved without rewriting their completion-time License / Rights metadata.
+Verification Report / Artifact Sealは完成時の記録をそのまま保持しており、現在の公開ライセンスに合わせて内容を書き換えていません。
 
 [Standalone work page](../works/077-handoff-scope-attenuator.md)
