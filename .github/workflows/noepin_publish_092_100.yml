@@ -47,6 +47,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A
-          git diff --cached --check
           git commit -m "Publish verified source and evidence for NOEPIN AL 092 through 100"
           git push origin HEAD:main
