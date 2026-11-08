@@ -6,7 +6,7 @@ NOEPIN ALは、**NOEPIN / のえぴん**がゲーム「もふもふの森」を�
 
 現在、検証が完了した技術から順番にGitHubへ公開しています。
 
-> 公開進捗: **91 / 188**  
+> 公開進捗: **100 / 188**  
 > Creator / Project Owner / Original Concept / Architecture Direction: **NOEPIN / のえぴん**  
 > Implementation / analysis / documentation support: AI-assisted using ChatGPT
 
@@ -110,7 +110,17 @@ NOEPIN ALは、**NOEPIN / のえぴん**がゲーム「もふもふの森」を�
 | 090 | [AL Partial-Failure Containment Manager / 部分失敗封じ込め器](works/090-partial-failure-containment-manager.md) | COMPLETE / VERIFIED |
 | 091 | [AL Two-Phase Action Commit / 二段階実行コミット](works/091-two-phase-action-commit.md) | COMPLETE / VERIFIED |
 
-**Formal completion / publication progress: 91 / 188**
+| 092 | [AL Bayesian Uncertainty Fusion / ベイズ不確実性統合器](works/092-bayesian-uncertainty-fusion.md) | COMPLETE / VERIFIED |
+| 093 | [AL Evidence Independence Estimator / 証拠独立性推定器](works/093-evidence-independence-estimator.md) | COMPLETE / VERIFIED |
+| 094 | [AL Confidence Calibration Monitor / 信頼度校正モニター](works/094-confidence-calibration-monitor.md) | COMPLETE / VERIFIED |
+| 095 | [AL Confidence-to-Authority Mapper / 信頼度→権限マッパー](works/095-confidence-to-authority-mapper.md) | COMPLETE / VERIFIED |
+| 096 | [AL Source Freshness Decay / 情報鮮度減衰器](works/096-source-freshness-decay.md) | COMPLETE / VERIFIED |
+| 097 | [AL Conflict Mass Aggregator / 矛盾質量アグリゲーター](works/097-conflict-mass-aggregator.md) | COMPLETE / VERIFIED |
+| 098 | [AL Epistemic-Aleatoric Splitter / 認識的不確実性分離器](works/098-epistemic-aleatoric-splitter.md) | COMPLETE / VERIFIED |
+| 099 | [AL Abstention Threshold Optimizer / 棄却閾値オプティマイザー](works/099-abstention-threshold-optimizer.md) | COMPLETE / VERIFIED |
+| 100 | [AL Trust Hysteresis Updater / 信頼ヒステリシス更新器](works/100-trust-hysteresis-updater.md) | COMPLETE / VERIFIED |
+
+**Formal completion / publication progress: 100 / 188**
 
 [作品一覧ページを開く](works/)
 
@@ -126,7 +136,7 @@ This repository publishes the technologies themselves. **MOFUMORI / もふもふ
 
 GitHubには、その検証済み成果物のうち、**内容を変更せずにそのまま移せるものから順次公開**しています。READMEなどの文書をもとに似たコードを再生成し、それを「検証済みの完成版」として置き換えることはしていません。
 
-各番号の **COMPLETE / VERIFIED** は正式な完成記録に基づく状態です。GitHub上では、説明用READMEと、正確に移送できたVerification Report / Artifact Sealなどの証跡を公開しています。検証済みソースやZIPを正確に移送できていない場合は、文書から作り直して補完しません。
+各番号の **COMPLETE / VERIFIED** は正式な完成記録に基づく状態です。GitHub上では、説明用READMEと、正確に移送できたVerification Report / Artifact Sealなどの証跡を公開しています。さらに、Final ZIPから内容を変更せず正確に移送できた検証済みソースは `verified_artifact/` として公開しています。正確に移送できないソースやZIPを、文書から作り直して補完することはしません。
 
 各技術は、独立した作品ページと技術証跡フォルダに分けて公開しています。
 

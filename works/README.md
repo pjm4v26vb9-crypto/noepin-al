@@ -100,7 +100,17 @@ NOEPIN / のえぴんによるNOEPIN AL技術作品の公開一覧です。
 | 090 | [部分失敗封じ込め器 / AL Partial-Failure Containment Manager](090-partial-failure-containment-manager.md) | COMPLETE / VERIFIED |
 | 091 | [二段階実行コミット / AL Two-Phase Action Commit](091-two-phase-action-commit.md) | COMPLETE / VERIFIED |
 
-**Published works: 91 / 188**
+| 092 | [ベイズ不確実性統合器 / AL Bayesian Uncertainty Fusion](092-bayesian-uncertainty-fusion.md) | COMPLETE / VERIFIED |
+| 093 | [証拠独立性推定器 / AL Evidence Independence Estimator](093-evidence-independence-estimator.md) | COMPLETE / VERIFIED |
+| 094 | [信頼度校正モニター / AL Confidence Calibration Monitor](094-confidence-calibration-monitor.md) | COMPLETE / VERIFIED |
+| 095 | [信頼度→権限マッパー / AL Confidence-to-Authority Mapper](095-confidence-to-authority-mapper.md) | COMPLETE / VERIFIED |
+| 096 | [情報鮮度減衰器 / AL Source Freshness Decay](096-source-freshness-decay.md) | COMPLETE / VERIFIED |
+| 097 | [矛盾質量アグリゲーター / AL Conflict Mass Aggregator](097-conflict-mass-aggregator.md) | COMPLETE / VERIFIED |
+| 098 | [認識的不確実性分離器 / AL Epistemic-Aleatoric Splitter](098-epistemic-aleatoric-splitter.md) | COMPLETE / VERIFIED |
+| 099 | [棄却閾値オプティマイザー / AL Abstention Threshold Optimizer](099-abstention-threshold-optimizer.md) | COMPLETE / VERIFIED |
+| 100 | [信頼ヒステリシス更新器 / AL Trust Hysteresis Updater](100-trust-hysteresis-updater.md) | COMPLETE / VERIFIED |
+
+**Published works: 100 / 188**
 
 Creator / Project Owner / Original Concept / Architecture Direction: **NOEPIN / のえぴん**
 
