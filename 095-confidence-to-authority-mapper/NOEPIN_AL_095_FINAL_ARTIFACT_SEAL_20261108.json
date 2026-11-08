@@ -1,0 +1,58 @@
+{
+  "ai_support": "AI-assisted using ChatGPT",
+  "al_production_gate_evidence": {
+    "actual_al_range": "AL037-094",
+    "filename": "NOEPIN_AL_095_AL_PRODUCTION_GATE_EVIDENCE.json",
+    "pass_count": 58,
+    "sha256": "78736b9b15264a563461ae0536fea2045d6679e88621d38013befbce1d665938",
+    "total": 58
+  },
+  "artifact": "Sequential Successor V2",
+  "canonical_id": "NOEPIN-AL-095",
+  "core": {
+    "filename": "noepin_al_095_confidence_to_authority_mapper.py",
+    "sha256": "ad7c41ba62b80dace545782c3ff273539af54b685c6e3d6748c3e3952b1aee03"
+  },
+  "creator": "NOEPIN / のえぴん",
+  "dcsr": "AUXILIARY INTEGRATION / 補助統合",
+  "defects": {
+    "benchmark_harness": 0,
+    "execution_harness_invocation": 0,
+    "production": 0,
+    "production_gate_helper": 0,
+    "replay_helper": 0,
+    "test_fixture": 0
+  },
+  "final_manifest": {
+    "matched": 218,
+    "pass": true,
+    "total": 218
+  },
+  "final_verification_report": {
+    "filename": "NOEPIN_AL_095_FINAL_VERIFICATION_REPORT_20261108.md",
+    "sha256": "2ccf4b4057f51087a004565f067ec237f9899439f280c245a7508452cc103426"
+  },
+  "final_zip": {
+    "filename": "NOEPIN_AL_095_CONFIDENCE_TO_AUTHORITY_MAPPER_SUCCESSOR_V2_20261108.zip",
+    "sha256": "5fbde7b87c45e4195c07c4631450642fc0631fce2e1a09bf532645c8033e2c60"
+  },
+  "license_rights": "NOT SPECIFIED",
+  "provenance_limitations": [
+    "exact registered Origin GUID was not freshly reverified.",
+    "Pre-existing Notion V1 attachment byte identity was not freshly reverified."
+  ],
+  "schema": "NOEPIN_AL_FINAL_ARTIFACT_SEAL_V1",
+  "source_index": {
+    "filename": "NOEPIN_AL_095_SOURCE_INDEX.txt",
+    "sha256": "07fe31ded60813867b1a7e20e2b62354e8466cbcada834d2123ebed8cb1e39ab"
+  },
+  "technology": 95,
+  "validation": {
+    "core_identity": "PASS",
+    "replay": "3x1000=3000 divergence 0",
+    "report_identity": "PASS",
+    "static_safety": "external execution 0 / unauthorized write 0",
+    "tests": "160/160 PASS"
+  },
+  "zip_self_reference": false
+}

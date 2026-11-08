@@ -1,0 +1,65 @@
+NOEPIN AL 100 — SOURCE INDEX — 2026-11-08
+
+Technology: 100｜信頼ヒステリシス更新器 / AL Trust Hysteresis Updater
+Canonical ID: NOEPIN-AL-100
+Creator / Originator / Project Owner / Original Concept / Architecture Direction: NOEPIN / のえぴん
+Implementation / analysis / documentation support: AI-assisted using ChatGPT
+License / Rights: NOT SPECIFIED
+DCSR: DIRECT INTEGRATION / 直接統合
+
+Final ZIP
+- NOEPIN_AL_100_TRUST_HYSTERESIS_UPDATER_SUCCESSOR_V2_20261108.zip
+- SHA-256: 90bae0aaff9e49b76e5f0653717b9cf51f994d445f58da75a9c3093b17865a8e
+
+Final Verification Report
+- NOEPIN_AL_100_FINAL_VERIFICATION_REPORT_20261108.md
+- SHA-256: ef90ebe2e718657fd40d8362269d2934214066c95e8df7e5adf398c9df1b8130
+
+Core
+- noepin_al_100_trust_hysteresis_updater.py
+- SHA-256: 409f463bdeff24781fe65875871e40e10aaecb5535a1bdad8ca557ce3e437ed5
+
+Final Artifact Seal
+- NOEPIN_AL_100_FINAL_ARTIFACT_SEAL_20261108.json
+- SHA-256: ba1d8fc181fe12ba904217e560ed309532a1a3c52e7a0193349da55811de961d
+
+Frozen AL Production Gate Evidence
+- NOEPIN_AL_100_AL_PRODUCTION_GATE_EVIDENCE.json
+- SHA-256: 36f67fae413abe13850f140a1bb199b3bf3774bfb03631c71c33688fa15c5933
+- Actual AL range: AL037–099
+- Gate: 63 / 63 PASS
+
+Final Manifest Verification
+- NOEPIN_AL_100_FINAL_MANIFEST_VERIFICATION_20261108.json
+- SHA-256: 30b12dba6380b0df41818705fbec17c6123bf6a0534990e1247a65d7322ca1eb
+- 153 / 153 files matched
+
+Identity Verification
+- NOEPIN_AL_100_IDENTITY_VERIFICATION_20261108.json
+- SHA-256: 2bfdcc2d8adc53c3470e6ac4979c8f9e7ac3affdd0770f19c3d9288320d72e6c
+- Core identity: PASS
+- Report identity: PASS
+
+Final Fresh Validation
+- Tests: 160 / 160 PASS
+- Replay: 3000 / divergence 0
+- Replay digest: c46c95af4466c2db3be7ef7439f69e66dba791fed90678925e2a73326c2c1fef
+- Static Safety: external execution paths 0 / unauthorized write paths 0
+- Benchmark: Full 5.1057271 ms / Prepared 0.0001702 ms / semantic match true
+- DCSR: 1,438,472 bytes -> 3,261 bytes / 0.2266988860%
+- Missing-only: 10 Trust Event records / 444 metadata bytes / full resend false
+
+Defects
+- Production defect: 1 CORRECTED
+- Test fixture defect: 0
+- Benchmark harness defect: 0
+- Replay helper defect: 0
+- Production Gate helper defect: 0
+- Execution harness invocation defect: 0
+
+Production correction
+- Added explicit last_event_time to TrustQuery and Context Fingerprint so long inactivity is measured from the real prior event; reran all Normal validation from corrected Production state.
+
+Provenance limitations
+- exact registered Origin GUID was not freshly reverified.
+- Pre-existing Notion V1 attachment byte identity was not freshly reverified.

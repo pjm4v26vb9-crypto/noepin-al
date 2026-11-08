@@ -1,0 +1,56 @@
+NOEPIN AL 096 — SOURCE INDEX — 2026-11-08
+
+Technology: 96｜情報鮮度減衰器 / AL Source Freshness Decay
+Canonical ID: NOEPIN-AL-096
+Creator / Originator: NOEPIN / のえぴん
+Status: COMPLETE / VERIFIED
+DCSR: LIMITED INTEGRATION / 限定適用
+License / Rights: NOT SPECIFIED
+
+FINAL ZIP
+NOEPIN_AL_096_SOURCE_FRESHNESS_DECAY_SUCCESSOR_V2_20261108.zip
+SHA-256: 8e1b5f56c271cfee93c04484672c178e4b24fda1aa2a0b1fc5c2e4f117c77c1f
+
+FINAL VERIFICATION REPORT
+NOEPIN_AL_096_FINAL_VERIFICATION_REPORT_20261108.md
+SHA-256: 2e2ce288e2738daf614a6e3a365805da3ed402e224cc62875bf9f671d17480e5
+
+FINAL ARTIFACT SEAL
+NOEPIN_AL_096_FINAL_ARTIFACT_SEAL_20261108.json
+SHA-256: 28a4c7fb96099526248760a08c8742d0664d51a5785ce84210d04d2b6a0330d9
+
+AL PRODUCTION GATE EVIDENCE
+NOEPIN_AL_096_AL_PRODUCTION_GATE_EVIDENCE.json
+SHA-256: c99e4f9ace194a8845ebb01e3dc9f8cba0c53793bbccdcb8e970f67d66a45b8f
+Actual range: AL037-095
+Result: 59 / 59 PASS
+
+CORE
+noepin_al_096_source_freshness_decay.py
+SHA-256: 4770146a624387749b696859dfdf550510753e2287aa07bf4b08c560500cf04d
+
+IDENTITY VERIFICATION
+NOEPIN_AL_096_IDENTITY_VERIFICATION_20261108.json
+SHA-256: 2622d7578df0c9dee1ffb117de413f3cf43a0352c1cfafbc3c42df7c6bfc2f9a
+Core identity: PASS
+Report identity: PASS
+
+FINAL MANIFEST VERIFICATION
+NOEPIN_AL_096_FINAL_MANIFEST_VERIFICATION_20261108.json
+SHA-256: 068645bc9f1dba19f053675d231396eede74bb1169ce3b4ac3eafd5952cb1da3
+Result: 194 / 194 files matched
+
+FINAL FRESH VALIDATION
+Tests: 160 / 160 PASS
+Replay: 3000 / divergence 0
+Replay digest: ebf8e30656f69138ed733426ecb7d17fb301f9a0cc32e19796576b5c31716903
+Static Safety: external execution paths 0 / unauthorized write paths 0
+Benchmark Full: 1.0568014 ms
+Benchmark Prepared: 0.00015920000000000002 ms
+DCSR: 1356219 bytes -> 3125 bytes / 0.23042001328693967%
+Missing-only: 10 records / 489 metadata bytes / full resend false
+Semantic match: true
+
+PROVENANCE LIMITATION
+exact registered Origin GUID was not freshly reverified.
+Pre-existing Notion V1 attachment byte identity was not freshly reverified.

@@ -1,0 +1,64 @@
+NOEPIN AL 097 — SOURCE INDEX — 2026-11-08
+
+Technology: 97｜矛盾質量アグリゲーター / AL Conflict Mass Aggregator
+Canonical ID: NOEPIN-AL-097
+Creator / Origin: NOEPIN / のえぴん
+Status: COMPLETE / VERIFIED
+DCSR: LIMITED INTEGRATION / 限定適用
+License / Rights: NOT SPECIFIED
+
+FINAL ZIP
+NOEPIN_AL_097_CONFLICT_MASS_AGGREGATOR_SUCCESSOR_V2_20261108.zip
+SHA-256: fc01fb57a942a63cb9033bb54506ec058121966cf360720dc88459d43f9ed248
+
+CORE
+noepin_al_097_conflict_mass_aggregator.py
+SHA-256: 16518d30239e2823cc8f2fbdec157009a8d38a659663b74ebb1be821d6d821e8
+
+FINAL VERIFICATION REPORT
+NOEPIN_AL_097_FINAL_VERIFICATION_REPORT_20261108.md
+SHA-256: c4adcbed540fa5d1e36767390b40d4d4116e3cc9a666c48894bd4a73e6cf9234
+
+FINAL ARTIFACT SEAL
+NOEPIN_AL_097_FINAL_ARTIFACT_SEAL_20261108.json
+SHA-256: cc17182e76e541133417a12f6edcdd26699a72422d804432c087a1023951580d
+
+AL PRODUCTION GATE EVIDENCE
+NOEPIN_AL_097_AL_PRODUCTION_GATE_EVIDENCE.json
+SHA-256: e7ff108b7d04a47d19a5a338942692e7440526d6ac0ae2cabf11e0525dc17345
+Range: AL037-096
+Result: 60/60 PASS
+
+IDENTITY VERIFICATION
+NOEPIN_AL_097_IDENTITY_VERIFICATION_20261108.json
+SHA-256: cb101a10280a05447c819bab5cb448155982f70d1515ea62fa76ff4c6ae067fd
+Core identity: PASS
+Report identity: PASS
+
+FINAL MANIFEST VERIFICATION
+NOEPIN_AL_097_FINAL_MANIFEST_VERIFICATION_20261108.json
+SHA-256: 7aa1da97554449a4e712fd2078f5ccf892fd915101217e215c29a0a9864dfc80
+Result: 167/167 MATCHED
+
+FINAL FRESH
+Tests: 160/160 PASS
+Replay: 3000 / divergence 0
+Replay digest: c38b3d2b9976e88e30d9e0fc3e6d2f3042cc8d073905e9bcc537045a41540ed5
+Static Safety: external execution paths 0 / unauthorized write paths 0
+Benchmark: Full 6.4240148 ms / Prepared 0.0001682 ms / semantic match true
+DCSR: 1,822,906 bytes -> 3,748 bytes / 0.2056057745%
+Missing-only: 10 records / 489 metadata bytes / full resend false
+
+DEFECTS
+Production: 0
+Test fixture: 0
+Benchmark harness: 0
+Replay helper: 0
+Production Gate helper: 0
+Execution harness invocation: 0
+
+PROVENANCE LIMITATION
+exact registered Origin GUID was not freshly reverified.
+Pre-existing Notion V1 attachment byte identity was not freshly reverified.
+
+Final ZIP SHA-256 is external to the ZIP by design.

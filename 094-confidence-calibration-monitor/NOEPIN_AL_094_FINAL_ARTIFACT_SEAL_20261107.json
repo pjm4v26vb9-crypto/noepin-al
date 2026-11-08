@@ -1,0 +1,81 @@
+{
+  "ai_support": "AI-assisted implementation / analysis / documentation support using ChatGPT",
+  "artifact": "Sequential Successor V2",
+  "authority_boundary": [
+    "Predicted Confidence != Truth",
+    "Observed Accuracy != World Truth",
+    "Calibration Error/Brier/ECE != Safety Proof",
+    "Adjusted Confidence != Permission Grant",
+    "Authority Shrink Candidate != Permission Mutation",
+    "ALLOW Candidate != Permission Grant / Action Execution / Action Success",
+    "Prepared State / Calibration Cache != Authoritative Current State",
+    "DCSR Reconstruction != Domain Authority / Safety Proof / Action Execution / Action Success"
+  ],
+  "benchmark_final_fresh": {
+    "condition": "Python stdlib; 5000 Calibration observations; 10 evaluations x 5 batches; prepared verified-result reuse",
+    "delta_bytes": 3045,
+    "delta_percent": 0.21821215094117874,
+    "full_bytes": 1395431,
+    "full_median_ms": 73.18468100015707,
+    "full_resend_required": false,
+    "missing_metadata_bytes": 131,
+    "missing_records": 10,
+    "prepared_median_ms": 0.006228999836821458,
+    "schema": "NOEPIN_AL_BENCHMARK_V1",
+    "semantic_match": true,
+    "technology": 94
+  },
+  "canonical_id": "NOEPIN-AL-094",
+  "core_sha256": "4e71f2e05732919c838d6a10b2be78a36086407b71d976d0ae15a29919aab291",
+  "creator_originator": "NOEPIN / のえぴん",
+  "date": "2026-11-07",
+  "dcsr_level": "LIMITED INTEGRATION / 限定適用",
+  "defects": {
+    "benchmark_harness": "0",
+    "execution_harness_invocation": "1 CORRECTED",
+    "production": "1 CORRECTED",
+    "production_gate_helper": "0",
+    "replay_helper": "0",
+    "test_fixture": "0"
+  },
+  "final_manifest": {
+    "expected": 100,
+    "matched": 100,
+    "pass": true
+  },
+  "final_zip": "NOEPIN_AL_094_CONFIDENCE_CALIBRATION_MONITOR_SUCCESSOR_V2_20261107.zip",
+  "final_zip_sha256": "754df7b7762f9eb60394884ab7e2275658cd76375e1bc6156be9004629854f52",
+  "gate_evidence_sha256": "c69c15f14a500c7fe84d4b2d127cc216eceede2e2507bd85d7f0877355d4460c",
+  "identity_verification_sha256": "af6bab8f45d7ab15708d069c2093d41b9b724da817eabadbef219e15005960f6",
+  "license_rights": "NOT SPECIFIED",
+  "manifest_verification_sha256": "5aa765f68c0f78e5fef5c5b4fb83ced29446865c48b0ae5d9b0659614400e389",
+  "production_gate": {
+    "actual_al_range": "AL037-093",
+    "pass": true,
+    "pass_count": 57,
+    "total": 57
+  },
+  "provenance_limitations": [
+    "exact registered Origin GUID was not freshly reverified.",
+    "Pre-existing Notion V1 attachment byte identity was not freshly reverified."
+  ],
+  "replay": {
+    "digest": "c3776209428a4ec573555fc09842ca59a13e61065d747915575c2c42daae70dd",
+    "divergence": 0,
+    "total": 3000
+  },
+  "report_sha256": "4b5608141aa1913b20bd55eeb4583f73478e45bd530439b132e2ac4c7fac5e71",
+  "schema": "NOEPIN_AL_FINAL_ARTIFACT_SEAL_V1",
+  "static_safety": {
+    "external_execution_paths": 0,
+    "unauthorized_write_paths": 0
+  },
+  "status": "COMPLETE / VERIFIED",
+  "technology": 94,
+  "tests": {
+    "final_fresh": "160/160 PASS",
+    "fresh": "160/160 PASS",
+    "normal": "160/160 PASS"
+  },
+  "zip_self_reference_embedded": false
+}

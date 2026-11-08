@@ -1,0 +1,17 @@
+NOEPIN AL 093 — SOURCE INDEX
+Creator / Origin: NOEPIN / のえぴん
+Canonical ID: NOEPIN-AL-093
+Artifact: Sequential Successor V2
+DCSR: LIMITED INTEGRATION / 限定適用
+
+Final ZIP: NOEPIN_AL_093_EVIDENCE_INDEPENDENCE_ESTIMATOR_SUCCESSOR_V2_20261107.zip
+Final ZIP SHA-256: d88875964278f2c704fc72750a17de5405bf52eac425d7cc94684e0c99ba65be
+Core SHA-256: ee0cddbb2a16a930585e2b47e6cc0d2b4d6af915867e53e1cc25dbd9e9aa7b87
+Final Verification Report SHA-256: 196780b34d12a3883b4e4d61824f05c0a2e601f099255e78bdda94e449f26bc1
+Final Artifact Seal SHA-256: a4c59b1776ca3f3acce265f8a00a244fb4a8437e9d62571ab6950d28017229e6
+AL Production Gate Evidence SHA-256: 3bbe468220ec5cf98333dfb18f66bbc634fb9d857b7d2e4940d2e86abebb801d
+Identity Verification SHA-256: 426a06b8fead07d42a812f33744540819aef41e3c7ae9df5b682f8734d5ddb01
+
+Final verification: 160/160 PASS; Replay 3000 divergence 0; AL037-092 Gate 56/56 PASS; Static Safety 0/0; Final Manifest 98/98.
+Provenance limitation: exact registered Origin GUID was not freshly reverified.
+Pre-existing Notion V1 attachment byte identity was not freshly reverified.

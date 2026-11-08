@@ -1,0 +1,86 @@
+{
+  "ai_support": "AI-assisted implementation / analysis / documentation support using ChatGPT",
+  "artifact": "Sequential Successor V2",
+  "authority_boundary": [
+    "Prior / Posterior ≠ World Truth",
+    "Confidence / Credible Interval ≠ Safety Proof",
+    "Source Reliability ≠ Source Authority",
+    "Evidence Likelihood ≠ Fact Proof",
+    "Bayesian Fusion Result ≠ Permission Grant",
+    "ALLOW Candidate ≠ Action Execution / Action Success",
+    "DENY Candidate ≠ Action Execution",
+    "Prepared State / Cache ≠ Authoritative Current State",
+    "DCSR Reconstruction ≠ Domain Authority / Safety Proof / Action Execution / Action Success"
+  ],
+  "benchmark_final_fresh": {
+    "condition": "Python stdlib; 5000 Evidence records + 100 Source profiles + 2 Hypotheses; 10 evaluations x 5 batches; prepared verified-result reuse",
+    "delta_bytes": 3053,
+    "delta_percent": 0.22139648753348504,
+    "full_bytes": 1378974,
+    "full_median_ms": 68.8274359999923,
+    "full_resend_required": false,
+    "missing_metadata_bytes": 141,
+    "missing_records": 10,
+    "prepared_median_ms": 0.0070309999955497915,
+    "schema": "NOEPIN_AL_BENCHMARK_V1",
+    "semantic_match": true,
+    "technology": 92
+  },
+  "canonical_id": "NOEPIN-AL-092",
+  "core_filename": "noepin_al_092_bayesian_uncertainty_fusion.py",
+  "core_identity_pass": true,
+  "core_sha256": "f186cf4b8dacf811e4b69afa21055d82e2b731070d3712363da44ee8c0d64b05",
+  "creator_originator_project_owner_original_concept_architecture_direction": "NOEPIN / のえぴん",
+  "dcsr": "LIMITED INTEGRATION / 限定適用",
+  "defects": {
+    "benchmark_harness": "0",
+    "execution_harness_invocation": "0",
+    "production": "0",
+    "production_gate_helper": "0",
+    "replay_helper": "0",
+    "test_fixture": "1 CORRECTED"
+  },
+  "final_manifest": {
+    "expected": 96,
+    "matched": 96,
+    "pass": true
+  },
+  "final_verification_report_filename": "NOEPIN_AL_092_FINAL_VERIFICATION_REPORT_20261107.md",
+  "final_verification_report_sha256": "9257a8f23a07352a0bf0f9e8e4a843141686458d3f358ce254d2b88df716c97b",
+  "final_zip_filename": "NOEPIN_AL_092_BAYESIAN_UNCERTAINTY_FUSION_SUCCESSOR_V2_20261107.zip",
+  "final_zip_sha256": "c50ede566dcf90b46346cc3e9bb3de9459fbcff5ed656e1db11ecd47a6fab42f",
+  "identity_verification_sha256": "a5a748397dbec806d24c7014fe79efb7c8f0c69e895e55072488c7a25af95456",
+  "license_rights": "NOT SPECIFIED",
+  "name_en": "AL Bayesian Uncertainty Fusion",
+  "name_ja": "92｜ベイズ不確実性統合器",
+  "production_gate": {
+    "actual_al_range": "AL037-091",
+    "evidence_sha256": "c6500015fe56a107bfd080951524fabb899c5d4ddd561b3b8748f1cdbc55d4da",
+    "pass": true,
+    "pass_count": 55,
+    "total": 55
+  },
+  "provenance_limitations": [
+    "exact registered Origin GUID was not freshly reverified.",
+    "Pre-existing Notion V1 attachment byte identity was not freshly reverified."
+  ],
+  "replay": {
+    "digest": "fa367d56e2397e699e335d20e1e5e7dc39e119c0bf83229785685504891004d3",
+    "divergence": 0,
+    "total": 3000
+  },
+  "report_identity_pass": true,
+  "schema": "NOEPIN_AL_FINAL_ARTIFACT_SEAL_V1",
+  "static_safety": {
+    "external_execution_paths": 0,
+    "pass": true,
+    "unauthorized_write_paths": 0
+  },
+  "technology": 92,
+  "tests": {
+    "final_fresh": "160/160 PASS",
+    "fresh": "160/160 PASS",
+    "normal": "160/160 PASS"
+  },
+  "zip_self_reference_rule": "Final ZIP SHA-256 is external and is not embedded inside the Final ZIP."
+}

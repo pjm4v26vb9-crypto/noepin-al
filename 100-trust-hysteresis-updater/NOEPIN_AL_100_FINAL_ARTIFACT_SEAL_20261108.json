@@ -1,0 +1,81 @@
+{
+  "artifact": "Sequential Successor V2",
+  "authority_boundary": [
+    "Trust Score ≠ World Truth / Safety Proof",
+    "Trust Tier ≠ Permission Grant / Production Authority",
+    "Recovery Ready Candidate ≠ Recovery Execution",
+    "Isolation Candidate ≠ Isolation Execution",
+    "Shadow / Canary State ≠ Production Authority",
+    "ALLOW Candidate ≠ Permission Grant / Action Execution / Action Success",
+    "Prepared State / Cache ≠ Authoritative Current State",
+    "DCSR Reconstruction ≠ Domain Authority / Safety Proof / Action Execution / Action Success"
+  ],
+  "canonical_id": "NOEPIN-AL-100",
+  "core_sha256": "409f463bdeff24781fe65875871e40e10aaecb5535a1bdad8ca557ce3e437ed5",
+  "creator_originator_project_owner_original_concept_architecture_direction": "NOEPIN / のえぴん",
+  "date": "2026-11-08",
+  "dcsr_level": "DIRECT INTEGRATION / 直接統合",
+  "defects": {
+    "benchmark_harness": 0,
+    "execution_harness_invocation": 0,
+    "production": 1,
+    "production_gate_helper": 0,
+    "production_status": "CORRECTED",
+    "replay_helper": 0,
+    "test_fixture": 0
+  },
+  "final_fresh": {
+    "benchmark_full_median_ms": 5.1057271,
+    "benchmark_prepared_median_ms": 0.0001702,
+    "benchmark_semantic_match": true,
+    "dcsr_delta_bytes": 3261,
+    "dcsr_delta_percent": 0.2266988860401871,
+    "dcsr_full_bytes": 1438472,
+    "full_resend": false,
+    "metadata_bytes": 444,
+    "missing_records": 10,
+    "replay_digest": "c46c95af4466c2db3be7ef7439f69e66dba791fed90678925e2a73326c2c1fef",
+    "replay_divergence": 0,
+    "replay_runs": 3000,
+    "static_external_execution_paths": 0,
+    "static_unauthorized_write_paths": 0,
+    "tests": "160 / 160 PASS"
+  },
+  "final_manifest": {
+    "matched": 153,
+    "pass": true,
+    "sha256": "30b12dba6380b0df41818705fbec17c6123bf6a0534990e1247a65d7322ca1eb",
+    "total": 153
+  },
+  "final_verification_report": {
+    "filename": "NOEPIN_AL_100_FINAL_VERIFICATION_REPORT_20261108.md",
+    "sha256": "ef90ebe2e718657fd40d8362269d2934214066c95e8df7e5adf398c9df1b8130"
+  },
+  "final_zip": {
+    "filename": "NOEPIN_AL_100_TRUST_HYSTERESIS_UPDATER_SUCCESSOR_V2_20261108.zip",
+    "sha256": "90bae0aaff9e49b76e5f0653717b9cf51f994d445f58da75a9c3093b17865a8e"
+  },
+  "identity": {
+    "core_identity_pass": true,
+    "identity_verification_sha256": "2bfdcc2d8adc53c3470e6ac4979c8f9e7ac3affdd0770f19c3d9288320d72e6c",
+    "report_identity_pass": true
+  },
+  "implementation_analysis_documentation_support": "AI-assisted using ChatGPT",
+  "license_rights": "NOT SPECIFIED",
+  "production_gate_evidence": {
+    "actual_al_range": "037-099",
+    "filename": "NOEPIN_AL_100_AL_PRODUCTION_GATE_EVIDENCE.json",
+    "pass_count": 63,
+    "sha256": "36f67fae413abe13850f140a1bb199b3bf3774bfb03631c71c33688fa15c5933",
+    "total": 63
+  },
+  "provenance_limitations": [
+    "exact registered Origin GUID was not freshly reverified.",
+    "Pre-existing Notion V1 attachment byte identity was not freshly reverified."
+  ],
+  "schema": "NOEPIN_AL_FINAL_ARTIFACT_SEAL_V1",
+  "technology": 100,
+  "technology_name_en": "AL Trust Hysteresis Updater",
+  "technology_name_ja": "信頼ヒステリシス更新器",
+  "zip_self_reference_rule": "Final ZIP SHA-256 is external only and is not embedded in the Final ZIP."
+}

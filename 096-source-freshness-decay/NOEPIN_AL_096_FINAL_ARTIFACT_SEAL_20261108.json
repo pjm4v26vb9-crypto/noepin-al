@@ -1,0 +1,93 @@
+{
+  "ai_support": "AI-assisted implementation / analysis / documentation support using ChatGPT",
+  "artifact_sha256": {
+    "al_production_gate_evidence": "c99e4f9ace194a8845ebb01e3dc9f8cba0c53793bbccdcb8e970f67d66a45b8f",
+    "final_fresh_benchmark": "8423b2e25296a716382bf552c095254ae7356e38e6b17e05e4e206127f26813d",
+    "final_fresh_compile": "bcfb51db108caae5271bb1d408df3be65e178406763274e528f3c5823fb045af",
+    "final_fresh_production_gate": "c99e4f9ace194a8845ebb01e3dc9f8cba0c53793bbccdcb8e970f67d66a45b8f",
+    "final_fresh_replay": "f64d37976582dfc4e383a77ff9e90aa4b96004b4c6a0ac4c3e50fce00774fca3",
+    "final_fresh_static_safety": "efc490edda4e2f06a485976c17aa95a3fedcffcf4e7a6aa4caa15514b04a211f",
+    "final_fresh_tests": "0f69503d18a18ae28cd01c10374353a2310630d1b6337b9e01b567cb214a39f6",
+    "final_manifest_verification": "068645bc9f1dba19f053675d231396eede74bb1169ce3b4ac3eafd5952cb1da3",
+    "final_verification_report": "2e2ce288e2738daf614a6e3a365805da3ed402e224cc62875bf9f671d17480e5",
+    "final_zip": "8e1b5f56c271cfee93c04484672c178e4b24fda1aa2a0b1fc5c2e4f117c77c1f",
+    "identity_verification": "2622d7578df0c9dee1ffb117de413f3cf43a0352c1cfafbc3c42df7c6bfc2f9a"
+  },
+  "authority_boundary": [
+    "Freshness Score / cache ≠ Truth / Authority",
+    "Expired Flag ≠ World State Proof",
+    "Refresh Candidate ≠ Refresh Execution",
+    "ALLOW Candidate ≠ Permission Grant / Action Execution / Action Success",
+    "Prepared State ≠ Authoritative Current State",
+    "DCSR Reconstruction ≠ Domain Authority / Safety Proof / Action Execution / Action Success"
+  ],
+  "canonical_id": "NOEPIN-AL-096",
+  "core_sha256": "4770146a624387749b696859dfdf550510753e2287aa07bf4b08c560500cf04d",
+  "creator": "NOEPIN / のえぴん",
+  "dcsr": "LIMITED INTEGRATION / 限定適用",
+  "defects": {
+    "benchmark_harness": 0,
+    "execution_harness_invocation": 0,
+    "production": 0,
+    "production_gate_helper": 0,
+    "replay_helper": 0,
+    "test_fixture": 0
+  },
+  "english_name": "AL Source Freshness Decay",
+  "final_fresh_benchmark": {
+    "condition": "Python stdlib; 5000 Source freshness records; 10 evaluations x 5 batches; prepared verified-result reuse",
+    "delta_bytes": 3125,
+    "delta_percent": 0.23042001328693967,
+    "full_bytes": 1356219,
+    "full_median_ms": 1.0568014,
+    "full_resend": false,
+    "metadata_bytes": 489,
+    "missing_records": 10,
+    "prepared_median_ms": 0.00015920000000000002,
+    "semantic_match": true
+  },
+  "final_zip_filename": "NOEPIN_AL_096_SOURCE_FRESHNESS_DECAY_SUCCESSOR_V2_20261108.zip",
+  "final_zip_sha256": "8e1b5f56c271cfee93c04484672c178e4b24fda1aa2a0b1fc5c2e4f117c77c1f",
+  "identity_verification": {
+    "core_external_sha256": "4770146a624387749b696859dfdf550510753e2287aa07bf4b08c560500cf04d",
+    "core_final_zip_sha256": "4770146a624387749b696859dfdf550510753e2287aa07bf4b08c560500cf04d",
+    "core_identity_pass": true,
+    "report_external_sha256": "2e2ce288e2738daf614a6e3a365805da3ed402e224cc62875bf9f671d17480e5",
+    "report_final_zip_sha256": "2e2ce288e2738daf614a6e3a365805da3ed402e224cc62875bf9f671d17480e5",
+    "report_identity_pass": true,
+    "technology": 96
+  },
+  "license_rights": "NOT SPECIFIED",
+  "manifest_verification": {
+    "matched": 194,
+    "total": 194
+  },
+  "name": "情報鮮度減衰器",
+  "production_gate": {
+    "actual_al_range": "AL037-095",
+    "evidence_sha256": "c99e4f9ace194a8845ebb01e3dc9f8cba0c53793bbccdcb8e970f67d66a45b8f",
+    "pass": true,
+    "pass_count": 59,
+    "total": 59
+  },
+  "provenance_limitations": [
+    "exact registered Origin GUID was not freshly reverified.",
+    "Pre-existing Notion V1 attachment byte identity was not freshly reverified."
+  ],
+  "replay": {
+    "digest": "ebf8e30656f69138ed733426ecb7d17fb301f9a0cc32e19796576b5c31716903",
+    "divergence": 0,
+    "total_cases": 3000
+  },
+  "report_sha256": "2e2ce288e2738daf614a6e3a365805da3ed402e224cc62875bf9f671d17480e5",
+  "schema": "NOEPIN_AL_FINAL_ARTIFACT_SEAL_V1",
+  "static_safety": {
+    "blocked_call_hits": [],
+    "blocked_import_hits": [],
+    "external_execution_paths": 0,
+    "unauthorized_write_paths": 0
+  },
+  "status": "COMPLETE / VERIFIED",
+  "technology": 96,
+  "tests": "160 / 160 PASS"
+}

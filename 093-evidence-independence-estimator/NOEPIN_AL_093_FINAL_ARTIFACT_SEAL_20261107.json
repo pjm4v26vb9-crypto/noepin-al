@@ -1,0 +1,48 @@
+{
+  "ai_support": "AI-assisted implementation / analysis / documentation support using ChatGPT",
+  "al_production_gate_evidence_filename": "NOEPIN_AL_093_AL_PRODUCTION_GATE_EVIDENCE.json",
+  "al_production_gate_evidence_sha256": "3bbe468220ec5cf98333dfb18f66bbc634fb9d857b7d2e4940d2e86abebb801d",
+  "authority_boundary": "Independence estimates, clusters, Effective Evidence Count, and cache/prepared state are uncertainty-control evidence only; no Truth, Authority, Permission Grant, Action Execution, Commit/Publish, External Write, Safety Proof, or Action Success authority is promoted.",
+  "canonical_id": "NOEPIN-AL-093",
+  "core_sha256": "ee0cddbb2a16a930585e2b47e6cc0d2b4d6af915867e53e1cc25dbd9e9aa7b87",
+  "creator": "NOEPIN / のえぴん",
+  "dcsr": "LIMITED INTEGRATION / 限定適用",
+  "defects": {
+    "benchmark_harness": 0,
+    "execution_harness_invocation": 0,
+    "production": 0,
+    "production_gate_helper": 0,
+    "replay_helper": 0,
+    "test_fixture": 0
+  },
+  "external_evidence_hashes": {
+    "final_fresh_benchmark": "b1cf16b247b8de7b4912815916b444ac90e13f3d1b3906ea305ba111ae56d856",
+    "final_fresh_compile": "0f94255f508d9145349b3f969bbb76f2f744435c1865eb570bae12eb15b5fde3",
+    "final_fresh_replay": "1f697939563daa1766742e22d7fa8d6621bc9807304e117fc4e068cbccc587b6",
+    "final_fresh_static": "15ac633c755886f4f42e8fa63341c4eacf958add349b514d54085f672850761b",
+    "final_fresh_tests": "844d36954eb3e180a0742570330b8623e9376f2119b0060c712c6ddab0f81b2e",
+    "final_manifest_verification": "fa30ddbd136cde9e04287bcd41b590eaf182ef7cda4cd76454fcad4a746c0c6f",
+    "final_zip": "d88875964278f2c704fc72750a17de5405bf52eac425d7cc94684e0c99ba65be",
+    "gate": "3bbe468220ec5cf98333dfb18f66bbc634fb9d857b7d2e4940d2e86abebb801d",
+    "identity": "426a06b8fead07d42a812f33744540819aef41e3c7ae9df5b682f8734d5ddb01",
+    "report": "196780b34d12a3883b4e4d61824f05c0a2e601f099255e78bdda94e449f26bc1"
+  },
+  "final_manifest": "98 / 98 files matched",
+  "final_verification_report_filename": "NOEPIN_AL_093_FINAL_VERIFICATION_REPORT_20261107.md",
+  "final_verification_report_sha256": "196780b34d12a3883b4e4d61824f05c0a2e601f099255e78bdda94e449f26bc1",
+  "final_zip_filename": "NOEPIN_AL_093_EVIDENCE_INDEPENDENCE_ESTIMATOR_SUCCESSOR_V2_20261107.zip",
+  "final_zip_sha256": "d88875964278f2c704fc72750a17de5405bf52eac425d7cc94684e0c99ba65be",
+  "identity_verification_sha256": "426a06b8fead07d42a812f33744540819aef41e3c7ae9df5b682f8734d5ddb01",
+  "license_rights": "NOT SPECIFIED",
+  "name": "AL Evidence Independence Estimator",
+  "production_gate": "AL037-092; 56 / 56 PASS",
+  "provenance_limitations": [
+    "exact registered Origin GUID was not freshly reverified.",
+    "Pre-existing Notion V1 attachment byte identity was not freshly reverified."
+  ],
+  "replay": "3 x 1000 = 3000; divergence 0",
+  "schema": "NOEPIN_AL_FINAL_ARTIFACT_SEAL_V1",
+  "static_safety": "external execution paths 0; unauthorized write paths 0",
+  "technology": 93,
+  "tests": "160 / 160 PASS Normal / Fresh / Final Fresh"
+}

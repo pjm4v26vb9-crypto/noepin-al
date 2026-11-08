@@ -1,0 +1,84 @@
+{
+  "ai_support": "AI-assisted implementation / analysis / documentation support using ChatGPT",
+  "authority_boundary": [
+    "Support / Opposition / Conflict Mass != World Truth",
+    "Conflict Mass != Safety Proof",
+    "Effective Evidence Count != Fact Proof",
+    "Decision Hint != Permission Grant / Action Execution / Action Success",
+    "ALLOW Candidate != Permission Grant / Action Execution / Action Success",
+    "DENY/HOLD Candidate != Stop Execution",
+    "Prepared State / Cache != Authoritative Current State",
+    "DCSR Reconstruction != Domain Authority / Safety Proof / Action Execution / Action Success"
+  ],
+  "benchmark_final_fresh": {
+    "condition": "Python stdlib; 5000 Evidence beliefs + 1000 explicit conflict relations; 10 evaluations x 5 batches; prepared verified-result reuse",
+    "delta_bytes": 3748,
+    "delta_percent": 0.20560577451607487,
+    "full_bytes": 1822906,
+    "full_median_ms": 6.4240148,
+    "full_resend": false,
+    "metadata_bytes": 489,
+    "missing_records": 10,
+    "prepared_median_ms": 0.0001682,
+    "semantic_match": true
+  },
+  "canonical_id": "NOEPIN-AL-097",
+  "core_sha256": "16518d30239e2823cc8f2fbdec157009a8d38a659663b74ebb1be821d6d821e8",
+  "creator_origin": "NOEPIN / のえぴん",
+  "date": "2026-11-08",
+  "dcsr_level": "LIMITED INTEGRATION / 限定適用",
+  "defects": {
+    "benchmark_harness": 0,
+    "execution_harness_invocation": 0,
+    "production": 0,
+    "production_gate_helper": 0,
+    "replay_helper": 0,
+    "test_fixture": 0
+  },
+  "final_manifest": {
+    "matched": 167,
+    "pass": true,
+    "total": 167
+  },
+  "final_manifest_verification_sha256": "7aa1da97554449a4e712fd2078f5ccf892fd915101217e215c29a0a9864dfc80",
+  "final_verification_report_sha256": "c4adcbed540fa5d1e36767390b40d4d4116e3cc9a666c48894bd4a73e6cf9234",
+  "final_zip": "NOEPIN_AL_097_CONFLICT_MASS_AGGREGATOR_SUCCESSOR_V2_20261108.zip",
+  "final_zip_sha256": "fc01fb57a942a63cb9033bb54506ec058121966cf360720dc88459d43f9ed248",
+  "identity": {
+    "core_identity_pass": true,
+    "report_identity_pass": true
+  },
+  "identity_verification_sha256": "cb101a10280a05447c819bab5cb448155982f70d1515ea62fa76ff4c6ae067fd",
+  "license_rights": "NOT SPECIFIED",
+  "name_en": "AL Conflict Mass Aggregator",
+  "name_ja": "矛盾質量アグリゲーター",
+  "production_gate": {
+    "actual_range": "AL037-096",
+    "pass": true,
+    "pass_count": 60,
+    "total": 60
+  },
+  "production_gate_evidence_sha256": "e7ff108b7d04a47d19a5a338942692e7440526d6ac0ae2cabf11e0525dc17345",
+  "provenance_limitations": [
+    "exact registered Origin GUID was not freshly reverified.",
+    "Pre-existing Notion V1 attachment byte identity was not freshly reverified."
+  ],
+  "replay": {
+    "digest": "c38b3d2b9976e88e30d9e0fc3e6d2f3042cc8d073905e9bcc537045a41540ed5",
+    "divergence": 0,
+    "runs": 3000
+  },
+  "schema": "NOEPIN_AL_FINAL_ARTIFACT_SEAL_V1",
+  "static_safety": {
+    "external_execution_paths": 0,
+    "unauthorized_write_paths": 0
+  },
+  "status": "COMPLETE / VERIFIED",
+  "technology": 97,
+  "tests": {
+    "final_fresh": "160/160 PASS",
+    "fresh": "160/160 PASS",
+    "normal": "160/160 PASS"
+  },
+  "zip_self_reference_rule": "Final ZIP SHA-256 is stored externally and is not embedded in the Final ZIP."
+}

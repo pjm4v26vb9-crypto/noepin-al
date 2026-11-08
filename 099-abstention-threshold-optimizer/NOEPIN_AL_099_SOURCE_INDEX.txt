@@ -1,0 +1,62 @@
+NOEPIN AL 099 — SOURCE INDEX — 2026-11-08
+
+Technology: 99｜棄却閾値オプティマイザー / AL Abstention Threshold Optimizer
+Canonical ID: NOEPIN-AL-099
+Creator / Originator / Project Owner / Original Concept / Architecture Direction: NOEPIN / のえぴん
+Implementation / analysis / documentation support: AI-assisted using ChatGPT
+License / Rights: NOT SPECIFIED
+DCSR: AUXILIARY INTEGRATION / 補助統合
+
+Final ZIP
+- NOEPIN_AL_099_ABSTENTION_THRESHOLD_OPTIMIZER_SUCCESSOR_V2_20261108.zip
+- SHA-256: 4f43f5d3f6c80b75c09edec94bc6a5384f9743ca08c51052681a1fd4e6aa3b58
+
+Final Verification Report
+- NOEPIN_AL_099_FINAL_VERIFICATION_REPORT_20261108.md
+- SHA-256: 4146ffa1060aada3ae3494de71d7bf0ec609f1680f500c25a2b24ddef3adc48b
+
+Core
+- noepin_al_099_abstention_threshold_optimizer.py
+- SHA-256: 87799cfffe8012dcbf9df241f2d5f9a2578a2dcbdae380d08896469a8c4041d0
+
+Final Artifact Seal
+- NOEPIN_AL_099_FINAL_ARTIFACT_SEAL_20261108.json
+- SHA-256: 2ef4fac6ebbaa3a831e00926277526057883e0ba92867eaaa0147892bb40a7c6
+
+Frozen AL Production Gate Evidence
+- NOEPIN_AL_099_AL_PRODUCTION_GATE_EVIDENCE.json
+- SHA-256: a1ac54eef736cc4472edcff628db560125ef99fcd0e037a1a00ebe36539d34ba
+- Actual AL range: AL037–098
+- Gate: 62 / 62 PASS
+
+Final Manifest Verification
+- NOEPIN_AL_099_FINAL_MANIFEST_VERIFICATION_20261108.json
+- SHA-256: 771f2aa19c39d5e7775ccfecab36220ba6fbafe6dd502abcf9362401276257e4
+- 150 / 150 files matched
+
+Identity Verification
+- NOEPIN_AL_099_IDENTITY_VERIFICATION_20261108.json
+- SHA-256: 58eccb81b949ff1c2dc9cadb9aab9dba366712726d4478d1d209fd7190e5d0fb
+- Core identity: PASS
+- Report identity: PASS
+
+Final Fresh Validation
+- Tests: 160 / 160 PASS
+- Replay: 3000 / divergence 0
+- Replay digest: 8d0d8354344629c12b917f01c645e2a7b9eabac32a8d2ca0fa23329ce6842a14
+- Static Safety: external execution paths 0 / unauthorized write paths 0
+- Benchmark: Full 6.2305012 ms / Prepared 0.0001762 ms / semantic match true
+- DCSR: 1,200,174 bytes -> 2,791 bytes / 0.2325496136%
+- Missing-only: 10 Calibration records / 458 metadata bytes / full resend false
+
+Defects
+- Production defect: 0
+- Test fixture defect: 0
+- Benchmark harness defect: 0
+- Replay helper defect: 0
+- Production Gate helper defect: 0
+- Execution harness invocation defect: 0
+
+Provenance limitations
+- exact registered Origin GUID was not freshly reverified.
+- Pre-existing Notion V1 attachment byte identity was not freshly reverified.

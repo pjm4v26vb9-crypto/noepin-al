@@ -1,0 +1,62 @@
+NOEPIN AL 098 — SOURCE INDEX — 2026-11-08
+
+Technology: 98｜認識的不確実性分離器 / AL Epistemic-Aleatoric Splitter
+Canonical ID: NOEPIN-AL-098
+Creator / Originator / Project Owner / Original Concept / Architecture Direction: NOEPIN / のえぴん
+Implementation / analysis / documentation support: AI-assisted using ChatGPT
+License / Rights: NOT SPECIFIED
+DCSR: LIMITED INTEGRATION / 限定適用
+
+Final ZIP
+- NOEPIN_AL_098_EPISTEMIC_ALEATORIC_SPLITTER_SUCCESSOR_V2_20261108.zip
+- SHA-256: 01b4ec52ccf194cacbbbec808f29b5acb7ae5251c9fed474e74fd2cc3ab98230
+
+Final Verification Report
+- NOEPIN_AL_098_FINAL_VERIFICATION_REPORT_20261108.md
+- SHA-256: b083c1d6ecd0f4e9f4565bb7586c71620066b4e32685e7fc3c00e2196bf6a25d
+
+Core
+- noepin_al_098_epistemic_aleatoric_splitter.py
+- SHA-256: 0cbd253c089bbff9e5e361ba23f863bfd06b55bf668c92e82d1a85aec92ac641
+
+Final Artifact Seal
+- NOEPIN_AL_098_FINAL_ARTIFACT_SEAL_20261108.json
+- SHA-256: fc052172829e6f737f6272c576b93d062297c5b5b71f0371434f76e10bb3f88e
+
+Frozen AL Production Gate Evidence
+- NOEPIN_AL_098_AL_PRODUCTION_GATE_EVIDENCE.json
+- SHA-256: c8f4ae452739f2c97a679a4b079b1c5da633865d448855e57aeedec42889f853
+- Actual AL range: AL037–097
+- Gate: 61 / 61 PASS
+
+Final Manifest Verification
+- NOEPIN_AL_098_FINAL_MANIFEST_VERIFICATION_20261108.json
+- SHA-256: cbd35a77c40ddd95381a87c79db8fe946e84bd4da9fb86de0645cc761bffb41c
+- 269 / 269 files matched
+
+Identity Verification
+- NOEPIN_AL_098_IDENTITY_VERIFICATION_20261108.json
+- SHA-256: 9dad790b1f73572ec9c9f0e173f4a83c603d174d4ab8e3d7220fc8e06b6491eb
+- Core identity: PASS
+- Report identity: PASS
+
+Final Fresh Validation
+- Tests: 160 / 160 PASS
+- Replay: 3000 / divergence 0
+- Replay digest: d6962404e684a981ffc89405429dbce4fd454ea0b44b78b19aa72c74b1ec106d
+- Static Safety: external execution paths 0 / unauthorized write paths 0
+- Benchmark: Full 2.8336843 ms / Prepared 0.00017329999999999998 ms / semantic match true
+- DCSR: 1,589,904 bytes -> 3,659 bytes / 0.2301396814%
+- Missing-only: 10 Prediction records / 469 metadata bytes / full resend false
+
+Defects
+- Production defect: 0
+- Test fixture defect: 0
+- Benchmark harness defect: 0
+- Replay helper defect: 0
+- Production Gate helper defect: 0
+- Execution harness invocation defect: 0
+
+Provenance limitations
+- exact registered Origin GUID was not freshly reverified.
+- Pre-existing Notion V1 attachment byte identity was not freshly reverified.

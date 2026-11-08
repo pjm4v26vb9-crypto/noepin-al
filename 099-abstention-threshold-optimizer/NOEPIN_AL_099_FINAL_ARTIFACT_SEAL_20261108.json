@@ -1,0 +1,80 @@
+{
+  "artifact": "Sequential Successor V2",
+  "authority_boundary": [
+    "Optimized Threshold ≠ Permission Grant / Policy Mutation",
+    "Expected Loss Minimum ≠ Safety Proof",
+    "Class-specific Threshold ≠ Domain Authority",
+    "Conservative Threshold Candidate ≠ Threshold Application",
+    "Degradation Raise Candidate ≠ Policy Mutation",
+    "ALLOW Candidate ≠ Permission Grant / Action Execution / Action Success",
+    "Prepared State / Cache ≠ Authoritative Current State",
+    "DCSR Reconstruction ≠ Domain Authority / Safety Proof / Action Execution / Action Success"
+  ],
+  "canonical_id": "NOEPIN-AL-099",
+  "core_sha256": "87799cfffe8012dcbf9df241f2d5f9a2578a2dcbdae380d08896469a8c4041d0",
+  "creator_originator_project_owner_original_concept_architecture_direction": "NOEPIN / のえぴん",
+  "date": "2026-11-08",
+  "dcsr_level": "AUXILIARY INTEGRATION / 補助統合",
+  "defects": {
+    "benchmark_harness": 0,
+    "execution_harness_invocation": 0,
+    "production": 0,
+    "production_gate_helper": 0,
+    "replay_helper": 0,
+    "test_fixture": 0
+  },
+  "final_fresh": {
+    "benchmark_full_median_ms": 6.2305012,
+    "benchmark_prepared_median_ms": 0.0001762,
+    "benchmark_semantic_match": true,
+    "dcsr_delta_bytes": 2791,
+    "dcsr_delta_percent": 0.23254961363935564,
+    "dcsr_full_bytes": 1200174,
+    "full_resend": false,
+    "metadata_bytes": 458,
+    "missing_records": 10,
+    "replay_digest": "8d0d8354344629c12b917f01c645e2a7b9eabac32a8d2ca0fa23329ce6842a14",
+    "replay_divergence": 0,
+    "replay_runs": 3000,
+    "static_external_execution_paths": 0,
+    "static_unauthorized_write_paths": 0,
+    "tests": "160 / 160 PASS"
+  },
+  "final_manifest": {
+    "matched": 150,
+    "pass": true,
+    "sha256": "771f2aa19c39d5e7775ccfecab36220ba6fbafe6dd502abcf9362401276257e4",
+    "total": 150
+  },
+  "final_verification_report": {
+    "filename": "NOEPIN_AL_099_FINAL_VERIFICATION_REPORT_20261108.md",
+    "sha256": "4146ffa1060aada3ae3494de71d7bf0ec609f1680f500c25a2b24ddef3adc48b"
+  },
+  "final_zip": {
+    "filename": "NOEPIN_AL_099_ABSTENTION_THRESHOLD_OPTIMIZER_SUCCESSOR_V2_20261108.zip",
+    "sha256": "4f43f5d3f6c80b75c09edec94bc6a5384f9743ca08c51052681a1fd4e6aa3b58"
+  },
+  "identity": {
+    "core_identity_pass": true,
+    "identity_verification_sha256": "58eccb81b949ff1c2dc9cadb9aab9dba366712726d4478d1d209fd7190e5d0fb",
+    "report_identity_pass": true
+  },
+  "implementation_analysis_documentation_support": "AI-assisted using ChatGPT",
+  "license_rights": "NOT SPECIFIED",
+  "production_gate_evidence": {
+    "actual_al_range": "037-098",
+    "filename": "NOEPIN_AL_099_AL_PRODUCTION_GATE_EVIDENCE.json",
+    "pass_count": 62,
+    "sha256": "a1ac54eef736cc4472edcff628db560125ef99fcd0e037a1a00ebe36539d34ba",
+    "total": 62
+  },
+  "provenance_limitations": [
+    "exact registered Origin GUID was not freshly reverified.",
+    "Pre-existing Notion V1 attachment byte identity was not freshly reverified."
+  ],
+  "schema": "NOEPIN_AL_FINAL_ARTIFACT_SEAL_V1",
+  "technology": 99,
+  "technology_name_en": "AL Abstention Threshold Optimizer",
+  "technology_name_ja": "棄却閾値オプティマイザー",
+  "zip_self_reference_rule": "Final ZIP SHA-256 is external only and is not embedded in the Final ZIP."
+}
