@@ -87,7 +87,6 @@ NOEPIN ALは、**NOEPIN / のえぴん**がゲーム「もふもふの森」を�
 | 069 | [Dependency Order Verifier / 依存順序検証器](works/069-dependency-order-verifier.md) | COMPLETE / VERIFIED |
 | 070 | [Self-Authority Invariance Guard / 自己権限不変条件ガード](works/070-self-authority-invariance-guard.md) | COMPLETE / VERIFIED |
 | 071 | [Policy Immutability Kernel / ポリシー不変カーネル](works/071-policy-immutability-kernel.md) | COMPLETE / VERIFIED |
-
 | 072 | [AL Approval-Binding Digest / 承認束縛ダイジェスト](works/072-approval-binding-digest.md) | COMPLETE / VERIFIED |
 | 073 | [AL Pre-Execution State Revalidator / 実行直前状態再検証](works/073-pre-execution-state-revalidator.md) | COMPLETE / VERIFIED |
 | 074 | [AL Sequential Risk Composer / 連続リスク合成器](works/074-sequential-risk-composer.md) | COMPLETE / VERIFIED |
@@ -100,7 +99,6 @@ NOEPIN ALは、**NOEPIN / のえぴん**がゲーム「もふもふの森」を�
 | 081 | [AL Postcondition Auditor / 事後条件監査器](works/081-postcondition-auditor.md) | COMPLETE / VERIFIED |
 | 082 | [AL Side-Effect Diff Analyzer / 副作用差分アナライザー](works/082-side-effect-diff-analyzer.md) | COMPLETE / VERIFIED |
 | 083 | [AL Reversible-First Planner / 可逆性優先プランナー](works/083-reversible-first-planner.md) | COMPLETE / VERIFIED |
-
 | 084 | [AL Approval Quorum Calculator / 承認クォーラム計算器](works/084-approval-quorum-calculator.md) | COMPLETE / VERIFIED |
 | 085 | [AL Transactional Execution Wrapper / トランザクション実行ラッパー](works/085-transactional-execution-wrapper.md) | COMPLETE / VERIFIED |
 | 086 | [AL Compensation Action Planner / 補償アクションプランナー](works/086-compensation-action-planner.md) | COMPLETE / VERIFIED |
@@ -109,7 +107,6 @@ NOEPIN ALは、**NOEPIN / のえぴん**がゲーム「もふもふの森」を�
 | 089 | [AL Idempotency Guard / 冪等性ガード](works/089-idempotency-guard.md) | COMPLETE / VERIFIED |
 | 090 | [AL Partial-Failure Containment Manager / 部分失敗封じ込め器](works/090-partial-failure-containment-manager.md) | COMPLETE / VERIFIED |
 | 091 | [AL Two-Phase Action Commit / 二段階実行コミット](works/091-two-phase-action-commit.md) | COMPLETE / VERIFIED |
-
 | 092 | [AL Bayesian Uncertainty Fusion / ベイズ不確実性統合器](works/092-bayesian-uncertainty-fusion.md) | COMPLETE / VERIFIED |
 | 093 | [AL Evidence Independence Estimator / 証拠独立性推定器](works/093-evidence-independence-estimator.md) | COMPLETE / VERIFIED |
 | 094 | [AL Confidence Calibration Monitor / 信頼度校正モニター](works/094-confidence-calibration-monitor.md) | COMPLETE / VERIFIED |
