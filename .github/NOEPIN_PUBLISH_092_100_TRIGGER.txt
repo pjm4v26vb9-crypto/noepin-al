@@ -1,1 +1,2 @@
 One-time trigger for verified NOEPIN AL 092-100 publication.
+Retry after byte-for-byte transfer correction.
