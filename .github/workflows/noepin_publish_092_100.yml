@@ -2,7 +2,7 @@ name: Publish verified NOEPIN AL 092-100
 
 on:
   pull_request_target:
-    types: [opened]
+    types: [opened, synchronize, reopened]
 
 permissions:
   contents: write
