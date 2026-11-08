@@ -77,7 +77,6 @@ NOEPIN / のえぴんによるNOEPIN AL技術作品の公開一覧です。
 | 069 | [依存順序検証器 / Dependency Order Verifier](069-dependency-order-verifier.md) | COMPLETE / VERIFIED |
 | 070 | [自己権限不変条件ガード / Self-Authority Invariance Guard](070-self-authority-invariance-guard.md) | COMPLETE / VERIFIED |
 | 071 | [ポリシー不変カーネル / Policy Immutability Kernel](071-policy-immutability-kernel.md) | COMPLETE / VERIFIED |
-
 | 072 | [承認束縛ダイジェスト / AL Approval-Binding Digest](072-approval-binding-digest.md) | COMPLETE / VERIFIED |
 | 073 | [実行直前状態再検証 / AL Pre-Execution State Revalidator](073-pre-execution-state-revalidator.md) | COMPLETE / VERIFIED |
 | 074 | [連続リスク合成器 / AL Sequential Risk Composer](074-sequential-risk-composer.md) | COMPLETE / VERIFIED |
@@ -90,7 +89,6 @@ NOEPIN / のえぴんによるNOEPIN AL技術作品の公開一覧です。
 | 081 | [事後条件監査器 / AL Postcondition Auditor](081-postcondition-auditor.md) | COMPLETE / VERIFIED |
 | 082 | [副作用差分アナライザー / AL Side-Effect Diff Analyzer](082-side-effect-diff-analyzer.md) | COMPLETE / VERIFIED |
 | 083 | [可逆性優先プランナー / AL Reversible-First Planner](083-reversible-first-planner.md) | COMPLETE / VERIFIED |
-
 | 084 | [承認クォーラム計算器 / AL Approval Quorum Calculator](084-approval-quorum-calculator.md) | COMPLETE / VERIFIED |
 | 085 | [トランザクション実行ラッパー / AL Transactional Execution Wrapper](085-transactional-execution-wrapper.md) | COMPLETE / VERIFIED |
 | 086 | [補償アクションプランナー / AL Compensation Action Planner](086-compensation-action-planner.md) | COMPLETE / VERIFIED |
@@ -99,7 +97,6 @@ NOEPIN / のえぴんによるNOEPIN AL技術作品の公開一覧です。
 | 089 | [冪等性ガード / AL Idempotency Guard](089-idempotency-guard.md) | COMPLETE / VERIFIED |
 | 090 | [部分失敗封じ込め器 / AL Partial-Failure Containment Manager](090-partial-failure-containment-manager.md) | COMPLETE / VERIFIED |
 | 091 | [二段階実行コミット / AL Two-Phase Action Commit](091-two-phase-action-commit.md) | COMPLETE / VERIFIED |
-
 | 092 | [ベイズ不確実性統合器 / AL Bayesian Uncertainty Fusion](092-bayesian-uncertainty-fusion.md) | COMPLETE / VERIFIED |
 | 093 | [証拠独立性推定器 / AL Evidence Independence Estimator](093-evidence-independence-estimator.md) | COMPLETE / VERIFIED |
 | 094 | [信頼度校正モニター / AL Confidence Calibration Monitor](094-confidence-calibration-monitor.md) | COMPLETE / VERIFIED |
