@@ -1,0 +1,132 @@
+name: NOEPIN AL publish verified sources 001-091
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.noepin-transfer-001-091/**'
+      - '.github/workflows/noepin-al-publish-verified-sources.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Verify transfer and publish verified sources
+        shell: bash
+        run: |
+          set -euo pipefail
+          cat .noepin-transfer-001-091/part_*.txt | base64 --decode > /tmp/noepin_001_091.tar.xz
+          echo "88334d5d7872e5bfa65ec71068895d2f6bbdcbaa537dbfab7d6f1c2dd03b5373  /tmp/noepin_001_091.tar.xz" | sha256sum -c -
+          mkdir -p /tmp/noepin_001_091
+          tar -xJf /tmp/noepin_001_091.tar.xz -C /tmp/noepin_001_091
+
+          python - <<'PY'
+          from pathlib import Path
+          import shutil
+
+          repo = Path('.')
+          srcroot = Path('/tmp/noepin_001_091')
+
+          readme_section = '''## 公開内容
+          - **Verified Source: AVAILABLE**
+          - Final ZIP内の検証済み実装を [`verified_artifact/`](verified_artifact/) で公開しています。
+          - Tests / Replay / Benchmark / Production Gate等、Final ZIPに含まれる検証用ファイルは、存在するものを元のファイル名・内容のまま収録しています。
+          - README等の文書から似たコードを再生成し、検証済み完成版として置き換えることはしていません。
+          - `.pyc` / `__pycache__` は実行時生成キャッシュのため公開対象から除外しています。
+
+          '''
+
+          for n in range(1, 92):
+              num = f'{n:03d}'
+              matches = sorted(p for p in repo.glob(f'{num}-*') if p.is_dir())
+              if len(matches) != 1:
+                  raise RuntimeError(f'{num}: expected exactly one technology directory, got {matches}')
+              tech = matches[0]
+              src = srcroot / num
+              if not src.is_dir():
+                  raise RuntimeError(f'{num}: missing extracted source directory')
+
+              dest = tech / 'verified_artifact'
+              if dest.exists():
+                  raise RuntimeError(f'{num}: verified_artifact already exists; refusing overwrite')
+              dest.mkdir(parents=True)
+              for item in src.rglob('*'):
+                  if item.is_dir():
+                      continue
+                  rel = item.relative_to(src)
+                  target = dest / rel
+                  target.parent.mkdir(parents=True, exist_ok=True)
+                  shutil.copyfile(item, target)
+
+              readme = tech / 'README.md'
+              if readme.exists():
+                  text = readme.read_text(encoding='utf-8')
+                  if '## 公開内容' not in text:
+                      marker = '## Verification'
+                      if marker in text:
+                          text = text.replace(marker, readme_section + marker, 1)
+                      else:
+                          text = text.rstrip() + '\n\n' + readme_section
+                      readme.write_text(text, encoding='utf-8')
+
+              works = repo / 'works' / f'{tech.name}.md'
+              if works.exists():
+                  text = works.read_text(encoding='utf-8')
+                  if '## 検証済み実装' not in text:
+                      section = (
+                          '## 検証済み実装\n'
+                          f'この技術はREADMEだけでなく、完成時Final ZIPに含まれていた検証済み実装・テスト等を、技術フォルダ内の '
+                          f'[`verified_artifact/`](../{tech.name}/verified_artifact/) で確認できます。\n\n'
+                          'Final ZIPにReplay / Benchmark / Production Gate等が含まれる場合は、それらも元のファイル名・内容のまま公開しています。\n\n'
+                          '文書から類似コードを再生成して完成版として置き換えることはしていません。\n\n'
+                      )
+                      marker = '## Verification'
+                      if marker in text:
+                          text = text.replace(marker, section + marker, 1)
+                      else:
+                          text = text.rstrip() + '\n\n' + section
+
+                  va_link = f'[Verified artifact](../{tech.name}/verified_artifact/)'
+                  if va_link not in text and '## Technical Files' in text:
+                      lines = text.splitlines()
+                      out = []
+                      inserted = False
+                      in_technical = False
+                      for line in lines:
+                          out.append(line)
+                          if line.strip() == '## Technical Files':
+                              in_technical = True
+                              continue
+                          if in_technical and not inserted and line.startswith('[Technology folder]'):
+                              out.append(va_link + '  ')
+                              inserted = True
+                          if in_technical and line.startswith('## ') and line.strip() != '## Technical Files':
+                              in_technical = False
+                      text = '\n'.join(out) + ('\n' if text.endswith('\n') else '')
+                  works.write_text(text, encoding='utf-8')
+
+          # one-time transfer material must not remain in the public repository
+          shutil.rmtree(repo / '.noepin-transfer-001-091')
+          wf = repo / '.github/workflows/noepin-al-publish-verified-sources.yml'
+          if wf.exists():
+              wf.unlink()
+          PY
+
+      - name: Commit published sources
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet && exit 0
+          git commit -m "Publish verified implementation sources for NOEPIN AL 001-091"
+          git push origin HEAD:main
