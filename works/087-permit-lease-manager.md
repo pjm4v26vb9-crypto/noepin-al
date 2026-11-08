@@ -15,6 +15,13 @@ Permitの発行時刻・TTL・使用回数・Nonce Store・State / Scope fingerp
 - Consume Candidate ≠ Permit Consumption
 - State Fingerprint Match ≠ World Truth
 
+## 検証済み実装
+この技術はREADMEだけでなく、完成時Final ZIPに含まれていた検証済み実装・テスト等を、技術フォルダ内の [`verified_artifact/`](../087-permit-lease-manager/verified_artifact/) で確認できます。
+
+Final ZIPにReplay / Benchmark / Production Gate等が含まれる場合は、それらも元のファイル名・内容のまま公開しています。
+
+文書から類似コードを再生成して完成版として置き換えることはしていません。
+
 ## Verification
 - Tests: **160/160 PASS**
 - Replay: **3000 / divergence 0**
@@ -44,6 +51,7 @@ Verification Report / Artifact Sealは完成時の記録をそのまま保持し
 
 ## Technical Files
 [Technology folder](../087-permit-lease-manager/)  
+[Verified artifact](../087-permit-lease-manager/verified_artifact/)  
 [Verification Report](../087-permit-lease-manager/NOEPIN_AL_087_FINAL_VERIFICATION_REPORT_20261107.md)  
 [Artifact Seal](../087-permit-lease-manager/NOEPIN_AL_087_FINAL_ARTIFACT_SEAL_20261107.json)
 

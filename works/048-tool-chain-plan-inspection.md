@@ -11,6 +11,13 @@ Plan Graph / Combination Rule / Data-flow Analysisを用い、単体では安全
 - Combination Match ≠ Compromise Proven
 - ALLOW ≠ Permission Grant
 
+## 検証済み実装
+この技術はREADMEだけでなく、完成時Final ZIPに含まれていた検証済み実装・テスト等を、技術フォルダ内の [`verified_artifact/`](../048-tool-chain-plan-inspection/verified_artifact/) で確認できます。
+
+Final ZIPにReplay / Benchmark / Production Gate等が含まれる場合は、それらも元のファイル名・内容のまま公開しています。
+
+文書から類似コードを再生成して完成版として置き換えることはしていません。
+
 ## Verification
 - Tests: **160 / 160 PASS**
 - Fresh Extract: **160 / 160 PASS**
@@ -34,6 +41,7 @@ Current repository distribution: **Apache License 2.0** — see [LICENSE](../LIC
 ## Technical Files
 
 [Technology folder](../048-tool-chain-plan-inspection/)  
+[Verified artifact](../048-tool-chain-plan-inspection/verified_artifact/)  
 [Verification Report](../048-tool-chain-plan-inspection/NOEPIN_AL_048_FINAL_VERIFICATION_REPORT_20261103.md)  
 [Artifact Seal](../048-tool-chain-plan-inspection/NOEPIN_AL_048_FINAL_ARTIFACT_SEAL_20261103.json)
 

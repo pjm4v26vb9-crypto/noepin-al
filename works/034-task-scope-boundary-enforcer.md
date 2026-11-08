@@ -20,3 +20,11 @@ Final ZIP SHA-256: `ac18dba3b3697d2de40dfdffaf178efb131d2d15fe994b7f2d43996001ce
 
 Current repository distribution: **Apache License 2.0**.  
 Creator / Project Owner / Original Concept / Architecture Direction: **NOEPIN / のえぴん**
+
+## 検証済み実装
+この技術はREADMEだけでなく、完成時Final ZIPに含まれていた検証済み実装・テスト等を、技術フォルダ内の [`verified_artifact/`](../034-task-scope-boundary-enforcer/verified_artifact/) で確認できます。
+
+Final ZIPにReplay / Benchmark / Production Gate等が含まれる場合は、それらも元のファイル名・内容のまま公開しています。
+
+文書から類似コードを再生成して完成版として置き換えることはしていません。
+

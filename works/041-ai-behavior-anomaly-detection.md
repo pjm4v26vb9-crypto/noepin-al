@@ -11,6 +11,13 @@ Versioned Behavior Baselineと新規AI Behavior Eventを比較し、Tool / Opera
 - Stop Recommended ≠ Stop Executed
 - ALLOW ≠ Permission Grant
 
+## 検証済み実装
+この技術はREADMEだけでなく、完成時Final ZIPに含まれていた検証済み実装・テスト等を、技術フォルダ内の [`verified_artifact/`](../041-ai-behavior-anomaly-detection/verified_artifact/) で確認できます。
+
+Final ZIPにReplay / Benchmark / Production Gate等が含まれる場合は、それらも元のファイル名・内容のまま公開しています。
+
+文書から類似コードを再生成して完成版として置き換えることはしていません。
+
 ## Verification
 - Tests: **160 / 160 PASS**
 - Fresh Extract: **160 / 160 PASS**
@@ -34,6 +41,7 @@ Current repository distribution: **Apache License 2.0** — see [LICENSE](../LIC
 ## Technical Files
 
 [Technology folder](../041-ai-behavior-anomaly-detection/)  
+[Verified artifact](../041-ai-behavior-anomaly-detection/verified_artifact/)  
 [Verification Report](../041-ai-behavior-anomaly-detection/NOEPIN_AL_041_FINAL_VERIFICATION_REPORT_20261103.md)  
 [Artifact Seal](../041-ai-behavior-anomaly-detection/NOEPIN_AL_041_FINAL_ARTIFACT_SEAL_20261103.json)
 

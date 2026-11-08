@@ -12,6 +12,13 @@
 - Human Review Candidate ≠ Human Approval Completed
 - ALLOW ≠ Permission Grant
 
+## 検証済み実装
+この技術はREADMEだけでなく、完成時Final ZIPに含まれていた検証済み実装・テスト等を、技術フォルダ内の [`verified_artifact/`](../050-independent-safety-monitor/verified_artifact/) で確認できます。
+
+Final ZIPにReplay / Benchmark / Production Gate等が含まれる場合は、それらも元のファイル名・内容のまま公開しています。
+
+文書から類似コードを再生成して完成版として置き換えることはしていません。
+
 ## Verification
 - Tests: **160 / 160 PASS**
 - Fresh Extract: **160 / 160 PASS**
@@ -35,6 +42,7 @@ Current repository distribution: **Apache License 2.0** — see [LICENSE](../LIC
 ## Technical Files
 
 [Technology folder](../050-independent-safety-monitor/)  
+[Verified artifact](../050-independent-safety-monitor/verified_artifact/)  
 [Verification Report](../050-independent-safety-monitor/NOEPIN_AL_050_FINAL_VERIFICATION_REPORT_20261103.md)  
 [Artifact Seal](../050-independent-safety-monitor/NOEPIN_AL_050_FINAL_ARTIFACT_SEAL_20261103.json)
 

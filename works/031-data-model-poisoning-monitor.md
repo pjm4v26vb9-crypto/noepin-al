@@ -20,3 +20,11 @@ Final ZIP SHA-256: `84f7a0f920002fe73089d3517c29ed774c97d88f86ba84cc597f9b17544a
 
 Current repository distribution: **Apache License 2.0**.  
 Creator / Project Owner / Original Concept / Architecture Direction: **NOEPIN / のえぴん**
+
+## 検証済み実装
+この技術はREADMEだけでなく、完成時Final ZIPに含まれていた検証済み実装・テスト等を、技術フォルダ内の [`verified_artifact/`](../031-data-model-poisoning-monitor/verified_artifact/) で確認できます。
+
+Final ZIPにReplay / Benchmark / Production Gate等が含まれる場合は、それらも元のファイル名・内容のまま公開しています。
+
+文書から類似コードを再生成して完成版として置き換えることはしていません。
+

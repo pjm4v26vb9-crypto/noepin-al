@@ -25,6 +25,13 @@ Hash-chainの整合性は記録の内部構造が改変されていないこと�
 - Cache Hit ≠ Verification Authority
 - Ledger Reconstruction ≠ World Fact
 
+## 公開内容
+- **Verified Source: AVAILABLE**
+- Final ZIP内の検証済み実装を [`verified_artifact/`](verified_artifact/) で公開しています。
+- Tests / Replay / Benchmark / Production Gate等、Final ZIPに含まれる検証用ファイルは、存在するものを元のファイル名・内容のまま収録しています。
+- README等の文書から似たコードを再生成し、検証済み完成版として置き換えることはしていません。
+- `.pyc` / `__pycache__` は実行時生成キャッシュのため公開対象から除外しています。
+
 ## Verification
 
 - Unit / Boundary / Authority: **52 / 52 PASS**

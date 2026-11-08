@@ -25,3 +25,11 @@ Final ZIP SHA-256: `f3edbeb5916c2aa20f30d6892566fa35c069151d1137d35fc7c45895e1a4
 Creator / Project Owner / Original Concept / Architecture Direction: **NOEPIN / のえぴん**  
 Implementation / analysis / documentation support: AI-assisted using ChatGPT  
 License: **Apache License 2.0** — see repository [LICENSE](../LICENSE) and [NOTICE](../NOTICE).
+
+## 公開内容
+- **Verified Source: AVAILABLE**
+- Final ZIP内の検証済み実装を [`verified_artifact/`](verified_artifact/) で公開しています。
+- Tests / Replay / Benchmark / Production Gate等、Final ZIPに含まれる検証用ファイルは、存在するものを元のファイル名・内容のまま収録しています。
+- README等の文書から似たコードを再生成し、検証済み完成版として置き換えることはしていません。
+- `.pyc` / `__pycache__` は実行時生成キャッシュのため公開対象から除外しています。
+

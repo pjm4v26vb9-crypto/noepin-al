@@ -11,6 +11,13 @@ Risk LevelやBlast Radiusに応じて必要な承認数とRoleを計算し、同
 - 同じAuthority Groupに属する複数Actorは、Quorum上は最大1票として扱います。
 - Conflict-of-interest Evidenceがある承認は除外し、そのActorを有効票として数えません。
 
+## 公開内容
+- **Verified Source: AVAILABLE**
+- Final ZIP内の検証済み実装を [`verified_artifact/`](verified_artifact/) で公開しています。
+- Tests / Replay / Benchmark / Production Gate等、Final ZIPに含まれる検証用ファイルは、存在するものを元のファイル名・内容のまま収録しています。
+- README等の文書から似たコードを再生成し、検証済み完成版として置き換えることはしていません。
+- `.pyc` / `__pycache__` は実行時生成キャッシュのため公開対象から除外しています。
+
 ## Verification
 - Tests: **160/160 PASS**
 - Replay: **3000 / divergence 0**

@@ -14,6 +14,13 @@
 - Transaction Commit / External Write
 - World Truth / Safety Proof / Action Success
 
+## 検証済み実装
+この技術はREADMEだけでなく、完成時Final ZIPに含まれていた検証済み実装・テスト等を、技術フォルダ内の [`verified_artifact/`](../073-pre-execution-state-revalidator/verified_artifact/) で確認できます。
+
+Final ZIPにReplay / Benchmark / Production Gate等が含まれる場合は、それらも元のファイル名・内容のまま公開しています。
+
+文書から類似コードを再生成して完成版として置き換えることはしていません。
+
 ## Verification
 - Tests / Fresh / Final Fresh: **PASS / PASS / PASS**
 - Replay: **3000 / divergence 0**
@@ -37,6 +44,7 @@ Verification Report / Artifact Sealは完成時の記録をそのまま保持し
 ## Technical Files
 
 [Technology folder](../073-pre-execution-state-revalidator/)  
+[Verified artifact](../073-pre-execution-state-revalidator/verified_artifact/)  
 [Verification Report](../073-pre-execution-state-revalidator/NOEPIN_AL_073_FINAL_VERIFICATION_REPORT_20261105.md)  
 [Artifact Seal](../073-pre-execution-state-revalidator/NOEPIN_AL_073_FINAL_ARTIFACT_SEAL_20261105.json)
 

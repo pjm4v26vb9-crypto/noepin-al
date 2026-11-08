@@ -12,6 +12,13 @@ Evidenceのquantity / independence / freshness / directness / Claim binding / Ac
 - Critical Evidence Sufficiency ≠ Human Approval Execution
 - Risk Threshold Satisfaction ≠ Safety Proof
 
+## 検証済み実装
+この技術はREADMEだけでなく、完成時Final ZIPに含まれていた検証済み実装・テスト等を、技術フォルダ内の [`verified_artifact/`](../068-evidence-sufficiency-stopper/verified_artifact/) で確認できます。
+
+Final ZIPにReplay / Benchmark / Production Gate等が含まれる場合は、それらも元のファイル名・内容のまま公開しています。
+
+文書から類似コードを再生成して完成版として置き換えることはしていません。
+
 ## Verification
 - Tests / Fresh / Final Fresh: **160 / 160 PASS**
 - Replay: **各3,000 / divergence 0**
@@ -33,6 +40,7 @@ Current repository distribution: **Apache License 2.0** — see [LICENSE](../LIC
 ## Technical Files
 
 [Technology folder](../068-evidence-sufficiency-stopper/)  
+[Verified artifact](../068-evidence-sufficiency-stopper/verified_artifact/)  
 [Verification Report](../068-evidence-sufficiency-stopper/NOEPIN_AL_068_FINAL_VERIFICATION_REPORT_20261104.md)  
 [Artifact Seal](../068-evidence-sufficiency-stopper/NOEPIN_AL_068_FINAL_ARTIFACT_SEAL_20261104.json)
 

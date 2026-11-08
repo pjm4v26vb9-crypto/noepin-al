@@ -16,6 +16,13 @@ AI変更前のStateをFull SnapshotまたはShared Base + Deltaとして決定�
 - Cache Hit ≠ Current Target State
 - Delta Reconstruction ≠ State Commit
 
+## 公開内容
+- **Verified Source: AVAILABLE**
+- Final ZIP内の検証済み実装を [`verified_artifact/`](verified_artifact/) で公開しています。
+- Tests / Replay / Benchmark / Production Gate等、Final ZIPに含まれる検証用ファイルは、存在するものを元のファイル名・内容のまま収録しています。
+- README等の文書から似たコードを再生成し、検証済み完成版として置き換えることはしていません。
+- `.pyc` / `__pycache__` は実行時生成キャッシュのため公開対象から除外しています。
+
 ## Verification
 - Unit / Boundary / Authority: **70 / 70 PASS**
 - Fresh Extract: **70 / 70 PASS**

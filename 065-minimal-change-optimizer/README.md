@@ -11,6 +11,13 @@ Goal達成に必要な最小Change Candidateを探索し、Goal非寄与Change�
 - Lower Cost / Blast Radius ≠ Safety Proof
 - Reversible Candidate ≠ Rollback Executed
 
+## 公開内容
+- **Verified Source: AVAILABLE**
+- Final ZIP内の検証済み実装を [`verified_artifact/`](verified_artifact/) で公開しています。
+- Tests / Replay / Benchmark / Production Gate等、Final ZIPに含まれる検証用ファイルは、存在するものを元のファイル名・内容のまま収録しています。
+- README等の文書から似たコードを再生成し、検証済み完成版として置き換えることはしていません。
+- `.pyc` / `__pycache__` は実行時生成キャッシュのため公開対象から除外しています。
+
 ## Verification
 - Tests / Fresh / Final Fresh: **160 / 160 PASS**
 - Replay: **各3,000 / divergence 0**
