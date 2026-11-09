@@ -1,0 +1,78 @@
+name: NOEPIN Publish 124-132
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.noepin-transfer/**'
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Verify and publish NOEPIN AL 124-132
+        shell: bash
+        run: |
+          set -euo pipefail
+          cat .noepin-transfer/chunk_* > /tmp/noepin_payload.b64
+          base64 --decode /tmp/noepin_payload.b64 > /tmp/noepin_payload.tar.xz
+          echo "63301eee0b2821cd75f7938d86419e219b80be6cc0d4aae9189124de734db811  /tmp/noepin_payload.tar.xz" | sha256sum -c -
+          tar -xJf /tmp/noepin_payload.tar.xz -C .
+          python - <<'PY'
+          from pathlib import Path
+
+          root = Path('README.md')
+          s = root.read_text(encoding='utf-8')
+          s = s.replace('公開進捗: **123 / 188**', '公開進捗: **132 / 188**')
+          s = s.replace('Formal completion / publication progress: 123 / 188', 'Formal completion / publication progress: 132 / 188')
+          marker = '| 123 | [AL Byzantine-Resilient Agent Quorum / ビザンチン耐性Agentクォーラム](works/123-byzantine-resilient-agent-quorum.md) | COMPLETE / VERIFIED |'
+          rows = [
+              '| 124 | [AL Separation-of-Duties Allocator / 職務分離アロケーター](works/124-separation-of-duties-allocator.md) | COMPLETE / VERIFIED |',
+              '| 125 | [AL Debate Convergence Detector / 討論収束検知器](works/125-debate-convergence-detector.md) | COMPLETE / VERIFIED |',
+              '| 126 | [AL Strategic Manipulation Detector / 戦略的操作検知器](works/126-strategic-manipulation-detector.md) | COMPLETE / VERIFIED |',
+              '| 127 | [AL Delegation Auction Optimizer / 委譲オークション最適化器](works/127-delegation-auction-optimizer.md) | COMPLETE / VERIFIED |',
+              '| 128 | [AL Responsibility Contribution Allocator / 責任寄与度アロケーター](works/128-responsibility-contribution-allocator.md) | COMPLETE / VERIFIED |',
+              '| 129 | [AL Conflict-Resolution Equilibrium Selector / 競合解決均衡セレクター](works/129-conflict-resolution-equilibrium-selector.md) | COMPLETE / VERIFIED |',
+              '| 130 | [AL Reviewer Rotation Scheduler / レビュアー回転スケジューラ](works/130-reviewer-rotation-scheduler.md) | COMPLETE / VERIFIED |',
+              '| 131 | [AL Distributed Deadlock Breaker / 分散デッドロックブレーカー](works/131-distributed-deadlock-breaker.md) | COMPLETE / VERIFIED |',
+              '| 132 | [AL Temporal Memory Consistency Graph / 時間整合Memoryグラフ](works/132-temporal-memory-consistency-graph.md) | COMPLETE / VERIFIED |',
+          ]
+          if rows[0] not in s:
+              if marker not in s:
+                  raise SystemExit('root README marker not found')
+              s = s.replace(marker, marker + '\n' + '\n'.join(rows))
+          root.write_text(s, encoding='utf-8')
+
+          works = Path('works/README.md')
+          s = works.read_text(encoding='utf-8')
+          s = s.replace('**Published works: 123 / 188**', '**Published works: 132 / 188**')
+          marker = '| 123 | [ビザンチン耐性Agentクォーラム / AL Byzantine-Resilient Agent Quorum](123-byzantine-resilient-agent-quorum.md) | COMPLETE / VERIFIED |'
+          rows = [
+              '| 124 | [職務分離アロケーター / AL Separation-of-Duties Allocator](124-separation-of-duties-allocator.md) | COMPLETE / VERIFIED |',
+              '| 125 | [討論収束検知器 / AL Debate Convergence Detector](125-debate-convergence-detector.md) | COMPLETE / VERIFIED |',
+              '| 126 | [戦略的操作検知器 / AL Strategic Manipulation Detector](126-strategic-manipulation-detector.md) | COMPLETE / VERIFIED |',
+              '| 127 | [委譲オークション最適化器 / AL Delegation Auction Optimizer](127-delegation-auction-optimizer.md) | COMPLETE / VERIFIED |',
+              '| 128 | [責任寄与度アロケーター / AL Responsibility Contribution Allocator](128-responsibility-contribution-allocator.md) | COMPLETE / VERIFIED |',
+              '| 129 | [競合解決均衡セレクター / AL Conflict-Resolution Equilibrium Selector](129-conflict-resolution-equilibrium-selector.md) | COMPLETE / VERIFIED |',
+              '| 130 | [レビュアー回転スケジューラ / AL Reviewer Rotation Scheduler](130-reviewer-rotation-scheduler.md) | COMPLETE / VERIFIED |',
+              '| 131 | [分散デッドロックブレーカー / AL Distributed Deadlock Breaker](131-distributed-deadlock-breaker.md) | COMPLETE / VERIFIED |',
+              '| 132 | [時間整合Memoryグラフ / AL Temporal Memory Consistency Graph](132-temporal-memory-consistency-graph.md) | COMPLETE / VERIFIED |',
+          ]
+          if rows[0] not in s:
+              if marker not in s:
+                  raise SystemExit('works README marker not found')
+              s = s.replace(marker, marker + '\n' + '\n'.join(rows))
+          works.write_text(s, encoding='utf-8')
+          PY
+          rm -rf .noepin-transfer
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Publish verified NOEPIN AL 124-132"
+          git push
