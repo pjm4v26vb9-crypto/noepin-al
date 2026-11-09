@@ -1,0 +1,28 @@
+NOEPIN AL 132 — SOURCE INDEX — 2026-11-10
+Technology: 132｜時間整合Memoryグラフ
+Canonical ID: NOEPIN-AL-132
+Creator / Originator / Project Owner / Original Concept / Architecture Direction: NOEPIN / のえぴん
+Artifact: Sequential Successor V2
+DCSR: LIMITED INTEGRATION / 限定適用
+License / Rights: NOT SPECIFIED
+
+Final ZIP: NOEPIN_AL_132_TEMPORAL_MEMORY_CONSISTENCY_GRAPH_SUCCESSOR_V2_20261110.zip
+Final ZIP SHA-256: 7a6c253a39967c0da5829eb71681772a6d1b64ae93d140760b81649f87b2319f
+Core: noepin_al_132_temporal_memory_consistency_graph.py
+Core SHA-256: 672b4106fca47e3efa866493211c82a15886dcbfb9c2e4ae7bea42f4828a4785
+Final Verification Report: NOEPIN_AL_132_FINAL_VERIFICATION_REPORT_20261110.md
+Final Verification Report SHA-256: bf3192e128b75f80f83194f5b053116fb51d4c3894a35d2560aafdd961e80454
+Identity Verification: NOEPIN_AL_132_IDENTITY_VERIFICATION_20261110.json
+Identity Verification SHA-256: 4e42fa16b82372a5a220f462cc6346115f9c8b47734b2c4b75217fe4db467ffe
+Final Artifact Seal: NOEPIN_AL_132_FINAL_ARTIFACT_SEAL_20261110.json
+Final Artifact Seal SHA-256: c01531295bc4ee3fb70bf024b67f0bad815213abd7884646925bff1df33fbc52
+Frozen Production Gate Evidence: NOEPIN_AL_132_FROZEN_AL_PRODUCTION_GATE_EVIDENCE_20261110.json
+Frozen Production Gate Evidence SHA-256: 6f13654f20be413b27e35fc54305850bdc854754a2c2eb4dac00f03458951d9f
+Final Fresh Manifest Verification SHA-256: 0d310ac4249073165fe477f19c58647088e5b1e5f310cf7e58cc2224ed0891c7
+
+Verification: Normal/Fresh/Final Fresh 160/160; Replay 3000 divergence 0; Production Gate AL037-131 95/95; Final Manifest 872/872; Static Safety 0/0.
+Defects: Production 0; Test fixture 0; Benchmark harness 0; Replay helper 0; Production Gate helper 0; Execution harness invocation 1 CORRECTED.
+Authority Boundary: Memory != Truth; Mention != Memory; Current Candidate != Truth; DCSR Reconstruction does not create Memory or known Fact and does not grant Permission, Authority, Safety Proof, Execution, or Action Success.
+
+exact registered Origin GUID was not freshly reverified.
+Pre-existing Notion V1 attachment byte identity was not freshly reverified.

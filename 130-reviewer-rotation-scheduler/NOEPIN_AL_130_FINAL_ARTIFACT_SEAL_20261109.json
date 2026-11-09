@@ -1,0 +1,47 @@
+{
+  "ai_support": "AI-assisted implementation / analysis / documentation support using ChatGPT",
+  "authority_boundary": "Reviewer Assignment/Rotation Plan are candidates only; no Truth, Safety Proof, Permission, Authority, Approval, Review Execution, Action Execution, or Action Success promotion.",
+  "canonical_id": "NOEPIN-AL-130",
+  "core_sha256": "5e93c8a7ff294681c5264a711d3515791e4d9b772f04bfbd2872fd8c1aeb004d",
+  "creator": "NOEPIN / のえぴん",
+  "dcsr": "DIRECT INTEGRATION / 直接統合",
+  "defects": {
+    "benchmark_harness": "1 CORRECTED",
+    "execution_harness_invocation": 0,
+    "production": 0,
+    "production_gate_helper": 0,
+    "replay_helper": 0,
+    "test_fixture": 0
+  },
+  "final_fresh_manifest_verification_sha256": "6fa4f216fe1275e68810fa0acdc15b38386db4e915c756767282ee39fd2d8371",
+  "final_manifest_sha256": "41f6e0aa7d13dffec2364029de01e6bf9a002ba4f69de9b3638c2e90f43eecf3",
+  "final_verification_report_sha256": "6ffda11b24b2ca14bc4ebad948d493b299187df69b7af663b03948f80fa835fb",
+  "final_zip": "NOEPIN_AL_130_REVIEWER_ROTATION_SCHEDULER_SUCCESSOR_V2_20261109.zip",
+  "final_zip_sha256": "5825fd0a90adcfd1e9ebc78051786abc961f882c434759033f70f4114305de10",
+  "frozen_production_gate_evidence_sha256": "8ee51c103bbeabd8ee445980a11dcd1fbf3c73b6d12d512233925855522732b3",
+  "identity_verification_sha256": "20883ef96be5ad23349b943304eb72ceec05525905ea506f092cb3879e1f4213",
+  "license_rights": "NOT SPECIFIED",
+  "provenance_limitations": [
+    "exact registered Origin GUID was not freshly reverified.",
+    "Pre-existing Notion V1 attachment byte identity was not freshly reverified."
+  ],
+  "schema": "NOEPIN_AL_FINAL_ARTIFACT_SEAL_V1",
+  "source_index_sha256": "eacaec7dfac84c1f62b684f2d5378ee8978fee25b4c7a83f843289e59b0dd0d2",
+  "technology": 130,
+  "verification": {
+    "final_fresh_benchmark_full_median_ms": 2.966147400002228,
+    "final_fresh_benchmark_prepared_median_ms": 0.006199200001333338,
+    "final_fresh_tests": "160/160 PASS",
+    "final_manifest_expected": 816,
+    "final_manifest_matched": 816,
+    "fresh_tests": "160/160 PASS",
+    "normal_tests": "160/160 PASS",
+    "production_gate": "93/93 PASS",
+    "replay_digest": "c13c5c0fea048b3b85e8a87d7154ead55fca2b47cdfc4845937de735ac5a7974",
+    "replay_divergence": 0,
+    "replay_iterations": 3000,
+    "semantic_match": true,
+    "static_safety_external_execution_paths": 0,
+    "static_safety_unauthorized_write_paths": 0
+  }
+}

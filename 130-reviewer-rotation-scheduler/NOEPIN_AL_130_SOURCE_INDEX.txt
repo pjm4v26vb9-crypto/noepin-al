@@ -1,0 +1,21 @@
+NOEPIN AL 130 — Source Index — 2026-11-09
+Creator / Originator / Project Owner / Original Concept / Architecture Direction: NOEPIN / のえぴん
+Canonical ID: NOEPIN-AL-130
+License / Rights: NOT SPECIFIED
+DCSR: 直接統合 / DIRECT INTEGRATION
+
+Core SHA-256: 5e93c8a7ff294681c5264a711d3515791e4d9b772f04bfbd2872fd8c1aeb004d
+Final ZIP: NOEPIN_AL_130_REVIEWER_ROTATION_SCHEDULER_SUCCESSOR_V2_20261109.zip
+Final ZIP SHA-256: 5825fd0a90adcfd1e9ebc78051786abc961f882c434759033f70f4114305de10
+Final Verification Report SHA-256: 6ffda11b24b2ca14bc4ebad948d493b299187df69b7af663b03948f80fa835fb
+Final Manifest SHA-256: 41f6e0aa7d13dffec2364029de01e6bf9a002ba4f69de9b3638c2e90f43eecf3
+Identity Verification SHA-256: 20883ef96be5ad23349b943304eb72ceec05525905ea506f092cb3879e1f4213
+Final Fresh Manifest Verification SHA-256: 6fa4f216fe1275e68810fa0acdc15b38386db4e915c756767282ee39fd2d8371
+Frozen AL Production Gate Evidence SHA-256: 8ee51c103bbeabd8ee445980a11dcd1fbf3c73b6d12d512233925855522732b3
+Final Fresh Benchmark SHA-256: d44ff06df88a110780416ed3bd7a7058dfd07a931b9859bee9d40db82444c2d9
+Final Fresh Replay SHA-256: 917f2911a55eb2ffb15a52e7ee621a015c189d3bf91f9cdbed73927eb3b1a0ba
+Final Fresh Static Safety SHA-256: a1c2d870ec46fce7be980280f9e6738cca4c7a1c4fa184532c96ee04ef6fb311
+
+Authority Boundary: Reviewer Assignment Candidate ≠ Permission Grant / Review Execution / Approval Execution; Independence Score ≠ Safety Proof; DCSR Reconstruction ≠ Domain Authority / Permission / Approval / Execution / Action Success.
+exact registered Origin GUID was not freshly reverified.
+Pre-existing Notion V1 attachment byte identity was not freshly reverified.

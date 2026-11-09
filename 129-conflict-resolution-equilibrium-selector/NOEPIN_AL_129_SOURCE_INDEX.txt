@@ -1,0 +1,23 @@
+NOEPIN AL 129 — SOURCE INDEX — 2026-11-09
+Creator / Originator / Project Owner / Original Concept / Architecture Direction: NOEPIN / のえぴん
+AI support: AI-assisted implementation / analysis / documentation support using ChatGPT
+License / Rights: NOT SPECIFIED
+
+Final ZIP: NOEPIN_AL_129_CONFLICT_RESOLUTION_EQUILIBRIUM_SELECTOR_SUCCESSOR_V2_20261109.zip
+Final ZIP SHA-256: db1c42c9f773ce08ab35ff3830e7692a97615139925df5ff15d2e2a0e32534c4
+Core: noepin_al_129_conflict_resolution_equilibrium_selector.py
+Core SHA-256: e81456943f4a95c8586d9b602499673bf2621a3474515d40ceb3e6173b1132e3
+Final Verification Report: NOEPIN_AL_129_FINAL_VERIFICATION_REPORT_20261109.md
+Final Verification Report SHA-256: 2c312659b82c83bcbadcf2a6369c312f9fd1b70f387282378dfc37f8ded14f2f
+Frozen AL Production Gate Evidence: NOEPIN_AL_129_FROZEN_AL_PRODUCTION_GATE_EVIDENCE_20261109.json
+Frozen Gate SHA-256: fea31a722b925f4bc2aa9b558bd7536b53111233ce336685b42d6711deaef6ff
+Identity Verification: NOEPIN_AL_129_IDENTITY_VERIFICATION_20261109.json
+Identity SHA-256: e1c970fe4d835ca5f6daa649565b4bf11983d767ed901e5a1502419b8f544498
+Final Fresh Manifest Verification: NOEPIN_AL_129_FINAL_FRESH_MANIFEST_VERIFICATION_20261109.json
+Final Fresh Manifest Verification SHA-256: 23ea081561aea4520a7f9bfc185adf6cad7d7ef17c8114116752f793af82a912
+
+Canonical page: 129｜競合解決均衡セレクター
+Canonical ID: NOEPIN-AL-129
+DCSR: DIRECT INTEGRATION / 直接統合
+exact registered Origin GUID was not freshly reverified.
+Pre-existing Notion V1 attachment byte identity was not freshly reverified.

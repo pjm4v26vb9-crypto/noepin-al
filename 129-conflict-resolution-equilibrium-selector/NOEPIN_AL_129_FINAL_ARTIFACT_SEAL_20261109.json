@@ -1,0 +1,61 @@
+{
+  "ai_support": "AI-assisted implementation / analysis / documentation support using ChatGPT",
+  "authority_boundary": [
+    "Stable Candidate != Permission Grant / Execution",
+    "Equilibrium != World Truth / Safety Proof",
+    "HUMAN_APPROVAL Candidate != Approval Execution",
+    "DCSR Reconstruction != Domain Authority / Permission Grant / Safety Proof / Action Execution / Action Success"
+  ],
+  "benchmark_final_fresh": {
+    "condition": "Python stdlib; 240 proposals x 24 agent utilities; hard safety filters + Pareto/Nash-like equilibrium selection; 5 full evaluations x 5 batches and 20 prepared reuses x 5 batches",
+    "delta_bytes": 1437,
+    "delta_percent": 0.4975227728325561,
+    "full_bytes": 288831,
+    "full_median_ms": 239.71727400003147,
+    "full_resend": false,
+    "missing_metadata_bytes": 172,
+    "missing_records": 1,
+    "prepared_median_ms": 0.008682599991516327,
+    "semantic_match": true
+  },
+  "canonical_id": "NOEPIN-AL-129",
+  "core_identity": true,
+  "core_sha256": "e81456943f4a95c8586d9b602499673bf2621a3474515d40ceb3e6173b1132e3",
+  "creator": "NOEPIN / のえぴん",
+  "dcsr": "DIRECT INTEGRATION / 直接統合",
+  "defects": {
+    "benchmark_harness": 1,
+    "benchmark_harness_status": "CORRECTED",
+    "execution_harness_invocation": 0,
+    "production": 0,
+    "production_gate_helper": 0,
+    "replay_helper": 0,
+    "test_fixture": 0
+  },
+  "final_fresh_manifest_matched": 788,
+  "final_fresh_manifest_verification_sha256": "23ea081561aea4520a7f9bfc185adf6cad7d7ef17c8114116752f793af82a912",
+  "final_manifest_records": 788,
+  "final_verification_report_sha256": "2c312659b82c83bcbadcf2a6369c312f9fd1b70f387282378dfc37f8ded14f2f",
+  "final_zip": "NOEPIN_AL_129_CONFLICT_RESOLUTION_EQUILIBRIUM_SELECTOR_SUCCESSOR_V2_20261109.zip",
+  "final_zip_sha256": "db1c42c9f773ce08ab35ff3830e7692a97615139925df5ff15d2e2a0e32534c4",
+  "frozen_production_gate_sha256": "fea31a722b925f4bc2aa9b558bd7536b53111233ce336685b42d6711deaef6ff",
+  "identity_verification_sha256": "e1c970fe4d835ca5f6daa649565b4bf11983d767ed901e5a1502419b8f544498",
+  "license_rights": "NOT SPECIFIED",
+  "production_gate_pass": true,
+  "production_gate_pass_count": 92,
+  "production_gate_range": "037-128",
+  "production_gate_total": 92,
+  "provenance_limitations": [
+    "exact registered Origin GUID was not freshly reverified.",
+    "Pre-existing Notion V1 attachment byte identity was not freshly reverified."
+  ],
+  "replay_digest": "c0828ce965b27e4f1663d3a615d0abc211e23095881c55f9f3092920e464d90d",
+  "replay_divergence": 0,
+  "replay_iterations": 3000,
+  "report_identity": true,
+  "source_index_sha256": "656bf72daaede6c4e2fb836d87c70550a893fb95ecd44e3b946833c4013bb41b",
+  "static_external_execution_paths": 0,
+  "static_unauthorized_write_paths": 0,
+  "technology": 129,
+  "tests_final_fresh": "160/160 PASS"
+}

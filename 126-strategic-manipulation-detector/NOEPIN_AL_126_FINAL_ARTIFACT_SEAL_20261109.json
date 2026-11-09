@@ -1,0 +1,62 @@
+{
+  "authority_boundary": [
+    "Manipulation Risk != malicious-intent proof / World Truth",
+    "Mismatch Trace != Intent Proof",
+    "Trust Adjustment Candidate != Trust Update Execution",
+    "Authority Restriction Candidate != Authority Revocation / Permission Grant",
+    "DCSR State does not inherit sender Authority / Intent / Agreement / Permission / Action Success",
+    "DCSR Reconstruction != Domain Authority / Semantic Judgment / Permission Grant / Safety Proof / Action Execution / Action Success"
+  ],
+  "canonical_id": "NOEPIN-AL-126",
+  "core_sha256": "1a597666600dc4dd857ee111394a819316e2c6b1a8ea9bcf22b3cc7cdef24a53",
+  "creator": "NOEPIN / のえぴん",
+  "dcsr_level": "直接統合 / DIRECT INTEGRATION",
+  "defect_ledger": {
+    "benchmark_harness_defect": 0,
+    "execution_harness_invocation_defect": 0,
+    "production_defect": 0,
+    "production_gate_helper_defect": 0,
+    "replay_helper_defect": 0,
+    "test_fixture_defect": 0
+  },
+  "english_name": "AL Strategic Manipulation Detector",
+  "final_fresh_benchmark": {
+    "condition": "Python stdlib; 1200 claim/outcome audit records across 24 agents; mismatch + omission + incentive alignment + repetition analysis; 5 full evaluations x 5 batches and 20 prepared reuses x 5 batches",
+    "delta_bytes": 587,
+    "delta_percent": 0.13655481733757655,
+    "full_bytes": 429864,
+    "full_median_ms": 39.880057799973656,
+    "full_resend": false,
+    "missing_metadata_bytes": 169,
+    "missing_records": 1,
+    "prepared_median_ms": 0.011902100004590466,
+    "semantic_match": true
+  },
+  "final_fresh_manifest_verification_sha256": "d85d81414e8b333618ac8682e24486286a2796d701c51184e53116d166967169",
+  "final_verification_report_sha256": "566b90b2fefd614554eba5144c2118d419d4f16213eea5c46dd6fa17cd508a34",
+  "final_zip": "NOEPIN_AL_126_STRATEGIC_MANIPULATION_DETECTOR_SUCCESSOR_V2_20261109.zip",
+  "final_zip_sha256": "9effc3804f4dc86bdea885a9654c50c967947475bde3dc94ce7da5b8db312823",
+  "frozen_production_gate_evidence_sha256": "d2ed84bfab9c8ebbb4fdfaf5d40f3506090ce185de10e6052b18b7a093d98f51",
+  "identity_verification_sha256": "7374596891f4b8b0c04aa5ae746dee0b0698252bbee979176b43d76e7590f033",
+  "license_rights": "NOT SPECIFIED",
+  "provenance_limitations": [
+    "exact registered Origin GUID was not freshly reverified.",
+    "Pre-existing Notion V1 attachment byte identity was not freshly reverified."
+  ],
+  "schema": "NOEPIN_AL_FINAL_ARTIFACT_SEAL_V1",
+  "technology": 126,
+  "technology_name": "戦略的操作検知器",
+  "verification": {
+    "core_identity": true,
+    "manifest": "713/713 matched",
+    "production_gate": "89/89 PASS",
+    "production_gate_range": "037-125",
+    "replay_digest": "729aa0176264fcf4352c91568a52e4339a468d04c3792881aa33b2d880bbef00",
+    "replay_divergence": 0,
+    "replay_iterations": 3000,
+    "report_identity": true,
+    "static_external_execution_paths": 0,
+    "static_unauthorized_write_paths": 0,
+    "tests": "160/160 PASS"
+  }
+}

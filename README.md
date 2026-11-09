@@ -6,7 +6,7 @@ NOEPIN ALは、**NOEPIN / のえぴん**がゲーム「もふもふの森」を�
 
 現在、検証が完了した技術から順番にGitHubへ公開しています。
 
-> 公開進捗: **123 / 188**  
+> 公開進捗: **132 / 188**  
 > Creator / Project Owner / Original Concept / Architecture Direction: **NOEPIN / のえぴん**  
 > Implementation / analysis / documentation support: AI-assisted using ChatGPT
 
@@ -139,8 +139,17 @@ NOEPIN ALは、**NOEPIN / のえぴん**がゲーム「もふもふの森」を�
 | 121 | [AL Latency-Safety Tradeoff Controller / 遅延・安全トレードオフ制御器](works/121-latency-safety-tradeoff-controller.md) | COMPLETE / VERIFIED |
 | 122 | [AL Trust-Weighted Voting / 信頼加重投票器](works/122-trust-weighted-voting.md) | COMPLETE / VERIFIED |
 | 123 | [AL Byzantine-Resilient Agent Quorum / ビザンチン耐性Agentクォーラム](works/123-byzantine-resilient-agent-quorum.md) | COMPLETE / VERIFIED |
+| 124 | [AL Separation-of-Duties Allocator / 職務分離アロケーター](works/124-separation-of-duties-allocator.md) | COMPLETE / VERIFIED |
+| 125 | [AL Debate Convergence Detector / 討論収束検知器](works/125-debate-convergence-detector.md) | COMPLETE / VERIFIED |
+| 126 | [AL Strategic Manipulation Detector / 戦略的操作検知器](works/126-strategic-manipulation-detector.md) | COMPLETE / VERIFIED |
+| 127 | [AL Delegation Auction Optimizer / 委譲オークション最適化器](works/127-delegation-auction-optimizer.md) | COMPLETE / VERIFIED |
+| 128 | [AL Responsibility Contribution Allocator / 責任寄与度アロケーター](works/128-responsibility-contribution-allocator.md) | COMPLETE / VERIFIED |
+| 129 | [AL Conflict-Resolution Equilibrium Selector / 競合解決均衡セレクター](works/129-conflict-resolution-equilibrium-selector.md) | COMPLETE / VERIFIED |
+| 130 | [AL Reviewer Rotation Scheduler / レビュアー回転スケジューラ](works/130-reviewer-rotation-scheduler.md) | COMPLETE / VERIFIED |
+| 131 | [AL Distributed Deadlock Breaker / 分散デッドロックブレーカー](works/131-distributed-deadlock-breaker.md) | COMPLETE / VERIFIED |
+| 132 | [AL Temporal Memory Consistency Graph / 時間整合Memoryグラフ](works/132-temporal-memory-consistency-graph.md) | COMPLETE / VERIFIED |
 
-**Formal completion / publication progress: 123 / 188**
+**Formal completion / publication progress: 132 / 188**
 
 [作品一覧ページを開く](works/)
 

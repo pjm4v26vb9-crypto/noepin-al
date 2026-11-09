@@ -1,0 +1,37 @@
+{
+  "artifact": "Sequential Successor V2",
+  "authority_boundary": "Memory != Truth; Mention != Memory; Current Candidate != Truth; DCSR Reconstruction does not create Memory, known Fact, Permission, Authority, Safety Proof, Execution, or Action Success.",
+  "canonical_id": "NOEPIN-AL-132",
+  "core_sha256": "672b4106fca47e3efa866493211c82a15886dcbfb9c2e4ae7bea42f4828a4785",
+  "creator": "NOEPIN / のえぴん",
+  "dcsr_level": "LIMITED INTEGRATION / 限定適用",
+  "defects": {
+    "benchmark_harness": 0,
+    "execution_harness_invocation": "1 CORRECTED",
+    "production": 0,
+    "production_gate_helper": 0,
+    "replay_helper": 0,
+    "test_fixture": 0
+  },
+  "final_fresh_manifest_verification_sha256": "0d310ac4249073165fe477f19c58647088e5b1e5f310cf7e58cc2224ed0891c7",
+  "final_verification_report_sha256": "bf3192e128b75f80f83194f5b053116fb51d4c3894a35d2560aafdd961e80454",
+  "final_zip_filename": "NOEPIN_AL_132_TEMPORAL_MEMORY_CONSISTENCY_GRAPH_SUCCESSOR_V2_20261110.zip",
+  "final_zip_sha256": "7a6c253a39967c0da5829eb71681772a6d1b64ae93d140760b81649f87b2319f",
+  "frozen_production_gate_evidence_sha256": "6f13654f20be413b27e35fc54305850bdc854754a2c2eb4dac00f03458951d9f",
+  "identity_verification_sha256": "4e42fa16b82372a5a220f462cc6346115f9c8b47734b2c4b75217fe4db467ffe",
+  "license_rights": "NOT SPECIFIED",
+  "provenance_limitations": [
+    "exact registered Origin GUID was not freshly reverified.",
+    "Pre-existing Notion V1 attachment byte identity was not freshly reverified."
+  ],
+  "technology": 132,
+  "verification": {
+    "final_manifest": "872/872 matched",
+    "production_gate": "AL037-131 / 95/95 PASS",
+    "replay": "3000 / divergence 0",
+    "static_safety": "0/0",
+    "tests_final_fresh": "160/160 PASS",
+    "tests_fresh": "160/160 PASS",
+    "tests_normal": "160/160 PASS"
+  }
+}

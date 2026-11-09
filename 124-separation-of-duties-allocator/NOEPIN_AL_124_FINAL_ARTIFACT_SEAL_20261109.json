@@ -1,0 +1,52 @@
+{
+  "artifact": "Sequential Successor V2",
+  "canonical_id": "NOEPIN-AL-124",
+  "core_sha256": "01160bdd5da491647dd0772e82d6312e67557034ea491f734daae96c3365bf2e",
+  "creator": "NOEPIN / のえぴん",
+  "defects": {
+    "Benchmark harness defect": 0,
+    "Execution harness invocation defect": 0,
+    "Production Gate helper defect": 0,
+    "Production defect": 0,
+    "Replay helper defect": 0,
+    "Test fixture defect": 0
+  },
+  "final_fresh": {
+    "benchmark": {
+      "condition": "Python stdlib; 300 tasks / 1200 role requirements / 1200 purpose-specific agents; conflict-matrix separation-of-duties allocation with independent reviewer; 5 full evaluations x 5 batches and 20 prepared reuses x 5 batches",
+      "delta_bytes": 452,
+      "delta_percent": 0.1323587977604423,
+      "full_bytes": 341496,
+      "full_median_ms": 154.24948239999594,
+      "full_resend": false,
+      "missing_metadata_bytes": 177,
+      "missing_records": 1,
+      "prepared_median_ms": 0.009329000002367138,
+      "semantic_match": true
+    },
+    "manifest": {
+      "expected": 661,
+      "matched": 661,
+      "mismatches": []
+    },
+    "production_gate": "87/87 PASS",
+    "replay": "3000/divergence 0",
+    "static_safety": "0/0",
+    "tests": "160/160 PASS"
+  },
+  "final_verification_report_sha256": "f76c120c430009252de530655e17dd04b9720efd1b117b182bf15436df7b8221",
+  "final_zip": "NOEPIN_AL_124_SEPARATION_OF_DUTIES_ALLOCATOR_SUCCESSOR_V2_20261109.zip",
+  "final_zip_sha256": "17fb8298847a3fc3afbe517e56bbe995c4af34d0109f4d2036dc30d4968b82af",
+  "identity": {
+    "core_identity": true,
+    "core_sha256": "01160bdd5da491647dd0772e82d6312e67557034ea491f734daae96c3365bf2e",
+    "final_zip_sha256": "17fb8298847a3fc3afbe517e56bbe995c4af34d0109f4d2036dc30d4968b82af",
+    "report_identity": true,
+    "report_sha256": "f76c120c430009252de530655e17dd04b9720efd1b117b182bf15436df7b8221"
+  },
+  "provenance_limits": [
+    "exact registered Origin GUID was not freshly reverified.",
+    "Pre-existing Notion V1 attachment byte identity was not freshly reverified."
+  ],
+  "technology": 124
+}

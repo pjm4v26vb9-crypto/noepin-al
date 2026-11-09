@@ -1,0 +1,18 @@
+NOEPIN AL 131 — Source Index — 2026-11-10
+Creator / Originator / Project Owner / Original Concept / Architecture Direction: NOEPIN / のえぴん
+Canonical ID: NOEPIN-AL-131
+License / Rights: NOT SPECIFIED
+
+Final ZIP | NOEPIN_AL_131_DISTRIBUTED_DEADLOCK_BREAKER_SUCCESSOR_V2_20261110.zip | SHA-256 1db5cc0ce3af319573881de68597af2127bb2a575b591d0a9c7b0c8ff496aaa1
+Final Verification Report | NOEPIN_AL_131_FINAL_VERIFICATION_REPORT_20261110.md | SHA-256 b77f161598dd115acfcc68c4d2170e0eae774c1d8fa64525c2ae8955b84bc1c2
+Core | noepin_al_131_distributed_deadlock_breaker.py | SHA-256 3ed66610b0810be65101bf4f46aa79613c7b64a4069ee76b6280c3aa06bf65e7
+Final Fresh Manifest Verification | NOEPIN_AL_131_FINAL_FRESH_MANIFEST_VERIFICATION_20261110.json | SHA-256 f33f8bcc364bd43078893dafb4b9fc7a24898b45351f60f2a49c48316a679cdd
+Final Fresh Benchmark | NOEPIN_AL_131_FINAL_FRESH_BENCHMARK_20261110.json | SHA-256 b82b07ae29107d3af67f6177f0459b1655b4a5d9bb8ffecbf1c22b82371742c1
+Final Fresh Replay | NOEPIN_AL_131_FINAL_FRESH_REPLAY_20261110.json | SHA-256 57d814fa8f5b13ae264ab43ce4986b90827b9bc23a77b76c162ca84677618363
+Final Fresh Static Safety | NOEPIN_AL_131_FINAL_FRESH_STATIC_SAFETY_20261110.json | SHA-256 a1c2d870ec46fce7be980280f9e6738cca4c7a1c4fa184532c96ee04ef6fb311
+Frozen Production Gate Evidence | NOEPIN_AL_131_FROZEN_AL_PRODUCTION_GATE_EVIDENCE_20261110.json | SHA-256 feeeb2e60aebe1417608aea5511da378e941216ddce65dd9b37ac20f0d1404e3
+Identity Verification | NOEPIN_AL_131_IDENTITY_VERIFICATION_20261110.json | SHA-256 9e58a499e5c4794849f43da82fd633a92e1ce2d5c4cdbac84cd591959f5d9d42
+Defect Ledger (inside Final ZIP) | NOEPIN_AL_131_DEFECT_LEDGER_20261110.json | SHA-256 9a6975ebf1ecd22603fb3c3d47ce3480af0489a0bb4003e0b4e4fdba342c587a
+
+exact registered Origin GUID was not freshly reverified.
+Pre-existing Notion V1 attachment byte identity was not freshly reverified.

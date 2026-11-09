@@ -129,8 +129,17 @@ NOEPIN / のえぴんによるNOEPIN AL技術作品の公開一覧です。
 | 121 | [遅延・安全トレードオフ制御器 / AL Latency-Safety Tradeoff Controller](121-latency-safety-tradeoff-controller.md) | COMPLETE / VERIFIED |
 | 122 | [信頼加重投票器 / AL Trust-Weighted Voting](122-trust-weighted-voting.md) | COMPLETE / VERIFIED |
 | 123 | [ビザンチン耐性Agentクォーラム / AL Byzantine-Resilient Agent Quorum](123-byzantine-resilient-agent-quorum.md) | COMPLETE / VERIFIED |
+| 124 | [職務分離アロケーター / AL Separation-of-Duties Allocator](124-separation-of-duties-allocator.md) | COMPLETE / VERIFIED |
+| 125 | [討論収束検知器 / AL Debate Convergence Detector](125-debate-convergence-detector.md) | COMPLETE / VERIFIED |
+| 126 | [戦略的操作検知器 / AL Strategic Manipulation Detector](126-strategic-manipulation-detector.md) | COMPLETE / VERIFIED |
+| 127 | [委譲オークション最適化器 / AL Delegation Auction Optimizer](127-delegation-auction-optimizer.md) | COMPLETE / VERIFIED |
+| 128 | [責任寄与度アロケーター / AL Responsibility Contribution Allocator](128-responsibility-contribution-allocator.md) | COMPLETE / VERIFIED |
+| 129 | [競合解決均衡セレクター / AL Conflict-Resolution Equilibrium Selector](129-conflict-resolution-equilibrium-selector.md) | COMPLETE / VERIFIED |
+| 130 | [レビュアー回転スケジューラ / AL Reviewer Rotation Scheduler](130-reviewer-rotation-scheduler.md) | COMPLETE / VERIFIED |
+| 131 | [分散デッドロックブレーカー / AL Distributed Deadlock Breaker](131-distributed-deadlock-breaker.md) | COMPLETE / VERIFIED |
+| 132 | [時間整合Memoryグラフ / AL Temporal Memory Consistency Graph](132-temporal-memory-consistency-graph.md) | COMPLETE / VERIFIED |
 
-**Published works: 123 / 188**
+**Published works: 132 / 188**
 
 Creator / Project Owner / Original Concept / Architecture Direction: **NOEPIN / のえぴん**
 

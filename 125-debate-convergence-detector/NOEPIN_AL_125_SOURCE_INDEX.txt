@@ -1,0 +1,18 @@
+NOEPIN AL 125 — Source Index — 2026-11-09
+Technology: 125｜討論収束検知器
+Canonical ID: NOEPIN-AL-125
+Creator / Originator / Project Owner / Original Concept / Architecture Direction: NOEPIN / のえぴん
+
+Final ZIP | NOEPIN_AL_125_DEBATE_CONVERGENCE_DETECTOR_SUCCESSOR_V2_20261109.zip | SHA-256 4f354cb77fb30f31a73fe01e9344495a715726a4d18abdd0b519bf4ce65684d8
+Core | noepin_al_125_debate_convergence_detector.py | SHA-256 d8d5b11a566ece7fe80777a6f8211385c3f4f4620701bc3f5d6e2dfabf276ae6
+Final Verification Report | NOEPIN_AL_125_FINAL_VERIFICATION_REPORT_20261109.md | SHA-256 9e2a592110ee16cdc50188ff8e0b2c9e79ee3980ca6399ce9f84daa7d17e1cd2
+Identity Verification | NOEPIN_AL_125_IDENTITY_VERIFICATION_20261109.json | SHA-256 ad98a7f5a1c713b9ea06e4bf1e07c0a15467700d25ce4bbd56d3414da8809d91
+Final Fresh Manifest Verification | NOEPIN_AL_125_FINAL_FRESH_MANIFEST_VERIFICATION_20261109.json | SHA-256 31bfd9a28736a060fe97ea64bafa3b5f09742cb9e726b7e65cb86c5e1964f98d
+Frozen Production Gate Evidence | NOEPIN_AL_125_FROZEN_AL_PRODUCTION_GATE_EVIDENCE_20261109.json | SHA-256 6442873e2f1aa4a6479c435ce20073fccef6aac27df82ad00c85032e65fc4770
+Artifact Seal | NOEPIN_AL_125_FINAL_ARTIFACT_SEAL_20261109.json | SHA-256 006e411fa236539cec8492711f0b7b8a973ec02a626274a694dba19f45ed740a
+
+Final Fresh: tests 160/160 PASS; replay 3000/divergence 0; AL037-124 gate 88/88 PASS; static safety 0/0; manifest 686/686 matched.
+DCSR: DIRECT INTEGRATION / 直接統合.
+Authority: Convergence/Stop/Continue/Human Review are candidates only; no Truth, Permission, Safety Proof, Stop Execution, Action Execution, or Action Success is promoted.
+exact registered Origin GUID was not freshly reverified.
+Pre-existing Notion V1 attachment byte identity was not freshly reverified.

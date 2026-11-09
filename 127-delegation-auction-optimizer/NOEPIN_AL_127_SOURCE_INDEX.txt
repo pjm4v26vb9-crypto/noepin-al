@@ -1,0 +1,25 @@
+NOEPIN AL 127 — SOURCE INDEX — 2026-11-09
+
+Technology: 127｜委譲オークション最適化器
+Canonical ID: NOEPIN-AL-127
+English Name: AL Delegation Auction Optimizer
+Creator / Originator / Project Owner / Original Concept / Architecture Direction: NOEPIN / のえぴん
+AI support: AI-assisted implementation / analysis / documentation support using ChatGPT
+License / Rights: NOT SPECIFIED
+DCSR: DIRECT INTEGRATION / 直接統合
+
+Final ZIP: NOEPIN_AL_127_DELEGATION_AUCTION_OPTIMIZER_SUCCESSOR_V2_20261109.zip
+Final ZIP SHA-256: a9507bf0c2cce49db33d1a34f8e53566d2cb6f99c63dddceed3d9df88d96eb4e
+Core SHA-256: 6026f37031153c886208bf62d3b52e37b6b1f1759efa165aa115e364e3513970
+Final Verification Report SHA-256: 73284410d8dd8d46ee18de5387ebb579180bf09b523857292f9877f863ba5336
+Identity Verification SHA-256: 32fa20267b34ac5791afaafbdb59136478b5edb82b4ed265be6f575cdd604dcb
+Final Fresh Manifest Verification SHA-256: 227fb076802afb487506738afd309eb21379bc05f977531ba4b926bbbd123d79
+Frozen AL Production Gate Evidence SHA-256: c321110c64cfe6cf05c750107b4d1ddd9f576e8b9367e78becd401001a29ea97
+Final Artifact Seal SHA-256: 67a725b852d7ad0e2ee94a6411ea640e8fe79a38926102e05c877e375893f580
+
+Verification: Normal/Fresh/Final Fresh tests 160/160 PASS; Replay 3000/divergence 0; Production Gate AL037-126 90/90 PASS; Static Safety 0/0; Final Manifest 737/737 matched.
+
+Authority Boundary: Winner/Reserve/Expected Utility are delegation candidates/evidence only and do not grant Permission, Role Authority, Approval, Safety Proof, Action Execution, or Action Success. DCSR state reconstruction does not inherit sender Authority, Intent, Agreement, Permission, or Action Success.
+
+exact registered Origin GUID was not freshly reverified.
+Pre-existing Notion V1 attachment byte identity was not freshly reverified.

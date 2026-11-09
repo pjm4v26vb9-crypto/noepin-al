@@ -1,0 +1,27 @@
+NOEPIN AL 128 — SOURCE INDEX — 2026-11-09
+
+Technology: 128｜責任寄与度アロケーター
+Canonical ID: NOEPIN-AL-128
+English Name: AL Responsibility Contribution Allocator
+Creator / Originator / Project Owner / Original Concept / Architecture Direction: NOEPIN / のえぴん
+AI support: AI-assisted implementation / analysis / documentation support using ChatGPT
+License / Rights: NOT SPECIFIED
+DCSR: DIRECT INTEGRATION / 直接統合
+
+Final ZIP: NOEPIN_AL_128_RESPONSIBILITY_CONTRIBUTION_ALLOCATOR_SUCCESSOR_V2_20261109.zip
+Final ZIP SHA-256: 122a40be63792af5067fa6e2b5964a54b08f83fce2be959974d64a8366046f13
+Core SHA-256: 5ab11d74b19fa9b82429d69bf44468c9f946a4c74dc45143138c2670f5c08341
+Final Verification Report SHA-256: 42da186b48b14147212bd7702a8f3e87b6e866c80aa9a89ceedc19c9502fd969
+Identity Verification SHA-256: 57171ef7cb27a8373eb32dca067bc07bcc46a442ce62fe1c9f67ef5e92079ff6
+Final Fresh Manifest Verification SHA-256: 34f36c96dde14e4f1f130e932d72a101a3cd618be5580cc60778b4f5cbd9608e
+Frozen AL Production Gate Evidence SHA-256: b2d818d5b26cbba60b6a1f5bcbe5ca2d70a567f7d64655015d86bdf8d57e66b7
+Final Artifact Seal SHA-256: 0789a6c319472ac1ee03bd80bbaf2d69fdbc68d5fd2272eb0260f020a557d7c1
+
+Verification: Normal/Fresh/Final Fresh tests 160/160 PASS; Replay 3000/divergence 0; Production Gate AL037-127 91/91 PASS; Static Safety 0/0; Final Manifest 761/761 matched.
+
+DCSR: Full 286,856 bytes -> Delta 399 bytes / 0.1390941797%; Missing-only 1 changed record / 168 metadata bytes / full resend false.
+
+Authority Boundary: Contribution Scores / Critical Contributors are audit attribution candidates only. They do not prove legal or moral responsibility, malicious intent, Truth, Permission, Safety, Trust Update, Penalty, Authority Restriction, Action Execution, or Action Success. DCSR reconstruction does not inherit sender Authority, Intent, Agreement, Permission, or Action Success.
+
+exact registered Origin GUID was not freshly reverified.
+Pre-existing Notion V1 attachment byte identity was not freshly reverified.
