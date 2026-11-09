@@ -1,0 +1,20 @@
+NOEPIN AL 123 — SOURCE INDEX — 2026-11-09
+
+Technology: 123｜ビザンチン耐性Agentクォーラム
+Canonical ID: NOEPIN-AL-123
+Creator / Originator: NOEPIN / のえぴん
+
+Final ZIP: NOEPIN_AL_123_BYZANTINE_RESILIENT_AGENT_QUORUM_SUCCESSOR_V2_20261109.zip
+Final ZIP SHA-256: c4a290eccef6f40a3f315a4363dd225b4e505a65846e82594380e21acfe9e684
+Core SHA-256: f509ea016f19d1d8c3b1a1d330383dda85be28bf06d6e61a69996f7e68b6f867
+Final Verification Report SHA-256: 3c20d33bdc7843cc05109250fca0d15365c72217647f16eba548f1e861bd674c
+Identity Verification SHA-256: bac1adca33a814d50e7a5be8fdb5627e9250a96ba48a7759a875464f84d0daef
+Frozen AL Production Gate Evidence SHA-256: a56f2eacfacfc22ceb85258adda5de1fc399d45ce4ba6ffdd18cf32250597afb
+Final Fresh Manifest Verification SHA-256: 452cfbb7067249b22aea064cd47856b5c2dad2ec49cb10f6804a3eed2e46ee25
+Artifact Seal SHA-256: SELF-EXTERNAL (see authoritative external reference / Notion evidence)
+
+DCSR: DIRECT INTEGRATION / 直接統合
+Authority boundary: Quorum != Truth; Quorum satisfaction != Permission Grant / Action Execution / Action Success; received DCSR State does not inherit sender Authority / Intent / Agreement / Permission / Action Success.
+
+exact registered Origin GUID was not freshly reverified.
+Pre-existing Notion V1 attachment byte identity was not freshly reverified.

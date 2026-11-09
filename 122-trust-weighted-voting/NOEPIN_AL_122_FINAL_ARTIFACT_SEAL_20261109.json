@@ -1,0 +1,38 @@
+{
+  "authority_boundary": "Consensus != Truth; Confidence != Safety Proof; Weighted Majority != Permission Grant; DCSR receiver does not inherit sender authority/intent/agreement.",
+  "canonical_id": "NOEPIN-AL-122",
+  "core": "noepin_al_122_trust_weighted_voting.py",
+  "core_sha256": "f6885e0d21cbb36bc520a902c9816e39089d92b20978c7551739892ca69f59f8",
+  "creator": "NOEPIN / のえぴん",
+  "defects": {
+    "benchmark_harness": 0,
+    "execution_harness_invocation": 0,
+    "production": 0,
+    "production_gate_helper": 0,
+    "replay_helper": 0,
+    "test_fixture": 0
+  },
+  "evidence_sha256": {
+    "NOEPIN_AL_122_FINAL_FRESH_BENCHMARK_20261109.json": "419a14289c367f89033123c1080221ba53a03daaf7ef0cecb42a477cef29e1ce",
+    "NOEPIN_AL_122_FINAL_FRESH_COMPILE_20261109.txt": "c26de83abdc9496cd1301470918ec39ecca1cf389ef0ae1c6504da1800d1c431",
+    "NOEPIN_AL_122_FINAL_FRESH_MANIFEST_VERIFICATION_20261109.json": "97dfb64a27580803d2ffb26f9c9165169fc9940ab88ba812afef1ec9f24ca10d",
+    "NOEPIN_AL_122_FINAL_FRESH_PRODUCTION_GATE_20261109.json": "4ad8d4ab95c42be8d0a66a542f78e45f4de8effdc5c1990dff7369416698b324",
+    "NOEPIN_AL_122_FINAL_FRESH_REPLAY_20261109.json": "1d412e1b982fbadb5f56cde8e57db9a4302a976dfc918b4877214070aa66c96a",
+    "NOEPIN_AL_122_FINAL_FRESH_STATIC_SAFETY_20261109.json": "a1c2d870ec46fce7be980280f9e6738cca4c7a1c4fa184532c96ee04ef6fb311",
+    "NOEPIN_AL_122_FINAL_FRESH_TESTS_20261109.txt": "b444a1301f0dee7bf44b3d9a718035865b10868d765a6ed3c50c4cdcc4e00b4b",
+    "NOEPIN_AL_122_FROZEN_AL_PRODUCTION_GATE_EVIDENCE_20261109.json": "4ad8d4ab95c42be8d0a66a542f78e45f4de8effdc5c1990dff7369416698b324",
+    "NOEPIN_AL_122_IDENTITY_VERIFICATION_20261109.json": "e5d5477c53923e39300f3aec59deedbdf0317ca79bb094fc519de246d9e3a152"
+  },
+  "final_manifest_count": 749,
+  "final_verification_report": "NOEPIN_AL_122_FINAL_VERIFICATION_REPORT_20261109.md",
+  "final_verification_report_sha256": "b19c989a5810ee143c6328ace0eb7c0c4a7d068df414321720fdef613ab52b20",
+  "final_zip": "NOEPIN_AL_122_TRUST_WEIGHTED_VOTING_SUCCESSOR_V2_20261109.zip",
+  "final_zip_sha256": "3e3a215f204d08a274afbf0962660a1bb0b5d413a0b2adea131bc5a28a0b9130",
+  "final_zip_size": 4490522,
+  "production_gate": "AL037-121 / 85 / 85 PASS Normal / Fresh / Final Fresh",
+  "replay": "3000 / divergence 0 Normal / Fresh / Final Fresh",
+  "static_safety": "external execution paths 0 / unauthorized write paths 0",
+  "status": "COMPLETE / VERIFIED",
+  "technology": 122,
+  "tests": "160 / 160 PASS Normal / Fresh / Final Fresh"
+}

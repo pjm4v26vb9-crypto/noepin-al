@@ -1,0 +1,28 @@
+NOEPIN AL 117 — SOURCE INDEX — 2026-11-09
+Technology: 117｜安全モード状態機械
+Canonical ID: NOEPIN-AL-117
+Creator / Originator: NOEPIN / のえぴん
+Artifact: Sequential Successor V2
+License / Rights: NOT SPECIFIED
+
+Final ZIP: NOEPIN_AL_117_SAFE_MODE_STATE_MACHINE_SUCCESSOR_V2_20261109.zip
+Final ZIP SHA-256: f613441a9cf8297389b822110dff0bc10799769981ece8635309054184e6bcc8
+Core: noepin_al_117_safe_mode_state_machine.py
+Core SHA-256: 8eb12bf86cf5f7cbfbb82b871c8c56b2e12eeaf9ba3b8dd9b7e7ef8346b62cc1
+Final Verification Report: NOEPIN_AL_117_FINAL_VERIFICATION_REPORT_20261109.md
+Final Verification Report SHA-256: 8b23154fd43402d2da3acf42350160891b65895e00a2c7866db3a37a49d5471b
+Final Artifact Seal: NOEPIN_AL_117_FINAL_ARTIFACT_SEAL_20261109.json
+Final Artifact Seal SHA-256: 5694287692e93c62f5837a46aed9d6f70168e9ab4cf9765acf5a72e64747d204
+Frozen AL Production Gate Evidence: NOEPIN_AL_117_FROZEN_AL_PRODUCTION_GATE_EVIDENCE_20261109.json
+Frozen AL Production Gate Evidence SHA-256: 6df00bf00ac9db201575ecab8a6e49b30b70bd8b423e33d013e834d613b31367
+Identity Verification: NOEPIN_AL_117_IDENTITY_VERIFICATION_20261109.json
+Identity Verification SHA-256: 93a9dd113090f3a6b2977aeb089ac166eb70790929e14536da887d9e3b4ffdc9
+Final Fresh Manifest Verification: NOEPIN_AL_117_FINAL_FRESH_MANIFEST_VERIFICATION_20261109.json
+Final Fresh Manifest Verification SHA-256: daeccb0959987c5c85146be0ea14fea585bc052aa161de7254d15798fcefd4a3
+
+Verification: 160/160 PASS Normal/Fresh/Final Fresh; Replay 3000 divergence 0; AL037-116 Production Gate 80/80 PASS; Static Safety 0/0; Final Manifest 442/442.
+DCSR: auxiliary integration; Full 216,580 bytes → Delta 2,051 bytes (0.9469941823%); Missing-only 10 event records / 295 metadata bytes / full resend false.
+Defects: Production 0 / Test fixture 0 / Benchmark harness 0 / Replay helper 0 / Production Gate helper 0 / Execution harness invocation 0.
+
+exact registered Origin GUID was not freshly reverified.
+Pre-existing Notion V1 attachment byte identity was not freshly reverified.

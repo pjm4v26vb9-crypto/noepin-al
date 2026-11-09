@@ -1,0 +1,18 @@
+NOEPIN AL 121 SOURCE INDEX — 2026-11-09
+Creator: NOEPIN / のえぴん
+Canonical ID: NOEPIN-AL-121
+Final ZIP: NOEPIN_AL_121_LATENCY_SAFETY_TRADEOFF_CONTROLLER_SUCCESSOR_V2_20261109.zip
+Final ZIP SHA-256: f08f587e7a91ca53da70dea3e9237f83e1fe820926e75243920334f5b6340f87
+Core SHA-256: 3b3a523393000c73b7d50828c7ede7548264ad09db18931be0059175ce0f4c65
+Final Verification Report SHA-256: dcda8150d2532d55b12877eb2d2b767cd99ddc6004edac2b37aa21486f9463f9
+Identity Verification SHA-256: ba95cd6d124129e2e6e156f7fd46a8b5d610b5e57521749fe38e7a3cf39ed8e9
+Final Fresh Manifest Verification SHA-256: 55fc0a8c29234a7ad3174c44ab0d6958c8d730a8cbce9ef4bd3c0745e909d5c8
+Frozen AL Production Gate Evidence SHA-256: 933dd340238153d09c6fedd34213681726f25309b52b159c79df5309f705e637
+Final Artifact Seal SHA-256: 3bfa1bc0b6017e73aabd043f2363936937d04501cd618508708bddcba79e9fdc
+Tests: 160 / 160 PASS (Normal / Fresh / Final Fresh)
+Replay: 3,000 / divergence 0 (Normal / Fresh / Final Fresh)
+Production Gate: AL037–120 / 84 / 84 PASS (Normal / Fresh / Final Fresh)
+Final Manifest: 580 / 580 matched
+DCSR: 216,233 bytes -> 2,083 bytes / 0.9633127228%; missing-only 10 check records / 295 metadata bytes / full resend false
+exact registered Origin GUID was not freshly reverified.
+Pre-existing Notion V1 attachment byte identity was not freshly reverified.

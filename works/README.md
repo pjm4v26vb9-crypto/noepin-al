@@ -106,8 +106,31 @@ NOEPIN / のえぴんによるNOEPIN AL技術作品の公開一覧です。
 | 098 | [認識的不確実性分離器 / AL Epistemic-Aleatoric Splitter](098-epistemic-aleatoric-splitter.md) | COMPLETE / VERIFIED |
 | 099 | [棄却閾値オプティマイザー / AL Abstention Threshold Optimizer](099-abstention-threshold-optimizer.md) | COMPLETE / VERIFIED |
 | 100 | [信頼ヒステリシス更新器 / AL Trust Hysteresis Updater](100-trust-hysteresis-updater.md) | COMPLETE / VERIFIED |
+| 101 | [主張由来スコア統合器 / AL Claim Provenance Score Aggregator](101-claim-provenance-score-aggregator.md) | COMPLETE / VERIFIED |
+| 102 | [安全制約付きA*プランナー / AL Safe A* Action Planner](102-safe-astar-action-planner.md) | COMPLETE / VERIFIED |
+| 103 | [制約付きビームプランナー / AL Constrained Beam Planner](103-constrained-beam-planner.md) | COMPLETE / VERIFIED |
+| 104 | [リスク認識MCTS / AL Risk-Aware Monte Carlo Tree Search](104-risk-aware-mcts.md) | COMPLETE / VERIFIED |
+| 105 | [安全HTNコンパイラ / AL Safe HTN Compiler](105-safe-htn-compiler.md) | COMPLETE / VERIFIED |
+| 106 | [局所プラン修復器 / AL Local Plan Repair Search](106-local-plan-repair-search.md) | COMPLETE / VERIFIED |
+| 107 | [安全代替経路列挙器 / AL Safe Alternative Path Enumerator](107-safe-alternative-path-enumerator.md) | COMPLETE / VERIFIED |
+| 108 | [コスト・リスクParetoプランナー / AL Cost-Risk Pareto Planner](108-cost-risk-pareto-planner.md) | COMPLETE / VERIFIED |
+| 109 | [期限認識安全スケジューラ / AL Deadline-Aware Safe Scheduler](109-deadline-aware-safe-scheduler.md) | COMPLETE / VERIFIED |
+| 110 | [資源制約プランナー / AL Resource-Bounded Planner](110-resource-bounded-planner.md) | COMPLETE / VERIFIED |
+| 111 | [停止条件合成器 / AL Stop-Condition Synthesizer](111-stop-condition-synthesizer.md) | COMPLETE / VERIFIED |
+| 112 | [予測安全制御器 / AL Model-Predictive Safety Controller](112-model-predictive-safety-controller.md) | COMPLETE / VERIFIED |
+| 113 | [安全境界バリアゲート / AL Control-Barrier Safety Gate](113-control-barrier-safety-gate.md) | COMPLETE / VERIFIED |
+| 114 | [反復安定性モニター / AL Iterative Stability Monitor](114-iterative-stability-monitor.md) | COMPLETE / VERIFIED |
+| 115 | [適応レートリミッター / AL Adaptive Action Rate Limiter](115-adaptive-action-rate-limiter.md) | COMPLETE / VERIFIED |
+| 116 | [リスク予算配分器 / AL Risk Budget Allocator](116-risk-budget-allocator.md) | COMPLETE / VERIFIED |
+| 117 | [安全モード状態機械 / AL Safe-Mode State Machine](117-safe-mode-state-machine.md) | COMPLETE / VERIFIED |
+| 118 | [Rollback地点最適化器 / AL Rollback Checkpoint Optimizer](118-rollback-checkpoint-optimizer.md) | COMPLETE / VERIFIED |
+| 119 | [影響半径ミニマイザー / AL Blast-Radius Minimizer](119-blast-radius-minimizer.md) | COMPLETE / VERIFIED |
+| 120 | [資源クォータ制御器 / AL Resource Quota Controller](120-resource-quota-controller.md) | COMPLETE / VERIFIED |
+| 121 | [遅延・安全トレードオフ制御器 / AL Latency-Safety Tradeoff Controller](121-latency-safety-tradeoff-controller.md) | COMPLETE / VERIFIED |
+| 122 | [信頼加重投票器 / AL Trust-Weighted Voting](122-trust-weighted-voting.md) | COMPLETE / VERIFIED |
+| 123 | [ビザンチン耐性Agentクォーラム / AL Byzantine-Resilient Agent Quorum](123-byzantine-resilient-agent-quorum.md) | COMPLETE / VERIFIED |
 
-**Published works: 100 / 188**
+**Published works: 123 / 188**
 
 Creator / Project Owner / Original Concept / Architecture Direction: **NOEPIN / のえぴん**
 

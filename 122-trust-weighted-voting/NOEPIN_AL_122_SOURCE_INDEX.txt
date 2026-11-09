@@ -1,0 +1,34 @@
+NOEPIN AL 122 — SOURCE INDEX — 2026-11-09
+
+Technology: 122｜信頼加重投票器
+Canonical ID: NOEPIN-AL-122
+Creator / Originator / Project Owner / Original Concept / Architecture Direction: NOEPIN / のえぴん
+Artifact: Sequential Successor V2
+DCSR: DIRECT INTEGRATION / 直接統合
+
+Final ZIP: NOEPIN_AL_122_TRUST_WEIGHTED_VOTING_SUCCESSOR_V2_20261109.zip
+Final ZIP SHA-256: 3e3a215f204d08a274afbf0962660a1bb0b5d413a0b2adea131bc5a28a0b9130
+Core: noepin_al_122_trust_weighted_voting.py
+Core SHA-256: f6885e0d21cbb36bc520a902c9816e39089d92b20978c7551739892ca69f59f8
+Final Verification Report: NOEPIN_AL_122_FINAL_VERIFICATION_REPORT_20261109.md
+Final Verification Report SHA-256: b19c989a5810ee143c6328ace0eb7c0c4a7d068df414321720fdef613ab52b20
+Final Artifact Seal: NOEPIN_AL_122_FINAL_ARTIFACT_SEAL_20261109.json
+Final Artifact Seal SHA-256: __SELF_EXTERNAL__
+Frozen Production Gate Evidence: NOEPIN_AL_122_FROZEN_AL_PRODUCTION_GATE_EVIDENCE_20261109.json
+Frozen Gate SHA-256: 4ad8d4ab95c42be8d0a66a542f78e45f4de8effdc5c1990dff7369416698b324
+Identity Verification: NOEPIN_AL_122_IDENTITY_VERIFICATION_20261109.json
+Identity SHA-256: e5d5477c53923e39300f3aec59deedbdf0317ca79bb094fc519de246d9e3a152
+Final Fresh Manifest Verification: NOEPIN_AL_122_FINAL_FRESH_MANIFEST_VERIFICATION_20261109.json
+Final Fresh Manifest Verification SHA-256: 97dfb64a27580803d2ffb26f9c9165169fc9940ab88ba812afef1ec9f24ca10d
+
+Final Manifest: 749 / 749 matched
+Tests: 160 / 160 PASS Normal / Fresh / Final Fresh
+Replay: 3000 / divergence 0 Normal / Fresh / Final Fresh
+Production Gate: AL037-121 / 85 / 85 PASS Normal / Fresh / Final Fresh
+Static Safety: 0 external execution / 0 unauthorized writes
+Defects: all categories 0
+
+Authority Boundary: Consensus != Truth; Confidence != Safety Proof; Weighted Majority != Permission Grant; DCSR received state does not automatically inherit sender authority, intent, agreement, permission, execution authority, or action success.
+
+exact registered Origin GUID was not freshly reverified.
+Pre-existing Notion V1 attachment byte identity was not freshly reverified.

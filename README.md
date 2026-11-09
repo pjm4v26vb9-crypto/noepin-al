@@ -6,7 +6,7 @@ NOEPIN ALは、**NOEPIN / のえぴん**がゲーム「もふもふの森」を�
 
 現在、検証が完了した技術から順番にGitHubへ公開しています。
 
-> 公開進捗: **100 / 188**  
+> 公開進捗: **123 / 188**  
 > Creator / Project Owner / Original Concept / Architecture Direction: **NOEPIN / のえぴん**  
 > Implementation / analysis / documentation support: AI-assisted using ChatGPT
 
@@ -116,8 +116,31 @@ NOEPIN ALは、**NOEPIN / のえぴん**がゲーム「もふもふの森」を�
 | 098 | [AL Epistemic-Aleatoric Splitter / 認識的不確実性分離器](works/098-epistemic-aleatoric-splitter.md) | COMPLETE / VERIFIED |
 | 099 | [AL Abstention Threshold Optimizer / 棄却閾値オプティマイザー](works/099-abstention-threshold-optimizer.md) | COMPLETE / VERIFIED |
 | 100 | [AL Trust Hysteresis Updater / 信頼ヒステリシス更新器](works/100-trust-hysteresis-updater.md) | COMPLETE / VERIFIED |
+| 101 | [AL Claim Provenance Score Aggregator / 主張由来スコア統合器](works/101-claim-provenance-score-aggregator.md) | COMPLETE / VERIFIED |
+| 102 | [AL Safe A* Action Planner / 安全制約付きA*プランナー](works/102-safe-astar-action-planner.md) | COMPLETE / VERIFIED |
+| 103 | [AL Constrained Beam Planner / 制約付きビームプランナー](works/103-constrained-beam-planner.md) | COMPLETE / VERIFIED |
+| 104 | [AL Risk-Aware Monte Carlo Tree Search / リスク認識MCTS](works/104-risk-aware-mcts.md) | COMPLETE / VERIFIED |
+| 105 | [AL Safe HTN Compiler / 安全HTNコンパイラ](works/105-safe-htn-compiler.md) | COMPLETE / VERIFIED |
+| 106 | [AL Local Plan Repair Search / 局所プラン修復器](works/106-local-plan-repair-search.md) | COMPLETE / VERIFIED |
+| 107 | [AL Safe Alternative Path Enumerator / 安全代替経路列挙器](works/107-safe-alternative-path-enumerator.md) | COMPLETE / VERIFIED |
+| 108 | [AL Cost-Risk Pareto Planner / コスト・リスクParetoプランナー](works/108-cost-risk-pareto-planner.md) | COMPLETE / VERIFIED |
+| 109 | [AL Deadline-Aware Safe Scheduler / 期限認識安全スケジューラ](works/109-deadline-aware-safe-scheduler.md) | COMPLETE / VERIFIED |
+| 110 | [AL Resource-Bounded Planner / 資源制約プランナー](works/110-resource-bounded-planner.md) | COMPLETE / VERIFIED |
+| 111 | [AL Stop-Condition Synthesizer / 停止条件合成器](works/111-stop-condition-synthesizer.md) | COMPLETE / VERIFIED |
+| 112 | [AL Model-Predictive Safety Controller / 予測安全制御器](works/112-model-predictive-safety-controller.md) | COMPLETE / VERIFIED |
+| 113 | [AL Control-Barrier Safety Gate / 安全境界バリアゲート](works/113-control-barrier-safety-gate.md) | COMPLETE / VERIFIED |
+| 114 | [AL Iterative Stability Monitor / 反復安定性モニター](works/114-iterative-stability-monitor.md) | COMPLETE / VERIFIED |
+| 115 | [AL Adaptive Action Rate Limiter / 適応レートリミッター](works/115-adaptive-action-rate-limiter.md) | COMPLETE / VERIFIED |
+| 116 | [AL Risk Budget Allocator / リスク予算配分器](works/116-risk-budget-allocator.md) | COMPLETE / VERIFIED |
+| 117 | [AL Safe-Mode State Machine / 安全モード状態機械](works/117-safe-mode-state-machine.md) | COMPLETE / VERIFIED |
+| 118 | [AL Rollback Checkpoint Optimizer / Rollback地点最適化器](works/118-rollback-checkpoint-optimizer.md) | COMPLETE / VERIFIED |
+| 119 | [AL Blast-Radius Minimizer / 影響半径ミニマイザー](works/119-blast-radius-minimizer.md) | COMPLETE / VERIFIED |
+| 120 | [AL Resource Quota Controller / 資源クォータ制御器](works/120-resource-quota-controller.md) | COMPLETE / VERIFIED |
+| 121 | [AL Latency-Safety Tradeoff Controller / 遅延・安全トレードオフ制御器](works/121-latency-safety-tradeoff-controller.md) | COMPLETE / VERIFIED |
+| 122 | [AL Trust-Weighted Voting / 信頼加重投票器](works/122-trust-weighted-voting.md) | COMPLETE / VERIFIED |
+| 123 | [AL Byzantine-Resilient Agent Quorum / ビザンチン耐性Agentクォーラム](works/123-byzantine-resilient-agent-quorum.md) | COMPLETE / VERIFIED |
 
-**Formal completion / publication progress: 100 / 188**
+**Formal completion / publication progress: 123 / 188**
 
 [作品一覧ページを開く](works/)
 

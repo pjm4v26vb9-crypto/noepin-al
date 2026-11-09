@@ -1,0 +1,42 @@
+{
+  "ai_support": "AI-assisted implementation / analysis / documentation support using ChatGPT",
+  "canonical_id": "NOEPIN-AL-107",
+  "core_identity_pass": true,
+  "core_sha256": "ed75b8db85206e14b33d0d1d2fead24c4bbe59bec59ea04c3a23ba78e28d4dca",
+  "creator": "NOEPIN / のえぴん",
+  "dcsr": "AUXILIARY INTEGRATION / 補助統合",
+  "defects": {
+    "benchmark_harness": 0,
+    "execution_harness_invocation": 0,
+    "production": 0,
+    "production_gate_helper": 0,
+    "replay_helper": 0,
+    "test_fixture": 0
+  },
+  "final_manifest": "215/215",
+  "final_manifest_verification_sha256": "870a2e984eb7930c702e9addee7f7a42c799ec6100aae67bcb780186f9d5531d",
+  "final_verification_report": "NOEPIN_AL_107_FINAL_VERIFICATION_REPORT_20261109.md",
+  "final_verification_report_sha256": "19d02083ca6fbade9c6f6d26a936d59b590f7bc7544922450467f2950fde9abd",
+  "final_zip": "NOEPIN_AL_107_SAFE_ALTERNATIVE_PATH_ENUMERATOR_SUCCESSOR_V2_20261109.zip",
+  "final_zip_sha256": "ceff85f43481e92b00115a4251def853ed06c8158e52d24d208e7983aababbc4",
+  "gate_evidence_sha256": "db08dd53591cc44b99348e571cf7ecb3328128e004f9e511207d48260312527a",
+  "identity_verification_sha256": "abc42731e5b24ba4069598bb793d828e08e7914dda86ea2a5521d504290ee66f",
+  "license_rights": "NOT SPECIFIED",
+  "name_en": "AL Safe Alternative Path Enumerator",
+  "name_ja": "安全代替経路列挙器",
+  "production_gate": "AL037-106 70/70 PASS",
+  "provenance_limitations": [
+    "exact registered Origin GUID was not freshly reverified.",
+    "Pre-existing Notion V1 attachment byte identity was not freshly reverified."
+  ],
+  "replay": "3000 divergence 0",
+  "report_identity_pass": true,
+  "schema": "NOEPIN_AL_FINAL_ARTIFACT_SEAL_V1",
+  "self_reference_rule": "Final ZIP SHA-256 is external to the ZIP.",
+  "static_safety": {
+    "external_execution_paths": 0,
+    "unauthorized_write_paths": 0
+  },
+  "technology": 107,
+  "tests": "160/160 PASS Normal/Fresh/Final Fresh"
+}

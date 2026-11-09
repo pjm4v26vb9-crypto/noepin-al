@@ -1,0 +1,21 @@
+NOEPIN AL 119 — SOURCE INDEX — 2026-11-09
+Technology: 119｜影響半径ミニマイザー
+Canonical ID: NOEPIN-AL-119
+Creator / Originator / Project Owner / Original Concept / Architecture Direction: NOEPIN / のえぴん
+Artifact: Sequential Successor V2
+License / Rights: NOT SPECIFIED
+
+Final ZIP: NOEPIN_AL_119_BLAST_RADIUS_MINIMIZER_SUCCESSOR_V2_20261109.zip
+Final ZIP SHA-256: 6f1767e627326c91e70eeca5ee3989f8b32e492e3e6b0dba01e4dff89707e46b
+Core: noepin_al_119_blast_radius_minimizer.py
+Core SHA-256: bc6b8f5a5bcb2553b9f50ff8c1fbeb4d3cf5ad772a4b2248b864a09fb3f84fc9
+Final Verification Report SHA-256: f4b81ef15af00ee9cd223d59efc084addc1c687eddc9e011df0d6262db3d434b
+Final Artifact Seal SHA-256: 69fa0106c54a8f169da462b79a5d982b9e42b1467fb31aa29d4a3097f44111c7
+Frozen AL Production Gate Evidence SHA-256: 478b888a3bd8ee803b8f812da6d51d8724080956691398571c68c6b01b2920eb
+Identity Verification SHA-256: 6608b4e276261843c0bcb95d57e2546a31010f45c4c9bf1e380594735a607060
+Final Manifest Verification SHA-256: 7355f0211124efd67af037b46524e93cd3596877828c16f6d4da5f27a06d5eb6
+
+Final verification: tests 160/160 x3; replay 3000 divergence 0 x3; AL037-118 Production Gate 82/82 x3; static safety 0/0 x3; final manifest 480/480; core/report identity PASS.
+
+exact registered Origin GUID was not freshly reverified.
+Pre-existing Notion V1 attachment byte identity was not freshly reverified.

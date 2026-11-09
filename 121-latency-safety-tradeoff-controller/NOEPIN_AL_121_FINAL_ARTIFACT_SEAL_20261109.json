@@ -1,0 +1,45 @@
+{
+  "artifact": "Sequential Successor V2",
+  "authority_boundary": "Selected Check Set ≠ Permission Grant / Check Execution / Action Execution / Action Success; Residual Risk ≠ World Truth / Safety Proof; HOLD Candidate ≠ Stop Execution; DCSR Reconstruction ≠ Domain Authority / Semantic Judgment / Permission Grant / Safety Proof / Action Execution / Action Success.",
+  "canonical_id": "NOEPIN-AL-121",
+  "core_sha256": "3b3a523393000c73b7d50828c7ede7548264ad09db18931be0059175ce0f4c65",
+  "creator": "NOEPIN / のえぴん",
+  "dcsr_level": "AUXILIARY INTEGRATION / 補助統合",
+  "defects": {
+    "benchmark_harness": 0,
+    "execution_harness_invocation": 0,
+    "production": 0,
+    "production_gate_helper": 0,
+    "replay_helper": 0,
+    "test_fixture": 0
+  },
+  "final_fresh_benchmark": {
+    "condition": "Python stdlib; 1200 safety checks; mandatory-check policy + latency-aware optional selection; 5 full evaluations x 5 batches and 20 prepared reuses x 5 batches",
+    "delta_bytes": 2083,
+    "delta_percent": 0.9633127228498888,
+    "full_bytes": 216233,
+    "full_median_ms": 1.7148143999975218,
+    "full_resend": false,
+    "missing_metadata_bytes": 295,
+    "missing_records": 10,
+    "prepared_median_ms": 0.011282750000418673,
+    "semantic_match": true
+  },
+  "final_fresh_manifest_verification_sha256": "55fc0a8c29234a7ad3174c44ab0d6958c8d730a8cbce9ef4bd3c0745e909d5c8",
+  "final_manifest_expected": 580,
+  "final_manifest_matched": 580,
+  "final_verification_report_sha256": "dcda8150d2532d55b12877eb2d2b767cd99ddc6004edac2b37aa21486f9463f9",
+  "final_zip": "NOEPIN_AL_121_LATENCY_SAFETY_TRADEOFF_CONTROLLER_SUCCESSOR_V2_20261109.zip",
+  "final_zip_sha256": "f08f587e7a91ca53da70dea3e9237f83e1fe820926e75243920334f5b6340f87",
+  "frozen_production_gate_evidence_sha256": "933dd340238153d09c6fedd34213681726f25309b52b159c79df5309f705e637",
+  "identity_verification_sha256": "ba95cd6d124129e2e6e156f7fd46a8b5d610b5e57521749fe38e7a3cf39ed8e9",
+  "production_gate": "AL037-120 / 84/84 PASS",
+  "provenance_limitations": [
+    "exact registered Origin GUID was not freshly reverified.",
+    "Pre-existing Notion V1 attachment byte identity was not freshly reverified."
+  ],
+  "replay": "3000 / divergence 0",
+  "static_safety": "external execution paths 0 / unauthorized write paths 0",
+  "technology": 121,
+  "tests": "160/160 PASS"
+}

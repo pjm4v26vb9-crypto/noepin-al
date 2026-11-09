@@ -1,0 +1,36 @@
+{
+  "artifact": "Sequential Successor V2",
+  "authority_boundary": "Selected Action Candidate and Blast Radius/Affected Set evidence do not grant permission or execute actions. DCSR reconstruction is not Truth, Domain Authority, Safety Proof, Permission Grant, Action Execution, or Action Success.",
+  "canonical_id": "NOEPIN-AL-119",
+  "creator": "NOEPIN / のえぴん",
+  "hashes": {
+    "core": "bc6b8f5a5bcb2553b9f50ff8c1fbeb4d3cf5ad772a4b2248b864a09fb3f84fc9",
+    "final_fresh_benchmark": "28a79a7c02cea5663d0f6787f58a8246a2a2e312819ba8cea7ce804aba552b54",
+    "final_fresh_gate": "478b888a3bd8ee803b8f812da6d51d8724080956691398571c68c6b01b2920eb",
+    "final_fresh_replay": "12480e0bb800fbfe074c767a8a22c899463cd24acff7afb1f57d67be17853b69",
+    "final_fresh_static": "1ad6a3f83584f8e1db074744cc9cd3e0920217a2dd9e6346d682cff5152c3a92",
+    "final_manifest_verification": "7355f0211124efd67af037b46524e93cd3596877828c16f6d4da5f27a06d5eb6",
+    "final_report": "f4b81ef15af00ee9cd223d59efc084addc1c687eddc9e011df0d6262db3d434b",
+    "final_zip": "6f1767e627326c91e70eeca5ee3989f8b32e492e3e6b0dba01e4dff89707e46b",
+    "frozen_gate": "478b888a3bd8ee803b8f812da6d51d8724080956691398571c68c6b01b2920eb",
+    "identity": "6608b4e276261843c0bcb95d57e2546a31010f45c4c9bf1e380594735a607060"
+  },
+  "license_rights": "NOT SPECIFIED",
+  "provenance_limitations": [
+    "exact registered Origin GUID was not freshly reverified.",
+    "Pre-existing Notion V1 attachment byte identity was not freshly reverified."
+  ],
+  "schema": "NOEPIN_AL_119_FINAL_ARTIFACT_SEAL_V1",
+  "technology": 119,
+  "verification": {
+    "core_identity_pass": true,
+    "final_fresh_tests": "160/160 PASS",
+    "final_manifest": "480/480 matched",
+    "fresh_tests": "160/160 PASS",
+    "normal_tests": "160/160 PASS",
+    "production_gate": "AL037-118 / 82/82 PASS x3",
+    "replay": "3000 divergence 0 x3",
+    "report_identity_pass": true,
+    "static_safety": "external execution paths 0 / unauthorized write paths 0 x3"
+  }
+}

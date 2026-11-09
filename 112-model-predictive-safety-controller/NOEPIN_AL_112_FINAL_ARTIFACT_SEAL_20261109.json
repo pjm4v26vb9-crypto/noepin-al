@@ -1,0 +1,95 @@
+{
+  "ai_support": "AI-assisted implementation / analysis / documentation support using ChatGPT",
+  "artifact": "Sequential Successor V2",
+  "baseline_preserved": true,
+  "benchmark": {
+    "final_fresh": {
+      "condition": "Python stdlib; 1200 action-effect candidates; 6 state dimensions; 6 hard constraints; horizon 5; deterministic receding-horizon evaluation; 5 full evaluations x 5 batches and 20 prepared reuses x 5 batches",
+      "delta_bytes": 2866,
+      "delta_percent": 0.9643694753170541,
+      "full_bytes": 297189,
+      "full_median_ms": 47.55525799999987,
+      "full_resend": false,
+      "missing_metadata_bytes": 151,
+      "missing_records": 10,
+      "prepared_median_ms": 0.0005840999989459306,
+      "semantic_match": true
+    },
+    "fresh": {
+      "condition": "Python stdlib; 1200 action-effect candidates; 6 state dimensions; 6 hard constraints; horizon 5; deterministic receding-horizon evaluation; 5 full evaluations x 5 batches and 20 prepared reuses x 5 batches",
+      "delta_bytes": 2866,
+      "delta_percent": 0.9643694753170541,
+      "full_bytes": 297189,
+      "full_median_ms": 50.40057580000621,
+      "full_resend": false,
+      "missing_metadata_bytes": 151,
+      "missing_records": 10,
+      "prepared_median_ms": 0.0005780999998705738,
+      "semantic_match": true
+    },
+    "normal": {
+      "condition": "Python stdlib; 1200 action-effect candidates; 6 state dimensions; 6 hard constraints; horizon 5; deterministic receding-horizon evaluation; 5 full evaluations x 5 batches and 20 prepared reuses x 5 batches",
+      "delta_bytes": 2866,
+      "delta_percent": 0.9643694753170541,
+      "full_bytes": 297189,
+      "full_median_ms": 48.093294600005265,
+      "full_resend": false,
+      "missing_metadata_bytes": 151,
+      "missing_records": 10,
+      "prepared_median_ms": 0.0005580500001656219,
+      "semantic_match": true
+    }
+  },
+  "canonical_id": "NOEPIN-AL-112",
+  "core_identity_pass": true,
+  "core_sha256": "4c2f8616e974d62745817d47e504b51d21a6e4daa0fc8451918e295b7db15ab1",
+  "creator": "NOEPIN / のえぴん",
+  "dcsr_level": "AUXILIARY INTEGRATION / 補助統合",
+  "defects": {
+    "benchmark_harness": 0,
+    "execution_harness_invocation": "2 CORRECTED — malformed shell path expansion; AL110 core staging omission; Production logic unchanged; Gate rerun from corrected state",
+    "production": 0,
+    "production_gate_helper": 0,
+    "replay_helper": 0,
+    "test_fixture": 0
+  },
+  "english_name": "AL Model-Predictive Safety Controller",
+  "final_manifest": {
+    "bad": [],
+    "matched": 461,
+    "pass": true,
+    "total": 461
+  },
+  "final_verification_report_sha256": "6dd848807e36eb15bc1dc5897c2d84e50cf9f104258e18d0def5b5d40fab74d7",
+  "final_zip": "NOEPIN_AL_112_MODEL_PREDICTIVE_SAFETY_CONTROLLER_SUCCESSOR_V2_20261109.zip",
+  "final_zip_sha256": "9ecbad2fd90c400e3cac117339011168192c901164bd595a227d152cecb6d4e5",
+  "frozen_production_gate_evidence_sha256": "79ede066574b5ed93867de1fb00f1dbe788db1813d7e3c3df39482546357f36f",
+  "identity_verification_sha256": "e116de60f517454311115b5b65bc24c139a5a1988d82b74fa384f7648508176e",
+  "license_rights": "NOT SPECIFIED",
+  "name_jp": "予測安全制御器",
+  "origin_guid_note": "exact registered Origin GUID was not freshly reverified.",
+  "production_gate": {
+    "pass": true,
+    "pass_count": 75,
+    "range": "AL037-111",
+    "total": 75
+  },
+  "replay": {
+    "digest": "8a39e96a4b8a7a9a77a8076d35b93f9c36ff05039e29578b761fd63d014f4097",
+    "divergence": 0,
+    "total": 3000
+  },
+  "report_identity_pass": true,
+  "schema": "NOEPIN_AL_FINAL_ARTIFACT_SEAL_V1",
+  "static_safety": {
+    "external_execution_paths": 0,
+    "unauthorized_write_paths": 0
+  },
+  "technology": 112,
+  "tests": {
+    "final_fresh": "160/160 PASS",
+    "fresh": "160/160 PASS",
+    "normal": "160/160 PASS"
+  },
+  "v1_attachment_note": "Pre-existing Notion V1 attachment byte identity was not freshly reverified."
+}

@@ -1,0 +1,95 @@
+{
+  "ai_support": "AI-assisted implementation / analysis / documentation support using ChatGPT",
+  "artifact": "Sequential Successor V2",
+  "baseline_preserved": true,
+  "benchmark": {
+    "final_fresh": {
+      "condition": "Python stdlib; 1200 observable criteria + 100 resource budgets; deterministic predicate synthesis; 5 full evaluations x 5 batches and 20 prepared reuses x 5 batches",
+      "delta_bytes": 2716,
+      "delta_percent": 0.9215808028882533,
+      "full_bytes": 294711,
+      "full_median_ms": 2.7908278000268183,
+      "full_resend": false,
+      "missing_metadata_bytes": 161,
+      "missing_records": 10,
+      "prepared_median_ms": 0.0005087499971523357,
+      "semantic_match": true
+    },
+    "fresh": {
+      "condition": "Python stdlib; 1200 observable criteria + 100 resource budgets; deterministic predicate synthesis; 5 full evaluations x 5 batches and 20 prepared reuses x 5 batches",
+      "delta_bytes": 2716,
+      "delta_percent": 0.9215808028882533,
+      "full_bytes": 294711,
+      "full_median_ms": 2.570668599992132,
+      "full_resend": false,
+      "missing_metadata_bytes": 161,
+      "missing_records": 10,
+      "prepared_median_ms": 0.0003980999963459908,
+      "semantic_match": true
+    },
+    "normal": {
+      "condition": "Python stdlib; 1200 observable criteria + 100 resource budgets; deterministic predicate synthesis; 5 full evaluations x 5 batches and 20 prepared reuses x 5 batches",
+      "delta_bytes": 2716,
+      "delta_percent": 0.9215808028882533,
+      "full_bytes": 294711,
+      "full_median_ms": 2.481660400007968,
+      "full_resend": false,
+      "missing_metadata_bytes": 161,
+      "missing_records": 10,
+      "prepared_median_ms": 0.0003655499995147693,
+      "semantic_match": true
+    }
+  },
+  "canonical_id": "NOEPIN-AL-111",
+  "core_identity_pass": true,
+  "core_sha256": "9796df351bf3af83b8475b7ec810ee66a32020d4788849b814dd9d54da2ca187",
+  "creator": "NOEPIN / のえぴん",
+  "dcsr_level": "AUXILIARY INTEGRATION / 補助統合",
+  "defects": {
+    "benchmark_harness": 0,
+    "execution_harness_invocation": 0,
+    "production": "1 CORRECTED — Success Criteria aggregation OR→AND; all Normal verification rerun",
+    "production_gate_helper": 0,
+    "replay_helper": 0,
+    "test_fixture": 0
+  },
+  "english_name": "AL Stop-Condition Synthesizer",
+  "final_manifest": {
+    "bad": [],
+    "matched": 429,
+    "pass": true,
+    "total": 429
+  },
+  "final_verification_report_sha256": "da01a8832cf4620c0d3b6f357824c6c73314776454f2d6960cead682190f5387",
+  "final_zip": "NOEPIN_AL_111_STOP_CONDITION_SYNTHESIZER_SUCCESSOR_V2_20261109.zip",
+  "final_zip_sha256": "e1dcefc23c3a7a09aaf4b6a9bb667f8e5f5ec4d64a9ecf0247da9e2ef8632fb3",
+  "frozen_production_gate_evidence_sha256": "4f8e8254873fd7386e9c9ef22baad46be4946792c97e06374b1981e4a4a1df64",
+  "identity_verification_sha256": "110548dd2730ffbb5ff256c150a14183476f3fded8157ed4d413d7e6396e36fd",
+  "license_rights": "NOT SPECIFIED",
+  "name_jp": "停止条件合成器",
+  "origin_guid_note": "exact registered Origin GUID was not freshly reverified.",
+  "production_gate": {
+    "pass": true,
+    "pass_count": 74,
+    "range": "AL037-110",
+    "total": 74
+  },
+  "replay": {
+    "digest": "ffb43ac96c326a6c5c8ceb094a417e380d98d2ac00d9c71ac85665fe661122f9",
+    "divergence": 0,
+    "total": 3000
+  },
+  "report_identity_pass": true,
+  "schema": "NOEPIN_AL_FINAL_ARTIFACT_SEAL_V1",
+  "static_safety": {
+    "external_execution_paths": 0,
+    "unauthorized_write_paths": 0
+  },
+  "technology": 111,
+  "tests": {
+    "final_fresh": "160/160 PASS",
+    "fresh": "160/160 PASS",
+    "normal": "160/160 PASS"
+  },
+  "v1_attachment_note": "Pre-existing Notion V1 attachment byte identity was not freshly reverified."
+}

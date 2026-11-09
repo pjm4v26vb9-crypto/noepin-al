@@ -1,0 +1,32 @@
+NOEPIN AL 112 — Source Index
+Technology: 112｜予測安全制御器
+English Name: AL Model-Predictive Safety Controller
+Canonical ID: NOEPIN-AL-112
+Creator / Originator / Project Owner / Original Concept / Architecture Direction: NOEPIN / のえぴん
+AI support: AI-assisted implementation / analysis / documentation support using ChatGPT
+License / Rights: NOT SPECIFIED
+DCSR: AUXILIARY INTEGRATION / 補助統合
+
+Core: noepin_al_112_model_predictive_safety_controller.py
+Core SHA-256: 4c2f8616e974d62745817d47e504b51d21a6e4daa0fc8451918e295b7db15ab1
+Final ZIP: NOEPIN_AL_112_MODEL_PREDICTIVE_SAFETY_CONTROLLER_SUCCESSOR_V2_20261109.zip
+Final ZIP SHA-256: 9ecbad2fd90c400e3cac117339011168192c901164bd595a227d152cecb6d4e5
+Final Verification Report: NOEPIN_AL_112_FINAL_VERIFICATION_REPORT_20261109.md
+Final Verification Report SHA-256: 6dd848807e36eb15bc1dc5897c2d84e50cf9f104258e18d0def5b5d40fab74d7
+Final Artifact Seal: NOEPIN_AL_112_FINAL_ARTIFACT_SEAL_20261109.json
+Final Artifact Seal SHA-256: edacd1b301698357ccc529c1b9f1a1c4de91a0fdd07c44c2215ed20ab0d960ae
+Frozen AL Production Gate Evidence: NOEPIN_AL_112_FROZEN_AL_PRODUCTION_GATE_EVIDENCE_20261109.json
+Frozen AL Production Gate Evidence SHA-256: 79ede066574b5ed93867de1fb00f1dbe788db1813d7e3c3df39482546357f36f
+Identity Verification: NOEPIN_AL_112_IDENTITY_VERIFICATION_20261109.json
+Identity Verification SHA-256: e116de60f517454311115b5b65bc24c139a5a1988d82b74fa384f7648508176e
+
+Normal/Fresh/Final Fresh tests: 160 / 160 PASS each
+Replay: 3,000 / divergence 0
+Production Gate: AL037–111 / 75 / 75 PASS
+Static Safety: external execution paths 0 / unauthorized write paths 0
+Final Manifest: 461 / 461 matched
+Production defect: 0
+Execution harness invocation defects: 2 CORRECTED — Production logic unchanged; affected Gate rerun from corrected state.
+
+exact registered Origin GUID was not freshly reverified.
+Pre-existing Notion V1 attachment byte identity was not freshly reverified.

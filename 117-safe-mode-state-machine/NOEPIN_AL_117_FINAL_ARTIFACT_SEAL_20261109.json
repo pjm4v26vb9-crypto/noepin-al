@@ -1,0 +1,37 @@
+{
+  "ai_support": "AI-assisted implementation / analysis / documentation support using ChatGPT",
+  "artifact": "Sequential Successor V2",
+  "authority_boundary": "Safety Mode / Allowed Capabilities / Permit Reissue / Emergency Stop / Recovery are candidates or control evidence only; no Permission Grant, Permit Issuance, Mode Change Execution, Stop Execution, Action Execution, World Truth, Safety Proof, or Action Success is promoted.",
+  "canonical_id": "NOEPIN-AL-117",
+  "core": "noepin_al_117_safe_mode_state_machine.py",
+  "core_sha256": "8eb12bf86cf5f7cbfbb82b871c8c56b2e12eeaf9ba3b8dd9b7e7ef8346b62cc1",
+  "creator": "NOEPIN / のえぴん",
+  "defects": {
+    "benchmark_harness": 0,
+    "execution_harness_invocation": 0,
+    "production": 0,
+    "production_gate_helper": 0,
+    "replay_helper": 0,
+    "test_fixture": 0
+  },
+  "final_fresh_manifest_verification_sha256": "daeccb0959987c5c85146be0ea14fea585bc052aa161de7254d15798fcefd4a3",
+  "final_manifest": "442/442 matched",
+  "final_verification_report": "NOEPIN_AL_117_FINAL_VERIFICATION_REPORT_20261109.md",
+  "final_verification_report_sha256": "8b23154fd43402d2da3acf42350160891b65895e00a2c7866db3a37a49d5471b",
+  "final_zip": "NOEPIN_AL_117_SAFE_MODE_STATE_MACHINE_SUCCESSOR_V2_20261109.zip",
+  "final_zip_sha256": "f613441a9cf8297389b822110dff0bc10799769981ece8635309054184e6bcc8",
+  "frozen_production_gate_sha256": "6df00bf00ac9db201575ecab8a6e49b30b70bd8b423e33d013e834d613b31367",
+  "identity_verification_sha256": "93a9dd113090f3a6b2977aeb089ac166eb70790929e14536da887d9e3b4ffdc9",
+  "license_rights": "NOT SPECIFIED",
+  "production_gate": "AL037-116 80/80 PASS Normal/Fresh/Final Fresh",
+  "provenance_limitations": [
+    "exact registered Origin GUID was not freshly reverified.",
+    "Pre-existing Notion V1 attachment byte identity was not freshly reverified."
+  ],
+  "replay": "3000 divergence 0 Normal/Fresh/Final Fresh",
+  "schema": "NOEPIN_AL_FINAL_ARTIFACT_SEAL_V1",
+  "static_safety": "external execution paths 0 / unauthorized write paths 0",
+  "technology": 117,
+  "tests": "160/160 PASS Normal/Fresh/Final Fresh",
+  "title": "117｜安全モード状態機械"
+}

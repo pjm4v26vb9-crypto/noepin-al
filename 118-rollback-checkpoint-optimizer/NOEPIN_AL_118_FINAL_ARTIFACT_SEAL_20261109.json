@@ -1,0 +1,30 @@
+{
+  "artifact": "Sequential Successor V2",
+  "canonical_id": "NOEPIN-AL-118",
+  "core_sha256": "f152fe147605e910e1875fee469ef676980bbe811448a8e2b139f34ed7e0a9b3",
+  "creator": "NOEPIN / のえぴん",
+  "defects": {
+    "benchmark_harness": 0,
+    "execution_harness_invocation": 0,
+    "production": 0,
+    "production_gate_helper": 0,
+    "replay_helper": 0,
+    "test_fixture": 0
+  },
+  "final_fresh_manifest_verification_sha256": "4e0cf4730160afb6d4fbada9814f33460ed9d32f93b029427bfdadca76776066",
+  "final_manifest": "465/465 matched",
+  "final_verification_report_sha256": "01684a1c18ef21d5f8b001ea613122ec23935b1489bf3ea217a10e9f714bf969",
+  "final_zip": "NOEPIN_AL_118_ROLLBACK_CHECKPOINT_OPTIMIZER_SUCCESSOR_V2_20261109.zip",
+  "final_zip_sha256": "a12391a1bcaffd2f30acc5dc07a3562c7d8ec75a88c2ffe8e641e2eff0c978de",
+  "frozen_production_gate_evidence_sha256": "77b1bd82da5cba349746c9e731c02681eb1e15f10fa26ebc80f75d9d73b7c5fa",
+  "identity_verification_sha256": "c9c2a1b54d0801f27e3c19adf0b6b14561b678114fac277a02fe02a76643af76",
+  "production_gate": "AL037-117 81/81 PASS x3",
+  "provenance_limitations": [
+    "exact registered Origin GUID was not freshly reverified.",
+    "Pre-existing Notion V1 attachment byte identity was not freshly reverified."
+  ],
+  "replay": "3000 divergence 0 x3",
+  "static_safety": "0 external execution / 0 unauthorized write",
+  "technology": 118,
+  "tests": "160/160 PASS x3"
+}

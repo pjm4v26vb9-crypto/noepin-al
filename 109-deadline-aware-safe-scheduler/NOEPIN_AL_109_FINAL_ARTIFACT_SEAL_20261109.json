@@ -1,0 +1,41 @@
+{
+  "ai_support": "AI-assisted implementation / analysis / documentation support using ChatGPT",
+  "canonical_id": "NOEPIN-AL-109",
+  "core_sha256": "3400a83560fae06a46f7122bb39879473abdfd26a7ae4a4bf741b9968400f3aa",
+  "creator_originator_project_owner_original_concept_architecture_direction": "NOEPIN / のえぴん",
+  "date": "2026-11-09",
+  "defects": {
+    "benchmark_harness": 0,
+    "execution_harness_invocation": 0,
+    "production": "1 CORRECTED",
+    "production_gate_helper": 0,
+    "replay_helper": 0,
+    "test_fixture": 0
+  },
+  "final_manifest_verification_sha256": "90f9e8261f58286f0c7580816b829ccddde3861b404dfa0cd25c5193155c0327",
+  "final_verification_report": "NOEPIN_AL_109_FINAL_VERIFICATION_REPORT_20261109.md",
+  "final_verification_report_sha256": "b4cea2e657977f8f03b539acbe71eebc1971dde9499c569b1fb88440af3adb76",
+  "final_zip": "NOEPIN_AL_109_DEADLINE_AWARE_SAFE_SCHEDULER_SUCCESSOR_V2_20261109.zip",
+  "final_zip_sha256": "14ef1316159ec65d200fe0e093bbc692346bf046329b19222f79c4dc18ed4697",
+  "gate_evidence_sha256": "67b21c9ea4c15d8a759648e725459d2dc11918659b4f9a84c354a9f59d68d7a6",
+  "identity_verification_sha256": "a71f9aef8fa3edafd31de6b65b3a16b61286b0470a5a0e9cceb7c9e662b69190",
+  "license_rights": "NOT SPECIFIED",
+  "name_en": "AL Deadline-Aware Safe Scheduler",
+  "name_ja": "期限認識安全スケジューラ",
+  "provenance_limitations": [
+    "exact registered Origin GUID was not freshly reverified.",
+    "Pre-existing Notion V1 attachment byte identity was not freshly reverified."
+  ],
+  "schema": "NOEPIN_AL_FINAL_ARTIFACT_SEAL_V1",
+  "self_reference_rule": "Final ZIP SHA-256 is stored externally and is not embedded inside the Final ZIP.",
+  "technology": 109,
+  "validation": {
+    "core_identity": true,
+    "final_manifest": "259/259 matched",
+    "production_gate": "AL037-108 72/72 PASS",
+    "replay": "3x1000=3000 divergence 0",
+    "report_identity": true,
+    "static_safety": "external execution paths 0; unauthorized write paths 0",
+    "tests": "160/160 PASS Normal/Fresh/Final Fresh"
+  }
+}

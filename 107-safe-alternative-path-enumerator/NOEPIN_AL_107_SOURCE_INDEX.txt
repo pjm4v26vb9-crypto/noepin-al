@@ -1,0 +1,27 @@
+NOEPIN AL 107 — SOURCE INDEX
+
+Creator / Origin: NOEPIN / のえぴん
+Canonical ID: NOEPIN-AL-107
+License / Rights: NOT SPECIFIED
+
+Final ZIP: NOEPIN_AL_107_SAFE_ALTERNATIVE_PATH_ENUMERATOR_SUCCESSOR_V2_20261109.zip
+Final ZIP SHA-256: ceff85f43481e92b00115a4251def853ed06c8158e52d24d208e7983aababbc4
+Core: noepin_al_107_safe_alternative_path_enumerator.py
+Core SHA-256: ed75b8db85206e14b33d0d1d2fead24c4bbe59bec59ea04c3a23ba78e28d4dca
+Final Verification Report: NOEPIN_AL_107_FINAL_VERIFICATION_REPORT_20261109.md
+Final Verification Report SHA-256: 19d02083ca6fbade9c6f6d26a936d59b590f7bc7544922450467f2950fde9abd
+Final Artifact Seal: NOEPIN_AL_107_FINAL_ARTIFACT_SEAL_20261109.json
+Final Artifact Seal SHA-256: f6a6aafc589fb8737ae27975b6a0966a9234ff7d2ff7454f48a58bd6b5c73b83
+AL Production Gate Evidence: NOEPIN_AL_107_AL_PRODUCTION_GATE_EVIDENCE.json
+AL Production Gate Evidence SHA-256: db08dd53591cc44b99348e571cf7ecb3328128e004f9e511207d48260312527a
+Identity Verification: NOEPIN_AL_107_IDENTITY_VERIFICATION_20261109.json
+Identity Verification SHA-256: abc42731e5b24ba4069598bb793d828e08e7914dda86ea2a5521d504290ee66f
+Final Manifest Verification: NOEPIN_AL_107_FINAL_MANIFEST_VERIFICATION_20261109.json
+Final Manifest Verification SHA-256: 870a2e984eb7930c702e9addee7f7a42c799ec6100aae67bcb780186f9d5531d
+Final Fresh Benchmark: NOEPIN_AL_107_FINAL_FRESH_BENCHMARK_20261109.json
+Final Fresh Benchmark SHA-256: 041272b74aa513d91c29c17d85b087fa4792575989be87b5384e7b45bc95752d
+
+Validation: 160/160 PASS Normal/Fresh/Final Fresh; Replay 3000 divergence 0; AL037-106 Gate 70/70; Static Safety 0/0; Final Manifest 215/215.
+DCSR: AUXILIARY INTEGRATION / 補助統合.
+Defects: Production 0; Test fixture 0; Benchmark harness 0; Replay helper 0; Production Gate helper 0; Execution harness invocation 0.
+Provenance: exact registered Origin GUID was not freshly reverified. Pre-existing Notion V1 attachment byte identity was not freshly reverified.

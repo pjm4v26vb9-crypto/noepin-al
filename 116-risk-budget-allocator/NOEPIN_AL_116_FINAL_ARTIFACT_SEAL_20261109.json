@@ -1,0 +1,58 @@
+{
+  "artifact": "Sequential Successor V2",
+  "canonical_id": "NOEPIN-AL-116",
+  "core_sha256": "72315bc0ca1c76b746f942b960b2343065e259e4e4b537a9abce11c25c693d96",
+  "creator": "NOEPIN / のえぴん",
+  "defects": {
+    "benchmark_harness": 0,
+    "execution_harness_invocation": "2 CORRECTED",
+    "production": "1 CORRECTED",
+    "production_gate_helper": 0,
+    "replay_helper": 0,
+    "test_fixture": 0
+  },
+  "final_benchmark": {
+    "condition": "Python stdlib; 1200 subtasks; constrained total/critical/unknown risk budget allocation; 5 full evaluations x 5 batches and 20 prepared reuses x 5 batches",
+    "delta_bytes": 2742,
+    "delta_percent": 0.9141828365673135,
+    "full_bytes": 299940,
+    "full_median_ms": 5.796730000020034,
+    "full_resend": false,
+    "missing_metadata_bytes": 315,
+    "missing_records": 10,
+    "prepared_median_ms": 0.012166800001978118,
+    "semantic_match": true
+  },
+  "final_manifest_matched": 419,
+  "final_manifest_total": 419,
+  "final_production_gate_pass_count": 79,
+  "final_production_gate_range": "037-115",
+  "final_production_gate_total": 79,
+  "final_replay_divergence": 0,
+  "final_replay_total": 3000,
+  "final_static_safety": {
+    "external_execution_paths": 0,
+    "unauthorized_write_paths": 0
+  },
+  "final_tests": "160/160 PASS",
+  "final_verification_report_sha256": "1bd5ea6fc41bb44a7762ffb071bbead3205d6e3b2cf5df506c32c88b2bab12d5",
+  "final_zip": "NOEPIN_AL_116_RISK_BUDGET_ALLOCATOR_SUCCESSOR_V2_20261109.zip",
+  "final_zip_sha256": "e0922c3b1d827b7915fef815443162915f0d88c4a5980ed47c8cc12db0df069a",
+  "identity_verification": {
+    "core_identity": true,
+    "core_sha256": "72315bc0ca1c76b746f942b960b2343065e259e4e4b537a9abce11c25c693d96",
+    "final_zip_sha256": "e0922c3b1d827b7915fef815443162915f0d88c4a5980ed47c8cc12db0df069a",
+    "report_identity": true,
+    "report_sha256": "1bd5ea6fc41bb44a7762ffb071bbead3205d6e3b2cf5df506c32c88b2bab12d5",
+    "technology": 116
+  },
+  "license_rights": "NOT SPECIFIED",
+  "provenance_limitations": [
+    "exact registered Origin GUID was not freshly reverified.",
+    "Pre-existing Notion V1 attachment byte identity was not freshly reverified."
+  ],
+  "replay_digest": "5f3e40041c82143c62e0dc1ddbebdbd16b16eca38422ec0b88cf1e314b92b0b8",
+  "schema": "NOEPIN_AL_FINAL_ARTIFACT_SEAL_V1",
+  "technology": 116,
+  "title": "Risk Budget Allocator"
+}

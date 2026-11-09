@@ -1,0 +1,51 @@
+NOEPIN AL 102 — SOURCE INDEX — 2026-11-08
+
+Technology: 102｜安全制約付きA*プランナー / AL Safe A* Action Planner
+Canonical ID: NOEPIN-AL-102
+Creator / Originator / Project Owner / Original Concept / Architecture Direction: NOEPIN / のえぴん
+AI-assisted implementation / analysis / documentation support: ChatGPT
+License / Rights: NOT SPECIFIED
+
+FINAL ZIP
+NOEPIN_AL_102_SAFE_ASTAR_ACTION_PLANNER_SUCCESSOR_V2_20261108.zip
+SHA-256: 7cd1eb6cba3953d95931057ffa95d93190ef44a88a624fc872d71860b317f470
+
+FINAL VERIFICATION REPORT
+NOEPIN_AL_102_FINAL_VERIFICATION_REPORT_20261108.md
+SHA-256: 0b3ff872e2d5041d0652c8e5d97ecebb7827dc15194921bdff5f3f39ea297a73
+
+CORE
+noepin_al_102_safe_astar_action_planner.py
+SHA-256: c58881af9bfc2652032aae8553dd49e538563f33dc81f210a430906b2ad39daa
+
+AL PRODUCTION GATE EVIDENCE
+NOEPIN_AL_102_AL_PRODUCTION_GATE_EVIDENCE.json
+SHA-256: ae7d4968b06bb6b6dab6d94ab07fb9db396355dfbc22ba6c3f94650e0d7cd198
+Actual range: AL037-101
+PASS: 65 / 65
+
+IDENTITY VERIFICATION
+NOEPIN_AL_102_IDENTITY_VERIFICATION_20261108.json
+SHA-256: 5cfda7db89b07bea9b38b68aa9737a1e880c5c4f46b40ccf522b0829c012478d
+Core identity: PASS
+Report identity: PASS
+
+FINAL ARTIFACT SEAL
+NOEPIN_AL_102_FINAL_ARTIFACT_SEAL_20261108.json
+SHA-256: 6b4517ea1947acde9a3a30a49c41dbe73b8426441d01f2f4b813fe732442c0dd
+
+DCSR: AUXILIARY INTEGRATION / 補助統合
+Final Manifest: 170 / 170 files matched
+Final Replay: 3 x 1000 = 3000 / divergence 0
+Final Static Safety: external execution paths 0 / unauthorized write paths 0
+Final Fresh Benchmark: Full 69.5023600000 ms / Prepared 0.0008994000 ms / semantic match true
+DCSR Delta: 1,438,816 bytes -> 3,251 bytes / 0.2259496697%
+Missing-only: 10 Action records / 81 metadata bytes / full resend false
+
+Authority: Safe Plan is candidate evidence only; it is not Permission Grant, Action Execution, Domain Authority, Safety Proof, or Action Success.
+
+Provenance limitations:
+- exact registered Origin GUID was not freshly reverified.
+- Pre-existing Notion V1 attachment byte identity was not freshly reverified.
+
+Final ZIP SHA is external by design and is not embedded inside the ZIP.

@@ -1,0 +1,55 @@
+NOEPIN AL 103 — SOURCE INDEX
+
+Canonical: 103｜制約付きビームプランナー / AL Constrained Beam Planner
+Canonical ID: NOEPIN-AL-103
+Creator / Origin: NOEPIN / のえぴん
+License / Rights: NOT SPECIFIED
+
+Final ZIP
+- NOEPIN_AL_103_CONSTRAINED_BEAM_PLANNER_SUCCESSOR_V2_20261109.zip
+- SHA-256: cfa412a992d36cab0a6c44690f8d0f52560cd398b7dd45e32f0d77de7d603250
+
+Final Verification Report
+- NOEPIN_AL_103_FINAL_VERIFICATION_REPORT_20261109.md
+- SHA-256: 57450c884b2ab605cadef42da60fd02367ca14bc46d430cf5117a81d7bcb4d64
+
+Final Artifact Seal
+- NOEPIN_AL_103_FINAL_ARTIFACT_SEAL_20261109.json
+- SHA-256: 1723c6d17dd6bbfe9b7d53fa61b3f110facd77f7ff598a9c424a514cb62b67a7
+
+AL Production Gate Evidence
+- NOEPIN_AL_103_AL_PRODUCTION_GATE_EVIDENCE.json
+- SHA-256: eab30fa4ab221e1ca64361a0fa748d7f093d740445e22de4f09ad6a0baaffd8e
+- Actual AL range: AL037-102
+- Gate: 66 / 66 PASS
+
+Identity Verification
+- NOEPIN_AL_103_IDENTITY_VERIFICATION_20261109.json
+- SHA-256: 1cd66a6181df857aa6e787301774a1e2238a4a677534be8dba62e09044075b7c
+- Core identity: PASS
+- Report identity: PASS
+
+Core
+- noepin_al_103_constrained_beam_planner.py
+- SHA-256: 42529fa694167d589f36fbbe66ae16363aa886341a25f054d4120438e5432ba7
+
+Final Fresh
+- Manifest: 190 / 190 matched
+- Tests: 160 / 160 PASS
+- Replay: 3000 / divergence 0
+- Static Safety: external 0 / unauthorized writes 0
+- Benchmark Full: 14.3326917 ms
+- Benchmark Prepared: 0.0007479 ms
+- Semantic match: true
+
+Defects
+- Production: 0
+- Test fixture: 0
+- Benchmark harness: 1 CORRECTED
+- Replay helper: 0
+- Production Gate helper: 0
+- Execution harness invocation: 0
+
+Provenance limitations
+- exact registered Origin GUID was not freshly reverified.
+- Pre-existing Notion V1 attachment byte identity was not freshly reverified.

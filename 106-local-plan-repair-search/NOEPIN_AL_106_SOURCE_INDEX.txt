@@ -1,0 +1,48 @@
+NOEPIN AL 106 — SOURCE INDEX — 2026-11-09
+
+Technology: 106｜局所プラン修復器 / AL Local Plan Repair Search
+Canonical ID: NOEPIN-AL-106
+Creator / Origin: NOEPIN / のえぴん
+License / Rights: NOT SPECIFIED
+DCSR: AUXILIARY INTEGRATION / 補助統合
+
+Final ZIP
+NOEPIN_AL_106_LOCAL_PLAN_REPAIR_SEARCH_SUCCESSOR_V2_20261109.zip
+SHA-256: 16eba73d06439dc9e285c6666a1f387125326c6b72501af01b74180cf6ced94d
+
+Final Verification Report
+NOEPIN_AL_106_FINAL_VERIFICATION_REPORT_20261109.md
+SHA-256: 914aa732996f91cd8355bdeec7bb07702f7903f83fbd7464eb30a3bbf41a9eb1
+
+Final Artifact Seal
+NOEPIN_AL_106_FINAL_ARTIFACT_SEAL_20261109.json
+SHA-256: 4fa80a73a7e4a5703d960fa5e26ea5f416245f75f9a53880ab167b18d6952059
+
+Core
+noepin_al_106_local_plan_repair_search.py
+SHA-256: 2a36ae685dabe7d5d2c9f287fb018728ff30e43f3bf29f28e32e9d61892a1aba
+
+AL Production Gate Evidence
+NOEPIN_AL_106_AL_PRODUCTION_GATE_EVIDENCE.json
+SHA-256: e328bf611ef0a0725c0a38f1b6b0e88320071f05ffcde6df09d928c6b0be4552
+Actual range: AL037-105
+Result: 69 / 69 PASS
+
+Identity Verification
+NOEPIN_AL_106_IDENTITY_VERIFICATION_20261109.json
+SHA-256: fb9c1a7fc2796080a6517037f88b898476e60330e8e728c5cdf295fb8ec84fbc
+Core identity: PASS
+Report identity: PASS
+
+Final Fresh
+Manifest: 206 / 206 matched
+Tests: 160 / 160 PASS
+Replay: 3000 / divergence 0
+Static Safety: external execution paths 0 / unauthorized write paths 0
+Benchmark Full: 10.2675808 ms
+Benchmark Prepared: 0.0009328 ms
+Delta: 1,688,106 -> 3,687 bytes (0.2184104553%)
+
+Provenance limitations
+exact registered Origin GUID was not freshly reverified.
+Pre-existing Notion V1 attachment byte identity was not freshly reverified.

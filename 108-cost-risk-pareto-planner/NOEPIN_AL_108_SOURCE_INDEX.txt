@@ -1,0 +1,54 @@
+NOEPIN AL 108 — SOURCE INDEX
+
+Technology: 108｜コスト・リスクParetoプランナー / AL Cost-Risk Pareto Planner
+Canonical ID: NOEPIN-AL-108
+Creator / Originator / Project Owner / Original Concept / Architecture Direction: NOEPIN / のえぴん
+AI support: AI-assisted implementation / analysis / documentation support using ChatGPT
+License / Rights: NOT SPECIFIED
+DCSR: AUXILIARY INTEGRATION / 補助統合
+
+Final ZIP
+- NOEPIN_AL_108_COST_RISK_PARETO_PLANNER_SUCCESSOR_V2_20261109.zip
+- SHA-256: 44174e676ae2c9c7c11169761da35fcd24bf61cee4e8df7a40661f74b5ec51b2
+
+Final Verification Report
+- NOEPIN_AL_108_FINAL_VERIFICATION_REPORT_20261109.md
+- SHA-256: 71f511c1aeb3dfcc98c78d6c7ecedf0a6e414346d0dacc0e546858e600d34ff4
+
+Core
+- noepin_al_108_cost_risk_pareto_planner.py
+- SHA-256: 129f653a24aede8f8eec7f01ba400d8a16382e01f28503b485eee635ca264824
+
+AL Production Gate Evidence
+- NOEPIN_AL_108_AL_PRODUCTION_GATE_EVIDENCE.json
+- SHA-256: 607823393e4b05d297e4f8925f8f816bd3a4755c43284af0c5583222e9a14f9c
+- Actual range: AL037–107
+- Result: 71 / 71 PASS
+
+Identity Verification
+- NOEPIN_AL_108_IDENTITY_VERIFICATION_20261109.json
+- SHA-256: 0d255becf666be1880a21ac0eb701d8ab97b5050cf7e7699314c7d366d7b0060
+- Core identity: PASS
+- Report identity: PASS
+
+Final Manifest Verification
+- NOEPIN_AL_108_FINAL_MANIFEST_VERIFICATION_20261109.json
+- SHA-256: c2af00aa6e51eaf9f250b17096291dbc96eef1d526ce9af0231ea28839806857
+- 237 / 237 matched
+
+Final Fresh benchmark
+- Full: 248.6794028 ms
+- Prepared: 0.0008182 ms
+- Semantic match: true
+- Full bytes: 1,625,282
+- Delta bytes: 3,504 (0.2155933555%)
+- Missing/changed records: 10
+- Missing metadata bytes: 141
+- Full resend: false
+
+Authority boundary
+Selected Plan Candidate is planning evidence only. Pareto Frontier/Rank and metric values are not Truth, Domain Authority, Permission Grant, Safety Proof, Action Execution, Commit, or Action Success. Unresolved policy trade-offs become HUMAN_APPROVAL Candidate rather than arbitrary weighting.
+
+Provenance limitations
+- exact registered Origin GUID was not freshly reverified.
+- Pre-existing Notion V1 attachment byte identity was not freshly reverified.

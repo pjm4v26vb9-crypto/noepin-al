@@ -1,0 +1,28 @@
+NOEPIN AL 113 — SOURCE INDEX — 2026-11-09
+
+Canonical: 113｜安全境界バリアゲート
+English: AL Control-Barrier Safety Gate
+Canonical ID: NOEPIN-AL-113
+Creator / Originator: NOEPIN / のえぴん
+Artifact: Sequential Successor V2
+License / Rights: NOT SPECIFIED
+
+Final ZIP: NOEPIN_AL_113_CONTROL_BARRIER_SAFETY_GATE_SUCCESSOR_V2_20261109.zip
+Final ZIP SHA-256: 9110f0b9517a64ac88d8f620317ae88e8413e87549416e2c278591fef45e6e06
+Core: noepin_al_113_control_barrier_safety_gate.py
+Core SHA-256: 5acadc022ad80040a438bf978caa146bd5887f83b9dc6087f543795e92c2c3ed
+Final Verification Report: NOEPIN_AL_113_FINAL_VERIFICATION_REPORT_20261109.md
+Final Verification Report SHA-256: 59000d67520ac74184e5f681b68eed53c262c299315afbebf3e97704accf09bf
+Final Artifact Seal: NOEPIN_AL_113_FINAL_ARTIFACT_SEAL_20261109.json
+Final Artifact Seal SHA-256: d51005da7edf7b59876add80f10495ccaca198d43b03e5164893b8a14a489687
+Frozen AL Production Gate Evidence: NOEPIN_AL_113_FROZEN_AL_PRODUCTION_GATE_EVIDENCE_20261109.json
+Frozen AL Production Gate Evidence SHA-256: 7231a2f289b2b50469748294741cfd3cc989e52546261c04208228c438b3dd21
+Identity Verification: NOEPIN_AL_113_IDENTITY_VERIFICATION_20261109.json
+Identity Verification SHA-256: c2f93c3acf9dfadc17fbcccfbd8903e22db22a39022db46f22aaefdaf93b0aca
+Final Fresh Manifest Verification SHA-256: 2a57e31cf79d06ba656ca119a52693af5b1561689a06289a42bef824f041adb7
+Replay digest: 9046b815179aa6b464260025ea545887d350e9200e7a80bf7fc638950c208bf1
+Final Manifest: 491 / 491 matched
+Production Gate: AL037–112 / 76 / 76 PASS
+
+exact registered Origin GUID was not freshly reverified.
+Pre-existing Notion V1 attachment byte identity was not freshly reverified.

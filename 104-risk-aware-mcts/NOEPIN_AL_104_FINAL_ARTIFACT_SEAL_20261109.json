@@ -1,0 +1,57 @@
+{
+  "ai_support": "AI-assisted implementation / analysis / documentation support using ChatGPT",
+  "authority_boundary": [
+    "Chosen Action Candidate != Permission Grant / Action Execution / Action Success",
+    "Most Visits != Safety Proof",
+    "Simulator Confidence != World Truth",
+    "Risk Estimate / CVaR != Safety Proof",
+    "DCSR Reconstruction != Domain Authority / Semantic Judgment / Safety Proof / Action Execution / Action Success"
+  ],
+  "benchmark_final_fresh": {
+    "condition": "Python stdlib; 500 MCTS action branches with deterministic rollout summaries; 400 simulations; 5 evaluations x 3 batches; prepared verified-result reuse",
+    "delta_bytes": 3762,
+    "delta_percent": 2.2285409632130797,
+    "full_bytes": 168810,
+    "full_median_ms": 11.792083399996045,
+    "full_resend": false,
+    "missing_metadata_bytes": 91,
+    "missing_records": 10,
+    "prepared_median_ms": 0.001260600004115986,
+    "semantic_match": true
+  },
+  "canonical_id": "NOEPIN-AL-104",
+  "core_identity_pass": true,
+  "core_sha256": "ddc5cdcc3cd6d6d628437c10fdbc7d0dc8c8f3559548a9fb0f1334ab2749f7b8",
+  "creator_originator_project_owner_original_concept_architecture_direction": "NOEPIN / のえぴん",
+  "dcsr_level": "AUXILIARY INTEGRATION / 補助統合",
+  "english_name": "AL Risk-Aware Monte Carlo Tree Search",
+  "final_manifest": {
+    "bad": [],
+    "extra": [],
+    "matched": 201,
+    "total": 201
+  },
+  "final_verification_report": "NOEPIN_AL_104_FINAL_VERIFICATION_REPORT_20261109.md",
+  "final_verification_report_sha256": "45ca1762e5d2f518a40fc3699825584aac8f1d6636aa7e04a9c0f749eb17eee3",
+  "final_zip": "NOEPIN_AL_104_RISK_AWARE_MCTS_SUCCESSOR_V2_20261109.zip",
+  "final_zip_sha256": "24188343b94781ba7acdf2700389f85852bac658bfca5e344bceba875dc7945a",
+  "license_rights": "NOT SPECIFIED",
+  "name": "リスク認識MCTS",
+  "production_defects_corrected": 2,
+  "production_gate_pass_count": 67,
+  "production_gate_range": "037-103",
+  "production_gate_total": 67,
+  "provenance_limitations": [
+    "exact registered Origin GUID was not freshly reverified.",
+    "Pre-existing Notion V1 attachment byte identity was not freshly reverified."
+  ],
+  "replay_digest": "39837ea07672065a1b04b2c85dadb0faf5a55cad252272924d79aea4417f069d",
+  "replay_divergence": 0,
+  "replay_total": 3000,
+  "report_identity_pass": true,
+  "schema": "NOEPIN_AL_FINAL_ARTIFACT_SEAL_V1",
+  "static_external_execution_paths": 0,
+  "static_unauthorized_write_paths": 0,
+  "technology": 104,
+  "tests": "160 / 160 PASS"
+}

@@ -1,0 +1,45 @@
+{
+  "ai_support": "AI-assisted implementation / analysis / documentation support using ChatGPT",
+  "canonical_id": "NOEPIN-AL-108",
+  "core_filename": "noepin_al_108_cost_risk_pareto_planner.py",
+  "core_identity_pass": true,
+  "core_sha256": "129f653a24aede8f8eec7f01ba400d8a16382e01f28503b485eee635ca264824",
+  "creator": "NOEPIN / のえぴん",
+  "dcsr_level": "AUXILIARY INTEGRATION / 補助統合",
+  "defects": {
+    "benchmark_harness": 0,
+    "execution_harness_invocation": 0,
+    "production": 0,
+    "production_gate_helper": 0,
+    "replay_helper": 0,
+    "test_fixture": 0
+  },
+  "final_fresh_benchmark_sha256": "9172088c88bc5772b47c1614ac2ecdd7f6daea95d20ecf0206c47615ff16a032",
+  "final_fresh_replay_sha256": "81c72f94dd82424437dd10497fcb9d34b8dd8786a6848be2a60b47b2ca355f25",
+  "final_fresh_static_safety_sha256": "1ad6a3f83584f8e1db074744cc9cd3e0920217a2dd9e6346d682cff5152c3a92",
+  "final_manifest_verification_sha256": "c2af00aa6e51eaf9f250b17096291dbc96eef1d526ce9af0231ea28839806857",
+  "final_verification_report_filename": "NOEPIN_AL_108_FINAL_VERIFICATION_REPORT_20261109.md",
+  "final_verification_report_sha256": "71f511c1aeb3dfcc98c78d6c7ecedf0a6e414346d0dacc0e546858e600d34ff4",
+  "final_zip_filename": "NOEPIN_AL_108_COST_RISK_PARETO_PLANNER_SUCCESSOR_V2_20261109.zip",
+  "final_zip_sha256": "44174e676ae2c9c7c11169761da35fcd24bf61cee4e8df7a40661f74b5ec51b2",
+  "identity_verification_sha256": "0d255becf666be1880a21ac0eb701d8ab97b5050cf7e7699314c7d366d7b0060",
+  "license_rights": "NOT SPECIFIED",
+  "production_gate": "AL037-107 / 71 of 71 PASS",
+  "production_gate_evidence_filename": "NOEPIN_AL_108_AL_PRODUCTION_GATE_EVIDENCE.json",
+  "production_gate_evidence_sha256": "607823393e4b05d297e4f8925f8f816bd3a4755c43284af0c5583222e9a14f9c",
+  "provenance_limitations": [
+    "exact registered Origin GUID was not freshly reverified.",
+    "Pre-existing Notion V1 attachment byte identity was not freshly reverified."
+  ],
+  "replay": "3x1000=3000 divergence 0",
+  "report_identity_pass": true,
+  "schema": "NOEPIN_AL_FINAL_ARTIFACT_SEAL_V1",
+  "static_safety": {
+    "external_execution_paths": 0,
+    "unauthorized_write_paths": 0
+  },
+  "status": "COMPLETE / VERIFIED",
+  "technology": 108,
+  "tests_normal_fresh_final_fresh": "160/160 PASS",
+  "zip_self_reference_embedded": false
+}

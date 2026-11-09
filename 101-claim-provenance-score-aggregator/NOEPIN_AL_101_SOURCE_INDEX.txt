@@ -1,0 +1,45 @@
+NOEPIN AL 101 — Source Index — 2026-11-08
+
+Technology: 101｜主張由来スコア統合器 / AL Claim Provenance Score Aggregator
+Canonical ID: NOEPIN-AL-101
+Creator / Originator / Project Owner / Original Concept / Architecture Direction: NOEPIN / のえぴん
+AI support: AI-assisted implementation / analysis / documentation support using ChatGPT
+License / Rights: NOT SPECIFIED
+
+FINAL ZIP
+NOEPIN_AL_101_CLAIM_PROVENANCE_SCORE_AGGREGATOR_SUCCESSOR_V2_20261108.zip
+SHA-256: 2c691174bd73f0785e53039f45adf7678d25fcf1d44a1e1961e1032802bedfa2
+
+FINAL VERIFICATION REPORT
+NOEPIN_AL_101_FINAL_VERIFICATION_REPORT_20261108.md
+SHA-256: 3200d2ab7ec707e213ad155c76b8a99b5fca2fde90c77c5801cfcbe0034dda89
+
+CORE
+noepin_al_101_claim_provenance_score_aggregator.py
+SHA-256: 0ff3ec3d4ff96f0930117df0ae131b0918d4d40f10bc14eeba8fa1318dba4539
+
+FINAL ARTIFACT SEAL
+NOEPIN_AL_101_FINAL_ARTIFACT_SEAL_20261108.json
+SHA-256: 44d39e677f0aed8f1d4446fb4f33d14267e5004b0cbae4c83e23299520a64be0
+
+AL PRODUCTION GATE EVIDENCE
+NOEPIN_AL_101_AL_PRODUCTION_GATE_EVIDENCE.json
+SHA-256: 6d12a3d3ac04a645c3b871162971cc86b6c5014cf968edff5157a47931cff0d9
+Actual range: 037-100
+Gate: 64 / 64 PASS
+
+IDENTITY VERIFICATION
+NOEPIN_AL_101_IDENTITY_VERIFICATION_20261108.json
+SHA-256: 2edc38a32c2163c9a4695f15147dd564252f84bd07c74050f7fa2506ca90b297
+Core identity: PASS
+Report identity: PASS
+
+FINAL MANIFEST
+161 / 161 files matched
+
+PROVENANCE LIMITATIONS
+exact registered Origin GUID was not freshly reverified.
+Pre-existing Notion V1 attachment byte identity was not freshly reverified.
+
+FINAL ZIP SELF-REFERENCE
+Final ZIP SHA is external and is not embedded inside the Final ZIP.

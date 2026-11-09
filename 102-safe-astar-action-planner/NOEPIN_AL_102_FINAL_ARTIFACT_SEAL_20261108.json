@@ -1,0 +1,71 @@
+{
+  "ai_support": "AI-assisted implementation / analysis / documentation support using ChatGPT",
+  "baseline_preserved": true,
+  "canonical_id": "NOEPIN-AL-102",
+  "core": "noepin_al_102_safe_astar_action_planner.py",
+  "core_sha256": "c58881af9bfc2652032aae8553dd49e538563f33dc81f210a430906b2ad39daa",
+  "creator_originator_project_owner_original_concept_architecture_direction": "NOEPIN / のえぴん",
+  "dcsr_level": "AUXILIARY INTEGRATION / 補助統合",
+  "defects": {
+    "benchmark_harness": 0,
+    "execution_harness_invocation": 0,
+    "production": 0,
+    "production_gate_helper": 0,
+    "replay_helper": 0,
+    "test_fixture": 0
+  },
+  "english_name": "AL Safe A* Action Planner",
+  "final_fresh_benchmark": {
+    "condition": "Python stdlib; ~5000 safe A* action edges + hard-constraint shortcuts; 10 evaluations x 5 batches; prepared verified-result reuse",
+    "delta_bytes": 3251,
+    "delta_percent": 0.22594966972844338,
+    "full_bytes": 1438816,
+    "full_median_ms": 69.50236000000132,
+    "full_resend": false,
+    "missing_metadata_bytes": 81,
+    "missing_records": 10,
+    "prepared_median_ms": 0.0008994000040729588,
+    "semantic_match": true
+  },
+  "final_manifest": {
+    "matched": 170,
+    "mismatches": [],
+    "pass": true,
+    "total": 170
+  },
+  "final_replay": {
+    "batches": 3,
+    "divergence": 0,
+    "per_batch": 1000,
+    "replay_digest": "203962fa5b64714fd8b6fba9ef0b494394a69c2ed6571409c63214c7c2ecf437",
+    "total": 3000
+  },
+  "final_static_safety": {
+    "external_execution_paths": 0,
+    "findings": [],
+    "unauthorized_write_paths": 0
+  },
+  "final_verification_report": "NOEPIN_AL_102_FINAL_VERIFICATION_REPORT_20261108.md",
+  "final_verification_report_sha256": "0b3ff872e2d5041d0652c8e5d97ecebb7827dc15194921bdff5f3f39ea297a73",
+  "final_zip": "NOEPIN_AL_102_SAFE_ASTAR_ACTION_PLANNER_SUCCESSOR_V2_20261108.zip",
+  "final_zip_self_reference_embedded": false,
+  "final_zip_sha256": "7cd1eb6cba3953d95931057ffa95d93190ef44a88a624fc872d71860b317f470",
+  "identity_verification": "NOEPIN_AL_102_IDENTITY_VERIFICATION_20261108.json",
+  "identity_verification_sha256": "5cfda7db89b07bea9b38b68aa9737a1e880c5c4f46b40ccf522b0829c012478d",
+  "license_rights": "NOT SPECIFIED",
+  "production_gate": {
+    "actual_al_range": "037-101",
+    "pass": true,
+    "pass_count": 65,
+    "total": 65
+  },
+  "production_gate_evidence": "NOEPIN_AL_102_AL_PRODUCTION_GATE_EVIDENCE.json",
+  "production_gate_evidence_sha256": "ae7d4968b06bb6b6dab6d94ab07fb9db396355dfbc22ba6c3f94650e0d7cd198",
+  "provenance_limitations": [
+    "exact registered Origin GUID was not freshly reverified.",
+    "Pre-existing Notion V1 attachment byte identity was not freshly reverified."
+  ],
+  "schema": "NOEPIN_AL_FINAL_ARTIFACT_SEAL_V1",
+  "technology": 102,
+  "technology_name": "102｜安全制約付きA*プランナー"
+}

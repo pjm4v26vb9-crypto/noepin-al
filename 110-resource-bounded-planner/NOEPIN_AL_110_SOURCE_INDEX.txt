@@ -1,0 +1,30 @@
+NOEPIN AL 110 — Source Index — 2026-11-09
+
+Canonical ID: NOEPIN-AL-110
+Technology: 110｜資源制約プランナー / AL Resource-Bounded Planner
+Creator / Originator / Project Owner / Original Concept / Architecture Direction: NOEPIN / のえぴん
+AI support: AI-assisted implementation / analysis / documentation support using ChatGPT
+License / Rights: NOT SPECIFIED
+DCSR: AUXILIARY INTEGRATION / 補助統合
+
+Final ZIP: NOEPIN_AL_110_RESOURCE_BOUNDED_PLANNER_SUCCESSOR_V2_20261109.zip
+Final ZIP SHA-256: 0f8c2aef5a83d3dcc369335b174232c0fbf43814c180c42889a55318fd895f0a
+Core: noepin_al_110_resource_bounded_planner.py
+Core SHA-256: 9b427105685168ec5e5609d47864430fddf7ca394def75c540648863a84553b3
+Final Verification Report: NOEPIN_AL_110_FINAL_VERIFICATION_REPORT_20261109.md
+Final Verification Report SHA-256: cdfeccf71eeaa82fde1a106031601236f82d121072c8abef4a64d7ec46a43ed8
+Final Artifact Seal: NOEPIN_AL_110_FINAL_ARTIFACT_SEAL_20261109.json
+Final Artifact Seal SHA-256: 0443052f18930ca1a5aa26cc4d982fc0f78ae7a8bf871e76b8a2830d65f20804
+Frozen AL Production Gate Evidence: NOEPIN_AL_110_FROZEN_AL_PRODUCTION_GATE_EVIDENCE_20261109.json
+Frozen AL Production Gate Evidence SHA-256: b20014b0de7eeed8ddc924a2b861f4ce52f82b7de9703a086af398b74e880ed1
+Identity Verification: NOEPIN_AL_110_IDENTITY_VERIFICATION_20261109.json
+Identity Verification SHA-256: b3ad3e45412accc36dc300df1dd2784ef83fe0740f6807e7b9f097ecab2d7fd8
+Final Fresh Manifest Verification: NOEPIN_AL_110_FINAL_FRESH_MANIFEST_VERIFICATION_20261109.json
+Final Fresh Manifest Verification SHA-256: 88c16fb8c19fb471f213f155b0af999b97f5ba7ef5b0c31730fcbe135e19dd02
+Replay digest: 45d87f26d623e3bf447b9a6569f9bfc67f58933a07b1fadd85185ec339ceb897
+
+Final Fresh: tests 160/160 PASS; replay 3000 / divergence 0; Gate 73/73 PASS; Static Safety 0/0; Manifest 406/406 matched.
+Benchmark Final Fresh: Full 15.8308154000 ms / Prepared 0.0005443000 ms / semantic match true / Full bytes 466611 / Delta bytes 4256 / Delta 0.9121088015% / Missing-only 10 records / metadata 151 bytes / full resend false.
+
+Authority: Feasible Plan Candidate is planning evidence only. It does not grant Permission, Budget, Credentials, Domain Authority, Action Execution, Safety Proof, World Truth, or Action Success.
+Provenance limitation: exact registered Origin GUID was not freshly reverified. Pre-existing Notion V1 attachment byte identity was not freshly reverified.

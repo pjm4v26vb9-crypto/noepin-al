@@ -1,0 +1,19 @@
+NOEPIN AL 120 — Source Index — 2026-11-09
+Creator: NOEPIN / のえぴん
+Canonical ID: NOEPIN-AL-120
+Final ZIP: NOEPIN_AL_120_RESOURCE_QUOTA_CONTROLLER_SUCCESSOR_V2_20261109.zip
+Final ZIP SHA-256: 63d178779c39d200088814be80206ca1c5b6de4bdf9691bead96b55fecd8665b
+Core: noepin_al_120_resource_quota_controller.py
+Core SHA-256: b2d9a6087ba84c996140b5f12724da3da4ca007eace3069bf4abc5d6ee279fac
+Final Verification Report SHA-256: dbc932fef46aa6ff97f8c7bdac5b9092b9a2f3cfcd001215f73827373fc8d7da
+Final Artifact Seal SHA-256: 2d83943a82b9176554d04119327aacd569a6820fac4520833f4422080f0f1e5d
+Frozen AL Production Gate Evidence SHA-256: 6322f8875806eebb43948431b9a72b524bb0244ad4089fdd3ce1899a324b8179
+Identity Verification SHA-256: bc679790bcbf1ad08c389be416b5b5518727f3c210a254114cd63b78979212a8
+Final Fresh Manifest Verification SHA-256: 029aa096b6173fdbaf8d13f27095d2ba14cdba360e6bf4c70071f55e53c9b242
+Production Gate: AL037-119 / 83 / 83 PASS
+Final Manifest: 650 / 650 matched
+Replay: 3000 / divergence 0
+DCSR: AUXILIARY INTEGRATION / 補助統合
+License / Rights: NOT SPECIFIED
+exact registered Origin GUID was not freshly reverified.
+Pre-existing Notion V1 attachment byte identity was not freshly reverified.

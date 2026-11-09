@@ -1,0 +1,68 @@
+{
+  "ai_support": "AI-assisted implementation / analysis / documentation support using ChatGPT",
+  "artifact": "Sequential Successor V2",
+  "benchmark_final_fresh": {
+    "condition": "Python stdlib; 1200-action linear resource-constrained path; six resources; one mandatory safety action; 5 full evaluations x 5 batches and 20 prepared reuses x 5 batches",
+    "delta_bytes": 4256,
+    "delta_percent": 0.9121088015498993,
+    "full_bytes": 466611,
+    "full_median_ms": 15.830815399999665,
+    "full_resend": false,
+    "missing_metadata_bytes": 151,
+    "missing_records": 10,
+    "prepared_median_ms": 0.0005443000020477484,
+    "semantic_match": true
+  },
+  "canonical_id": "NOEPIN-AL-110",
+  "core_identity_pass": true,
+  "core_sha256": "9b427105685168ec5e5609d47864430fddf7ca394def75c540648863a84553b3",
+  "creator": "NOEPIN / のえぴん",
+  "dcsr_level": "AUXILIARY INTEGRATION / 補助統合",
+  "defects": {
+    "benchmark_harness": 0,
+    "execution_harness_invocation": 0,
+    "production": 0,
+    "production_gate_helper": 0,
+    "replay_helper": 0,
+    "test_fixture": 0
+  },
+  "english_name": "AL Resource-Bounded Planner",
+  "final_manifest": {
+    "expected": 406,
+    "matched": 406,
+    "pass": true
+  },
+  "final_manifest_verification_sha256": "88c16fb8c19fb471f213f155b0af999b97f5ba7ef5b0c31730fcbe135e19dd02",
+  "final_zip": "NOEPIN_AL_110_RESOURCE_BOUNDED_PLANNER_SUCCESSOR_V2_20261109.zip",
+  "final_zip_sha256": "0f8c2aef5a83d3dcc369335b174232c0fbf43814c180c42889a55318fd895f0a",
+  "frozen_gate_evidence_sha256": "b20014b0de7eeed8ddc924a2b861f4ce52f82b7de9703a086af398b74e880ed1",
+  "identity_verification_sha256": "b3ad3e45412accc36dc300df1dd2784ef83fe0740f6807e7b9f097ecab2d7fd8",
+  "license_rights": "NOT SPECIFIED",
+  "production_gate_final_fresh": {
+    "pass": true,
+    "pass_count": 73,
+    "range": "037-109",
+    "total": 73
+  },
+  "provenance_limitations": [
+    "exact registered Origin GUID was not freshly reverified.",
+    "Pre-existing Notion V1 attachment byte identity was not freshly reverified."
+  ],
+  "replay_digest": "45d87f26d623e3bf447b9a6569f9bfc67f58933a07b1fadd85185ec339ceb897",
+  "replay_final_fresh": {
+    "divergence": 0,
+    "total": 3000
+  },
+  "report_identity_pass": true,
+  "schema": "NOEPIN_AL_FINAL_ARTIFACT_SEAL_V1",
+  "static_safety_final_fresh": {
+    "external_execution_paths": 0,
+    "unauthorized_write_paths": 0
+  },
+  "technology": 110,
+  "technology_name": "110｜資源制約プランナー",
+  "tests_final_fresh": "160/160 PASS",
+  "tests_fresh": "160/160 PASS",
+  "tests_normal": "160/160 PASS",
+  "verification_report_sha256": "cdfeccf71eeaa82fde1a106031601236f82d121072c8abef4a64d7ec46a43ed8"
+}

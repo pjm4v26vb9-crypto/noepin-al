@@ -1,0 +1,98 @@
+{
+  "artifact": "Sequential Successor V2",
+  "authority_boundary": "Allowed Rate / Backoff / Cooldown / Kill candidates remain control evidence only; no Permission Grant, Stop/Action Execution, World Truth, Domain Authority, Safety Proof, or Action Success.",
+  "canonical_id": "NOEPIN-AL-115",
+  "core": "noepin_al_115_adaptive_action_rate_limiter.py",
+  "core_sha256": "7aefa4452752418fd8a9df18abc3867e16ae70a211e68e561db0bfe0024ee658",
+  "creator": "NOEPIN / のえぴん",
+  "dcsr": {
+    "delta_bytes": 2633,
+    "delta_percent": 0.9552210649281861,
+    "full_bytes": 275643,
+    "full_resend": false,
+    "level": "AUXILIARY INTEGRATION / 補助統合",
+    "missing_metadata_bytes": 184,
+    "missing_records": 10
+  },
+  "defects": {
+    "benchmark_harness": 0,
+    "execution_harness_invocation": 0,
+    "production": 0,
+    "production_gate_helper": 0,
+    "replay_helper": 0,
+    "test_fixture": 0
+  },
+  "english_name": "AL Adaptive Action Rate Limiter",
+  "external_evidence": {
+    "NOEPIN_AL_115_FINAL_FRESH_BENCHMARK_20261109.json": {
+      "sha256": "bcb0ca7fb3ade5aaf161f8bd43239f93468b82e9b4cfc8c4267f134a620a3538",
+      "size": 452
+    },
+    "NOEPIN_AL_115_FINAL_FRESH_COMPILE_20261109.txt": {
+      "sha256": "beb44c8465d0ef84e21fbc7a78c20ff479309d72aae002e39993268c7be5bc66",
+      "size": 13
+    },
+    "NOEPIN_AL_115_FINAL_FRESH_MANIFEST_VERIFICATION_20261109.json": {
+      "sha256": "87bc8b966011c4259503675ae1a412739b39818b73c356767dc2247d6e2fe5ee",
+      "size": 76
+    },
+    "NOEPIN_AL_115_FINAL_FRESH_PRODUCTION_GATE_20261109.json": {
+      "sha256": "608bd9d7f83fb39b258a1469007782cadd9c275de9e2e1471a79da11820d8ef0",
+      "size": 54649
+    },
+    "NOEPIN_AL_115_FINAL_FRESH_REPLAY_20261109.json": {
+      "sha256": "1e15d3d7ad3be02b72ee30df930043283d491d8f52b0917d154fd229e69e2dd2",
+      "size": 151
+    },
+    "NOEPIN_AL_115_FINAL_FRESH_STATIC_SAFETY_20261109.json": {
+      "sha256": "1ad6a3f83584f8e1db074744cc9cd3e0920217a2dd9e6346d682cff5152c3a92",
+      "size": 79
+    },
+    "NOEPIN_AL_115_FINAL_FRESH_TESTS_20261109.txt": {
+      "sha256": "5a904033308dc843665e795f51767f61f547e19978be808183008b940c9cdab8",
+      "size": 9060
+    },
+    "NOEPIN_AL_115_FROZEN_AL_PRODUCTION_GATE_EVIDENCE_20261109.json": {
+      "sha256": "608bd9d7f83fb39b258a1469007782cadd9c275de9e2e1471a79da11820d8ef0",
+      "size": 54649
+    },
+    "NOEPIN_AL_115_IDENTITY_VERIFICATION_20261109.json": {
+      "sha256": "499ee15bea962313d5f3f2a950435e3df47dc9f608f845ea3c227b7c695efc72",
+      "size": 338
+    }
+  },
+  "final_manifest_count": 396,
+  "final_verification_report": "NOEPIN_AL_115_FINAL_VERIFICATION_REPORT_20261109.md",
+  "final_verification_report_sha256": "69cc49762d2a0460fd2da645b20344f9b30876d618dd195b94279039a0c0e343",
+  "final_zip": "NOEPIN_AL_115_ADAPTIVE_ACTION_RATE_LIMITER_SUCCESSOR_V2_20261109.zip",
+  "final_zip_sha256": "13eafa2f2fef1329c1290be403b8661961150224dbec9040ba3783cc2484a78a",
+  "final_zip_size": 1197256,
+  "license_rights": "NOT SPECIFIED",
+  "name": "適応レートリミッター",
+  "production_gate": {
+    "pass": true,
+    "pass_count": 78,
+    "range": "AL037-114",
+    "total": 78
+  },
+  "provenance_limitations": [
+    "exact registered Origin GUID was not freshly reverified.",
+    "Pre-existing Notion V1 attachment byte identity was not freshly reverified."
+  ],
+  "replay": {
+    "digest": "243e2ed704e1bc683dde553b51761a00d2e42c2e7675262417780b13b47381e0",
+    "divergence": 0,
+    "total": 3000
+  },
+  "schema": "NOEPIN_AL_FINAL_ARTIFACT_SEAL_V1",
+  "static_safety": {
+    "external_execution_paths": 0,
+    "unauthorized_write_paths": 0
+  },
+  "technology": 115,
+  "tests": {
+    "final_fresh": "160/160 PASS",
+    "fresh": "160/160 PASS",
+    "normal": "160/160 PASS"
+  }
+}

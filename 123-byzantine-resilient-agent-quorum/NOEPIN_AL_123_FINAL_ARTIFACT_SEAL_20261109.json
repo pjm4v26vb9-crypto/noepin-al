@@ -1,0 +1,51 @@
+{
+  "artifact": "Sequential Successor V2",
+  "canonical_id": "NOEPIN-AL-123",
+  "core_file": "noepin_al_123_byzantine_resilient_agent_quorum.py",
+  "core_identity": true,
+  "core_sha256": "f509ea016f19d1d8c3b1a1d330383dda85be28bf06d6e61a69996f7e68b6f867",
+  "creator": "NOEPIN / のえぴん",
+  "date": "2026-11-09",
+  "defects": {
+    "benchmark_harness": 0,
+    "execution_harness_invocation": 1,
+    "execution_harness_invocation_status": "CORRECTED",
+    "production": 0,
+    "production_gate_helper": 0,
+    "replay_helper": 0,
+    "test_fixture": 0
+  },
+  "final_fresh_evidence_sha256": {
+    "NOEPIN_AL_123_FINAL_FRESH_BENCHMARK_20261109.json": "b994b2d541235efc94247edd3aa7c2c3bdcf36abe397ee68d35230568d61795f",
+    "NOEPIN_AL_123_FINAL_FRESH_COMPILE_20261109.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "NOEPIN_AL_123_FINAL_FRESH_MANIFEST_VERIFICATION_20261109.json": "452cfbb7067249b22aea064cd47856b5c2dad2ec49cb10f6804a3eed2e46ee25",
+    "NOEPIN_AL_123_FINAL_FRESH_PRODUCTION_GATE_20261109.json": "a56f2eacfacfc22ceb85258adda5de1fc399d45ce4ba6ffdd18cf32250597afb",
+    "NOEPIN_AL_123_FINAL_FRESH_REPLAY_20261109.json": "a31cfb52705bac25d0da0639d7bd69af0016cb6cfca02182850deea6a9373b36",
+    "NOEPIN_AL_123_FINAL_FRESH_STATIC_SAFETY_20261109.json": "a1c2d870ec46fce7be980280f9e6738cca4c7a1c4fa184532c96ee04ef6fb311",
+    "NOEPIN_AL_123_FINAL_FRESH_TESTS_20261109.txt": "266a663b1507a81374767a6a4af281e6898f7a7fc4f51e23e3fd4a17aa579121"
+  },
+  "final_verification_report": "NOEPIN_AL_123_FINAL_VERIFICATION_REPORT_20261109.md",
+  "final_verification_report_sha256": "3c20d33bdc7843cc05109250fca0d15365c72217647f16eba548f1e861bd674c",
+  "final_zip": "NOEPIN_AL_123_BYZANTINE_RESILIENT_AGENT_QUORUM_SUCCESSOR_V2_20261109.zip",
+  "final_zip_sha256": "c4a290eccef6f40a3f315a4363dd225b4e505a65846e82594380e21acfe9e684",
+  "final_zip_size": 3082766,
+  "frozen_production_gate_evidence": "NOEPIN_AL_123_FROZEN_AL_PRODUCTION_GATE_EVIDENCE_20261109.json",
+  "frozen_production_gate_evidence_sha256": "a56f2eacfacfc22ceb85258adda5de1fc399d45ce4ba6ffdd18cf32250597afb",
+  "identity_verification": "NOEPIN_AL_123_IDENTITY_VERIFICATION_20261109.json",
+  "identity_verification_sha256": "bac1adca33a814d50e7a5be8fdb5627e9250a96ba48a7759a875464f84d0daef",
+  "license_rights": "NOT SPECIFIED",
+  "provenance_limitations": [
+    "exact registered Origin GUID was not freshly reverified.",
+    "Pre-existing Notion V1 attachment byte identity was not freshly reverified."
+  ],
+  "report_identity": true,
+  "schema": "NOEPIN_AL_FINAL_ARTIFACT_SEAL_V1",
+  "technology": 123,
+  "verification_summary": {
+    "final_manifest": "628/628 matched",
+    "production_gate": "AL037-122 / 86/86 PASS Normal/Fresh/Final Fresh",
+    "replay": "3000/divergence 0 Normal/Fresh/Final Fresh",
+    "static_safety": "0 external execution / 0 unauthorized writes Normal/Fresh/Final Fresh",
+    "tests": "160/160 PASS Normal/Fresh/Final Fresh"
+  }
+}

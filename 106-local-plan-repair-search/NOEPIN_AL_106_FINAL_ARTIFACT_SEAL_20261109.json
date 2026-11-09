@@ -1,0 +1,68 @@
+{
+  "ai_support": "AI-assisted implementation / analysis / documentation support using ChatGPT",
+  "baseline_preserved": true,
+  "benchmark": {
+    "condition": "Python stdlib; 5000 local repair candidates over a dependency-sliced plan; 10 evaluations x 5 batches; prepared verified-result reuse",
+    "delta_bytes": 3687,
+    "delta_percent": 0.21841045526761943,
+    "full_bytes": 1688106,
+    "full_median_ms": 10.267580799995812,
+    "full_resend": false,
+    "missing_metadata_bytes": 191,
+    "missing_records": 10,
+    "prepared_median_ms": 0.0009328000032837735,
+    "semantic_match": true
+  },
+  "canonical_id": "NOEPIN-AL-106",
+  "core_filename": "noepin_al_106_local_plan_repair_search.py",
+  "core_identity_pass": true,
+  "core_sha256": "2a36ae685dabe7d5d2c9f287fb018728ff30e43f3bf29f28e32e9d61892a1aba",
+  "creator": "NOEPIN / のえぴん",
+  "dcsr": "AUXILIARY INTEGRATION / 補助統合",
+  "defects": {
+    "benchmark_harness": 0,
+    "execution_harness_invocation": 0,
+    "production": 0,
+    "production_gate_helper": 0,
+    "replay_helper": 0,
+    "test_fixture": "1 CORRECTED"
+  },
+  "exact_registered_origin_guid_freshly_reverified": false,
+  "final_manifest": {
+    "errors": [],
+    "matched": 206,
+    "total": 206
+  },
+  "final_verification_report_filename": "NOEPIN_AL_106_FINAL_VERIFICATION_REPORT_20261109.md",
+  "final_verification_report_sha256": "914aa732996f91cd8355bdeec7bb07702f7903f83fbd7464eb30a3bbf41a9eb1",
+  "final_zip_filename": "NOEPIN_AL_106_LOCAL_PLAN_REPAIR_SEARCH_SUCCESSOR_V2_20261109.zip",
+  "final_zip_sha256": "16eba73d06439dc9e285c6666a1f387125326c6b72501af01b74180cf6ced94d",
+  "gate_evidence_sha256": "e328bf611ef0a0725c0a38f1b6b0e88320071f05ffcde6df09d928c6b0be4552",
+  "identity_verification_sha256": "fb9c1a7fc2796080a6517037f88b898476e60330e8e728c5cdf295fb8ec84fbc",
+  "license_rights": "NOT SPECIFIED",
+  "preexisting_notion_v1_attachment_byte_identity_freshly_reverified": false,
+  "production_gate": {
+    "actual_al_range": "037-105",
+    "pass_count": 69,
+    "production_gate_pass": true,
+    "total": 69
+  },
+  "replay": {
+    "batches": 3,
+    "divergence": 0,
+    "per_batch": 1000,
+    "replay_digest": "c41c605a82480781465f116389a24a737b8742da1759f107bf465be935e5f296",
+    "total": 3000
+  },
+  "report_identity_pass": true,
+  "schema": "NOEPIN_AL_FINAL_ARTIFACT_SEAL_V1",
+  "static_safety": {
+    "external_execution_paths": 0,
+    "findings": [],
+    "unauthorized_write_paths": 0
+  },
+  "technology": 106,
+  "tests": "160 / 160 PASS",
+  "title": "Local Plan Repair Search",
+  "zip_self_reference_embedded": false
+}

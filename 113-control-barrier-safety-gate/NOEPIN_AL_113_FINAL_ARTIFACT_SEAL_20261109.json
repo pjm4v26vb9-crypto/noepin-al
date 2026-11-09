@@ -1,0 +1,23 @@
+{
+  "artifact": "Sequential Successor V2",
+  "canonical_id": "NOEPIN-AL-113",
+  "core": "noepin_al_113_control_barrier_safety_gate.py",
+  "core_sha256": "5acadc022ad80040a438bf978caa146bd5887f83b9dc6087f543795e92c2c3ed",
+  "creator": "NOEPIN / のえぴん",
+  "final_fresh_benchmark_sha256": "6dd0cd5a51e5418ad6e2113f7169598a73863df02aa8192b3c92275c90130efa",
+  "final_fresh_replay_sha256": "c03494a444372aa19a235e66c08f3a3927219e34644bf2e793661e682be392c3",
+  "final_fresh_static_safety_sha256": "1ad6a3f83584f8e1db074744cc9cd3e0920217a2dd9e6346d682cff5152c3a92",
+  "final_fresh_tests_sha256": "54f568e061e916c478387aef7a6d13800fdbb19c99fb5442454f0f40842ae7c3",
+  "final_manifest_verification_sha256": "2a57e31cf79d06ba656ca119a52693af5b1561689a06289a42bef824f041adb7",
+  "final_report": "NOEPIN_AL_113_FINAL_VERIFICATION_REPORT_20261109.md",
+  "final_report_sha256": "59000d67520ac74184e5f681b68eed53c262c299315afbebf3e97704accf09bf",
+  "final_zip": "NOEPIN_AL_113_CONTROL_BARRIER_SAFETY_GATE_SUCCESSOR_V2_20261109.zip",
+  "final_zip_sha256": "9110f0b9517a64ac88d8f620317ae88e8413e87549416e2c278591fef45e6e06",
+  "frozen_production_gate_evidence_sha256": "7231a2f289b2b50469748294741cfd3cc989e52546261c04208228c438b3dd21",
+  "identity_verification_sha256": "c2f93c3acf9dfadc17fbcccfbd8903e22db22a39022db46f22aaefdaf93b0aca",
+  "license_rights": "NOT SPECIFIED",
+  "origin_guid_note": "exact registered Origin GUID was not freshly reverified.",
+  "schema": "NOEPIN_AL_FINAL_ARTIFACT_SEAL_V1",
+  "technology": 113,
+  "v1_attachment_note": "Pre-existing Notion V1 attachment byte identity was not freshly reverified."
+}
