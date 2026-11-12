@@ -6,7 +6,7 @@ NOEPIN ALは、**NOEPIN / のえぴん**がゲーム「もふもふの森」を�
 
 現在、検証が完了した技術から順番にGitHubへ公開しています。
 
-> 公開進捗: **132 / 188**  
+> 公開進捗: **138 / 188**  
 > Creator / Project Owner / Original Concept / Architecture Direction: **NOEPIN / のえぴん**  
 > Implementation / analysis / documentation support: AI-assisted using ChatGPT
 
@@ -148,8 +148,14 @@ NOEPIN ALは、**NOEPIN / のえぴん**がゲーム「もふもふの森」を�
 | 130 | [AL Reviewer Rotation Scheduler / レビュアー回転スケジューラ](works/130-reviewer-rotation-scheduler.md) | COMPLETE / VERIFIED |
 | 131 | [AL Distributed Deadlock Breaker / 分散デッドロックブレーカー](works/131-distributed-deadlock-breaker.md) | COMPLETE / VERIFIED |
 | 132 | [AL Temporal Memory Consistency Graph / 時間整合Memoryグラフ](works/132-temporal-memory-consistency-graph.md) | COMPLETE / VERIFIED |
+| 133 | [AL Memory Importance Decay Scheduler / Memory重要度減衰スケジューラ](works/133-memory-importance-decay-scheduler.md) | COMPLETE / VERIFIED |
+| 134 | [AL Provenance-Preserving Memory Merger / 由来保持Memoryマージャー](works/134-provenance-preserving-memory-merger.md) | COMPLETE / VERIFIED |
+| 135 | [AL Contradiction-Aware Memory Resolver / 矛盾認識Memory解決器](works/135-contradiction-aware-memory-resolver.md) | COMPLETE / VERIFIED |
+| 136 | [AL Episodic Isolation Manager / エピソード隔離マネージャー](works/136-episodic-isolation-manager.md) | COMPLETE / VERIFIED |
+| 137 | [AL Purpose-Scoped Memory Gate / 目的スコープMemoryゲート](works/137-purpose-scoped-memory-gate.md) | COMPLETE / VERIFIED |
+| 138 | [AL Semantic Memory Deduplicator / 意味重複Memory圧縮器](works/138-semantic-memory-deduplicator.md) | COMPLETE / VERIFIED |
 
-**Formal completion / publication progress: 132 / 188**
+**Formal completion / publication progress: 138 / 188**
 
 [作品一覧ページを開く](works/)
 

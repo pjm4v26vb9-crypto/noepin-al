@@ -1,0 +1,47 @@
+NOEPIN AL 137 — SOURCE INDEX — 2026-11-11
+
+Technology: 137｜目的スコープMemoryゲート
+Canonical ID: NOEPIN-AL-137
+English Name: AL Purpose-Scoped Memory Gate
+Creator / Originator / Project Owner / Original Concept / Architecture Direction: NOEPIN / のえぴん
+AI-assisted implementation / analysis / documentation support: ChatGPT
+License / Rights: NOT SPECIFIED
+
+FINAL ZIP
+- File: NOEPIN_AL_137_PURPOSE_SCOPED_MEMORY_GATE_SUCCESSOR_V2_20261111.zip
+- SHA-256: 2fa85ef40918e2635c291c9f5a22ff3ba48a2bbdac04de5fde6a9b0d7b5f2a85
+- Final Manifest records: 1008 / 1008 matched
+
+CORE
+- File: noepin_al_137_purpose_scoped_memory_gate.py
+- SHA-256: 1c3ae84ca55571a07d2fb5d8c6ddbc5cf4678ac5b250fd87e453bd6aae7b40f7
+- Core identity: PASS
+
+REPORT
+- File: NOEPIN_AL_137_FINAL_VERIFICATION_REPORT_20261111.md
+- SHA-256: 7ec29900bd817269efe740a08ae4885b7609678dc1498e386ce5112d73824b01
+- Report identity: PASS
+
+FINAL FRESH
+- Tests: 160 / 160 PASS
+- Replay: 3000 / divergence 0
+- Replay digest: 72ed1fa7ee583d873259ce13ba113d1ca7b576351b2d3625a351e9acdfb32c7d
+- Production Gate: AL037–136 / 100 / 100 PASS
+- Static Safety: external execution paths 0 / unauthorized write paths 0
+- Benchmark Full median: 3.0935548000 ms
+- Benchmark Prepared median: 0.0052649000 ms
+- Benchmark semantic match: true
+- DCSR: 358532 bytes -> 656 bytes / 0.1829683264%
+- Missing-only: 1 record / 153 metadata bytes / full resend false
+
+FROZEN EVIDENCE
+- Frozen Gate Evidence: NOEPIN_AL_137_FROZEN_AL_PRODUCTION_GATE_EVIDENCE_20261111.json
+- SHA-256: d5728901a8de851ab17757636c235a95fc8ad8c6300ef94782e49cf27761bde4
+- Identity Verification: NOEPIN_AL_137_IDENTITY_VERIFICATION_20261111.json
+- SHA-256: 7c3924dc4b90284ab7a42bae6e769992fd75ac43dd17527272e39bfb91ede348
+- Final Fresh Manifest Verification: NOEPIN_AL_137_FINAL_FRESH_MANIFEST_VERIFICATION_20261111.json
+- SHA-256: cca42a19c9bf3d53a0ca8764e08f1f64b46462634a85ac7e5ef46c350bb08ae6
+
+PROVENANCE LIMITATIONS
+- exact registered Origin GUID was not freshly reverified.
+- Pre-existing Notion V1 attachment byte identity was not freshly reverified.

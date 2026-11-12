@@ -1,0 +1,17 @@
+NOEPIN AL 134 — Source Index — 2026-11-10
+Technology: 134｜由来保持Memoryマージャー
+Canonical ID: NOEPIN-AL-134
+Creator / Originator / Project Owner / Original Concept / Architecture Direction: NOEPIN / のえぴん
+License / Rights: NOT SPECIFIED
+
+Final ZIP | NOEPIN_AL_134_PROVENANCE_PRESERVING_MEMORY_MERGER_SUCCESSOR_V2_20261110.zip | SHA-256 eaf9d170010860e17f1e56a164c120abef339bf4b46764b8df12b5f14acc60b6
+Core | noepin_al_134_provenance_preserving_memory_merger.py | SHA-256 3510e68f0dab2e66e0a1304ff29d98aa75b68b8b87b29eaf5a2bdab8c6a6adc4
+Final Verification Report | NOEPIN_AL_134_FINAL_VERIFICATION_REPORT_20261110.md | SHA-256 7093608774133f73b10aa8688b3080aec2afb216cff198d7cf32f137385a71ca
+Identity Verification | NOEPIN_AL_134_IDENTITY_VERIFICATION_20261110.json | SHA-256 40dff3d6855d5e5dfa8087de231bcbf9e5a41fcb346bf509cb41cf286b565cfa
+Frozen AL Production Gate Evidence | NOEPIN_AL_134_FROZEN_AL_PRODUCTION_GATE_EVIDENCE_20261110.json | SHA-256 73e955e215b76c45af3968f81184e62e14bdcbf7fd5885387b0d84566ec9db42
+Final Artifact Seal | NOEPIN_AL_134_FINAL_ARTIFACT_SEAL_20261110.json | SHA-256 a849fd52eade6356e5e6a27a507b8829ab2eaa210400a7c2a072a2954679695b
+Final Fresh Manifest Verification | NOEPIN_AL_134_FINAL_FRESH_MANIFEST_VERIFICATION_20261110.json | SHA-256 31f6aeb8135b862dd0c40cb6cf442a1cd9ad4b6c6555dd0c5118f940446ee53b
+
+Authority boundary: Composite Memory Candidate != Truth / known Fact / Memory Write; Confidence != Fact Proof; Source Link != Source Authority; DCSR Reconstruction != new Memory / known Fact / Permission Grant / Safety Proof / Action Execution / Action Success.
+exact registered Origin GUID was not freshly reverified.
+Pre-existing Notion V1 attachment byte identity was not freshly reverified.

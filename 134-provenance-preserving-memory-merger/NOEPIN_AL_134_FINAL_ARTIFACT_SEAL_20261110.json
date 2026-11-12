@@ -1,0 +1,32 @@
+{
+  "canonical_id": "NOEPIN-AL-134",
+  "core_identity": true,
+  "core_sha256": "3510e68f0dab2e66e0a1304ff29d98aa75b68b8b87b29eaf5a2bdab8c6a6adc4",
+  "creator": "NOEPIN / のえぴん",
+  "dcsr_level": "LIMITED INTEGRATION / 限定適用",
+  "final_fresh_benchmark_sha256": "c1a051c7a08c51d9dcb00603d2a8e1b3ab94ec9465ad0d0ba5b84fb912cfe3b0",
+  "final_fresh_compile_sha256": "c26de83abdc9496cd1301470918ec39ecca1cf389ef0ae1c6504da1800d1c431",
+  "final_fresh_manifest_verification_sha256": "31f6aeb8135b862dd0c40cb6cf442a1cd9ad4b6c6555dd0c5118f940446ee53b",
+  "final_fresh_production_gate_sha256": "73e955e215b76c45af3968f81184e62e14bdcbf7fd5885387b0d84566ec9db42",
+  "final_fresh_replay_sha256": "24829286d8423db6606c71b87bad95c5c927ddd12abbf18132feff8eb4567648",
+  "final_fresh_static_safety_sha256": "25ef3378050ff653d1253c73408c36bb13475003397cfa1d2dd9f79c67cc2b5e",
+  "final_fresh_tests_sha256": "95a75de674a567afac72a3f3d0c4d4faeddb70d38263d09cf88995f041fe54d5",
+  "final_manifest_matched": "926/926",
+  "final_zip": "NOEPIN_AL_134_PROVENANCE_PRESERVING_MEMORY_MERGER_SUCCESSOR_V2_20261110.zip",
+  "final_zip_sha256": "eaf9d170010860e17f1e56a164c120abef339bf4b46764b8df12b5f14acc60b6",
+  "frozen_production_gate_evidence_sha256": "73e955e215b76c45af3968f81184e62e14bdcbf7fd5885387b0d84566ec9db42",
+  "identity_verification_sha256": "40dff3d6855d5e5dfa8087de231bcbf9e5a41fcb346bf509cb41cf286b565cfa",
+  "license_rights": "NOT SPECIFIED",
+  "production_gate": "97/97 PASS",
+  "provenance_limitations": [
+    "exact registered Origin GUID was not freshly reverified.",
+    "Pre-existing Notion V1 attachment byte identity was not freshly reverified."
+  ],
+  "replay": "3000 divergence 0",
+  "report_identity": true,
+  "report_sha256": "7093608774133f73b10aa8688b3080aec2afb216cff198d7cf32f137385a71ca",
+  "schema": "NOEPIN_AL_FINAL_ARTIFACT_SEAL_V1",
+  "static_safety": "0/0",
+  "technology": 134,
+  "tests": "160/160 PASS"
+}

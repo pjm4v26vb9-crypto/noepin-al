@@ -1,0 +1,33 @@
+{
+  "canonical_id": "NOEPIN-AL-137",
+  "core_sha256": "1c3ae84ca55571a07d2fb5d8c6ddbc5cf4678ac5b250fd87e453bd6aae7b40f7",
+  "creator": "NOEPIN / のえぴん",
+  "dcsr_level": "LIMITED INTEGRATION / 限定適用",
+  "final_fresh_manifest_verification_sha256": "cca42a19c9bf3d53a0ca8764e08f1f64b46462634a85ac7e5ef46c350bb08ae6",
+  "final_manifest": "1008/1008 matched",
+  "final_verification_report_sha256": "7ec29900bd817269efe740a08ae4885b7609678dc1498e386ce5112d73824b01",
+  "final_zip": "NOEPIN_AL_137_PURPOSE_SCOPED_MEMORY_GATE_SUCCESSOR_V2_20261111.zip",
+  "final_zip_sha256": "2fa85ef40918e2635c291c9f5a22ff3ba48a2bbdac04de5fde6a9b0d7b5f2a85",
+  "formal_defect_categories": {
+    "benchmark_harness": 0,
+    "execution_harness_invocation": 0,
+    "production": 0,
+    "production_gate_helper": 0,
+    "replay_helper": 0,
+    "test_fixture": 0
+  },
+  "frozen_production_gate_evidence_sha256": "d5728901a8de851ab17757636c235a95fc8ad8c6300ef94782e49cf27761bde4",
+  "identity_verification_sha256": "7c3924dc4b90284ab7a42bae6e769992fd75ac43dd17527272e39bfb91ede348",
+  "packaging_note": "Initial provisional-manifest helper invocation had a local-variable typo and exited before artifact creation; corrected before Provisional ZIP/Manifest freeze; no verification output or production logic affected.",
+  "production_gate": "AL037-136 / 100/100 PASS Normal/Fresh/Final Fresh",
+  "provenance_limitations": [
+    "exact registered Origin GUID was not freshly reverified.",
+    "Pre-existing Notion V1 attachment byte identity was not freshly reverified."
+  ],
+  "replay": "3000 / divergence 0 Normal/Fresh/Final Fresh",
+  "schema": "NOEPIN_AL_FINAL_ARTIFACT_SEAL_V1",
+  "source_index_sha256": "685286e5e9372539a452e848c380f63cb6b7c30736f6ecb5261fe1b84a66aa6d",
+  "static_safety": "external execution paths 0 / unauthorized write paths 0",
+  "technology": 137,
+  "tests": "160/160 PASS Normal/Fresh/Final Fresh"
+}

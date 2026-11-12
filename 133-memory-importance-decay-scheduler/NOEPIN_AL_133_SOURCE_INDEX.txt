@@ -1,0 +1,28 @@
+NOEPIN AL 133 — SOURCE INDEX — 2026-11-10
+Technology: 133｜Memory重要度減衰スケジューラ
+Canonical ID: NOEPIN-AL-133
+Creator / Originator / Project Owner / Original Concept / Architecture Direction: NOEPIN / のえぴん
+Artifact: Sequential Successor V2
+DCSR: LIMITED INTEGRATION / 限定適用
+License / Rights: NOT SPECIFIED
+
+Final ZIP: NOEPIN_AL_133_MEMORY_IMPORTANCE_DECAY_SCHEDULER_SUCCESSOR_V2_20261110.zip
+Final ZIP SHA-256: 2670a6c96da760cb708992dce1be1a52b7c154329ce1414b00a6849a64e77561
+Core: noepin_al_133_memory_importance_decay_scheduler.py
+Core SHA-256: c72707a18c885229d572649eeae9cf1e34f5a6f866d113aa21b06b830545f4ce
+Final Verification Report: NOEPIN_AL_133_FINAL_VERIFICATION_REPORT_20261110.md
+Final Verification Report SHA-256: 9b20ca87309aa1414b0c9ea541bf83aa7a9df3d0f5c967fbed7ede95eab26e0e
+Identity Verification: NOEPIN_AL_133_IDENTITY_VERIFICATION_20261110.json
+Identity Verification SHA-256: 4cd4144be16fbd39382cd5336b8ebd463979766524399b4871b175c098dc9157
+Final Artifact Seal: NOEPIN_AL_133_FINAL_ARTIFACT_SEAL_20261110.json
+Final Artifact Seal SHA-256: b446677c66c5f3f4e60362ad54950b5260f950f44505f8c0dd91b8f3b3fd8b19
+Frozen Production Gate Evidence: NOEPIN_AL_133_FROZEN_AL_PRODUCTION_GATE_EVIDENCE_20261110.json
+Frozen Production Gate Evidence SHA-256: eb01a8aeeeaffff6631bdc2a89a05ac3d92e66bfb2038b154cd322871d132268
+Final Fresh Manifest Verification SHA-256: 2c8c3195798b1d91b2e05918cfff41c3d6fd5b1cac8c65f37becc89b6850c201
+
+Verification: Normal/Fresh/Final Fresh 160/160; Replay 3000 divergence 0; Production Gate AL037-132 96/96; Final Manifest 1064/1064; Static Safety 0/0.
+Defects: Production 0; Test fixture 0; Benchmark harness 0; Replay helper 0; Production Gate helper 1 CORRECTED; Execution harness invocation 0.
+Authority Boundary: Memory != Truth; Mention != Memory; Retention/Archive/Delete/Refresh outputs are candidates only and do not perform destructive mutation, Permission, Authority, Safety Proof, Execution, or Action Success.
+
+exact registered Origin GUID was not freshly reverified.
+Pre-existing Notion V1 attachment byte identity was not freshly reverified.

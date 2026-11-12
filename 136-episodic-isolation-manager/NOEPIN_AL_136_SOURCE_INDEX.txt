@@ -1,0 +1,44 @@
+NOEPIN AL 136 — SOURCE INDEX — 2026-11-11
+
+Technology: 136｜エピソード隔離マネージャー
+Canonical ID: NOEPIN-AL-136
+English Name: AL Episodic Isolation Manager
+Creator / Originator / Project Owner / Original Concept / Architecture Direction: NOEPIN / のえぴん
+License / Rights: NOT SPECIFIED
+DCSR: LIMITED INTEGRATION / 限定適用
+
+FINAL ZIP
+NOEPIN_AL_136_EPISODIC_ISOLATION_MANAGER_SUCCESSOR_V2_20261111.zip
+SHA-256: 292e5f2041faf140f60dfad8457c207c339af65e4c7733256cd81eb4faf4d3b6
+
+CORE
+noepin_al_136_episodic_isolation_manager.py
+SHA-256: 4a260866a876241931fff6ee5e96f08cf4ad59011d4aef3d360458aaaac6bf20
+
+FINAL VERIFICATION REPORT
+NOEPIN_AL_136_FINAL_VERIFICATION_REPORT_20261111.md
+SHA-256: fa3979308f8379a396f9584e82798ecb67770c74321ec5c084c004284920d736
+
+IDENTITY VERIFICATION
+NOEPIN_AL_136_IDENTITY_VERIFICATION_20261111.json
+SHA-256: c4b0192c75e558fd0cea265c71e01e413bbf9796bd9090f995208a2e24151108
+
+FROZEN PRODUCTION GATE EVIDENCE
+NOEPIN_AL_136_FROZEN_AL_PRODUCTION_GATE_EVIDENCE_20261111.json
+SHA-256: 04e51bf52edc539e37d829a50b8c23c9a6943fb9295a4e6434a922013fbe45cf
+
+FINAL MANIFEST VERIFICATION
+NOEPIN_AL_136_FINAL_MANIFEST_VERIFICATION_20261111.json
+SHA-256: eaa3ecd3ff34cb81fac714aabc031e97d06524abd9a325d9f884d848c1d5d373
+
+FINAL ARTIFACT SEAL
+NOEPIN_AL_136_FINAL_ARTIFACT_SEAL_20261111.json
+SHA-256: 90ae2c6e7e83bd4d9c12d3e3bc2afc477084bd9707a89c1648bec1c12f2a402f
+
+Verification: Final Manifest 1152/1152 matched; Tests 160/160 PASS; Replay 3000 divergence 0; Production Gate AL037-135 99/99 PASS; Static Safety 0/0.
+Defects: Production 0 / Test fixture 0 / Benchmark harness 0 / Replay helper 0 / Production Gate helper 0 / Execution harness invocation 0.
+
+Authority boundary: Promotion Candidate is not a Long-term Memory Write; Approval Evidence is not Approval Execution; Same-task visibility is not cross-task sharing authority; Memory is not Truth; Mention is not Memory.
+
+exact registered Origin GUID was not freshly reverified.
+Pre-existing Notion V1 attachment byte identity was not freshly reverified.

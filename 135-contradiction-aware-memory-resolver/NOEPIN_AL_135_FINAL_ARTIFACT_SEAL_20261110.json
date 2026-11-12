@@ -1,0 +1,39 @@
+{
+  "artifact": "Sequential Successor V2",
+  "canonical_id": "NOEPIN-AL-135",
+  "core_identity": true,
+  "core_sha256": "020f06572d5acfef1edfd3c16c3fd09ab24e3c7f05c0030ae64be2cab16e5993",
+  "creator": "NOEPIN / のえぴん",
+  "dcsr_delta_bytes": 578,
+  "dcsr_delta_percent": 0.17216830792510382,
+  "dcsr_full_bytes": 335718,
+  "dcsr_level": "LIMITED INTEGRATION / 限定適用",
+  "defects": {
+    "Benchmark harness": 0,
+    "Execution harness invocation": 0,
+    "Production": 0,
+    "Production Gate helper": 0,
+    "Replay helper": 0,
+    "Test fixture": 0
+  },
+  "final_fresh_manifest_verification_sha256": "d192e0e6e235f08482c6abfdbb0a336af287902b772aaec0ad71e71dcf3954be",
+  "final_manifest": "954/954 matched",
+  "final_verification_report_sha256": "3785f0d8347d8db8211555a15afd432e0cca0e3461b12c59e1d4efff41be810b",
+  "final_zip": "NOEPIN_AL_135_CONTRADICTION_AWARE_MEMORY_RESOLVER_SUCCESSOR_V2_20261110.zip",
+  "final_zip_sha256": "28305c9d892f56b3e0fb60b0cf80d98d2a501b791624cb7427d9e5c8a46b93e2",
+  "frozen_production_gate_evidence_sha256": "e07ba3c2d26b2e16e68b7ae1f5465dd4d9f09257aa6451981f1807f972c6ccaa",
+  "full_resend": false,
+  "identity_verification_sha256": "89226bc0469d46dc57c841dcf7d3c44c8c868c3df6fe36104a48206adc2c5ae1",
+  "license_rights": "NOT SPECIFIED",
+  "production_gate": "AL037-134 / 98/98 PASS Normal/Fresh/Final Fresh",
+  "provenance_limitations": [
+    "exact registered Origin GUID was not freshly reverified.",
+    "Pre-existing Notion V1 attachment byte identity was not freshly reverified."
+  ],
+  "replay": "3000 divergence 0 Normal/Fresh/Final Fresh",
+  "report_identity": true,
+  "schema": "NOEPIN_AL_FINAL_ARTIFACT_SEAL_V1",
+  "static_safety": "0 external execution / 0 unauthorized write Normal/Fresh/Final Fresh",
+  "technology": 135,
+  "tests": "160/160 PASS Normal/Fresh/Final Fresh"
+}

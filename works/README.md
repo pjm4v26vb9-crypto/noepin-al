@@ -138,8 +138,14 @@ NOEPIN / のえぴんによるNOEPIN AL技術作品の公開一覧です。
 | 130 | [レビュアー回転スケジューラ / AL Reviewer Rotation Scheduler](130-reviewer-rotation-scheduler.md) | COMPLETE / VERIFIED |
 | 131 | [分散デッドロックブレーカー / AL Distributed Deadlock Breaker](131-distributed-deadlock-breaker.md) | COMPLETE / VERIFIED |
 | 132 | [時間整合Memoryグラフ / AL Temporal Memory Consistency Graph](132-temporal-memory-consistency-graph.md) | COMPLETE / VERIFIED |
+| 133 | [Memory重要度減衰スケジューラ / AL Memory Importance Decay Scheduler](133-memory-importance-decay-scheduler.md) | COMPLETE / VERIFIED |
+| 134 | [由来保持Memoryマージャー / AL Provenance-Preserving Memory Merger](134-provenance-preserving-memory-merger.md) | COMPLETE / VERIFIED |
+| 135 | [矛盾認識Memory解決器 / AL Contradiction-Aware Memory Resolver](135-contradiction-aware-memory-resolver.md) | COMPLETE / VERIFIED |
+| 136 | [エピソード隔離マネージャー / AL Episodic Isolation Manager](136-episodic-isolation-manager.md) | COMPLETE / VERIFIED |
+| 137 | [目的スコープMemoryゲート / AL Purpose-Scoped Memory Gate](137-purpose-scoped-memory-gate.md) | COMPLETE / VERIFIED |
+| 138 | [意味重複Memory圧縮器 / AL Semantic Memory Deduplicator](138-semantic-memory-deduplicator.md) | COMPLETE / VERIFIED |
 
-**Published works: 132 / 188**
+**Published works: 138 / 188**
 
 Creator / Project Owner / Original Concept / Architecture Direction: **NOEPIN / のえぴん**
 

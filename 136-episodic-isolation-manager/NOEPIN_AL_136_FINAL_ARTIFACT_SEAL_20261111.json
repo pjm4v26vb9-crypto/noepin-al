@@ -1,0 +1,47 @@
+{
+  "authority_boundary": "Promotion Candidate != Long-term Memory Write; Approval Evidence != Approval Execution; Same-task visibility != cross-task sharing authority; Memory != Truth; Mention != Memory; DCSR reconstruction does not create Memory/Fact/Permission/Safety Proof/Action Success.",
+  "canonical_id": "NOEPIN-AL-136",
+  "core_sha256": "4a260866a876241931fff6ee5e96f08cf4ad59011d4aef3d360458aaaac6bf20",
+  "creator": "NOEPIN / のえぴん",
+  "dcsr_level": "LIMITED INTEGRATION / 限定適用",
+  "defects": {
+    "benchmark_harness": 0,
+    "execution_harness_invocation": 0,
+    "production": 0,
+    "production_gate_helper": 0,
+    "replay_helper": 0,
+    "test_fixture": 0
+  },
+  "final_manifest_matched": 1152,
+  "final_manifest_records": 1152,
+  "final_manifest_verification_sha256": "eaa3ecd3ff34cb81fac714aabc031e97d06524abd9a325d9f884d848c1d5d373",
+  "final_zip": "NOEPIN_AL_136_EPISODIC_ISOLATION_MANAGER_SUCCESSOR_V2_20261111.zip",
+  "final_zip_sha256": "292e5f2041faf140f60dfad8457c207c339af65e4c7733256cd81eb4faf4d3b6",
+  "finalfresh_benchmark": {
+    "condition": "Python stdlib; 1200 session-memory records across task/session scopes; deny-by-default cross-scope isolation + sensitivity/approval-aware promotion candidate evaluation; 5 full evaluations x 5 batches and 20 prepared reuses x 5 batches",
+    "delta_bytes": 638,
+    "delta_percent": 0.18329698996463345,
+    "full_bytes": 348069,
+    "full_median_ms": 12.669575599989003,
+    "full_resend": false,
+    "missing_metadata_bytes": 153,
+    "missing_records": 1,
+    "prepared_median_ms": 0.012155849998407575,
+    "semantic_match": true
+  },
+  "frozen_gate_evidence_sha256": "04e51bf52edc539e37d829a50b8c23c9a6943fb9295a4e6434a922013fbe45cf",
+  "identity_verification_sha256": "c4b0192c75e558fd0cea265c71e01e413bbf9796bd9090f995208a2e24151108",
+  "license_rights": "NOT SPECIFIED",
+  "name": "AL Episodic Isolation Manager",
+  "production_gate": "AL037-135 / 99/99 PASS",
+  "provenance_limits": [
+    "exact registered Origin GUID was not freshly reverified.",
+    "Pre-existing Notion V1 attachment byte identity was not freshly reverified."
+  ],
+  "replay": "3000 / divergence 0",
+  "report_sha256": "fa3979308f8379a396f9584e82798ecb67770c74321ec5c084c004284920d736",
+  "schema": "NOEPIN_AL_FINAL_ARTIFACT_SEAL_V1",
+  "static_safety": "0 external execution / 0 unauthorized write",
+  "technology": 136,
+  "tests": "160/160 PASS"
+}
