@@ -1,0 +1,72 @@
+name: NOEPIN Publish 133-138
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.noepin-transfer/**'
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Verify and publish NOEPIN AL 133-138
+        shell: bash
+        run: |
+          set -euo pipefail
+          cat .noepin-transfer/chunk_* > /tmp/noepin_payload.b64
+          base64 --decode /tmp/noepin_payload.b64 > /tmp/noepin_payload.tar.xz
+          echo "b961ddd86f1732e6ffe512a542c4f8849ef4ddf75c5354d4b7a44fde85fc8a7a  /tmp/noepin_payload.tar.xz" | sha256sum -c -
+          tar -xJf /tmp/noepin_payload.tar.xz -C .
+          python - <<'PY'
+          from pathlib import Path
+
+          root = Path('README.md')
+          s = root.read_text(encoding='utf-8')
+          s = s.replace('公開進捗: **132 / 188**', '公開進捗: **138 / 188**')
+          s = s.replace('Formal completion / publication progress: 132 / 188', 'Formal completion / publication progress: 138 / 188')
+          marker = '| 132 | [AL Temporal Memory Consistency Graph / 時間整合Memoryグラフ](works/132-temporal-memory-consistency-graph.md) | COMPLETE / VERIFIED |'
+          rows = [
+              '| 133 | [AL Memory Importance Decay Scheduler / Memory重要度減衰スケジューラ](works/133-memory-importance-decay-scheduler.md) | COMPLETE / VERIFIED |',
+              '| 134 | [AL Provenance-Preserving Memory Merger / 由来保持Memoryマージャー](works/134-provenance-preserving-memory-merger.md) | COMPLETE / VERIFIED |',
+              '| 135 | [AL Contradiction-Aware Memory Resolver / 矛盾認識Memory解決器](works/135-contradiction-aware-memory-resolver.md) | COMPLETE / VERIFIED |',
+              '| 136 | [AL Episodic Isolation Manager / エピソード隔離マネージャー](works/136-episodic-isolation-manager.md) | COMPLETE / VERIFIED |',
+              '| 137 | [AL Purpose-Scoped Memory Gate / 目的スコープMemoryゲート](works/137-purpose-scoped-memory-gate.md) | COMPLETE / VERIFIED |',
+              '| 138 | [AL Semantic Memory Deduplicator / 意味重複Memory圧縮器](works/138-semantic-memory-deduplicator.md) | COMPLETE / VERIFIED |',
+          ]
+          if rows[0] not in s:
+              if marker not in s:
+                  raise SystemExit('root README marker not found')
+              s = s.replace(marker, marker + '\n' + '\n'.join(rows))
+          root.write_text(s, encoding='utf-8')
+
+          works = Path('works/README.md')
+          s = works.read_text(encoding='utf-8')
+          s = s.replace('**Published works: 132 / 188**', '**Published works: 138 / 188**')
+          marker = '| 132 | [時間整合Memoryグラフ / AL Temporal Memory Consistency Graph](132-temporal-memory-consistency-graph.md) | COMPLETE / VERIFIED |'
+          rows = [
+              '| 133 | [Memory重要度減衰スケジューラ / AL Memory Importance Decay Scheduler](133-memory-importance-decay-scheduler.md) | COMPLETE / VERIFIED |',
+              '| 134 | [由来保持Memoryマージャー / AL Provenance-Preserving Memory Merger](134-provenance-preserving-memory-merger.md) | COMPLETE / VERIFIED |',
+              '| 135 | [矛盾認識Memory解決器 / AL Contradiction-Aware Memory Resolver](135-contradiction-aware-memory-resolver.md) | COMPLETE / VERIFIED |',
+              '| 136 | [エピソード隔離マネージャー / AL Episodic Isolation Manager](136-episodic-isolation-manager.md) | COMPLETE / VERIFIED |',
+              '| 137 | [目的スコープMemoryゲート / AL Purpose-Scoped Memory Gate](137-purpose-scoped-memory-gate.md) | COMPLETE / VERIFIED |',
+              '| 138 | [意味重複Memory圧縮器 / AL Semantic Memory Deduplicator](138-semantic-memory-deduplicator.md) | COMPLETE / VERIFIED |',
+          ]
+          if rows[0] not in s:
+              if marker not in s:
+                  raise SystemExit('works README marker not found')
+              s = s.replace(marker, marker + '\n' + '\n'.join(rows))
+          works.write_text(s, encoding='utf-8')
+          PY
+          rm -rf .noepin-transfer
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Publish verified NOEPIN AL 133-138"
+          git push
