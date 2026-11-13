@@ -1,0 +1,23 @@
+NOEPIN AL 163 — SOURCE INDEX — 2026-11-13
+Technology: 163｜等価資産参照統合器
+English: AL Exact-Equivalent Asset Reference Merger
+Canonical ID: NOEPIN-AL-163
+Creator: NOEPIN / のえぴん
+AI support: ChatGPT
+License / Rights: NOT SPECIFIED
+
+Canonical page: 408a9510-8ac2-816d-ba5c-e343b033fd5a
+Completion Master: 40ca9510-8ac2-813b-8b40-de0b57f8d8da
+Core: noepin_al_163_exact_equivalent_asset_reference_merger.py
+Core SHA-256: 031d481c46995bbfc06b9351363bbc181232229327d469cfb8ea064accd02ad1
+Final ZIP: NOEPIN_AL_163_EXACT_EQUIVALENT_ASSET_REFERENCE_MERGER_SUCCESSOR_V2_20261113.zip
+Final ZIP SHA-256: d93270ffb37c84363680060b0ee7d1a505a867d40282a2a90c297804d189ebab
+Final Verification Report: NOEPIN_AL_163_FINAL_VERIFICATION_REPORT_20261113.md
+Final Verification Report SHA-256: 92492efb36cc2eeb31151981043b47401f8b603834f3ac99840cee9d715986be
+Final Manifest SHA-256: b1735591ef7603fe7fac0719e1142d087dbd8c668766289923dc22649d2f8460
+Replay digest: 76f6b19e2e0f12385e4257cb3da931d32769f5f057404297ab7c80162851fe0d
+Production Gate: AL037-162 / 126/126 PASS
+
+Provenance caveats:
+- exact registered Origin GUID was not freshly reverified.
+- Pre-existing Notion V1 attachment byte identity was not freshly reverified.

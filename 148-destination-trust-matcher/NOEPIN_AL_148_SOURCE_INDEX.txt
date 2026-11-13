@@ -1,0 +1,32 @@
+NOEPIN AL 148 — SOURCE INDEX — 2026-11-12
+Technology: 148｜宛先信頼マッチャー
+Canonical ID: NOEPIN-AL-148
+English Name: AL Destination Trust Matcher
+Creator / Originator / Project Owner / Original Concept / Architecture Direction: NOEPIN / のえぴん
+AI-assisted implementation / analysis / documentation support: ChatGPT
+License / Rights: NOT SPECIFIED
+DCSR: AUXILIARY INTEGRATION / 補助統合
+
+Core: noepin_al_148_destination_trust_matcher.py
+Core SHA-256: b5156f6cedc64e352a987b8a39e790869dc2771aacab703e4b45e5f3b968a85d
+Final ZIP: NOEPIN_AL_148_DESTINATION_TRUST_MATCHER_SUCCESSOR_V2_20261112.zip
+Final ZIP SHA-256: d83a51e49927b4c4e37c10567c293d451c932c6b60dc5e16c59782b5a1aad521
+Final Verification Report: NOEPIN_AL_148_FINAL_VERIFICATION_REPORT_20261112.md
+Final Verification Report SHA-256: 434c7909fd15d7ceb02b3cb124584a0498a61281230969bb6f5a5a8c821f7084
+Frozen AL Production Gate Evidence: NOEPIN_AL_148_FROZEN_AL_PRODUCTION_GATE_EVIDENCE_20261112.json
+Frozen AL Production Gate Evidence SHA-256: d308aae5ac5f7916d651f8551d37c1f7b510a592adbb467404696e4963efa3c6
+Identity Verification: NOEPIN_AL_148_IDENTITY_VERIFICATION_20261112.json
+Identity Verification SHA-256: 1ee3da512773e952a88d5384c04488d50317220e7cd57437572348eb7525addd
+Final Manifest Verification: NOEPIN_AL_148_FINAL_MANIFEST_VERIFICATION_20261112.json
+Final Manifest Verification SHA-256: 1afe8c48ddcfd4e4d419c8bdefc99225fd14df129ad7dcc0770cb803b394679a
+
+Final Manifest: 1,318 / 1,318 matched
+Final Fresh Tests: 160 / 160 PASS
+Final Fresh Replay: 3,000 / divergence 0
+Final Fresh Production Gate: AL037–147 / 111 / 111 PASS
+Final Fresh Static Safety: external execution paths 0 / unauthorized write paths 0
+
+Authority Boundary: Destination Trust != Permission Grant; Destination Identity Evidence != Identity Authority; Alternative Destination Candidate != Routing Execution; Destination Decision != Data Transfer Execution; ALLOW Candidate != Disclosure/Transfer Execution; HOLD/DENY Candidate != Stop Execution; DCSR != Authentication/Encryption/Policy/DLP.
+
+exact registered Origin GUID was not freshly reverified.
+Pre-existing Notion V1 attachment byte identity was not freshly reverified.

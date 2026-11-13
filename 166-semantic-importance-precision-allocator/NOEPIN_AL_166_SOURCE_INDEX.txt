@@ -1,0 +1,31 @@
+NOEPIN AL 166 — SOURCE INDEX
+Technology: 166｜意味重要度ベース精度配分器
+English: AL Semantic-Importance Precision Allocator
+Canonical ID: NOEPIN-AL-166
+Canonical Page ID: 408a9510-8ac2-8162-b003-efad792cba77
+Artifact: Sequential Successor V2
+Creator / Originator / Project Owner / Original Concept / Architecture Direction: NOEPIN / のえぴん
+AI support: AI-assisted implementation / analysis / documentation support using ChatGPT
+License / Rights: NOT SPECIFIED
+DCSR: DIRECT INTEGRATION / 直接統合
+
+Final ZIP: NOEPIN_AL_166_SEMANTIC_IMPORTANCE_PRECISION_ALLOCATOR_SUCCESSOR_V2_20261113.zip
+Final ZIP SHA-256: c64051b297664ab35e7ea55e7ecddcef1ea221ea4bd75af9d367cf5508e6516a
+Final Verification Report: NOEPIN_AL_166_FINAL_VERIFICATION_REPORT_20261113.md
+Final Verification Report SHA-256: ed75454310920f8b69017432c7123f0d1868750ce5238e47d804a7a5f1e82b59
+Core: noepin_al_166_semantic_importance_precision_allocator.py
+Core SHA-256: b40a22d3e499d684a12933abe59112ec871c8f0a53e85030d18758de32a3bccd
+Frozen AL Production Gate Evidence: NOEPIN_AL_166_FROZEN_AL_PRODUCTION_GATE_EVIDENCE_20261113.json
+Frozen AL Production Gate Evidence SHA-256: 54c9cebec6134a2773617276a52562873be67bbeecc49312350665b53d31b985
+Identity Verification: NOEPIN_AL_166_IDENTITY_VERIFICATION_20261113.json
+Identity Verification SHA-256: 00c9cf712c1f396ac9989a87b040a7f2878d1ccef5f8d0d728d98b4819b4cace
+Final Manifest Verification: NOEPIN_AL_166_FINAL_MANIFEST_VERIFICATION_20261113.json
+Final Manifest Verification SHA-256: 3d8e8015048a0821218360b5f463dfdfe7666df05ca6e2f359f340123348983e
+Final Fresh Evidence: NOEPIN_AL_166_FINAL_FRESH_EVIDENCE_20261113.json
+Final Fresh Evidence SHA-256: 6e06ac61f462c9a3a535cced3fb5c0eced7a83b4d31cfaf352212409407f4818
+Final Artifact Seal: NOEPIN_AL_166_FINAL_ARTIFACT_SEAL_20261113.json
+Final Artifact Seal SHA-256: e351709a5b81642a623a82044906456159a0a937b36014fc27e4ba609ff639a1
+
+Canonical V1 attachment: preserved; not overwritten.
+exact registered Origin GUID was not freshly reverified.
+Pre-existing Notion V1 attachment byte identity was not freshly reverified.

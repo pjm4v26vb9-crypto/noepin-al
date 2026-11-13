@@ -1,0 +1,49 @@
+NOEPIN AL 143 — SOURCE INDEX — 2026-11-12
+
+Technology: 143｜目的制限フロー検査器
+English Name: AL Purpose-Limitation Flow Checker
+Canonical ID: NOEPIN-AL-143
+Creator / Originator / Project Owner / Original Concept / Architecture Direction: NOEPIN / のえぴん
+AI support: AI-assisted implementation / analysis / documentation support using ChatGPT
+License / Rights: NOT SPECIFIED
+DCSR: AUXILIARY INTEGRATION / 補助統合
+
+Core source:
+- noepin_al_143_purpose_limitation_flow_checker.py
+- SHA-256: 0c0ab89bc36bde12f52ba7a5c72e53101ffef305cb3ef33a15a42a230c102dc8
+
+Final artifact:
+- NOEPIN_AL_143_PURPOSE_LIMITATION_FLOW_CHECKER_SUCCESSOR_V2_20261112.zip
+- SHA-256: 4c986327f269164b982e79ca387a557c3337bb7ad8c85415d8ef99d9b9169d72
+
+Final Verification Report:
+- NOEPIN_AL_143_FINAL_VERIFICATION_REPORT_20261112.md
+- SHA-256: 35e543b3d5378503000c5815b41fc32b96aa6cca3b32b8011ddbd4054a53bed0
+
+Frozen AL Production Gate Evidence:
+- NOEPIN_AL_143_FROZEN_AL_PRODUCTION_GATE_EVIDENCE_20261112.json
+- SHA-256: 8f6f4a2eda42e66ffeb6ac619d4d2f21a67149f8977408b0c23bba742842333d
+
+Identity Verification:
+- NOEPIN_AL_143_IDENTITY_VERIFICATION_20261112.json
+- SHA-256: 9ad65a290f4b46d42969aef8de1bcecbe71643dcf82ac0f1aeb4897ccc16a6af
+
+Final Manifest Verification:
+- NOEPIN_AL_143_FINAL_MANIFEST_VERIFICATION_20261112.json
+- SHA-256: 05ec6616b583f951e73a617761e4560ccd9412b249486843fe9356626e9bd0d2
+
+Verification summary:
+- Normal / Fresh / Final Fresh tests: 160 / 160 PASS each
+- Replay: 3,000 / divergence 0 each
+- AL Production Gate: AL037–142 / 106 / 106 PASS each
+- Static Safety: external execution paths 0 / unauthorized write paths 0
+- Final Manifest: 1,173 / 1,173 matched
+- Core identity: PASS
+- Report identity: PASS
+
+Authority boundary:
+Purpose Match != Permission Grant; Consent Evidence != Approval Execution; Policy Exception Evidence != Domain Authority; Allowed Use Candidate != Data Use Execution; HUMAN_APPROVAL Candidate != Approval Execution; HOLD / DENY Candidate != Stop Execution; DCSR != Authentication / Encryption / Policy / DLP; DCSR Reconstruction != Consent / new Fact / Domain Authority / Permission Grant / Safety Proof / Approval Execution / Action Execution / Action Success.
+
+Limitations:
+- exact registered Origin GUID was not freshly reverified.
+- Pre-existing Notion V1 attachment byte identity was not freshly reverified.

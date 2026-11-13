@@ -1,0 +1,111 @@
+{
+  "ai_support": "AI-assisted implementation / analysis / documentation support using ChatGPT",
+  "artifact": "Sequential Successor V2",
+  "authority_boundary": [
+    "Memory != Truth",
+    "Mention != Memory",
+    "Delete Candidate != Delete Execution",
+    "Archive Candidate != Archive Execution",
+    "Anonymize Candidate != Anonymize Execution",
+    "Credential Revocation Candidate != Credential Revocation Execution",
+    "Legal Hold Evidence != external enforcement",
+    "Retain Candidate != World Truth",
+    "HOLD / Review Candidate != Stop Execution",
+    "DCSR Reconstruction != new Memory / known Fact / Domain Authority / Semantic Judgment / Permission Grant / Safety Proof / Approval Execution / Action Execution / Action Success"
+  ],
+  "benchmark": {
+    "final_fresh": {
+      "condition": "Python stdlib; 2500 Memory records; completed-purpose dependency reverse lookup with retention/legal-hold/audit/provenance planning; candidate-only destructive actions; 5 full evaluations x 5 batches and 20 prepared reuses x 5 batches",
+      "delta_bytes": 584,
+      "delta_percent": 0.08284522271037224,
+      "full_bytes": 704929,
+      "full_median_ms": 25.178239599972585,
+      "full_resend": false,
+      "missing_metadata_bytes": 153,
+      "missing_records": 1,
+      "prepared_median_ms": 0.007794349994583172,
+      "semantic_match": true
+    },
+    "fresh": {
+      "condition": "Python stdlib; 2500 Memory records; completed-purpose dependency reverse lookup with retention/legal-hold/audit/provenance planning; candidate-only destructive actions; 5 full evaluations x 5 batches and 20 prepared reuses x 5 batches",
+      "delta_bytes": 584,
+      "delta_percent": 0.08284522271037224,
+      "full_bytes": 704929,
+      "full_median_ms": 20.425466200049414,
+      "full_resend": false,
+      "missing_metadata_bytes": 153,
+      "missing_records": 1,
+      "prepared_median_ms": 0.018028149997917353,
+      "semantic_match": true
+    },
+    "normal": {
+      "condition": "Python stdlib; 2500 Memory records; completed-purpose dependency reverse lookup with retention/legal-hold/audit/provenance planning; candidate-only destructive actions; 5 full evaluations x 5 batches and 20 prepared reuses x 5 batches",
+      "delta_bytes": 584,
+      "delta_percent": 0.08284522271037224,
+      "full_bytes": 704929,
+      "full_median_ms": 10.044168199965497,
+      "full_resend": false,
+      "missing_metadata_bytes": 153,
+      "missing_records": 1,
+      "prepared_median_ms": 0.011328050004522083,
+      "semantic_match": true
+    }
+  },
+  "canonical_id": "NOEPIN-AL-141",
+  "core_sha256": "14832e34b3c010654e402a15f6843d78f75d37566df6a6958156498105877470",
+  "creator": "NOEPIN / のえぴん",
+  "dcsr": "LIMITED INTEGRATION / 限定適用",
+  "defects": {
+    "benchmark_harness": 0,
+    "execution_harness_invocation": 0,
+    "production": 0,
+    "production_gate_helper": 0,
+    "production_logic_changed": false,
+    "replay_helper": 0,
+    "test_fixture": 0
+  },
+  "english_name": "AL Purpose-Completion Forgetting Engine",
+  "final_manifest": {
+    "matched": 1120,
+    "pass": true,
+    "records": 1120
+  },
+  "final_manifest_verification": "NOEPIN_AL_141_FINAL_MANIFEST_VERIFICATION_20261112.json",
+  "final_manifest_verification_sha256": "57b3c6a45c23253dfa13acc490fabf13f673db845af52d7f16213715baac6d87",
+  "final_verification_report": "NOEPIN_AL_141_FINAL_VERIFICATION_REPORT_20261112.md",
+  "final_verification_report_sha256": "cd0bb7705a0436ca0abaccd524f7e90ff7c907aa0aa55d1fa3cd862cafc94442",
+  "final_zip": "NOEPIN_AL_141_PURPOSE_COMPLETION_FORGETTING_ENGINE_SUCCESSOR_V2_20261112.zip",
+  "final_zip_sha256": "ae904611dbb56d986c5397431ef4a6ff57ffd4ec8af6d321e977b33b4c5342bd",
+  "frozen_al_production_gate_evidence": "NOEPIN_AL_141_FROZEN_AL_PRODUCTION_GATE_EVIDENCE_20261112.json",
+  "frozen_al_production_gate_evidence_sha256": "230e478163317b07d993cef8218952add2d0fd146480cdd009d5188ba5958ab2",
+  "identity_verification": "NOEPIN_AL_141_IDENTITY_VERIFICATION_20261112.json",
+  "identity_verification_sha256": "7ed864683dbaf7a6ddfae52cd9a93031fae2b2eb27930cdb8f46c45a1ead5e74",
+  "license_rights": "NOT SPECIFIED",
+  "name_ja": "目的終了Forgetエンジン",
+  "production_gate": {
+    "pass": true,
+    "pass_count": 104,
+    "range": "AL037-140",
+    "total": 104
+  },
+  "provenance_limits": [
+    "exact registered Origin GUID was not freshly reverified.",
+    "Pre-existing Notion V1 attachment byte identity was not freshly reverified."
+  ],
+  "replay": {
+    "digest": "5d9ddbdacd870017692e84ab26e37b753653777d81a8d0a2627fc38691ba991c",
+    "divergence": 0,
+    "replays": 3000
+  },
+  "schema": "NOEPIN_AL_FINAL_ARTIFACT_SEAL_V1",
+  "static_safety": {
+    "external_execution_paths": 0,
+    "unauthorized_write_paths": 0
+  },
+  "technology": 141,
+  "tests": {
+    "final_fresh": "160/160 PASS",
+    "fresh": "160/160 PASS",
+    "normal": "160/160 PASS"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "ai_support": "AI-assisted implementation / analysis / documentation support using ChatGPT",
+  "authority_boundary": "Destination Trust != Permission Grant; Destination Identity Evidence != Identity Authority; Alternative Destination Candidate != Routing Execution; Destination Decision != Data Transfer Execution; ALLOW Candidate != Data Transfer; HOLD/DENY Candidate != Stop Execution; DCSR reconstruction cannot create Truth, Authority, Permission, Approval, Action, or Action Success.",
+  "benchmark": {
+    "final_fresh": {
+      "condition": "Python stdlib; 3000 data labels; destination trust/ownership/region/service policy matching; 5 full evaluations x 5 batches and 20 prepared reuses x 5 batches",
+      "delta_bytes": 262,
+      "delta_percent": 0.07647290611637308,
+      "full_bytes": 342605,
+      "full_median_ms": 1.810840999996799,
+      "full_resend": false,
+      "missing_metadata_bytes": 88,
+      "missing_records": 1,
+      "prepared_median_ms": 0.009273000000575848,
+      "semantic_match": true
+    },
+    "fresh": {
+      "condition": "Python stdlib; 3000 data labels; destination trust/ownership/region/service policy matching; 5 full evaluations x 5 batches and 20 prepared reuses x 5 batches",
+      "delta_bytes": 262,
+      "delta_percent": 0.07647290611637308,
+      "full_bytes": 342605,
+      "full_median_ms": 1.1605922000171631,
+      "full_resend": false,
+      "missing_metadata_bytes": 88,
+      "missing_records": 1,
+      "prepared_median_ms": 0.005224400001679896,
+      "semantic_match": true
+    },
+    "normal": {
+      "condition": "Python stdlib; 3000 data labels; destination trust/ownership/region/service policy matching; 5 full evaluations x 5 batches and 20 prepared reuses x 5 batches",
+      "delta_bytes": 262,
+      "delta_percent": 0.07647290611637308,
+      "full_bytes": 342605,
+      "full_median_ms": 1.2166357999831234,
+      "full_resend": false,
+      "missing_metadata_bytes": 88,
+      "missing_records": 1,
+      "prepared_median_ms": 0.005401649997338609,
+      "semantic_match": true
+    }
+  },
+  "canonical_id": "NOEPIN-AL-148",
+  "core_sha256": "b5156f6cedc64e352a987b8a39e790869dc2771aacab703e4b45e5f3b968a85d",
+  "creator": "NOEPIN / のえぴん",
+  "date": "2026-11-12",
+  "dcsr": "AUXILIARY INTEGRATION / 補助統合",
+  "defects": {
+    "note": "Public data + unverified destination precedence corrected to explicit UNKNOWN_DESTINATION HOLD.",
+    "production": 1,
+    "production_logic_changed": true,
+    "status": "CORRECTED BEFORE SEALING"
+  },
+  "final_manifest_verification_sha256": "1afe8c48ddcfd4e4d419c8bdefc99225fd14df129ad7dcc0770cb803b394679a",
+  "final_zip": "NOEPIN_AL_148_DESTINATION_TRUST_MATCHER_SUCCESSOR_V2_20261112.zip",
+  "final_zip_sha256": "d83a51e49927b4c4e37c10567c293d451c932c6b60dc5e16c59782b5a1aad521",
+  "frozen_gate_evidence_sha256": "d308aae5ac5f7916d651f8551d37c1f7b510a592adbb467404696e4963efa3c6",
+  "identity_verification_sha256": "1ee3da512773e952a88d5384c04488d50317220e7cd57437572348eb7525addd",
+  "license_rights": "NOT SPECIFIED",
+  "name_en": "AL Destination Trust Matcher",
+  "name_jp": "宛先信頼マッチャー",
+  "provenance_caveats": [
+    "exact registered Origin GUID was not freshly reverified.",
+    "Pre-existing Notion V1 attachment byte identity was not freshly reverified."
+  ],
+  "report_sha256": "434c7909fd15d7ceb02b3cb124584a0498a61281230969bb6f5a5a8c821f7084",
+  "schema": "NOEPIN_AL_FINAL_ARTIFACT_SEAL_V1",
+  "source_index_sha256": "dd2c2e313c5719b01c9a8e3775dda212be528d270e545ffe8e477247380d7ac3",
+  "technology": 148,
+  "verification": {
+    "core_identity": "PASS",
+    "final_fresh_tests": "160/160 PASS",
+    "final_manifest": "1318/1318 matched",
+    "fresh_tests": "160/160 PASS",
+    "normal_tests": "160/160 PASS",
+    "production_gate": "AL037–147 111/111 PASS",
+    "replay": "3000 divergence 0",
+    "replay_digest": "7000aafcfb70dd3d1a9c862896b22d0d84832203dd824b5270d26c88ae113b7e",
+    "report_identity": "PASS",
+    "static_safety": "0 external execution / 0 unauthorized write"
+  }
+}

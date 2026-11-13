@@ -1,0 +1,22 @@
+NOEPIN AL 164 SOURCE INDEX
+Technology: 164｜量子化残差サイドカー生成器
+Canonical ID: NOEPIN-AL-164
+Creator / Originator / Project Owner / Original Concept / Architecture Direction: NOEPIN / のえぴん
+AI-assisted implementation / analysis / documentation support: ChatGPT
+License / Rights: NOT SPECIFIED
+
+Core: noepin_al_164_quantization_residual_sidecar_generator.py
+Core SHA-256: 344b3cfb016abbb315fa2248242efa232ccd3b2562751bef96e159156164c24f
+Final ZIP: NOEPIN_AL_164_QUANTIZATION_RESIDUAL_SIDECAR_GENERATOR_SUCCESSOR_V2_20261113.zip
+Final ZIP SHA-256: bebc52d46e5bad8f2b31d9116e381fc5a62696e2b5d52a2ce7116b5f86860058
+Final Verification Report: NOEPIN_AL_164_FINAL_VERIFICATION_REPORT_20261113.md
+Final Verification Report SHA-256: 8034e7eff2a602010c99394e73eb643bd940262196e76863827405163f251b8a
+Final Manifest: NOEPIN_AL_164_FINAL_MANIFEST_20261113.json
+Final Manifest SHA-256: c808cd9a89ec25d6240813b20642a513066a4ec4dcdce57aa69e79f2777e9217
+Replay digest: 56ad71e90e5b699e3b7b4fb1853705061d5d15474b53621c84b2bc91804db788
+Production Gate: AL037–163 / 127 / 127 PASS
+Final Manifest: 1789 / 1789 matched
+
+Provenance caveats:
+- exact registered Origin GUID was not freshly reverified.
+- Pre-existing Notion V1 attachment byte identity was not freshly reverified.

@@ -1,0 +1,25 @@
+NOEPIN AL 161 — Source Index — 2026-11-13
+
+Technology: 161｜学習Freeze・Rollback制御器
+English: AL Learning Freeze and Rollback Controller
+Canonical ID: NOEPIN-AL-161
+Creator / Originator / Project Owner / Original Concept / Architecture Direction: NOEPIN / のえぴん
+AI-assisted implementation / analysis / documentation support: ChatGPT
+License / Rights: NOT SPECIFIED
+DCSR: DIRECT INTEGRATION / 直接統合
+
+Core: noepin_al_161_learning_freeze_and_rollback_controller.py
+Core SHA-256: 2c4188f9977303af11f5a40e97a1e82266d0d0593691ca4570d651f68710a576
+Final Verification Report: NOEPIN_AL_161_FINAL_VERIFICATION_REPORT_20261113.md
+Final Verification Report SHA-256: 18bb2d81e7f83290e1cc483bf49595da3f9a71a3d108c44479448e8a4f2bc040
+Final ZIP: NOEPIN_AL_161_LEARNING_FREEZE_AND_ROLLBACK_CONTROLLER_SUCCESSOR_V2_20261113.zip
+Final ZIP SHA-256: 6beab2b29f70e9c6c912826473d0357cc3c32315cc43c7f53295dc079775158e
+Final Manifest: NOEPIN_AL_161_FINAL_MANIFEST_20261113.json
+Final Manifest SHA-256: 706ea748f7952e3f029eb68d5af392e32b79191fdc3664dd1b01fc09b24c79f7
+Replay digest: b1fcd1541deefe47c06581a053877f0d3b9b74598d77ed85dab9999ad17c9492
+Final Gate: AL037-160 / 124 / 124 PASS
+
+Authority boundary: Freeze/Rollback/Resume/Target Version are candidates only; Safety Signal != Truth; known-safe Target Candidate != rollback execution; independent review candidate != reviewer invocation; Shadow/Canary State != Production Authority; no learning commit, kill switch, freeze, rollback, resume, policy/model/trust mutation, permission/approval/action/action-success execution.
+
+exact registered Origin GUID was not freshly reverified.
+Pre-existing Notion V1 attachment byte identity was not freshly reverified.

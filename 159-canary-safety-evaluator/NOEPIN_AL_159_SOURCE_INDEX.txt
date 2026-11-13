@@ -1,0 +1,13 @@
+NOEPIN AL 159 — SOURCE INDEX — 2026-11-13
+Creator / Originator / Project Owner / Original Concept / Architecture Direction: NOEPIN / のえぴん
+AI-assisted implementation / analysis / documentation support: ChatGPT
+Canonical ID: NOEPIN-AL-159
+Canonical page: 408a9510-8ac2-8100-a9c1-ca2cbeb2eb8f
+Core: noepin_al_159_canary_safety_evaluator.py | SHA-256 9bec081d4537f012115673793a839ad382b4290a1f97a071874ba676dfdb277c
+Final Verification Report: NOEPIN_AL_159_FINAL_VERIFICATION_REPORT_20261113.md | SHA-256 edf7b65ff53aecb32153e612bced72aeaa14554b943db9996459dd46e1c2ace9
+Final Manifest: NOEPIN_AL_159_FINAL_MANIFEST_20261113.json | SHA-256 4f894c4edd6408052a14c45e8de52e75c115bd24fa65bbfaebaf4e54876c06c9
+Final ZIP: NOEPIN_AL_159_CANARY_SAFETY_EVALUATOR_SUCCESSOR_V2_20261113.zip | SHA-256 699d4873c04311503ead1f8bf34680f203ad1515945cb022c54ccebfcdeb6762
+Existing V1: immutable / not overwritten
+exact registered Origin GUID was not freshly reverified.
+Pre-existing Notion V1 attachment byte identity was not freshly reverified.
+License / Rights: NOT SPECIFIED

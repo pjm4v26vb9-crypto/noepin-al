@@ -1,0 +1,24 @@
+NOEPIN AL 153 SOURCE INDEX — 2026-11-12
+Technology: 153｜安全Contextual Banditセレクター
+English: AL Safe Contextual Bandit Selector
+Canonical ID: NOEPIN-AL-153
+Creator / Originator / Project Owner / Original Concept / Architecture Direction: NOEPIN / のえぴん
+AI-assisted implementation / analysis / documentation support: ChatGPT
+DCSR: DIRECT INTEGRATION / 直接統合
+License / Rights: NOT SPECIFIED
+
+Core: noepin_al_153_safe_contextual_bandit_selector.py
+Core SHA-256: c7caac49d7d2158de0912442148fbdffa2f3917c32ab225815f3bfd210c26159
+Final ZIP: NOEPIN_AL_153_SAFE_CONTEXTUAL_BANDIT_SELECTOR_SUCCESSOR_V2_20261112.zip
+Final ZIP SHA-256: 102db6a38d65f013e7bd78fc9e9eeea05f9399585da82d21af25992476a1174b
+Final Verification Report: NOEPIN_AL_153_FINAL_VERIFICATION_REPORT_20261112.md
+Final Verification Report SHA-256: 4a331dd6eed19ae80d4764f6ed3c3879af4f681d2dba3eccc97c4b1dcaf9a6f1
+Final Manifest count: 1468
+Final Manifest match: 1468 / 1468
+Production Gate: AL037-152 / 116 / 116 PASS
+Replay: 3000 / divergence 0
+Replay digest: 8c46c055c12d43a038a70780eab0ab3c6e282e30dceb2fc297f57e4a2ef30646
+Static Safety: external execution paths 0 / unauthorized write paths 0
+
+exact registered Origin GUID was not freshly reverified.
+Pre-existing Notion V1 attachment byte identity was not freshly reverified.

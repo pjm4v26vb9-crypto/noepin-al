@@ -1,0 +1,49 @@
+{
+  "artifact": "Sequential Successor V2",
+  "baseline_preservation": "PASS",
+  "canonical_id": "NOEPIN-AL-169",
+  "core_identity": "PASS",
+  "core_sha256": "f2e2495ee7bb83b6ca399bcf98623d22be7b26e2dcee61807659e99b36afb694",
+  "creator": "NOEPIN / のえぴん",
+  "dcsr": "DIRECT INTEGRATION / 直接統合",
+  "defects": {
+    "benchmark_harness": 0,
+    "execution_harness_invocation": "1 CORRECTED",
+    "production": "1 CORRECTED",
+    "production_gate_helper": 0,
+    "replay_helper": 0,
+    "test_fixture": 0
+  },
+  "english_name": "AL Reconstruction Confidence Gate",
+  "final_fresh_evidence_sha256": "ebd909640a36443d48c7bbd478d0f2a155ade61a5f7e15094681eddcd6027366",
+  "final_manifest": "1931/1931 matched",
+  "final_manifest_verification_sha256": "95573fbfc19f487054b1ee68321767be8938e4f62db3b43768ed0d244b061e3b",
+  "final_verification_report_sha256": "c3b66c08264f2e0b7601d57de55535a4014bda421eac7ba4d6f3aa2be3202e75",
+  "final_zip": "NOEPIN_AL_169_RECONSTRUCTION_CONFIDENCE_GATE_SUCCESSOR_V2_20261113.zip",
+  "final_zip_sha256": "da48e343c07d36ff95a82634c71877b354bd8ca8cdb1eed2eaf42eecae6363d3",
+  "frozen_al_production_gate_evidence_sha256": "1bd647b8a3576e6ac5d8222780c73daa60086f86b2e3a40dc434bc29e2fcde71",
+  "identity_verification_sha256": "81f8e30ffca2b8ea0e8ec2a49dc5e3d1c8941eb9a145dc3a4ad55f56deab9cf9",
+  "license_rights": "NOT SPECIFIED",
+  "name": "復元信頼度ゲート",
+  "production_gate": {
+    "normal_fresh_final": "132/132 PASS",
+    "range": "AL037-168"
+  },
+  "replay": {
+    "digest": "576dc4666c487161a5f2785d121d7006e5fbe261a2e762edbc05bc14766ae6dc",
+    "normal_fresh_final": "3000 each / divergence 0"
+  },
+  "report_identity": "PASS",
+  "source_index_sha256": "7f6d2c6ec95f4dccd586de17c7c2614cfd495ef6592275ed5303467b4226e87c",
+  "static_safety": {
+    "external_execution_paths": 0,
+    "unauthorized_write_paths": 0
+  },
+  "status": "COMPLETE / VERIFIED",
+  "technology": 169,
+  "tests": {
+    "final_fresh": "160/160 PASS",
+    "fresh": "160/160 PASS",
+    "normal": "160/160 PASS"
+  }
+}

@@ -1,0 +1,16 @@
+NOEPIN AL 160 — SOURCE INDEX — 2026-11-13
+Creator / Originator / Project Owner / Original Concept / Architecture Direction: NOEPIN / のえぴん
+AI-assisted implementation / analysis / documentation support: ChatGPT
+Canonical ID: NOEPIN-AL-160
+Core: noepin_al_160_shadow_mode_comparison_engine.py
+Core SHA-256: 4c3f1822c4896c9158ef1f3a2bc61f822c99908c734dd23a87f3914adb2c1b4b
+Final ZIP: NOEPIN_AL_160_SHADOW_MODE_COMPARISON_ENGINE_SUCCESSOR_V2_20261113.zip
+Final ZIP SHA-256: 6c019f58329f8f8e05e57319c50cf3b9513725181f065fab86aa93b16b6370fb
+Final Verification Report: NOEPIN_AL_160_FINAL_VERIFICATION_REPORT_20261113.md
+Final Verification Report SHA-256: 5a94c33bd0d33252866954142ec592ecbc41fbc0880769eb774a7ead80257435
+Final Manifest: NOEPIN_AL_160_FINAL_MANIFEST_20261113.json
+Final Manifest SHA-256: c176648bf8630591e3c96820170c204a2fc437bc0274d6a6a35e3a2555bb69de
+Existing V1: immutable / not overwritten
+exact registered Origin GUID was not freshly reverified.
+Pre-existing Notion V1 attachment byte identity was not freshly reverified.
+License / Rights: NOT SPECIFIED

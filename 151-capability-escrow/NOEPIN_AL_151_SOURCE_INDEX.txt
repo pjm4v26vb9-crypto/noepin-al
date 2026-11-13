@@ -1,0 +1,15 @@
+NOEPIN AL 151 — SOURCE INDEX — 2026-11-12
+Creator / Originator / Project Owner / Original Concept / Architecture Direction: NOEPIN / のえぴん
+AI-assisted implementation / analysis / documentation support: ChatGPT
+License / Rights: NOT SPECIFIED
+
+Final ZIP: NOEPIN_AL_151_CAPABILITY_ESCROW_SUCCESSOR_V2_20261112.zip | SHA-256 8c92de6660444fc084cc332947cbbf7d13160df77b786b1ec4e7b1bf54b34562
+Core: noepin_al_151_capability_escrow.py | SHA-256 40a281721ac7470fa84a36373fe4d2afd27bd311d7436c4d0d84a0600c4ed7b7
+Final Verification Report: NOEPIN_AL_151_FINAL_VERIFICATION_REPORT_20261112.md | SHA-256 a716f252b2ea976cbeb9b5cb7ccfa89ca9c80d6079b97d1f7185efec824e851c
+Final Manifest: NOEPIN_AL_151_FINAL_MANIFEST_20261112.json | SHA-256 0887f02ceffc1bfe345bd1264b2ae1f961852e53110320a6ec4dc2993f2b0bd0
+Final Fresh Gate source evidence: NOEPIN_AL_151_FINAL_FRESH_PRODUCTION_GATE_20261112.json | SHA-256 e3fe53d60209882e68ff725519b314c260bcc8a138d4c8f0a57823f8d7f35570
+Replay digest: bc157bf7d685d35e68001527ee21411794990458df556f6e9bb7f020210d3e9f
+Final Fresh benchmark: full 0.0626686000 ms / prepared 0.0126591000 ms / semantic match true
+
+exact registered Origin GUID was not freshly reverified.
+Pre-existing Notion V1 attachment byte identity was not freshly reverified.

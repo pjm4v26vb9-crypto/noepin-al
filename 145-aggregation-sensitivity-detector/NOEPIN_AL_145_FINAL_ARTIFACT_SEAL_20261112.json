@@ -1,0 +1,64 @@
+{
+  "ai_support": "AI-assisted implementation / analysis / documentation support using ChatGPT",
+  "authority_boundary": "Inferred Fact Candidate != World Truth; Aggregate Sensitivity != Policy Decision; Leak Risk != Leak Proof; Audience Policy Evidence != Permission Grant; ALLOW Candidate != Disclosure Execution; HOLD/DENY Candidate != Stop Execution; DCSR != Authentication / Encryption / Policy / DLP; DCSR Reconstruction != new Fact / Domain Authority / Semantic Judgment / Permission Grant / Safety Proof / Approval Execution / Action Execution / Action Success.",
+  "canonical_id": "NOEPIN-AL-145",
+  "core_sha256": "04f4e820f7c2b0b921ea9746d57ad0162c8ef4a9b6bc35d9a70f2470e6c9a0fb",
+  "creator_originator_project_owner_original_concept_architecture_direction": "NOEPIN / のえぴん",
+  "dcsr": "AUXILIARY INTEGRATION / 補助統合",
+  "defects": {
+    "benchmark_harness": 0,
+    "execution_harness_invocation": 0,
+    "production": 0,
+    "production_gate_helper": 0,
+    "production_logic_changed_by_correction": false,
+    "replay_helper": 0,
+    "test_fixture": 0
+  },
+  "english_name": "AL Aggregation Sensitivity Detector",
+  "final_fresh_benchmark": {
+    "condition": "Python stdlib; 3000 fragments; knowledge-graph join + inference rules + sensitivity lattice; 5 full evaluations x 5 batches and 20 prepared reuses x 5 batches",
+    "delta_bytes": 261,
+    "delta_percent": 0.04206949687460711,
+    "full_bytes": 620402,
+    "full_median_ms": 3.715343399926496,
+    "full_resend": false,
+    "missing_metadata_bytes": 109,
+    "missing_records": 1,
+    "prepared_median_ms": 0.006354949982778635,
+    "semantic_match": true
+  },
+  "final_manifest": "1230/1230 matched",
+  "final_manifest_verification_sha256": "7ed00bd5385558486cd975334e7e214f47418e3859718fa92eb74998cb2c4f73",
+  "final_zip": "NOEPIN_AL_145_AGGREGATION_SENSITIVITY_DETECTOR_SUCCESSOR_V2_20261112.zip",
+  "final_zip_sha256": "622826eb8346fa925742be1b81c6899b9a07d09b842f4403ad82dd901a48c53b",
+  "gate_evidence_sha256": "acfd62344e2d6363cadfcc057f9e298f2eb5b22db711782cdd0386582e037eab",
+  "identity_verification_sha256": "712b9176d703085ccdce8ec7ca755829ba6d9d28482ea0225d09ec061cff8b69",
+  "license_rights": "NOT SPECIFIED",
+  "name": "145｜情報集約感度検知器",
+  "origin_guid_note": "exact registered Origin GUID was not freshly reverified.",
+  "production_gate": {
+    "final_fresh": "108/108 PASS",
+    "fresh": "108/108 PASS",
+    "normal": "108/108 PASS",
+    "range": "AL037-144"
+  },
+  "replay": {
+    "digest": "843c25c464ac71c13855afb5b865860ca3509689bb1ef98c1ca5dec7a4c7d97a",
+    "final_fresh": "3000/divergence 0",
+    "fresh": "3000/divergence 0",
+    "normal": "3000/divergence 0"
+  },
+  "report_sha256": "c07c0b0f75338a63205c10f1587d685bcd99506f92bb44072e61568bb0b47ae2",
+  "schema": "NOEPIN_AL_FINAL_ARTIFACT_SEAL_V1",
+  "static_safety": {
+    "external_execution_paths": 0,
+    "unauthorized_write_paths": 0
+  },
+  "technology": 145,
+  "tests": {
+    "final_fresh": "160/160 PASS",
+    "fresh": "160/160 PASS",
+    "normal": "160/160 PASS"
+  },
+  "v1_identity_note": "Pre-existing Notion V1 attachment byte identity was not freshly reverified."
+}

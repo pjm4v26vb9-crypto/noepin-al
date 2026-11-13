@@ -1,0 +1,25 @@
+NOEPIN AL 145 — SOURCE INDEX — 2026-11-12
+
+Technology: 145｜情報集約感度検知器
+English: AL Aggregation Sensitivity Detector
+Canonical ID: NOEPIN-AL-145
+Creator / Originator / Project Owner / Original Concept / Architecture Direction: NOEPIN / のえぴん
+AI-assisted implementation / analysis / documentation support: ChatGPT
+License / Rights: NOT SPECIFIED
+DCSR: AUXILIARY INTEGRATION / 補助統合
+
+Final ZIP: NOEPIN_AL_145_AGGREGATION_SENSITIVITY_DETECTOR_SUCCESSOR_V2_20261112.zip
+Final ZIP SHA-256: 622826eb8346fa925742be1b81c6899b9a07d09b842f4403ad82dd901a48c53b
+Core SHA-256: 04f4e820f7c2b0b921ea9746d57ad0162c8ef4a9b6bc35d9a70f2470e6c9a0fb
+Final Verification Report SHA-256: c07c0b0f75338a63205c10f1587d685bcd99506f92bb44072e61568bb0b47ae2
+Final Artifact Seal SHA-256: 56667a9e83541714039eb29714e6e57c31d1e649a5c5b46a2e688c79fdeee218
+Frozen AL Production Gate Evidence SHA-256: acfd62344e2d6363cadfcc057f9e298f2eb5b22db711782cdd0386582e037eab
+Identity Verification SHA-256: 712b9176d703085ccdce8ec7ca755829ba6d9d28482ea0225d09ec061cff8b69
+Final Manifest Verification SHA-256: 7ed00bd5385558486cd975334e7e214f47418e3859718fa92eb74998cb2c4f73
+
+Verification: Normal/Fresh/Final Fresh tests 160/160 PASS; Replay 3000 divergence 0; AL037-144 Gate 108/108 PASS; Static Safety 0/0; Final Manifest 1230/1230 matched.
+
+Authority Boundary: Inferred Fact Candidate != World Truth; Aggregate Sensitivity != Policy Decision; Leak Risk != Leak Proof; Audience Policy Evidence != Permission Grant; ALLOW Candidate != Disclosure Execution; HOLD/DENY Candidate != Stop Execution; DCSR does not replace Authentication / Encryption / Policy / DLP.
+
+exact registered Origin GUID was not freshly reverified.
+Pre-existing Notion V1 attachment byte identity was not freshly reverified.

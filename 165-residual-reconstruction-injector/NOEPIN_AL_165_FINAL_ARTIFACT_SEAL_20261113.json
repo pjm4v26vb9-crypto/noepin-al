@@ -1,0 +1,68 @@
+{
+  "ai_support": "AI-assisted implementation / analysis / documentation support using ChatGPT",
+  "artifact": "Sequential Successor V2",
+  "authority_boundary": "Reconstructed Array Candidate != Authoritative State; Manifest/Checksum verification != Truth or Authority; Residual verification != Permission or Action Success; error-limit compliance != universal Safety Proof; fallback candidate != execution; DCSR Reconstruction != new Fact / Domain Authority / Semantic Judgment / Permission Grant / Safety Proof / Approval Execution / Action Execution / Action Success.",
+  "benchmark": {
+    "condition": "Python stdlib; 1000 residual reconstruction evaluations per round; progressive stage fingerprints and checksum verification; full request batch vs one changed residual-sidecar record delta; 5 full x 1000 and 5 prepared x 1000",
+    "delta_bytes": 240,
+    "delta_percent": 0.00137457036800857,
+    "final_fresh_full_ms": 1.3234372580000127,
+    "final_fresh_prepared_ms": 0.018829157000027408,
+    "fresh_full_ms": 1.3426602729999786,
+    "fresh_prepared_ms": 0.00526084799992077,
+    "full_bytes": 17460001,
+    "full_resend": false,
+    "missing_metadata_bytes": 108,
+    "missing_records": 1,
+    "normal_full_ms": 1.2832656839999572,
+    "normal_prepared_ms": 0.005612466999991739,
+    "semantic_match": true
+  },
+  "canonical_id": "NOEPIN-AL-165",
+  "core_file": "noepin_al_165_residual_reconstruction_injector.py",
+  "core_sha256": "8ca73d96712649e7d6e6fd65f53441c4f7fba3022154d7607b2837838573ef4e",
+  "creator": "NOEPIN / のえぴん",
+  "dcsr": "DIRECT INTEGRATION / 直接統合",
+  "defects": {
+    "benchmark_harness": "1 CORRECTED",
+    "execution_harness_invocation": "1 CORRECTED",
+    "production": "1 CORRECTED",
+    "production_gate_helper": "0",
+    "replay_helper": "0",
+    "test_fixture": "1 CORRECTED"
+  },
+  "english_name": "AL Residual Reconstruction Injector",
+  "final_manifest": "1815 / 1815 matched",
+  "final_manifest_verification": "NOEPIN_AL_165_FINAL_MANIFEST_VERIFICATION_20261113.json",
+  "final_manifest_verification_sha256": "06f34d14bc436bbe31718c32f5b25bba50c80b0ff451b07c2b02056ee9c6e31b",
+  "final_verification_report": "NOEPIN_AL_165_FINAL_VERIFICATION_REPORT_20261113.md",
+  "final_verification_report_sha256": "cdd8dd3fabc63ec6ff70317bc481d34246e99ccd2b26b5349942658209bac9a0",
+  "final_zip": "NOEPIN_AL_165_RESIDUAL_RECONSTRUCTION_INJECTOR_SUCCESSOR_V2_20261113.zip",
+  "final_zip_sha256": "fb94e3e0490cfd796b864275291db0be99b3ab0cf5901803449eb234cbea038c",
+  "frozen_gate_evidence": "NOEPIN_AL_165_FROZEN_AL_PRODUCTION_GATE_EVIDENCE_20261113.json",
+  "frozen_gate_evidence_sha256": "8801122357f4064dbf86156b4c322a6c11ea4abd036b97b84c4e01d7e9312c1d",
+  "identity_verification": "NOEPIN_AL_165_IDENTITY_VERIFICATION_20261113.json",
+  "identity_verification_sha256": "9fd07eda64a58e6e71b2b1d8f3b6adb84416283fe181fab774cb3564b6f8a1cb",
+  "license_rights": "NOT SPECIFIED",
+  "origin_guid_note": "exact registered Origin GUID was not freshly reverified.",
+  "production_gate": {
+    "pass": "128 / 128 PASS",
+    "range": "AL037–164"
+  },
+  "replay": {
+    "digest": "58049849ee619d1b59dfdd2169da53270713bda852746d52b655304eabbb3e47",
+    "divergence": 0,
+    "runs": 3000
+  },
+  "static_safety": {
+    "external_execution_paths": 0,
+    "unauthorized_write_paths": 0
+  },
+  "technology": "165｜残差復元インジェクター",
+  "tests": {
+    "final_fresh": "160 / 160 PASS",
+    "fresh": "160 / 160 PASS",
+    "normal": "160 / 160 PASS"
+  },
+  "v1_attachment_note": "Pre-existing Notion V1 attachment byte identity was not freshly reverified."
+}

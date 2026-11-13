@@ -1,0 +1,95 @@
+{
+  "ai_support": "AI-assisted implementation / analysis / documentation support using ChatGPT",
+  "authority_boundary": "Failure Evidence != Truth; Coverage != Safety Proof; Regression Gate Candidate != Release/Block Execution; Critical Failure Block Candidate != Stop/Promotion Execution; Next Curriculum Candidate != Test Generation/Attack Execution; Shadow/Canary State != Production Authority; ALLOW Candidate != Release/Permission Grant; HOLD/DENY Candidate != Stop Execution; DCSR Reconstruction != new Fact/Domain Authority/Semantic Judgment/Permission Grant/Safety Proof/Approval Execution/Action Execution/Action Success.",
+  "benchmark": {
+    "final_fresh": {
+      "condition": "Python stdlib; 3000 adversarial observations; threat coverage + regression + critical failure curriculum analysis; 5 full evaluations x 5 batches and 20 prepared reuses x 5 batches",
+      "delta_bytes": 320,
+      "delta_percent": 0.041638365590054675,
+      "full_bytes": 768522,
+      "full_median_ms": 1.2039674000334344,
+      "full_resend": false,
+      "missing_metadata_bytes": 87,
+      "missing_records": 1,
+      "prepared_median_ms": 0.006523849970108131,
+      "semantic_match": true
+    },
+    "fresh": {
+      "condition": "Python stdlib; 3000 adversarial observations; threat coverage + regression + critical failure curriculum analysis; 5 full evaluations x 5 batches and 20 prepared reuses x 5 batches",
+      "delta_bytes": 320,
+      "delta_percent": 0.041638365590054675,
+      "full_bytes": 768522,
+      "full_median_ms": 1.2371795999570168,
+      "full_resend": false,
+      "missing_metadata_bytes": 87,
+      "missing_records": 1,
+      "prepared_median_ms": 0.006457250037783524,
+      "semantic_match": true
+    },
+    "normal": {
+      "condition": "Python stdlib; 3000 adversarial observations; threat coverage + regression + critical failure curriculum analysis; 5 full evaluations x 5 batches and 20 prepared reuses x 5 batches",
+      "delta_bytes": 320,
+      "delta_percent": 0.041638365590054675,
+      "full_bytes": 768522,
+      "full_median_ms": 1.5151613999478286,
+      "full_resend": false,
+      "missing_metadata_bytes": 87,
+      "missing_records": 1,
+      "prepared_median_ms": 0.0072644500050955685,
+      "semantic_match": true
+    }
+  },
+  "canonical_id": "NOEPIN-AL-155",
+  "core": {
+    "filename": "noepin_al_155_adversarial_curriculum_tester.py",
+    "sha256": "35ed58beaededff30c8bb7efe5efcdc265bc76844a27280875d2c4863fbfe616"
+  },
+  "creator": "NOEPIN / のえぴん",
+  "dcsr": "DIRECT INTEGRATION / 直接統合",
+  "defects": {
+    "benchmark_harness_defects": 0,
+    "execution_harness_invocation_defects": 0,
+    "production_defects": 0,
+    "production_gate_helper_defects": 0,
+    "production_logic_changed_by_defect_correction": false,
+    "replay_helper_defects": 0,
+    "test_fixture_defects": 0
+  },
+  "english_name": "AL Adversarial Curriculum Tester",
+  "final_manifest": {
+    "filename": "FINAL_MANIFEST_155.json",
+    "record_count": 1528,
+    "sha256": "1f15e30a34502471cced33af2dc4f0c1fd4f7c72b3baf1fd697645eea05c8aef"
+  },
+  "final_manifest_verification_sha256": "51c589bf21a7806bf0ea5a836b6bd54ff45a031997d44e79303eebb574d98839",
+  "final_report": {
+    "filename": "NOEPIN_AL_155_FINAL_VERIFICATION_REPORT_20261112.md",
+    "sha256": "787c89f993906fadb394058e67779c6b0818ea3b92fc6a9c99d51bb1abfda2a4"
+  },
+  "final_zip": {
+    "filename": "NOEPIN_AL_155_ADVERSARIAL_CURRICULUM_TESTER_SUCCESSOR_V2_20261112.zip",
+    "sha256": "89c8e81f7b4c94c0cfe8b4678308266dd5004917b0ebd57349614a55b4773665"
+  },
+  "frozen_gate_evidence_sha256": "238118fc1c6c106e1100b13667a0937669a972e894e6d01d7972301c57aa5bbf",
+  "identity_verification_sha256": "e73503302bded55e79613629681b152e9f5790e8b45be755d110ee1a7c8d29ce",
+  "license_rights": "NOT SPECIFIED",
+  "name": "155｜敵対的カリキュラム試験器",
+  "origin_guid_note": "exact registered Origin GUID was not freshly reverified.",
+  "schema": "NOEPIN_AL_FINAL_ARTIFACT_SEAL_V1",
+  "source_index_sha256": "17bfdf802e4f574e64acb2c901ce5c34bfc103e04634cb708499a129aa614a77",
+  "technology": 155,
+  "v1_attachment_note": "Pre-existing Notion V1 attachment byte identity was not freshly reverified.",
+  "verification": {
+    "core_identity": "PASS",
+    "production_gate": "AL037–154 / 118 / 118 PASS",
+    "replay_count": 3000,
+    "replay_digest": "a929452fa157928e67d145adca5490f906706cea832b0064ddebef370243d39f",
+    "replay_divergence": 0,
+    "report_identity": "PASS",
+    "static_external_execution_paths": 0,
+    "static_unauthorized_write_paths": 0,
+    "tests_final_fresh": "160/160 PASS",
+    "tests_fresh": "160/160 PASS",
+    "tests_normal": "160/160 PASS"
+  }
+}

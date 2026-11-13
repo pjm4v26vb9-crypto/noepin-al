@@ -1,0 +1,21 @@
+NOEPIN AL 142 — Source Index — 2026-11-12
+Creator / Originator / Project Owner / Original Concept / Architecture Direction: NOEPIN / のえぴん
+AI support: AI-assisted implementation / analysis / documentation support using ChatGPT
+License / Rights: NOT SPECIFIED
+
+NOEPIN_AL_142_SEMANTIC_TAINT_PROPAGATION_ENGINE_SUCCESSOR_V2_20261112.zip	SHA-256=04d952471e7bd44112289d19e615c55b41434a04d203aabfc6a56a49dc28ce8c	SIZE=16159679
+NOEPIN_AL_142_FINAL_VERIFICATION_REPORT_20261112.md	SHA-256=7701207bc305c10429cef64597ba68afe76a530b62b42a32b32c449c2cefac05	SIZE=4735
+NOEPIN_AL_142_FINAL_ARTIFACT_SEAL_20261112.json	SHA-256=2de5cc981ddbffa2826a1612558446cbc66d03d14a81f427693c02351fda76f1	SIZE=3066
+NOEPIN_AL_142_FROZEN_AL_PRODUCTION_GATE_EVIDENCE_20261112.json	SHA-256=41c54d33fa04e3ee2a4fedd7aae4aca207cf55791d70c9b0588c827b13aa8de2	SIZE=76412
+NOEPIN_AL_142_IDENTITY_VERIFICATION_20261112.json	SHA-256=84969533a02c516ce4713be864f8ddb21b33ef95ded5f3e0dfb328d9f76c7044	SIZE=427
+NOEPIN_AL_142_FINAL_MANIFEST_VERIFICATION_20261112.json	SHA-256=42f373cf80bc30af66dfd40b1923df45d15766da285d629a0e6adc637171d739	SIZE=78
+
+Core source inside Final ZIP: noepin_al_142_semantic_taint_propagation_engine.py
+Core SHA-256=4d959fe930ade0186af1a6868bcf31aab14c5b54d55b59e6f63640f965431cbd
+DCSR: AUXILIARY INTEGRATION / 補助統合
+Final Manifest: 1,148 / 1,148 matched
+Production Gate: AL037–141 / 105 / 105 PASS
+Static Safety: external execution paths 0 / unauthorized write paths 0
+Defect: Execution harness invocation 1 CORRECTED; production logic unchanged.
+exact registered Origin GUID was not freshly reverified.
+Pre-existing Notion V1 attachment byte identity was not freshly reverified.

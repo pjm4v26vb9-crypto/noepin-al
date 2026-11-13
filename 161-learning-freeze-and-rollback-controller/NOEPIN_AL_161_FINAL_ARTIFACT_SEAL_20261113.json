@@ -1,0 +1,74 @@
+{
+  "ai_support": "ChatGPT",
+  "authority_boundary": "Freeze/Rollback/Resume/Target Version are candidates only. Safety Signal != Truth. Last-known-safe Target Candidate != rollback execution. Independent Review Candidate != reviewer invocation. Shadow/Canary State != Production Authority. No learning commit, kill switch, freeze, rollback, resume, policy/model/trust/threshold mutation, permission grant, approval, external action, or Action Success is executed.",
+  "benchmark": {
+    "delta_bytes": 338,
+    "delta_percent": 0.007417158784911393,
+    "final_fresh_full_ms": 0.01483202966664976,
+    "final_fresh_prepared_ms": 0.015901260000039958,
+    "fresh_full_ms": 0.017322682666417677,
+    "fresh_prepared_ms": 0.013792232333192564,
+    "full_bytes": 4557001,
+    "full_resend": false,
+    "metadata_bytes": 175,
+    "missing_records": 1,
+    "normal_full_ms": 0.011732922333370274,
+    "normal_prepared_ms": 0.010830414666694802,
+    "semantic_match": true
+  },
+  "canonical_id": "NOEPIN-AL-161",
+  "core_sha256": "2c4188f9977303af11f5a40e97a1e82266d0d0593691ca4570d651f68710a576",
+  "creator": "NOEPIN / のえぴん",
+  "dcsr": "DIRECT INTEGRATION / 直接統合",
+  "defects": {
+    "benchmark_harness": 0,
+    "execution_harness_invocation": 0,
+    "production": 0,
+    "production_gate_helper": "1 CORRECTED",
+    "production_logic_changed": false,
+    "replay_helper": 0,
+    "test_fixture": 0
+  },
+  "english_name": "AL Learning Freeze and Rollback Controller",
+  "final_manifest": {
+    "expected": 1705,
+    "matched": 1705,
+    "pass": true
+  },
+  "final_manifest_sha256": "706ea748f7952e3f029eb68d5af392e32b79191fdc3664dd1b01fc09b24c79f7",
+  "final_manifest_verification_sha256": "173e5c08dd601071522a763882e3b823cbc1b1e9cd71b73220c28b25b793a276",
+  "final_report_sha256": "18bb2d81e7f83290e1cc483bf49595da3f9a71a3d108c44479448e8a4f2bc040",
+  "final_zip_sha256": "6beab2b29f70e9c6c912826473d0357cc3c32315cc43c7f53295dc079775158e",
+  "frozen_gate_evidence_sha256": "945b3812ea77128690445f928a3868890095257dd527f8cf366ddbfe7dca7ef4",
+  "identity_verification_sha256": "648b27efa7dbdabdd81d08d1c4eed9cf455b4884541341e9ef570eca1e2725f7",
+  "license_rights": "NOT SPECIFIED",
+  "name": "161｜学習Freeze・Rollback制御器",
+  "production_gate": {
+    "pass": true,
+    "pass_count": 124,
+    "range": "AL037-160",
+    "total": 124
+  },
+  "provenance_caveats": [
+    "exact registered Origin GUID was not freshly reverified.",
+    "Pre-existing Notion V1 attachment byte identity was not freshly reverified."
+  ],
+  "replay": {
+    "count": 3000,
+    "digest": "b1fcd1541deefe47c06581a053877f0d3b9b74598d77ed85dab9999ad17c9492",
+    "divergence": 0
+  },
+  "schema": "NOEPIN_AL_FINAL_ARTIFACT_SEAL_V1",
+  "source_index_sha256": "9bbe625a16e6a3aa47f62b3d76ab8002f453c898756f40672d73d795dfdf6b84",
+  "static_safety": {
+    "external_execution_paths": 0,
+    "unauthorized_write_paths": 0
+  },
+  "status": "COMPLETE / VERIFIED",
+  "technology": 161,
+  "tests": {
+    "final_fresh": "160/160 PASS",
+    "fresh": "160/160 PASS",
+    "normal": "160/160 PASS"
+  }
+}

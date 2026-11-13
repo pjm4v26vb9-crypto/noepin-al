@@ -1,0 +1,70 @@
+{
+  "ai_support": "ChatGPT",
+  "authority_boundary": "Shadow Evidence != Truth; Decision Diff != Fact Authority; Potential Gain/Risk != Safety Proof; Shadow Permit Evidence != Permit issuance; Manual Review Candidate != Reviewer Invocation; Canary Candidate != deployment; Stable Fallback Candidate != rollback; Shadow/Canary State != Production Authority; candidates do not grant Permission or execute Action/Action Success.",
+  "canonical_id": "NOEPIN-AL-160",
+  "core": {
+    "filename": "noepin_al_160_shadow_mode_comparison_engine.py",
+    "sha256": "4c3f1822c4896c9158ef1f3a2bc61f822c99908c734dd23a87f3914adb2c1b4b"
+  },
+  "creator": "NOEPIN / のえぴん",
+  "date": "2026-11-13",
+  "dcsr": "DIRECT INTEGRATION / 直接統合",
+  "defects": {
+    "benchmark_harness": 0,
+    "execution_harness_invocation": 0,
+    "production": 0,
+    "production_gate_helper": 0,
+    "production_logic_changed": false,
+    "replay_helper": 0,
+    "test_fixture": 0
+  },
+  "english_name": "AL Shadow-Mode Comparison Engine",
+  "final_manifest": {
+    "filename": "NOEPIN_AL_160_FINAL_MANIFEST_20261113.json",
+    "sha256": "c176648bf8630591e3c96820170c204a2fc437bc0274d6a6a35e3a2555bb69de"
+  },
+  "final_manifest_verification": {
+    "filename": "NOEPIN_AL_160_FINAL_MANIFEST_VERIFICATION_20261113.json",
+    "sha256": "d792db3b6b644f51575f0c0f19a0133bdc9d8570223e543422a39fe0a5e1d3b5"
+  },
+  "final_zip": {
+    "filename": "NOEPIN_AL_160_SHADOW_MODE_COMPARISON_ENGINE_SUCCESSOR_V2_20261113.zip",
+    "sha256": "6c019f58329f8f8e05e57319c50cf3b9513725181f065fab86aa93b16b6370fb"
+  },
+  "frozen_gate_evidence": {
+    "filename": "NOEPIN_AL_160_FROZEN_AL_PRODUCTION_GATE_EVIDENCE_20261113.json",
+    "sha256": "021a02a464441f3935fc68517c88ede3c169bd1305af5d63447b9d864489b114"
+  },
+  "identity_verification": {
+    "filename": "NOEPIN_AL_160_IDENTITY_VERIFICATION_20261113.json",
+    "sha256": "be995e3b2f341bc32e9f7a200762b990ac7145995e272ad3689ff835973da512"
+  },
+  "license_rights": "NOT SPECIFIED",
+  "name": "160｜Shadow比較エンジン",
+  "provenance_caveats": [
+    "exact registered Origin GUID was not freshly reverified.",
+    "Pre-existing Notion V1 attachment byte identity was not freshly reverified."
+  ],
+  "report": {
+    "filename": "NOEPIN_AL_160_FINAL_VERIFICATION_REPORT_20261113.md",
+    "sha256": "5a94c33bd0d33252866954142ec592ecbc41fbc0880769eb774a7ead80257435"
+  },
+  "schema": "NOEPIN_AL_FINAL_ARTIFACT_SEAL_V1",
+  "source_index": {
+    "filename": "NOEPIN_AL_160_SOURCE_INDEX.txt",
+    "sha256": "8fcd72f5a4438c17202345c147f3f1a46bef6f2322ac2d14e2bf4955c6c331e4"
+  },
+  "technology": 160,
+  "verification": {
+    "core_identity": "PASS",
+    "final_manifest": "1677 / 1677 matched",
+    "production_gate": "AL037–159 / 123/123 PASS",
+    "replay": "3000 / divergence 0",
+    "replay_digest": "b55ff84216e6334b4623d75407f0ebf891e9d8149527f91f63d6ee73d2aba8e7",
+    "report_identity": "PASS",
+    "static_safety": "0 / 0",
+    "tests_final_fresh": "160/160 PASS",
+    "tests_fresh": "160/160 PASS",
+    "tests_normal": "160/160 PASS"
+  }
+}

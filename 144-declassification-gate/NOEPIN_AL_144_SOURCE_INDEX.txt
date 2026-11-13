@@ -1,0 +1,25 @@
+NOEPIN AL 144 — SOURCE INDEX — 2026-11-12
+
+Technology: 144｜機密解除ゲート
+English: AL Declassification Gate
+Canonical ID: NOEPIN-AL-144
+Creator / Originator / Project Owner / Original Concept / Architecture Direction: NOEPIN / のえぴん
+AI-assisted implementation / analysis / documentation support: ChatGPT
+License / Rights: NOT SPECIFIED
+DCSR: AUXILIARY INTEGRATION / 補助統合
+
+Final ZIP: NOEPIN_AL_144_DECLASSIFICATION_GATE_SUCCESSOR_V2_20261112.zip
+Final ZIP SHA-256: dba308b4dee0937183b1054d4da864c6781f5669a43f96b186fa170eb13602eb
+Core SHA-256: 2ebd6dcc35c89c9a96f554f18914783303b17f6c6bc06ed7e4116cb1ae4f2f0a
+Final Verification Report SHA-256: 91f3191c1b68951fcb5ac49c6b5dadc0967b9c2c94987204cb64d88e0ef955c0
+Final Artifact Seal SHA-256: 5a900282793fbcfe607c82e22af0390fc87087e04d777cf145784aacb1f81346
+Frozen AL Production Gate Evidence SHA-256: 316290d6b0c2ec99fc353044b94c0bc6f0bc380241d1cd7ac054685bbe583381
+Identity Verification SHA-256: 6f22d42b9c84d9e505c90e9393ea19246c9ba366c66fb8b8c5e4d94047b38e66
+Final Manifest Verification SHA-256: 36496fc999b577198dc83ca7cf71cb2c5a4d3ff6c476d7d3aa895534172c605e
+
+Verification: Normal/Fresh/Final Fresh tests 160/160 PASS; Replay 3000 divergence 0; AL037-143 Gate 107/107 PASS; Static Safety 0/0; Final Manifest 1202/1202 matched.
+
+Authority Boundary: Declassification Decision != Classification Mutation; Approver Evidence != Approval Execution; Sanitization Proof != universal Safety Proof; Residual Sensitivity Estimate != Truth; ALLOW Candidate != Permission Grant / Data Release; DCSR does not replace Authentication / Encryption / Policy / DLP.
+
+exact registered Origin GUID was not freshly reverified.
+Pre-existing Notion V1 attachment byte identity was not freshly reverified.

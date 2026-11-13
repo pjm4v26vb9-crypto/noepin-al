@@ -1,0 +1,26 @@
+NOEPIN AL 165 — SOURCE INDEX — 2026-11-13
+Technology: 165｜残差復元インジェクター
+English: AL Residual Reconstruction Injector
+Canonical ID: NOEPIN-AL-165
+Creator: NOEPIN / のえぴん
+AI support: ChatGPT
+License / Rights: NOT SPECIFIED
+DCSR: DIRECT INTEGRATION / 直接統合
+
+Final ZIP: NOEPIN_AL_165_RESIDUAL_RECONSTRUCTION_INJECTOR_SUCCESSOR_V2_20261113.zip
+Final ZIP SHA-256: fb94e3e0490cfd796b864275291db0be99b3ab0cf5901803449eb234cbea038c
+Final Verification Report: NOEPIN_AL_165_FINAL_VERIFICATION_REPORT_20261113.md
+Final Verification Report SHA-256: cdd8dd3fabc63ec6ff70317bc481d34246e99ccd2b26b5349942658209bac9a0
+Core: noepin_al_165_residual_reconstruction_injector.py
+Core SHA-256: 8ca73d96712649e7d6e6fd65f53441c4f7fba3022154d7607b2837838573ef4e
+Final Artifact Seal: NOEPIN_AL_165_FINAL_ARTIFACT_SEAL_20261113.json
+Final Artifact Seal SHA-256: 7a5b6e8ebd3f9d942a8df8dbb223374f3f520ebd2080beb0908a1303c6b539e0
+Frozen AL Production Gate Evidence: NOEPIN_AL_165_FROZEN_AL_PRODUCTION_GATE_EVIDENCE_20261113.json
+Frozen Gate Evidence SHA-256: 8801122357f4064dbf86156b4c322a6c11ea4abd036b97b84c4e01d7e9312c1d
+Identity Verification: NOEPIN_AL_165_IDENTITY_VERIFICATION_20261113.json
+Identity Verification SHA-256: 9fd07eda64a58e6e71b2b1d8f3b6adb84416283fe181fab774cb3564b6f8a1cb
+Final Manifest Verification: NOEPIN_AL_165_FINAL_MANIFEST_VERIFICATION_20261113.json
+Final Manifest Verification SHA-256: 06f34d14bc436bbe31718c32f5b25bba50c80b0ff451b07c2b02056ee9c6e31b
+
+exact registered Origin GUID was not freshly reverified.
+Pre-existing Notion V1 attachment byte identity was not freshly reverified.

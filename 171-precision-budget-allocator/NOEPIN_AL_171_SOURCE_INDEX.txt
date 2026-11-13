@@ -1,0 +1,14 @@
+NOEPIN AL 171 — SOURCE INDEX — 2026-11-13
+Creator / Originator / Project Owner / Original Concept / Architecture Direction: NOEPIN / のえぴん
+License / Rights: NOT SPECIFIED
+
+Final ZIP	NOEPIN_AL_171_PRECISION_BUDGET_ALLOCATOR_SUCCESSOR_V2_20261113.zip	SHA-256=cfd096407ce01a670a1b7d963bdfc65665df50ee3c04617d80d6b2ae5a57cb7b
+Final Verification Report	NOEPIN_AL_171_FINAL_VERIFICATION_REPORT_20261113.md	SHA-256=2d5b5cacb1ea5bb0fe6a16c65b3b0b6728a88dd140a4fd8b5d4b4f9e3c951c6d
+Frozen AL Production Gate Evidence	NOEPIN_AL_171_FROZEN_AL_PRODUCTION_GATE_EVIDENCE_20261113.json	SHA-256=62dd038a1ca0818dcd7486f009a87ab19f94e5c397469ab5353755677082ea03
+Identity Verification	NOEPIN_AL_171_IDENTITY_VERIFICATION_20261113.json	SHA-256=d82fa020cfc693a936b93f7753e3f7696a971c93c60162145220dd1540b98ee5
+Final Manifest Verification	NOEPIN_AL_171_FINAL_MANIFEST_VERIFICATION_20261113.json	SHA-256=b268c250a05eb1d823b9cd72cf5c219cc96d98e101a2fa83639495c6b56261ef
+Final Fresh Evidence	NOEPIN_AL_171_FINAL_FRESH_EVIDENCE_20261113.json	SHA-256=b942503f2f897cbea3410c633f83f4535cfba9a2e155f15e3f853ba8ab166984
+
+Core	noepin_al_171_precision_budget_allocator.py	SHA-256=db4e51c89c86c18c4f28157f38296b3c4ba466e86d37d2f4dd7afee5eac4470d
+exact registered Origin GUID was not freshly reverified.
+Pre-existing Notion V1 attachment byte identity was not freshly reverified.

@@ -1,0 +1,64 @@
+{
+  "ai_support": "AI-assisted implementation / analysis / documentation support using ChatGPT",
+  "authority_boundary": "Declassification Decision != Classification Mutation; Approver Evidence != Approval Execution; Sanitization Proof != universal Safety Proof; Residual Sensitivity Estimate != Truth; ALLOW Candidate != Permission Grant / Data Release; HOLD/DENY Candidate != Stop Execution; DCSR != Authentication / Encryption / Policy / DLP; DCSR Reconstruction != new Fact / Domain Authority / Semantic Judgment / Permission Grant / Safety Proof / Approval Execution / Action Execution / Action Success.",
+  "canonical_id": "NOEPIN-AL-144",
+  "core_sha256": "2ebd6dcc35c89c9a96f554f18914783303b17f6c6bc06ed7e4116cb1ae4f2f0a",
+  "creator_originator_project_owner_original_concept_architecture_direction": "NOEPIN / のえぴん",
+  "dcsr": "AUXILIARY INTEGRATION / 補助統合",
+  "defects": {
+    "benchmark_harness": 0,
+    "execution_harness_invocation": 0,
+    "production": 0,
+    "production_gate_helper": 0,
+    "production_logic_changed_by_correction": false,
+    "replay_helper": 0,
+    "test_fixture": 0
+  },
+  "english_name": "AL Declassification Gate",
+  "final_fresh_benchmark": {
+    "condition": "Python stdlib; 3000 provenance records; classification lattice + sanitizer verifier + approval binding; 5 full evaluations x 5 batches and 20 prepared reuses x 5 batches",
+    "delta_bytes": 259,
+    "delta_percent": 0.38852136867527715,
+    "full_bytes": 66663,
+    "full_median_ms": 0.5373555999540258,
+    "full_resend": false,
+    "missing_metadata_bytes": 115,
+    "missing_records": 1,
+    "prepared_median_ms": 0.00998345003608847,
+    "semantic_match": true
+  },
+  "final_manifest": "1202/1202 matched",
+  "final_manifest_verification_sha256": "36496fc999b577198dc83ca7cf71cb2c5a4d3ff6c476d7d3aa895534172c605e",
+  "final_zip": "NOEPIN_AL_144_DECLASSIFICATION_GATE_SUCCESSOR_V2_20261112.zip",
+  "final_zip_sha256": "dba308b4dee0937183b1054d4da864c6781f5669a43f96b186fa170eb13602eb",
+  "gate_evidence_sha256": "316290d6b0c2ec99fc353044b94c0bc6f0bc380241d1cd7ac054685bbe583381",
+  "identity_verification_sha256": "6f22d42b9c84d9e505c90e9393ea19246c9ba366c66fb8b8c5e4d94047b38e66",
+  "license_rights": "NOT SPECIFIED",
+  "name": "144｜機密解除ゲート",
+  "origin_guid_note": "exact registered Origin GUID was not freshly reverified.",
+  "production_gate": {
+    "final_fresh": "107/107 PASS",
+    "fresh": "107/107 PASS",
+    "normal": "107/107 PASS",
+    "range": "AL037-143"
+  },
+  "replay": {
+    "digest": "a544a6c214115d4f6cd7fa99324dce85b34fad4dae2e4d3fddb9c34a0d6cd9d6",
+    "final_fresh": "3000/divergence 0",
+    "fresh": "3000/divergence 0",
+    "normal": "3000/divergence 0"
+  },
+  "report_sha256": "91f3191c1b68951fcb5ac49c6b5dadc0967b9c2c94987204cb64d88e0ef955c0",
+  "schema": "NOEPIN_AL_FINAL_ARTIFACT_SEAL_V1",
+  "static_safety": {
+    "external_execution_paths": 0,
+    "unauthorized_write_paths": 0
+  },
+  "technology": 144,
+  "tests": {
+    "final_fresh": "160/160 PASS",
+    "fresh": "160/160 PASS",
+    "normal": "160/160 PASS"
+  },
+  "v1_identity_note": "Pre-existing Notion V1 attachment byte identity was not freshly reverified."
+}

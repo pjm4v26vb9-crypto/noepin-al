@@ -1,0 +1,66 @@
+{
+  "ai_support": "AI-assisted implementation / analysis / documentation support using ChatGPT",
+  "authority_boundary": "Self Score != Truth; Independent Score != Truth; Bias Estimate != Fact Authority; Correction Factor Candidate != Score Mutation; Reviewer Requirement != Reviewer Invocation; Trust Reduction Candidate != Trust Mutation; Fallback Candidate != Rollback/Fallback Execution; Shadow/Canary State != Production Authority; ALLOW Candidate != Execution/Permission Grant; HOLD/DENY Candidate != Stop Execution; DCSR Reconstruction != new Fact/Domain Authority/Semantic Judgment/Permission Grant/Safety Proof/Approval Execution/Action Execution/Action Success.",
+  "benchmark_final_fresh": {
+    "condition": "Python stdlib; 3000 task-scoped Self/Independent/Outcome score samples; paired calibration/bias analysis; 5 full evaluations x 5 batches and 20 prepared reuses x 5 batches",
+    "delta_bytes": 314,
+    "delta_percent": 0.06698237979435984,
+    "full_bytes": 468780,
+    "full_median_ms": 1.2119575998440268,
+    "full_resend": false,
+    "missing_metadata_bytes": 87,
+    "missing_records": 1,
+    "prepared_median_ms": 0.0064883000050031114,
+    "semantic_match": true
+  },
+  "canonical_id": "NOEPIN-AL-157",
+  "core_sha256": "f1ff45cfa53b87f8db3a3ffcc0128b618fecfae5d98b1b2f6eff85017965e0e5",
+  "creator": "NOEPIN / のえぴん",
+  "dcsr": "DIRECT INTEGRATION / 直接統合",
+  "defects": {
+    "benchmark_harness": 0,
+    "execution_harness_invocation": 0,
+    "production": 0,
+    "production_gate_helper": 0,
+    "production_logic_changed": false,
+    "replay_helper": 0,
+    "test_fixture_corrected": 3
+  },
+  "english_name": "AL Self-Evaluation Bias Detector",
+  "final_manifest": {
+    "expected": 1587,
+    "matched": 1587,
+    "pass": true
+  },
+  "final_manifest_sha256": "f904fc47f17b57ae81cce9b4b42605a4a43247c982b39c28a885757258df359b",
+  "final_report_sha256": "cc6faa7180b29cefe18579911ccc1d5fd562c6340b3cc9f7e5d119b3e6a36c5a",
+  "final_zip_sha256": "73a9efc5f157be2ae14af15589299fb650c7bc5b01d32bd97ad78b02f033a11a",
+  "frozen_gate_sha256": "9857b5c84967efb1ae658ae0f5198a1f33c6b03815d112dec70cbb3fe8e37a09",
+  "license_rights": "NOT SPECIFIED",
+  "origin_guid_note": "exact registered Origin GUID was not freshly reverified.",
+  "production_gate": {
+    "pass": true,
+    "pass_count": 120,
+    "range": "AL037-156",
+    "total": 120
+  },
+  "replay": {
+    "count": 3000,
+    "digest": "771df677875f4cfca370543d8709062e24ba07afae11a8312276ddd8639f8b26",
+    "divergence": 0
+  },
+  "schema": "NOEPIN_AL_FINAL_ARTIFACT_SEAL_V1",
+  "static_safety": {
+    "external_execution_paths": 0,
+    "unauthorized_write_paths": 0
+  },
+  "status": "COMPLETE / VERIFIED",
+  "technology": 157,
+  "technology_name": "自己評価バイアス検知器",
+  "tests": {
+    "final_fresh": "160/160 PASS",
+    "fresh": "160/160 PASS",
+    "normal": "160/160 PASS"
+  },
+  "v1_byte_identity_note": "Pre-existing Notion V1 attachment byte identity was not freshly reverified."
+}

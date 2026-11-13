@@ -1,0 +1,53 @@
+{
+  "ai_support": "AI-assisted using ChatGPT",
+  "authority_boundary": "Taint Evidence != Truth; User Authorization Evidence != Permission Grant; Sink Decision != Sink Execution; Sanitization Need != Sanitization Execution; ALLOW Candidate != Tool/File/Network Execution; HOLD/DENY Candidate != Stop Execution; DCSR does not replace authentication, encryption, Policy or DLP.",
+  "canonical_id": "NOEPIN-AL-150",
+  "core_sha256": "abe302e528d0b50416f857f4210a237ffb870b65b83e43ca49708c183c6c25e2",
+  "creator": "NOEPIN / のえぴん",
+  "dcsr": "AUXILIARY INTEGRATION / 補助統合",
+  "defects": {
+    "benchmark_harness": 0,
+    "execution_harness_invocation": 0,
+    "production": 0,
+    "production_gate_helper": 0,
+    "replay_helper": 0,
+    "test_fixture": 0
+  },
+  "english_name": "AL Tainted-Instruction Sink Guard",
+  "exact_registered_origin_guid": "exact registered Origin GUID was not freshly reverified.",
+  "final_manifest": {
+    "matched": "1378/1378",
+    "pass": true
+  },
+  "final_manifest_sha256": "5c1ef42874adff82278788138971e5d1215f9b69cb6d726dc9ea57705f0f2f86",
+  "final_verification_report_sha256": "533590d457c023371c43c840b024c02cba6a59c8013965794ffcb7ef0aeb4c01",
+  "final_zip": "NOEPIN_AL_150_TAINTED_INSTRUCTION_SINK_GUARD_SUCCESSOR_V2_20261112.zip",
+  "final_zip_sha256": "492d16f6d1228114ed207f7f9b5be530f31c4359b3b15db6498859d5c2c3c2a2",
+  "identity": {
+    "core": "PASS",
+    "report": "PASS"
+  },
+  "license_rights": "NOT SPECIFIED",
+  "name": "150｜Tainted命令Sinkガード",
+  "pre_existing_v1_byte_identity": "Pre-existing Notion V1 attachment byte identity was not freshly reverified.",
+  "production_gate": {
+    "pass": "113/113 PASS",
+    "range": "AL037–149"
+  },
+  "replay": {
+    "digest": "7f315978ce5bab57893d775e9fd3eacab76bf70e4bb7ba7902766ab822aeffcb",
+    "divergence": 0,
+    "replays": 3000
+  },
+  "schema": "NOEPIN_AL_FINAL_ARTIFACT_SEAL_V1",
+  "static_safety": {
+    "external_execution_paths": 0,
+    "unauthorized_write_paths": 0
+  },
+  "technology": 150,
+  "tests": {
+    "final_fresh": "160/160 PASS",
+    "fresh": "160/160 PASS",
+    "normal": "160/160 PASS"
+  }
+}

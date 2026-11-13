@@ -1,0 +1,98 @@
+{
+  "ai_support": "ChatGPT",
+  "authority_boundary": "Quantized Base != Authoritative State; Residual Sidecar != Truth/Permission/Action Success; Manifest binding != Authority; Reconstructed/Partial/Cached State != Authoritative State; Original fallback candidate != execution; DCSR Reconstruction != Fact/Authority/Permission/Safety Proof/Approval/Action/Action Success.",
+  "benchmark": {
+    "final_fresh": {
+      "condition": "Python stdlib; 3000 quantization/residual-sidecar evaluations; full numeric state batch vs one changed values record delta; 5 full x 3000 and 5 prepared x 3000",
+      "delta_bytes": 234,
+      "delta_percent": 0.0013883943640444782,
+      "full_bytes": 16854001,
+      "full_median_ms": 0.844711345666686,
+      "full_resend": false,
+      "missing_metadata_bytes": 96,
+      "missing_records": 1,
+      "prepared_median_ms": 0.00465943033335255,
+      "semantic_match": true
+    },
+    "fresh": {
+      "condition": "Python stdlib; 3000 quantization/residual-sidecar evaluations; full numeric state batch vs one changed values record delta; 5 full x 3000 and 5 prepared x 3000",
+      "delta_bytes": 234,
+      "delta_percent": 0.0013883943640444782,
+      "full_bytes": 16854001,
+      "full_median_ms": 0.8738646696666214,
+      "full_resend": false,
+      "missing_metadata_bytes": 96,
+      "missing_records": 1,
+      "prepared_median_ms": 0.004750205333342213,
+      "semantic_match": true
+    },
+    "normal": {
+      "condition": "Python stdlib; 3000 quantization/residual-sidecar evaluations; full numeric state batch vs one changed values record delta; 5 full x 3000 and 5 prepared x 3000",
+      "delta_bytes": 234,
+      "delta_percent": 0.0013883943640444782,
+      "full_bytes": 16854001,
+      "full_median_ms": 0.8189506993333756,
+      "full_resend": false,
+      "missing_metadata_bytes": 96,
+      "missing_records": 1,
+      "prepared_median_ms": 0.005193855333345709,
+      "semantic_match": true
+    }
+  },
+  "canonical_id": "NOEPIN-AL-164",
+  "core_sha256": "344b3cfb016abbb315fa2248242efa232ccd3b2562751bef96e159156164c24f",
+  "creator": "NOEPIN / のえぴん",
+  "dcsr": "DIRECT INTEGRATION / 直接統合",
+  "defects": {
+    "benchmark_harness": 0,
+    "execution_harness_invocation": 0,
+    "production": 0,
+    "production_gate_helper": 0,
+    "production_logic_changed": false,
+    "replay_helper": 0,
+    "test_fixture": 1,
+    "test_fixture_status": "CORRECTED"
+  },
+  "english_name": "AL Quantization Residual Sidecar Generator",
+  "final_manifest": {
+    "expected": 1789,
+    "matched": 1789,
+    "pass": true
+  },
+  "final_manifest_sha256": "c808cd9a89ec25d6240813b20642a513066a4ec4dcdce57aa69e79f2777e9217",
+  "final_manifest_verification_sha256": "24475be8e6e1f6ab4cbb1be1e6e5e71383d88c97c0718ed2d2a8f72a21dab6ce",
+  "final_report_sha256": "8034e7eff2a602010c99394e73eb643bd940262196e76863827405163f251b8a",
+  "final_zip_sha256": "bebc52d46e5bad8f2b31d9116e381fc5a62696e2b5d52a2ce7116b5f86860058",
+  "frozen_gate_evidence_sha256": "891a93a787bd167ea90ef810498578c77084412533c8f72f04cb66f40a1581b4",
+  "identity_verification_sha256": "12d8d1319077fcb79942b66cd035e429e48b70d9949c8973dbcd6468cbebfcc4",
+  "license_rights": "NOT SPECIFIED",
+  "name": "164｜量子化残差サイドカー生成器",
+  "production_gate": {
+    "pass": true,
+    "pass_count": 127,
+    "range": "AL037–163",
+    "total": 127
+  },
+  "provenance_caveats": [
+    "exact registered Origin GUID was not freshly reverified.",
+    "Pre-existing Notion V1 attachment byte identity was not freshly reverified."
+  ],
+  "replay": {
+    "count": 3000,
+    "digest": "56ad71e90e5b699e3b7b4fb1853705061d5d15474b53621c84b2bc91804db788",
+    "divergence": 0
+  },
+  "schema": "NOEPIN_AL_FINAL_ARTIFACT_SEAL_V1",
+  "source_index_sha256": "f83f0cf23dd2f1ce9ab9beb08ac596b87ef36b0048d620c5925bb9c7f354d8af",
+  "static_safety": {
+    "external_execution_paths": 0,
+    "unauthorized_write_paths": 0
+  },
+  "status": "COMPLETE / VERIFIED",
+  "technology": 164,
+  "tests": {
+    "final_fresh": "160/160 PASS",
+    "fresh": "160/160 PASS",
+    "normal": "160/160 PASS"
+  }
+}

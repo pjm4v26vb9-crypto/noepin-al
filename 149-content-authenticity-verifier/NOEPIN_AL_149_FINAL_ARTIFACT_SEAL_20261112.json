@@ -1,0 +1,80 @@
+{
+  "ai_support": "AI-assisted implementation / analysis / documentation support using ChatGPT",
+  "authority_boundary": "Authenticity Candidate != Truth; Signature Evidence != Publisher Authority; Trust Adjustment Candidate != Trust Mutation; Quarantine Candidate != Quarantine Execution; ALLOW Candidate != Policy/Tool Activation or Permission Grant; HOLD/DENY Candidate != Stop Execution; DCSR reconstruction cannot create Truth, Authority, Permission, Safety Proof, Approval, Action, or Action Success.",
+  "benchmark": {
+    "final_fresh": {
+      "condition": "Python stdlib; 600kB content + 3000 provenance chain entries; 5 full evaluations x 5 batches and 20 prepared reuses x 5 batches",
+      "delta_bytes": 293,
+      "delta_percent": 0.04688765206481698,
+      "full_bytes": 624898,
+      "full_median_ms": 0.4903602000013052,
+      "full_resend": false,
+      "missing_metadata_bytes": 87,
+      "missing_records": 1,
+      "prepared_median_ms": 0.005707950001010431,
+      "semantic_match": true
+    },
+    "fresh": {
+      "condition": "Python stdlib; 600kB content + 3000 provenance chain entries; 5 full evaluations x 5 batches and 20 prepared reuses x 5 batches",
+      "delta_bytes": 293,
+      "delta_percent": 0.04688765206481698,
+      "full_bytes": 624898,
+      "full_median_ms": 0.4615234000084456,
+      "full_resend": false,
+      "missing_metadata_bytes": 87,
+      "missing_records": 1,
+      "prepared_median_ms": 0.006193650000341222,
+      "semantic_match": true
+    },
+    "normal": {
+      "condition": "Python stdlib; 600kB content + 3000 provenance chain entries; 5 full evaluations x 5 batches and 20 prepared reuses x 5 batches",
+      "delta_bytes": 293,
+      "delta_percent": 0.04688765206481698,
+      "full_bytes": 624898,
+      "full_median_ms": 0.4475665999962075,
+      "full_resend": false,
+      "missing_metadata_bytes": 87,
+      "missing_records": 1,
+      "prepared_median_ms": 0.005923300000176823,
+      "semantic_match": true
+    }
+  },
+  "canonical_id": "NOEPIN-AL-149",
+  "core_sha256": "6de6ff997b3a3d4ec2703b0f92e4261bafdb3fbf054c5702faf0acf655ff42aa",
+  "creator": "NOEPIN / のえぴん",
+  "date": "2026-11-12",
+  "dcsr": "AUXILIARY INTEGRATION / 補助統合",
+  "defects": {
+    "production": 0,
+    "production_logic_changed": false,
+    "status": "NONE"
+  },
+  "final_manifest_verification_sha256": "0ee552a47ce6c2916cb2583ed114940a2d177d218546358232037775a3b807f5",
+  "final_zip": "NOEPIN_AL_149_CONTENT_AUTHENTICITY_VERIFIER_SUCCESSOR_V2_20261112.zip",
+  "final_zip_sha256": "081b72aecb8ef76e7534e8b639b3706723b77853593d6d9d98411e8bcb3479b1",
+  "frozen_gate_evidence_sha256": "0860ebfa74b0559a600f426d51e09caa88014f72fbb8acb966c1229d79d2b841",
+  "identity_verification_sha256": "6928fb9ed5089a0eacbcad74f7bc12c67bb13d0a1fe24a08b9823e1541edc170",
+  "license_rights": "NOT SPECIFIED",
+  "name_en": "AL Content Authenticity Verifier",
+  "name_jp": "コンテンツ真正性検証器",
+  "provenance_caveats": [
+    "exact registered Origin GUID was not freshly reverified.",
+    "Pre-existing Notion V1 attachment byte identity was not freshly reverified."
+  ],
+  "report_sha256": "78d678f9ab02f79207fea3409cb01cf2023dc2c1ed11fad4aa88203e9f43548e",
+  "schema": "NOEPIN_AL_FINAL_ARTIFACT_SEAL_V1",
+  "source_index_sha256": "0afe9545d7babbaa377ea177a1928f49fee62ac9ca90d5b984013aa9959ab895",
+  "technology": 149,
+  "verification": {
+    "core_identity": "PASS",
+    "final_fresh_tests": "160/160 PASS",
+    "final_manifest": "1348/1348 matched",
+    "fresh_tests": "160/160 PASS",
+    "normal_tests": "160/160 PASS",
+    "production_gate": "AL037–148 112/112 PASS",
+    "replay": "3000 divergence 0",
+    "replay_digest": "953b9a85358e0640b885a74f67ab479f78fac1a438b98a9b6b2ded829ebe46d1",
+    "report_identity": "PASS",
+    "static_safety": "0 external execution / 0 unauthorized write"
+  }
+}

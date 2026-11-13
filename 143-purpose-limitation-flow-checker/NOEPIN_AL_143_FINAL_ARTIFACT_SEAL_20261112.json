@@ -1,0 +1,89 @@
+{
+  "ai_support": "AI-assisted implementation / analysis / documentation support using ChatGPT",
+  "artifact": "Sequential Successor V2",
+  "baseline_preservation": "PASS",
+  "benchmark": {
+    "delta_bytes": 459,
+    "delta_percent": 0.09913863858242546,
+    "final_fresh_full_ms": 25.308531333394058,
+    "final_fresh_prepared_ms": 33.018418050005494,
+    "fresh_full_ms": 24.112486000073357,
+    "fresh_prepared_ms": 27.97100015000069,
+    "full_bytes": 462988,
+    "full_resend": false,
+    "missing_metadata_bytes": 151,
+    "missing_records": 1,
+    "normal_full_ms": 13.870452666803127,
+    "normal_prepared_ms": 39.788583500012464
+  },
+  "canonical_id": "NOEPIN-AL-143",
+  "core_identity": "PASS",
+  "core_sha256": "0c0ab89bc36bde12f52ba7a5c72e53101ffef305cb3ef33a15a42a230c102dc8",
+  "creator": "NOEPIN / のえぴん",
+  "date": "2026-11-12",
+  "dcsr": "AUXILIARY INTEGRATION / 補助統合",
+  "defects": {
+    "benchmark_harness": 0,
+    "execution_harness_invocation": 0,
+    "production": 0,
+    "production_gate_helper": 0,
+    "production_logic_changed": false,
+    "replay_helper": 0,
+    "test_fixture": 0
+  },
+  "english_name": "AL Purpose-Limitation Flow Checker",
+  "final_manifest": "1173/1173 matched",
+  "final_manifest_verification": {
+    "filename": "NOEPIN_AL_143_FINAL_MANIFEST_VERIFICATION_20261112.json",
+    "sha256": "05ec6616b583f951e73a617761e4560ccd9412b249486843fe9356626e9bd0d2"
+  },
+  "final_zip": {
+    "filename": "NOEPIN_AL_143_PURPOSE_LIMITATION_FLOW_CHECKER_SUCCESSOR_V2_20261112.zip",
+    "sha256": "4c986327f269164b982e79ca387a557c3337bb7ad8c85415d8ef99d9b9169d72"
+  },
+  "frozen_gate_evidence": {
+    "filename": "NOEPIN_AL_143_FROZEN_AL_PRODUCTION_GATE_EVIDENCE_20261112.json",
+    "sha256": "8f6f4a2eda42e66ffeb6ac619d4d2f21a67149f8977408b0c23bba742842333d"
+  },
+  "identity_verification": {
+    "filename": "NOEPIN_AL_143_IDENTITY_VERIFICATION_20261112.json",
+    "sha256": "9ad65a290f4b46d42969aef8de1bcecbe71643dcf82ac0f1aeb4897ccc16a6af"
+  },
+  "license_rights": "NOT SPECIFIED",
+  "name": "目的制限フロー検査器",
+  "origin_guid_note": "exact registered Origin GUID was not freshly reverified.",
+  "production_gate": {
+    "final_fresh": "106/106 PASS",
+    "fresh": "106/106 PASS",
+    "normal": "106/106 PASS",
+    "range": "AL037-142"
+  },
+  "replay": {
+    "digest": "df55249e80f38f200241a5caa1c14c1beb69f9e12b2cf5b7a9434a6184c28e4a",
+    "final_fresh": "3000 / divergence 0",
+    "fresh": "3000 / divergence 0",
+    "normal": "3000 / divergence 0"
+  },
+  "report_identity": "PASS",
+  "schema": "NOEPIN_AL_FINAL_ARTIFACT_SEAL_V1",
+  "source_index": {
+    "filename": "NOEPIN_AL_143_SOURCE_INDEX.txt",
+    "sha256": "da2f5f680966d38d3c3729508dc4f2d62ad0e2caed56e7cbc526260c315bd23f"
+  },
+  "static_safety": {
+    "external_execution_paths": 0,
+    "unauthorized_write_paths": 0
+  },
+  "status": "COMPLETE / VERIFIED",
+  "technology": 143,
+  "tests": {
+    "final_fresh": "160/160 PASS",
+    "fresh": "160/160 PASS",
+    "normal": "160/160 PASS"
+  },
+  "v1_attachment_note": "Pre-existing Notion V1 attachment byte identity was not freshly reverified.",
+  "verification_report": {
+    "filename": "NOEPIN_AL_143_FINAL_VERIFICATION_REPORT_20261112.md",
+    "sha256": "35e543b3d5378503000c5815b41fc32b96aa6cca3b32b8011ddbd4054a53bed0"
+  }
+}

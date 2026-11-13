@@ -1,0 +1,14 @@
+NOEPIN AL 162 — SOURCE INDEX
+Technology: 162｜共通補正プロファイル辞書
+English: AL Shared Correction Profile Dictionary
+Canonical ID: NOEPIN-AL-162
+Creator / Originator / Project Owner / Original Concept / Architecture Direction: NOEPIN / のえぴん
+AI-assisted implementation / analysis / documentation support: ChatGPT
+Canonical Notion Page ID: 408a9510-8ac2-8108-a39b-ee7ceabf1896
+Completion Master Page ID: 40ca9510-8ac2-813b-8b40-de0b57f8d8da
+Core: noepin_al_162_shared_correction_profile_dictionary.py
+Existing V1: NOEPIN_AL_162_共通補正プロファイル辞書_COMPLETE_V1.py — immutable / not overwritten
+DCSR: DIRECT INTEGRATION / 直接統合
+License / Rights: NOT SPECIFIED
+exact registered Origin GUID was not freshly reverified.
+Pre-existing Notion V1 attachment byte identity was not freshly reverified.

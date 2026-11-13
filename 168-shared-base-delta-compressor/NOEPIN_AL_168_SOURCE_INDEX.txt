@@ -1,0 +1,31 @@
+NOEPIN AL 168 — SOURCE INDEX
+Technology: 168｜差分共有圧縮器
+English: AL Shared-Base Delta Compressor
+Canonical ID: NOEPIN-AL-168
+Canonical Page ID: 408a9510-8ac2-81dd-a4cf-ed0347a8b983
+Artifact: Sequential Successor V2
+Creator / Originator / Project Owner / Original Concept / Architecture Direction: NOEPIN / のえぴん
+AI support: AI-assisted implementation / analysis / documentation support using ChatGPT
+License / Rights: NOT SPECIFIED
+DCSR: DIRECT INTEGRATION / 直接統合
+
+Final ZIP: NOEPIN_AL_168_SHARED_BASE_DELTA_COMPRESSOR_SUCCESSOR_V2_20261113.zip
+Final ZIP SHA-256: aba2189e74aaf5c69f3d6f8f96c353bd1d3c4f5cde1989506e3a5a285a82bf46
+Final Verification Report: NOEPIN_AL_168_FINAL_VERIFICATION_REPORT_20261113.md
+Final Verification Report SHA-256: 4a50ba41d12e85bbe77e4e70fe8b04508395dabf8490da3064e5f9bb86d69678
+Core: noepin_al_168_shared_base_delta_compressor.py
+Core SHA-256: b5911da186e4dd9495458b149ddfbb2779380ec331ef9d68b5ee547cedb32644
+Frozen AL Production Gate Evidence: NOEPIN_AL_168_FROZEN_AL_PRODUCTION_GATE_EVIDENCE_20261113.json
+Frozen AL Production Gate Evidence SHA-256: e977d396acb5a6067872579cfe1f274bad04ed7222fd02a04ca959a9861a9dd0
+Identity Verification: NOEPIN_AL_168_IDENTITY_VERIFICATION_20261113.json
+Identity Verification SHA-256: 7ee0c3838cbe70488d078825b32f95c79a4e250d86290ed1e9f623baeaa4dd88
+Final Manifest Verification: NOEPIN_AL_168_FINAL_MANIFEST_VERIFICATION_20261113.json
+Final Manifest Verification SHA-256: 111f92c07e6487a94cee85bb282eba455068bcc859999f80bc1025cb8a74f06d
+Final Fresh Evidence: NOEPIN_AL_168_FINAL_FRESH_EVIDENCE_20261113.json
+Final Fresh Evidence SHA-256: a7715faaa848e0546a8241686d0ceb29f8f56b3e6a631fa31be01f2607cac707
+Final Artifact Seal: NOEPIN_AL_168_FINAL_ARTIFACT_SEAL_20261113.json
+Final Artifact Seal SHA-256: 383f2973b5f6d995015d35a3050bbf928ced03cd06a13421dd35089c54d335b6
+
+Canonical V1 attachment: preserved; not overwritten.
+exact registered Origin GUID was not freshly reverified.
+Pre-existing Notion V1 attachment byte identity was not freshly reverified.

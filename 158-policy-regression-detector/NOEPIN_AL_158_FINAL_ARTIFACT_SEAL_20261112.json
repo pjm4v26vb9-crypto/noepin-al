@@ -1,0 +1,97 @@
+{
+  "ai_support": "ChatGPT",
+  "artifacts": {
+    "NOEPIN_AL_158_FINAL_MANIFEST_VERIFICATION_20261112.json": "65a1bc3c5587b3b1fc44f974b036c5f0ce108bda814451a5925d023bcbb1f418",
+    "NOEPIN_AL_158_FINAL_VERIFICATION_REPORT_20261112.md": "7516f3d66e2b5a5e356c6f1b1822bff4b438fb5de57280df41cd4fc19b921bbc",
+    "NOEPIN_AL_158_FROZEN_AL_PRODUCTION_GATE_EVIDENCE_20261112.json": "b93976ef3eae25449a094ccda9de7d11a755fbe9b55aa6db76a60b3c7c73866f",
+    "NOEPIN_AL_158_IDENTITY_VERIFICATION_20261112.json": "a54112218f6351fe58158a2dcbc8d84c0321d1acfc0e56ac609293490e2d666d",
+    "NOEPIN_AL_158_POLICY_REGRESSION_DETECTOR_SUCCESSOR_V2_20261112.zip": "8ecbf90875c9c39366e56c8a5fded20fc3fac6622597ebfc8c7ce20a3b38ed62",
+    "NOEPIN_AL_158_SOURCE_INDEX.txt": "158ed482b13e9ac5c88abedb16eb893f289c8a98ed23c9bb08a66e90af5b4aff"
+  },
+  "authority_boundary": "Regression Evidence != Truth; Release Gate != Release/Block Execution; Expected Decision != Permission Grant; Fallback Candidate != Rollback Execution; Shadow/Canary State != Production Authority; ALLOW Candidate != Release/Permission Grant; HOLD/DENY Candidate != Stop Execution; DCSR Reconstruction != new Fact/Domain Authority/Semantic Judgment/Permission Grant/Safety Proof/Approval Execution/Action Execution/Action Success.",
+  "benchmark": {
+    "final_fresh": {
+      "condition": "Python stdlib; 3000 fixed regression corpus cases with old/new/expected decisions; golden differential evaluation; 5 full evaluations x 5 batches and 20 prepared reuses x 5 batches",
+      "delta_bytes": 314,
+      "delta_percent": 0.050764129484097406,
+      "full_bytes": 618547,
+      "full_median_ms": 1.4798442000028444,
+      "full_resend": false,
+      "missing_metadata_bytes": 80,
+      "missing_records": 1,
+      "prepared_median_ms": 0.00652940007057623,
+      "semantic_match": true
+    },
+    "fresh": {
+      "condition": "Python stdlib; 3000 fixed regression corpus cases with old/new/expected decisions; golden differential evaluation; 5 full evaluations x 5 batches and 20 prepared reuses x 5 batches",
+      "delta_bytes": 314,
+      "delta_percent": 0.050764129484097406,
+      "full_bytes": 618547,
+      "full_median_ms": 1.5469133999431506,
+      "full_resend": false,
+      "missing_metadata_bytes": 80,
+      "missing_records": 1,
+      "prepared_median_ms": 0.006486799975391477,
+      "semantic_match": true
+    },
+    "normal": {
+      "condition": "Python stdlib; 3000 fixed regression corpus cases with old/new/expected decisions; golden differential evaluation; 5 full evaluations x 5 batches and 20 prepared reuses x 5 batches",
+      "delta_bytes": 314,
+      "delta_percent": 0.050764129484097406,
+      "full_bytes": 618547,
+      "full_median_ms": 1.5198982000583783,
+      "full_resend": false,
+      "missing_metadata_bytes": 80,
+      "missing_records": 1,
+      "prepared_median_ms": 0.0065774500399129465,
+      "semantic_match": true
+    }
+  },
+  "canonical_id": "NOEPIN-AL-158",
+  "core_sha256": "11af2be5a886e990727c8930aa2192300d6177ed890fa8b40c714fa3ab22c2e8",
+  "creator": "NOEPIN / のえぴん",
+  "date": "2026-11-12",
+  "dcsr": "DIRECT INTEGRATION / 直接統合",
+  "defects": {
+    "benchmark_harness": 0,
+    "correction": "HOLD->ALLOW classification precedence corrected before sealing.",
+    "execution_harness_invocation": 0,
+    "production": "1 CORRECTED",
+    "production_gate_helper": 0,
+    "production_logic_changed": true,
+    "replay_helper": 0,
+    "test_fixture": 0
+  },
+  "english_name": "AL Policy Regression Detector",
+  "final_manifest_sha256": "4e3df91d9b27e2be526e675c038cdd94f71820e31ca027d8539432527ce36374",
+  "license_rights": "NOT SPECIFIED",
+  "name": "Policy回帰検知器",
+  "schema": "NOEPIN_AL_FINAL_ARTIFACT_SEAL_V2",
+  "status": "COMPLETE / VERIFIED",
+  "technology": 158,
+  "verification": {
+    "core_identity": "PASS",
+    "final_manifest": "1615/1615 matched",
+    "production_gate": {
+      "final_fresh": "121/121 PASS",
+      "fresh": "121/121 PASS",
+      "normal": "121/121 PASS",
+      "range": "AL037-157"
+    },
+    "replay": {
+      "count": 3000,
+      "digest": "18b5f705125a5f9346737ef924fa04ba6bbfad6edb28f5cdf2e57bf9730845e4",
+      "divergence": 0
+    },
+    "report_identity": "PASS",
+    "static_safety": {
+      "external_execution_paths": 0,
+      "unauthorized_write_paths": 0
+    },
+    "tests": {
+      "final_fresh": "160/160 PASS",
+      "fresh": "160/160 PASS",
+      "normal": "160/160 PASS"
+    }
+  }
+}

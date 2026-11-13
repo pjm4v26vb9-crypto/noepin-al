@@ -1,0 +1,31 @@
+NOEPIN AL 167 — SOURCE INDEX
+Technology: 167｜適応量子化ガード
+English: AL Adaptive Quantization Guard
+Canonical ID: NOEPIN-AL-167
+Canonical Page ID: 408a9510-8ac2-813e-b6f7-dad5f3879294
+Artifact: Sequential Successor V2
+Creator / Originator / Project Owner / Original Concept / Architecture Direction: NOEPIN / のえぴん
+AI support: AI-assisted implementation / analysis / documentation support using ChatGPT
+License / Rights: NOT SPECIFIED
+DCSR: DIRECT INTEGRATION / 直接統合
+
+Final ZIP: NOEPIN_AL_167_ADAPTIVE_QUANTIZATION_GUARD_SUCCESSOR_V2_20261113.zip
+Final ZIP SHA-256: 695ca0395b2b55d6025e512def771f60372e3e3021fdd6bfe06a24a8349c5257
+Final Verification Report: NOEPIN_AL_167_FINAL_VERIFICATION_REPORT_20261113.md
+Final Verification Report SHA-256: ba8a90844fdbd49f7f0f0ca7911556474e32d9920c38134334f80b0a15339ebe
+Core: noepin_al_167_adaptive_quantization_guard.py
+Core SHA-256: e6d99ad277074278a133da6276eb3712644daa98db010b624f9e9a8a35730c1a
+Frozen AL Production Gate Evidence: NOEPIN_AL_167_FROZEN_AL_PRODUCTION_GATE_EVIDENCE_20261113.json
+Frozen AL Production Gate Evidence SHA-256: b5035b4eaa428d7fd65ed84ab9bf56a59412b5a8c51e25176c0bb4961b8e5cbb
+Identity Verification: NOEPIN_AL_167_IDENTITY_VERIFICATION_20261113.json
+Identity Verification SHA-256: 31c5907d1b318977702a0b75952cf108f4257ae77e1ec679ef81e2362e27bd7e
+Final Manifest Verification: NOEPIN_AL_167_FINAL_MANIFEST_VERIFICATION_20261113.json
+Final Manifest Verification SHA-256: 38270adb85ed5c8e0bb94433ce3ed0ba0ca630a6587f9af8fd6b01f4a9723dd9
+Final Fresh Evidence: NOEPIN_AL_167_FINAL_FRESH_EVIDENCE_20261113.json
+Final Fresh Evidence SHA-256: e17c8249dd2838e0c105d3dc839db736bad12cb4785e21e4472e8b0c67d4428e
+Final Artifact Seal: NOEPIN_AL_167_FINAL_ARTIFACT_SEAL_20261113.json
+Final Artifact Seal SHA-256: 38f7e2e123dec134aa53f0f295e1ca58640a6c47316adc4d7e81dc6896dcaa56
+
+Canonical V1 attachment: preserved; not overwritten.
+exact registered Origin GUID was not freshly reverified.
+Pre-existing Notion V1 attachment byte identity was not freshly reverified.

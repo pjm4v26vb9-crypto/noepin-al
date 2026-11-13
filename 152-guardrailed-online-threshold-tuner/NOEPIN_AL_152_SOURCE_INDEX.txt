@@ -1,0 +1,24 @@
+NOEPIN AL 152 SOURCE INDEX — 2026-11-12
+Technology: 152｜ガード付きオンライン閾値調整器
+English: AL Guardrailed Online Threshold Tuner
+Canonical ID: NOEPIN-AL-152
+Creator / Originator / Project Owner / Original Concept / Architecture Direction: NOEPIN / のえぴん
+AI-assisted implementation / analysis / documentation support: ChatGPT
+DCSR: DIRECT INTEGRATION / 直接統合
+License / Rights: NOT SPECIFIED
+
+Core: noepin_al_152_guardrailed_online_threshold_tuner.py
+Core SHA-256: 14cc14b7e4b1727c67d6b314c85d9ec4e31ff24c08d7be1cc795bd48f0e57540
+Final ZIP: NOEPIN_AL_152_GUARDRAILED_ONLINE_THRESHOLD_TUNER_SUCCESSOR_V2_20261112.zip
+Final ZIP SHA-256: be49aa3e882533f480bf9e8ad6796387e1da4f36697fce59fb0ae950e2ca7e23
+Final Verification Report: NOEPIN_AL_152_FINAL_VERIFICATION_REPORT_20261112.md
+Final Verification Report SHA-256: 8195f3180ee936505ba3b660676535a9857f406952fbb180aed9efd54d8da89b
+Final Manifest count: 1438
+Final Manifest match: 1438 / 1438
+Production Gate: AL037-151 / 115 / 115 PASS
+Replay: 3000 / divergence 0
+Replay digest: 2fa01e9046ba848d23b3cbf9486e2a238af7fd845cee6e8a3f52df6c6bdcbf84
+Static Safety: external execution paths 0 / unauthorized write paths 0
+
+exact registered Origin GUID was not freshly reverified.
+Pre-existing Notion V1 attachment byte identity was not freshly reverified.

@@ -1,0 +1,62 @@
+{
+  "ai_support": "AI-assisted implementation / analysis / documentation support using ChatGPT",
+  "artifact": "Sequential Successor V2",
+  "authority_boundary": [
+    "Fingerprint Match != Truth / Authority",
+    "Shared Profile Reference != Authoritative State",
+    "Reconstructed/Partial/Cached State != Authoritative State",
+    "Original-retention fallback candidate != fallback execution",
+    "ALLOW candidate != Permission Grant / external mutation",
+    "HOLD/DENY candidate != Stop Execution",
+    "DCSR Reconstruction != new Fact / Domain Authority / Semantic Judgment / Permission Grant / Safety Proof / Approval Execution / Action Execution / Action Success"
+  ],
+  "canonical_id": "NOEPIN-AL-162",
+  "core_sha256": "272731dd7d73896a3e4c95f50497cfa4efcfb4e9ae835be5aae40351daf9a3f5",
+  "creator": "NOEPIN / のえぴん",
+  "date": "2026-11-13",
+  "dcsr": "DIRECT INTEGRATION / 直接統合",
+  "defects": {
+    "benchmark_harness": 0,
+    "execution_harness_invocation": 0,
+    "production": 0,
+    "production_gate_helper": 0,
+    "production_logic_changed": false,
+    "replay_helper": 0,
+    "test_fixture": 0
+  },
+  "existing_v1_immutable": true,
+  "final_verification_report_sha256": "110cedcbd8fbc67759478b95f89cfedc3241ae56fd6239259e92b4b9bb9d0144",
+  "final_zip_sha256": "c59c4153591a73a98bd5f09b687c321a8e99d6a1026ccc666c7f62da1c791ecb",
+  "license_rights": "NOT SPECIFIED",
+  "name_en": "AL Shared Correction Profile Dictionary",
+  "name_ja": "共通補正プロファイル辞書",
+  "provenance_caveats": [
+    "exact registered Origin GUID was not freshly reverified.",
+    "Pre-existing Notion V1 attachment byte identity was not freshly reverified."
+  ],
+  "schema": "NOEPIN_AL_FINAL_ARTIFACT_SEAL_V1",
+  "technology": 162,
+  "verification": {
+    "benchmark_full_median_ms": 0.06350879199999326,
+    "benchmark_prepared_median_ms": 0.0071858926666360885,
+    "benchmark_semantic_match": true,
+    "core_identity": "PASS",
+    "delta_bytes": 244,
+    "delta_percent": 0.006042593847797462,
+    "final_manifest": "1733/1733 matched",
+    "full_bytes": 4038001,
+    "full_resend": false,
+    "metadata_bytes": 89,
+    "missing_records": 1,
+    "production_gate_pass": true,
+    "production_gate_pass_count": 125,
+    "production_gate_total": 125,
+    "replay_count": 3000,
+    "replay_digest": "c7f5f9b46f263c812968dbc8a4bf6d4f3d87865af00ecc6429e671b245105cb2",
+    "replay_divergence": 0,
+    "report_identity": "PASS",
+    "static_external_execution_paths": 0,
+    "static_unauthorized_write_paths": 0,
+    "tests": "160/160 PASS"
+  }
+}

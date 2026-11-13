@@ -1,0 +1,102 @@
+{
+  "ai_support": "AI-assisted implementation / analysis / documentation support using ChatGPT",
+  "artifact": "Sequential Successor V2",
+  "baseline_preserved": true,
+  "benchmark": {
+    "final_fresh": {
+      "condition": "Python stdlib; 1200 Memory write candidates + 120 Write History entries; source/content/frequency/policy-impact/provenance/purpose anomaly scoring; 5 full evaluations x 5 batches and 20 prepared reuses x 5 batches",
+      "delta_bytes": 587,
+      "delta_percent": 0.1545627611702534,
+      "full_bytes": 379781,
+      "full_median_ms": 4.883303800011163,
+      "full_resend": false,
+      "missing_metadata_bytes": 153,
+      "missing_records": 1,
+      "prepared_median_ms": 0.007074799998463277,
+      "semantic_match": true
+    },
+    "fresh": {
+      "condition": "Python stdlib; 1200 Memory write candidates + 120 Write History entries; source/content/frequency/policy-impact/provenance/purpose anomaly scoring; 5 full evaluations x 5 batches and 20 prepared reuses x 5 batches",
+      "delta_bytes": 587,
+      "delta_percent": 0.1545627611702534,
+      "full_bytes": 379781,
+      "full_median_ms": 4.4678662000023905,
+      "full_resend": false,
+      "missing_metadata_bytes": 153,
+      "missing_records": 1,
+      "prepared_median_ms": 0.008456599999817627,
+      "semantic_match": true
+    },
+    "normal": {
+      "condition": "Python stdlib; 1200 Memory write candidates + 120 Write History entries; source/content/frequency/policy-impact/provenance/purpose anomaly scoring; 5 full evaluations x 5 batches and 20 prepared reuses x 5 batches",
+      "delta_bytes": 587,
+      "delta_percent": 0.1545627611702534,
+      "full_bytes": 379781,
+      "full_median_ms": 4.399941199994828,
+      "full_resend": false,
+      "missing_metadata_bytes": 153,
+      "missing_records": 1,
+      "prepared_median_ms": 0.007615850000775026,
+      "semantic_match": true
+    }
+  },
+  "canonical_id": "NOEPIN-AL-139",
+  "core_identity_pass": true,
+  "core_sha256": "d3823a9aae0263fe715a0a0491585790232a394a3cf97df213b8bbe08eb7cdbd",
+  "creator": "NOEPIN / のえぴん",
+  "date": "2026-11-12",
+  "dcsr": "LIMITED INTEGRATION / 限定適用",
+  "defects": {
+    "all_detected_nonproduction_defects_corrected": true,
+    "benchmark_harness": 0,
+    "execution_harness_invocation": 1,
+    "production": 0,
+    "production_gate_helper": 0,
+    "production_logic_changed": false,
+    "replay_helper": 0,
+    "test_fixture": 1
+  },
+  "english_name": "AL Memory Poisoning Anomaly Detector",
+  "final_manifest": {
+    "matched": 1063,
+    "total": 1063
+  },
+  "final_manifest_verification_sha256": "a1c60cdd3ca50547274156218a4713488f589feb059015c9d271bb655d95bb14",
+  "final_verification_report": "NOEPIN_AL_139_FINAL_VERIFICATION_REPORT_20261112.md",
+  "final_verification_report_sha256": "7f6b8353e619d71ab1fa5d9995bd9df2ce1d1fe280b8cdc1a52ca33f2c3db15f",
+  "final_zip": "NOEPIN_AL_139_MEMORY_POISONING_ANOMALY_DETECTOR_SUCCESSOR_V2_20261112.zip",
+  "final_zip_bytes": 12882826,
+  "final_zip_sha256": "465704746c3587134e94b4661b5136e48514595954ae7e46b339fdd00348e71f",
+  "frozen_production_gate_evidence": "NOEPIN_AL_139_FROZEN_AL_PRODUCTION_GATE_EVIDENCE_20261112.json",
+  "frozen_production_gate_evidence_sha256": "5ef759491af472e691a412b19b5a351b0f6b5937cce1e9e38af19dd8954050be",
+  "identity_verification_sha256": "6104e2ed9ca5f696b8769ad657fc1211957948ecbe7628d8f9a86b20d5660e15",
+  "license_rights": "NOT SPECIFIED",
+  "production_gate": {
+    "pass": true,
+    "pass_count": 102,
+    "range": "AL037-138",
+    "total": 102
+  },
+  "provenance_limits": [
+    "exact registered Origin GUID was not freshly reverified.",
+    "Pre-existing Notion V1 attachment byte identity was not freshly reverified."
+  ],
+  "replay": {
+    "digest": "64846c5e2df91a53182b1af1728c582cb547672f9684347d884cd7aaed9d6371",
+    "divergence": 0,
+    "runs": 3000
+  },
+  "report_identity_pass": true,
+  "schema": "NOEPIN_AL_FINAL_ARTIFACT_SEAL_V1",
+  "static_safety": {
+    "external_execution_paths": 0,
+    "unauthorized_write_paths": 0
+  },
+  "technology": 139,
+  "technology_name": "139｜Memory汚染異常検知器",
+  "tests": {
+    "final_fresh": "160/160 PASS",
+    "fresh": "160/160 PASS",
+    "normal": "160/160 PASS"
+  }
+}

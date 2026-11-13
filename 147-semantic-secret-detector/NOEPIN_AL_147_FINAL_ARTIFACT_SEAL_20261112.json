@@ -1,0 +1,62 @@
+{
+  "ai_support": "AI-assisted implementation / analysis / documentation support using ChatGPT",
+  "authority_boundary": "Secret Label Candidate != Secret Truth; Confidence != Safety Proof; Redaction Plan Candidate != Redaction Execution; Known Secret Candidate != Credential Use; ALLOW Candidate != Permission Grant / Disclosure Execution; HOLD / DENY Candidate != Stop Execution; DCSR != Authentication / Encryption / Policy / DLP; DCSR Reconstruction != new Fact / Domain Authority / Semantic Judgment / Permission Grant / Safety Proof / Approval Execution / Action Execution / Action Success.",
+  "baseline_preservation": "PASS",
+  "benchmark": {
+    "delta_bytes": 285,
+    "delta_percent": 0.06944021441189012,
+    "final_fresh_full_median_ms": 8.393422599988298,
+    "final_fresh_prepared_median_ms": 0.005870850003475425,
+    "fresh_full_median_ms": 9.490327200001047,
+    "fresh_prepared_median_ms": 0.0059424499994520374,
+    "full_bytes": 410425,
+    "full_resend": false,
+    "missing_metadata_bytes": 115,
+    "missing_records": 1,
+    "normal_full_median_ms": 8.67723679999699,
+    "normal_prepared_median_ms": 0.005937049999715782,
+    "semantic_match": true
+  },
+  "canonical_id": "NOEPIN-AL-147",
+  "core_sha256": "dd63be0fc15d0c12ff5797b81582c18d3b710c07ad8ad32a66661d75dff003d9",
+  "creator": "NOEPIN / のえぴん",
+  "dcsr": "AUXILIARY INTEGRATION / 補助統合",
+  "defects": {
+    "benchmark_harness": 0,
+    "execution_harness_invocation": 1,
+    "production": 0,
+    "production_gate_helper": 0,
+    "production_logic_changed": false,
+    "replay_helper": 0,
+    "test_fixture": 0
+  },
+  "final_manifest_verification_sha256": "9e8d19a5ff7882c1e22b836ca4a8d039d214da11eb1f10ccdb7394d2093bce41",
+  "final_zip": "NOEPIN_AL_147_SEMANTIC_SECRET_DETECTOR_SUCCESSOR_V2_20261112.zip",
+  "final_zip_sha256": "be9a9c214a3a32a71228abe84e06b2bc739bd871b2dca91330f838f7a0cf67e5",
+  "frozen_gate_evidence_sha256": "a6462500d5744a8a6e9a79ce436340518e5f5af6bf9ad8bdc088f9e19c2750ed",
+  "identity_verification_sha256": "1535d2a5f5478f0e870639df76b7fac20aee683e3c98e8fd8972c85ccbde5441",
+  "license_rights": "NOT SPECIFIED",
+  "name_en": "AL Semantic Secret Detector",
+  "name_jp": "147｜意味Secrets検知器",
+  "origin_guid_note": "exact registered Origin GUID was not freshly reverified.",
+  "report_sha256": "5d157d4548ca6b06e1e61d1f405a978b2c7f2f271a4fa7312b32f1a115cb032c",
+  "schema": "NOEPIN_AL_FINAL_ARTIFACT_SEAL_V1",
+  "source_index_sha256": "365e9af53322a83be0e0408dd2cb7a470cf3ba5ce004ab96b9d942a1111d6cf4",
+  "technology": 147,
+  "v1_attachment_note": "Pre-existing Notion V1 attachment byte identity was not freshly reverified.",
+  "verification": {
+    "core_identity": "PASS",
+    "final_manifest": "1289/1289 matched",
+    "production_gate": "AL037-146 110/110 PASS",
+    "replay_final_fresh": {
+      "digest": "46a81420a0c34f769dc85394f11733cf15178b474455319e524192e68e865630",
+      "divergence": 0,
+      "replays": 3000
+    },
+    "report_identity": "PASS",
+    "static_safety": "0/0",
+    "tests_final_fresh": "160/160 PASS",
+    "tests_fresh": "160/160 PASS",
+    "tests_normal": "160/160 PASS"
+  }
+}

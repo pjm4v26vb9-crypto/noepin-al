@@ -1,0 +1,26 @@
+NOEPIN AL 169 — Source Index
+Technology: 169｜復元信頼度ゲート
+Canonical ID: NOEPIN-AL-169
+Creator: NOEPIN / のえぴん
+Artifact: Sequential Successor V2
+License / Rights: NOT SPECIFIED
+DCSR: DIRECT INTEGRATION / 直接統合
+
+Final ZIP: NOEPIN_AL_169_RECONSTRUCTION_CONFIDENCE_GATE_SUCCESSOR_V2_20261113.zip
+Final ZIP SHA-256: da48e343c07d36ff95a82634c71877b354bd8ca8cdb1eed2eaf42eecae6363d3
+Core: noepin_al_169_reconstruction_confidence_gate.py
+Core SHA-256: f2e2495ee7bb83b6ca399bcf98623d22be7b26e2dcee61807659e99b36afb694
+Final Verification Report: NOEPIN_AL_169_FINAL_VERIFICATION_REPORT_20261113.md
+Final Verification Report SHA-256: c3b66c08264f2e0b7601d57de55535a4014bda421eac7ba4d6f3aa2be3202e75
+Frozen AL Production Gate Evidence: NOEPIN_AL_169_FROZEN_AL_PRODUCTION_GATE_EVIDENCE_20261113.json
+Frozen Gate Evidence SHA-256: 1bd647b8a3576e6ac5d8222780c73daa60086f86b2e3a40dc434bc29e2fcde71
+Identity Verification: NOEPIN_AL_169_IDENTITY_VERIFICATION_20261113.json
+Identity Verification SHA-256: 81f8e30ffca2b8ea0e8ec2a49dc5e3d1c8941eb9a145dc3a4ad55f56deab9cf9
+Final Manifest Verification: NOEPIN_AL_169_FINAL_MANIFEST_VERIFICATION_20261113.json
+Final Manifest Verification SHA-256: 95573fbfc19f487054b1ee68321767be8938e4f62db3b43768ed0d244b061e3b
+Final Fresh Evidence: NOEPIN_AL_169_FINAL_FRESH_EVIDENCE_20261113.json
+Final Fresh Evidence SHA-256: ebd909640a36443d48c7bbd478d0f2a155ade61a5f7e15094681eddcd6027366
+
+Existing V1: IMMUTABLE / NOT OVERWRITTEN
+exact registered Origin GUID was not freshly reverified.
+Pre-existing Notion V1 attachment byte identity was not freshly reverified.

@@ -1,0 +1,15 @@
+NOEPIN AL 150 — SOURCE INDEX — 2026-11-12
+Creator / Originator / Project Owner / Original Concept / Architecture Direction: NOEPIN / のえぴん
+AI-assisted implementation / analysis / documentation support: ChatGPT
+License / Rights: NOT SPECIFIED
+
+Final ZIP: NOEPIN_AL_150_TAINTED_INSTRUCTION_SINK_GUARD_SUCCESSOR_V2_20261112.zip | SHA-256 492d16f6d1228114ed207f7f9b5be530f31c4359b3b15db6498859d5c2c3c2a2
+Core: noepin_al_150_tainted_instruction_sink_guard.py | SHA-256 abe302e528d0b50416f857f4210a237ffb870b65b83e43ca49708c183c6c25e2
+Final Verification Report: NOEPIN_AL_150_FINAL_VERIFICATION_REPORT_20261112.md | SHA-256 533590d457c023371c43c840b024c02cba6a59c8013965794ffcb7ef0aeb4c01
+Final Manifest: NOEPIN_AL_150_FINAL_MANIFEST_20261112.json | SHA-256 5c1ef42874adff82278788138971e5d1215f9b69cb6d726dc9ea57705f0f2f86
+Final Fresh Gate source evidence: NOEPIN_AL_150_FINAL_FRESH_PRODUCTION_GATE_20261112.json | SHA-256 22e39cfb2f55f20115675191b6bf76e478134ff7a59b285342548cd39e2a7c3d
+Replay digest: 7f315978ce5bab57893d775e9fd3eacab76bf70e4bb7ba7902766ab822aeffcb
+Final Fresh benchmark: full 1.9707024000 ms / prepared 0.0097064000 ms / semantic match true
+
+exact registered Origin GUID was not freshly reverified.
+Pre-existing Notion V1 attachment byte identity was not freshly reverified.

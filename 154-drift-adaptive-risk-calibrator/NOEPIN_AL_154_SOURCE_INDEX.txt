@@ -1,0 +1,24 @@
+NOEPIN AL 154 SOURCE INDEX — 2026-11-12
+Technology: 154｜Drift適応Risk校正器
+English: AL Drift-Adaptive Risk Calibrator
+Canonical ID: NOEPIN-AL-154
+Creator / Originator / Project Owner / Original Concept / Architecture Direction: NOEPIN / のえぴん
+AI-assisted implementation / analysis / documentation support: ChatGPT
+DCSR: DIRECT INTEGRATION / 直接統合
+License / Rights: NOT SPECIFIED
+
+Core: noepin_al_154_drift_adaptive_risk_calibrator.py
+Core SHA-256: b79f80c0f9191209ceb52c1a649e22f60ccfcc96700031ed9d653b8d58de9172
+Final ZIP: NOEPIN_AL_154_DRIFT_ADAPTIVE_RISK_CALIBRATOR_SUCCESSOR_V2_20261112.zip
+Final ZIP SHA-256: 31d2c99d42be1bce21e70e6a16e9e6bf9a388373f4b3f74a28e41e453513f0ad
+Final Verification Report: NOEPIN_AL_154_FINAL_VERIFICATION_REPORT_20261112.md
+Final Verification Report SHA-256: 59a3cc5ac77511e34b00b5a268bfe2a2639560fa3a486f52c36a1d73b2be40ae
+Final Manifest count: 1498
+Final Manifest match: 1498 / 1498
+Production Gate: AL037-153 / 117 / 117 PASS
+Replay: 3000 / divergence 0
+Replay digest: 749db2ee1f3c4d331142f5373b25f0601ab197fad830a3748a023153f32334c3
+Static Safety: external execution paths 0 / unauthorized write paths 0
+
+exact registered Origin GUID was not freshly reverified.
+Pre-existing Notion V1 attachment byte identity was not freshly reverified.

@@ -1,0 +1,40 @@
+NOEPIN AL 140 — Source Index — 2026-11-12
+
+Technology: 140｜Knowledge再取得スケジューラ
+English Name: AL Knowledge Refresh Scheduler
+Canonical ID: NOEPIN-AL-140
+Artifact: Sequential Successor V2
+Creator / Originator / Project Owner / Original Concept / Architecture Direction: NOEPIN / のえぴん
+AI support: AI-assisted implementation / analysis / documentation support using ChatGPT
+License / Rights: NOT SPECIFIED
+DCSR: LIMITED INTEGRATION / 限定適用
+
+Core: noepin_al_140_knowledge_refresh_scheduler.py
+Core SHA-256: 97aa68aa46008c67202ab4f841b92aad8cd3b3493b156b6ee39a029ca7da8742
+Final ZIP: NOEPIN_AL_140_KNOWLEDGE_REFRESH_SCHEDULER_SUCCESSOR_V2_20261112.zip
+Final ZIP SHA-256: 7adfff1a0ca440e6eb30acb94dd7620dbc6e66f4505cf375a61d5c745075cf74
+Final Verification Report: NOEPIN_AL_140_FINAL_VERIFICATION_REPORT_20261112.md
+Final Verification Report SHA-256: 2c403a34e5ce4486b452c9ec28d58cdb99ab2836aa0ebbb4a74433d92bfca2da
+Final Artifact Seal: NOEPIN_AL_140_FINAL_ARTIFACT_SEAL_20261112.json
+Final Artifact Seal SHA-256: 31da7deeb9ce286500d3819506bf95338a2f9db70605a564d3ef1be791b6baad
+Frozen AL Production Gate Evidence: NOEPIN_AL_140_FROZEN_AL_PRODUCTION_GATE_EVIDENCE_20261112.json
+Frozen AL Production Gate Evidence SHA-256: 9bcede94445abce3d47881b527596909d84413bbd2eb2c95490e53f6c3b7ded8
+Identity Verification: NOEPIN_AL_140_IDENTITY_VERIFICATION_20261112.json
+Identity Verification SHA-256: 7f5c280befd672455f705ab7d1252902b9761bb56bae15f20f974992e4194beb
+Final Manifest Verification: NOEPIN_AL_140_FINAL_MANIFEST_VERIFICATION_20261112.json
+Final Manifest Verification SHA-256: aca2fe13afe37db5b27fd5ba39233ab40a0fe38a73a47db5b2717b73fcd744ad
+Replay digest: ac0c2276e035bd7464d99ff425f848898f198f9c9e0eb1a332ef273a148a93f4
+
+Tests: Normal 160/160 PASS; Fresh 160/160 PASS; Final Fresh 160/160 PASS
+Replay: 3000 / divergence 0
+Production Gate: AL037-139 / 103/103 PASS
+Static Safety: external execution paths 0 / unauthorized write paths 0
+Final Manifest: 1091/1091 matched
+DCSR: Full 646,167 bytes; Delta 589 bytes; Delta ratio 0.0911529063%; Missing-only 1 changed Knowledge record; metadata 156 bytes; full resend false
+
+Defects: Production 0; Test fixture 0; Benchmark harness 0; Replay helper 0; Production Gate helper 0; Execution harness invocation 1 CORRECTED. Production logic unchanged. Verification restarted after correction.
+
+Authority: Freshness != Truth; Knowledge != World Truth; Refresh Candidate != Retrieval Execution; Priority Queue != Permission Grant; Refresh Success Evidence != timestamp mutation; HOLD Candidate != Stop Execution; DCSR Reconstruction != new Knowledge / known Fact / Domain Authority / Semantic Judgment / Permission Grant / Safety Proof / Approval Execution / Action Execution / Action Success.
+
+exact registered Origin GUID was not freshly reverified.
+Pre-existing Notion V1 attachment byte identity was not freshly reverified.

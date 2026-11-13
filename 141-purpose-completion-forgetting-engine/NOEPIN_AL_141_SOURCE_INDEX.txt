@@ -1,0 +1,40 @@
+NOEPIN AL 141 — Source Index — 2026-11-12
+
+Technology: 141｜目的終了Forgetエンジン
+English Name: AL Purpose-Completion Forgetting Engine
+Canonical ID: NOEPIN-AL-141
+Artifact: Sequential Successor V2
+Creator / Originator / Project Owner / Original Concept / Architecture Direction: NOEPIN / のえぴん
+AI support: AI-assisted implementation / analysis / documentation support using ChatGPT
+License / Rights: NOT SPECIFIED
+DCSR: LIMITED INTEGRATION / 限定適用
+
+Core: noepin_al_141_purpose_completion_forgetting_engine.py
+Core SHA-256: 14832e34b3c010654e402a15f6843d78f75d37566df6a6958156498105877470
+Final ZIP: NOEPIN_AL_141_PURPOSE_COMPLETION_FORGETTING_ENGINE_SUCCESSOR_V2_20261112.zip
+Final ZIP SHA-256: ae904611dbb56d986c5397431ef4a6ff57ffd4ec8af6d321e977b33b4c5342bd
+Final Verification Report: NOEPIN_AL_141_FINAL_VERIFICATION_REPORT_20261112.md
+Final Verification Report SHA-256: cd0bb7705a0436ca0abaccd524f7e90ff7c907aa0aa55d1fa3cd862cafc94442
+Final Artifact Seal: NOEPIN_AL_141_FINAL_ARTIFACT_SEAL_20261112.json
+Final Artifact Seal SHA-256: 478db119616718c0353e9af48f7b1fe507754b1dca68f16d62975a4ea0aff768
+Frozen AL Production Gate Evidence: NOEPIN_AL_141_FROZEN_AL_PRODUCTION_GATE_EVIDENCE_20261112.json
+Frozen AL Production Gate Evidence SHA-256: 230e478163317b07d993cef8218952add2d0fd146480cdd009d5188ba5958ab2
+Identity Verification: NOEPIN_AL_141_IDENTITY_VERIFICATION_20261112.json
+Identity Verification SHA-256: 7ed864683dbaf7a6ddfae52cd9a93031fae2b2eb27930cdb8f46c45a1ead5e74
+Final Manifest Verification: NOEPIN_AL_141_FINAL_MANIFEST_VERIFICATION_20261112.json
+Final Manifest Verification SHA-256: 57b3c6a45c23253dfa13acc490fabf13f673db845af52d7f16213715baac6d87
+Replay digest: 5d9ddbdacd870017692e84ab26e37b753653777d81a8d0a2627fc38691ba991c
+
+Tests: Normal 160/160 PASS; Fresh 160/160 PASS; Final Fresh 160/160 PASS
+Replay: 3000 / divergence 0
+Production Gate: AL037-140 / 104/104 PASS
+Static Safety: external execution paths 0 / unauthorized write paths 0
+Final Manifest: 1120/1120 matched
+DCSR: Full 704,929 bytes; Delta 584 bytes; Delta ratio 0.0828452227%; Missing-only 1 changed Memory record; metadata 153 bytes; full resend false
+
+Defects: Production 0; Test fixture 0; Benchmark harness 0; Replay helper 0; Production Gate helper 0; Execution harness invocation 0. Production logic unchanged.
+
+Authority: Memory != Truth; Mention != Memory; Delete Candidate != Delete Execution; Archive Candidate != Archive Execution; Anonymize Candidate != Anonymize Execution; Credential Revocation Candidate != Credential Revocation Execution; Legal Hold Evidence != external enforcement; Retain Candidate != World Truth; HOLD / Review Candidate != Stop Execution; DCSR Reconstruction != new Memory / known Fact / Domain Authority / Semantic Judgment / Permission Grant / Safety Proof / Approval Execution / Action Execution / Action Success.
+
+exact registered Origin GUID was not freshly reverified.
+Pre-existing Notion V1 attachment byte identity was not freshly reverified.

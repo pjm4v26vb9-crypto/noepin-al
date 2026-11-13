@@ -1,0 +1,109 @@
+{
+  "ai_support": "AI-assisted implementation / analysis / documentation support using ChatGPT",
+  "artifact": "Sequential Successor V2",
+  "authority_boundary": [
+    "Freshness != Truth",
+    "Knowledge != World Truth",
+    "Refresh Candidate != Retrieval Execution",
+    "Priority Queue != Permission Grant",
+    "Refresh Success Evidence != timestamp mutation",
+    "HOLD Candidate != Stop Execution",
+    "DCSR Reconstruction != new Knowledge / known Fact / Domain Authority / Semantic Judgment / Permission Grant / Safety Proof / Approval Execution / Action Execution / Action Success"
+  ],
+  "benchmark": {
+    "final_fresh": {
+      "condition": "Python stdlib; 2000 Knowledge Items; TTL/decay priority queue using importance/volatility/usage/refresh-cost plus critical stale fail-safe; 5 full evaluations x 5 batches and 20 prepared reuses x 5 batches",
+      "delta_bytes": 589,
+      "delta_percent": 0.09115290629202667,
+      "full_bytes": 646167,
+      "full_median_ms": 8.836153999982344,
+      "full_resend": false,
+      "missing_metadata_bytes": 156,
+      "missing_records": 1,
+      "prepared_median_ms": 0.006571649998932116,
+      "semantic_match": true
+    },
+    "fresh": {
+      "condition": "Python stdlib; 2000 Knowledge Items; TTL/decay priority queue using importance/volatility/usage/refresh-cost plus critical stale fail-safe; 5 full evaluations x 5 batches and 20 prepared reuses x 5 batches",
+      "delta_bytes": 589,
+      "delta_percent": 0.09115290629202667,
+      "full_bytes": 646167,
+      "full_median_ms": 20.28085319998354,
+      "full_resend": false,
+      "missing_metadata_bytes": 156,
+      "missing_records": 1,
+      "prepared_median_ms": 0.01150650000454334,
+      "semantic_match": true
+    },
+    "normal": {
+      "condition": "Python stdlib; 2000 Knowledge Items; TTL/decay priority queue using importance/volatility/usage/refresh-cost plus critical stale fail-safe; 5 full evaluations x 5 batches and 20 prepared reuses x 5 batches",
+      "delta_bytes": 589,
+      "delta_percent": 0.09115290629202667,
+      "full_bytes": 646167,
+      "full_median_ms": 10.26841319999221,
+      "full_resend": false,
+      "missing_metadata_bytes": 156,
+      "missing_records": 1,
+      "prepared_median_ms": 0.0062547499965148745,
+      "semantic_match": true
+    }
+  },
+  "canonical_id": "NOEPIN-AL-140",
+  "core_sha256": "97aa68aa46008c67202ab4f841b92aad8cd3b3493b156b6ee39a029ca7da8742",
+  "creator": "NOEPIN / のえぴん",
+  "dcsr": "LIMITED INTEGRATION / 限定適用",
+  "defects": {
+    "benchmark_harness": 0,
+    "execution_harness_invocation": 1,
+    "execution_harness_invocation_status": "CORRECTED",
+    "production": 0,
+    "production_gate_helper": 0,
+    "production_logic_changed": false,
+    "replay_helper": 0,
+    "test_fixture": 0
+  },
+  "english_name": "AL Knowledge Refresh Scheduler",
+  "final_manifest": {
+    "matched": 1091,
+    "pass": true,
+    "records": 1091
+  },
+  "final_manifest_verification": "NOEPIN_AL_140_FINAL_MANIFEST_VERIFICATION_20261112.json",
+  "final_manifest_verification_sha256": "aca2fe13afe37db5b27fd5ba39233ab40a0fe38a73a47db5b2717b73fcd744ad",
+  "final_verification_report": "NOEPIN_AL_140_FINAL_VERIFICATION_REPORT_20261112.md",
+  "final_verification_report_sha256": "2c403a34e5ce4486b452c9ec28d58cdb99ab2836aa0ebbb4a74433d92bfca2da",
+  "final_zip": "NOEPIN_AL_140_KNOWLEDGE_REFRESH_SCHEDULER_SUCCESSOR_V2_20261112.zip",
+  "final_zip_sha256": "7adfff1a0ca440e6eb30acb94dd7620dbc6e66f4505cf375a61d5c745075cf74",
+  "frozen_al_production_gate_evidence": "NOEPIN_AL_140_FROZEN_AL_PRODUCTION_GATE_EVIDENCE_20261112.json",
+  "frozen_al_production_gate_evidence_sha256": "9bcede94445abce3d47881b527596909d84413bbd2eb2c95490e53f6c3b7ded8",
+  "identity_verification": "NOEPIN_AL_140_IDENTITY_VERIFICATION_20261112.json",
+  "identity_verification_sha256": "7f5c280befd672455f705ab7d1252902b9761bb56bae15f20f974992e4194beb",
+  "license_rights": "NOT SPECIFIED",
+  "name_ja": "Knowledge再取得スケジューラ",
+  "production_gate": {
+    "pass": true,
+    "pass_count": 103,
+    "range": "AL037-139",
+    "total": 103
+  },
+  "provenance_limits": [
+    "exact registered Origin GUID was not freshly reverified.",
+    "Pre-existing Notion V1 attachment byte identity was not freshly reverified."
+  ],
+  "replay": {
+    "digest": "ac0c2276e035bd7464d99ff425f848898f198f9c9e0eb1a332ef273a148a93f4",
+    "divergence": 0,
+    "replays": 3000
+  },
+  "schema": "NOEPIN_AL_FINAL_ARTIFACT_SEAL_V1",
+  "static_safety": {
+    "external_execution_paths": 0,
+    "unauthorized_write_paths": 0
+  },
+  "technology": 140,
+  "tests": {
+    "final_fresh": "160/160 PASS",
+    "fresh": "160/160 PASS",
+    "normal": "160/160 PASS"
+  }
+}

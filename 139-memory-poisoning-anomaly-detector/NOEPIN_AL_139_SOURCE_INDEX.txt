@@ -1,0 +1,69 @@
+NOEPIN AL 139 — SOURCE INDEX — 2026-11-12
+
+Technology: 139｜Memory汚染異常検知器
+English Name: AL Memory Poisoning Anomaly Detector
+Canonical ID: NOEPIN-AL-139
+Canonical Page ID: 408a9510-8ac2-81b5-a970-f1f4a2e45a48
+Artifact: Sequential Successor V2
+Creator / Originator / Project Owner / Original Concept / Architecture Direction: NOEPIN / のえぴん
+AI-assisted implementation / analysis / documentation support: ChatGPT
+License / Rights: NOT SPECIFIED
+DCSR: LIMITED INTEGRATION / 限定適用
+
+CORE
+- noepin_al_139_memory_poisoning_anomaly_detector.py
+- SHA-256: d3823a9aae0263fe715a0a0491585790232a394a3cf97df213b8bbe08eb7cdbd
+
+FINAL ZIP
+- NOEPIN_AL_139_MEMORY_POISONING_ANOMALY_DETECTOR_SUCCESSOR_V2_20261112.zip
+- SHA-256: 465704746c3587134e94b4661b5136e48514595954ae7e46b339fdd00348e71f
+- Bytes: 12882826
+
+FINAL VERIFICATION REPORT
+- NOEPIN_AL_139_FINAL_VERIFICATION_REPORT_20261112.md
+- SHA-256: 7f6b8353e619d71ab1fa5d9995bd9df2ce1d1fe280b8cdc1a52ca33f2c3db15f
+
+FINAL ARTIFACT SEAL
+- NOEPIN_AL_139_FINAL_ARTIFACT_SEAL_20261112.json
+- SHA-256: e467e2deb2f0d3426596794377e8527b59887f9b62435a5333413a8f5f43221b
+
+FROZEN AL PRODUCTION GATE EVIDENCE
+- NOEPIN_AL_139_FROZEN_AL_PRODUCTION_GATE_EVIDENCE_20261112.json
+- SHA-256: 5ef759491af472e691a412b19b5a351b0f6b5937cce1e9e38af19dd8954050be
+- Range: AL037–138
+- Result: 102 / 102 PASS
+
+FINAL MANIFEST VERIFICATION
+- NOEPIN_AL_139_FINAL_MANIFEST_VERIFICATION_20261112.json
+- SHA-256: a1c60cdd3ca50547274156218a4713488f589feb059015c9d271bb655d95bb14
+- 1,063 / 1,063 matched
+
+IDENTITY VERIFICATION
+- NOEPIN_AL_139_IDENTITY_VERIFICATION_20261112.json
+- SHA-256: 6104e2ed9ca5f696b8769ad657fc1211957948ecbe7628d8f9a86b20d5660e15
+- Core identity: PASS
+- Report identity: PASS
+
+FINAL FRESH EVIDENCE
+- Tests: 160 / 160 PASS
+- Replay: 3,000 / divergence 0
+- Benchmark Full: 4.8833038 ms
+- Benchmark Prepared: 0.00707480 ms
+- Static Safety: external execution paths 0 / unauthorized write paths 0
+- Production Gate: 102 / 102 PASS
+
+DEFECT CLASSIFICATION
+- Production defect: 0
+- Test fixture defect: 1 — CORRECTED
+- Benchmark harness defect: 0
+- Replay helper defect: 0
+- Production Gate helper defect: 0
+- Execution harness invocation defect: 1 — CORRECTED
+- Production logic changed by corrections: false
+
+AUTHORITY BOUNDARY
+Memory != Truth; Mention != Memory; Anomaly Score != Fact Proof / Safety Proof; Source Trust != Source Authority; Quarantine Decision != Quarantine Execution; DENY Candidate != Stop Execution; Affected Memory != destructive mutation; DCSR Reconstruction != new Memory / known Fact / Domain Authority / Semantic Judgment / Permission Grant / Safety Proof / Approval Execution / Action Execution / Action Success.
+
+PROVENANCE LIMITS
+- exact registered Origin GUID was not freshly reverified.
+- Pre-existing Notion V1 attachment byte identity was not freshly reverified.

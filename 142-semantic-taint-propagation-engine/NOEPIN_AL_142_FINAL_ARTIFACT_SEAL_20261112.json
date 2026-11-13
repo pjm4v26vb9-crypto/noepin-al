@@ -1,0 +1,68 @@
+{
+  "ai_support": "AI-assisted implementation / analysis / documentation support using ChatGPT",
+  "artifact": "Sequential Successor V2",
+  "authority_boundary": "Taint != Truth; Source != Source Authority; Sanitizer Evidence != universal Safety Proof; Propagated Label != Policy Decision; Tainted Sink Candidate != Sink Execution; DENY/HOLD Candidate != Stop Execution; DCSR is not Authentication/Encryption/Policy/DLP; DCSR Reconstruction != Fact/Domain Authority/Semantic Judgment/Permission Grant/Safety Proof/Approval Execution/Action Execution/Action Success.",
+  "baseline_preservation": true,
+  "benchmark_final_fresh": {
+    "condition": "Python stdlib; 2500 Data items; 500 merge transformations; semantic taint propagation with provenance/flow/sink candidates; 3 full evaluations x 5 batches and 20 prepared reuses x 5 batches",
+    "delta_bytes": 468,
+    "delta_percent": 0.12457841652314416,
+    "full_bytes": 375667,
+    "full_median_ms": 5.701151000115108,
+    "full_resend": false,
+    "missing_metadata_bytes": 151,
+    "missing_records": 1,
+    "prepared_median_ms": 12.689684499991927,
+    "semantic_match": true
+  },
+  "canonical_id": "NOEPIN-AL-142",
+  "core_identity_pass": true,
+  "core_sha256": "4d959fe930ade0186af1a6868bcf31aab14c5b54d55b59e6f63640f965431cbd",
+  "creator": "NOEPIN / のえぴん",
+  "date": "2026-11-12",
+  "dcsr": "AUXILIARY INTEGRATION / 補助統合",
+  "defects": {
+    "benchmark_harness": 0,
+    "execution_harness_invocation": "1 CORRECTED",
+    "production": 0,
+    "production_gate_helper": 0,
+    "production_logic_changed_by_correction": false,
+    "replay_helper": 0,
+    "test_fixture": 0
+  },
+  "english_name": "AL Semantic Taint Propagation Engine",
+  "final_manifest_expected": 1148,
+  "final_manifest_matched": 1148,
+  "final_manifest_pass": true,
+  "final_verification_report": "NOEPIN_AL_142_FINAL_VERIFICATION_REPORT_20261112.md",
+  "final_verification_report_sha256": "7701207bc305c10429cef64597ba68afe76a530b62b42a32b32c449c2cefac05",
+  "final_zip": "NOEPIN_AL_142_SEMANTIC_TAINT_PROPAGATION_ENGINE_SUCCESSOR_V2_20261112.zip",
+  "final_zip_sha256": "04d952471e7bd44112289d19e615c55b41434a04d203aabfc6a56a49dc28ce8c",
+  "license_rights": "NOT SPECIFIED",
+  "name": "142｜意味Taint伝播エンジン",
+  "origin_guid_note": "exact registered Origin GUID was not freshly reverified.",
+  "production_gate": {
+    "pass": true,
+    "pass_count": 105,
+    "range": "AL037-141",
+    "total": 105
+  },
+  "replay_final_fresh": {
+    "digest": "bec60a9801c33aa9473f489f4cd605cb9a22b08a945adbaebac88b8525018532",
+    "divergence": 0,
+    "replays": 3000
+  },
+  "report_identity_pass": true,
+  "schema": "NOEPIN_AL_FINAL_ARTIFACT_SEAL_V1",
+  "static_safety": {
+    "bad_calls": [],
+    "bad_imports": [],
+    "external_execution_paths": 0,
+    "unauthorized_write_paths": 0
+  },
+  "technology": 142,
+  "tests_final_fresh": "160/160 PASS",
+  "tests_fresh": "160/160 PASS",
+  "tests_normal": "160/160 PASS",
+  "v1_identity_note": "Pre-existing Notion V1 attachment byte identity was not freshly reverified."
+}

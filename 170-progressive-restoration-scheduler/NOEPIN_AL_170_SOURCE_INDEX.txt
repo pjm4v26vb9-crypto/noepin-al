@@ -1,0 +1,27 @@
+NOEPIN AL 170 — SOURCE INDEX — 2026-11-13
+Technology: 170｜段階復元スケジューラ
+English: AL Progressive Restoration Scheduler
+Canonical ID: NOEPIN-AL-170
+Canonical Page: 408a9510-8ac2-81e6-8b17-d6a01a774fd9
+Creator / Originator / Project Owner / Original Concept / Architecture Direction: NOEPIN / のえぴん
+AI support: AI-assisted implementation / analysis / documentation support using ChatGPT
+License / Rights: NOT SPECIFIED
+
+Final ZIP: NOEPIN_AL_170_PROGRESSIVE_RESTORATION_SCHEDULER_SUCCESSOR_V2_20261113.zip
+SHA-256: bc4aed690c44c6966d3ac4ebabe438c792941c5814c27ead0751f468318a73f4
+Core: noepin_al_170_progressive_restoration_scheduler.py
+Core SHA-256: ccc06b82a34894daafe6575379862c9e3776728794df9743eb1b241be812f136
+Final Verification Report: NOEPIN_AL_170_FINAL_VERIFICATION_REPORT_20261113.md
+Report SHA-256: c466508d9dd7fafc75ba0ebf8b8f229664e9b148c58171daf8bfd4901e04a3ea
+Frozen Production Gate Evidence: NOEPIN_AL_170_FROZEN_AL_PRODUCTION_GATE_EVIDENCE_20261113.json
+SHA-256: 1ac08d8e39424f50f1de391ca92d18424487bd715a1e14eab4cf39353297d5c4
+Identity Verification: NOEPIN_AL_170_IDENTITY_VERIFICATION_20261113.json
+SHA-256: 4c851f6e1231940feac4e23bf9f15f61ac6cde069bd6fdbb57deaccd9254b952
+Final Manifest Verification: NOEPIN_AL_170_FINAL_MANIFEST_VERIFICATION_20261113.json
+SHA-256: 57671c79de6da82555a5990626545d284824c5199102b22e31fb92443d1df2ec
+Final Fresh Evidence: NOEPIN_AL_170_FINAL_FRESH_EVIDENCE_20261113.json
+SHA-256: 1c610ad00eef28b9301eacaaf31a21538cf081ca9e4fbe9fb22487a9daebcbc4
+
+Existing V1: IMMUTABLE / NOT OVERWRITTEN
+exact registered Origin GUID was not freshly reverified.
+Pre-existing Notion V1 attachment byte identity was not freshly reverified.

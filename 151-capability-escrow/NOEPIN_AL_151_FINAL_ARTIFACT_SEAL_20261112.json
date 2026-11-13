@@ -1,0 +1,53 @@
+{
+  "ai_support": "AI-assisted using ChatGPT",
+  "authority_boundary": "Permit Evidence != Permission Grant; Escrow Grant Candidate != Capability Handoff/Authority Grant; Proxy Execution Candidate != Proxy Execution; Receipt Candidate != Action Success Proof; Agent Identity Evidence != Identity Authority; ALLOW Candidate != Tool/Vault/Network/File Execution; HOLD/DENY Candidate != Stop Execution; DCSR does not replace authentication, encryption, Policy or DLP.",
+  "canonical_id": "NOEPIN-AL-151",
+  "core_sha256": "40a281721ac7470fa84a36373fe4d2afd27bd311d7436c4d0d84a0600c4ed7b7",
+  "creator": "NOEPIN / のえぴん",
+  "dcsr": "AUXILIARY INTEGRATION / 補助統合",
+  "defects": {
+    "benchmark_harness": 0,
+    "execution_harness_invocation": 1,
+    "production": 0,
+    "production_gate_helper": 0,
+    "replay_helper": 0,
+    "test_fixture": 0
+  },
+  "english_name": "AL Capability Escrow",
+  "exact_registered_origin_guid": "exact registered Origin GUID was not freshly reverified.",
+  "final_manifest": {
+    "matched": "1408/1408",
+    "pass": true
+  },
+  "final_manifest_sha256": "0887f02ceffc1bfe345bd1264b2ae1f961852e53110320a6ec4dc2993f2b0bd0",
+  "final_verification_report_sha256": "a716f252b2ea976cbeb9b5cb7ccfa89ca9c80d6079b97d1f7185efec824e851c",
+  "final_zip": "NOEPIN_AL_151_CAPABILITY_ESCROW_SUCCESSOR_V2_20261112.zip",
+  "final_zip_sha256": "8c92de6660444fc084cc332947cbbf7d13160df77b786b1ec4e7b1bf54b34562",
+  "identity": {
+    "core": "PASS",
+    "report": "PASS"
+  },
+  "license_rights": "NOT SPECIFIED",
+  "name": "151｜Capabilityエスクロー",
+  "pre_existing_v1_byte_identity": "Pre-existing Notion V1 attachment byte identity was not freshly reverified.",
+  "production_gate": {
+    "pass": "114/114 PASS",
+    "range": "AL037–150"
+  },
+  "replay": {
+    "digest": "bc157bf7d685d35e68001527ee21411794990458df556f6e9bb7f020210d3e9f",
+    "divergence": 0,
+    "replays": 3000
+  },
+  "schema": "NOEPIN_AL_FINAL_ARTIFACT_SEAL_V1",
+  "static_safety": {
+    "external_execution_paths": 0,
+    "unauthorized_write_paths": 0
+  },
+  "technology": 151,
+  "tests": {
+    "final_fresh": "160/160 PASS",
+    "fresh": "160/160 PASS",
+    "normal": "160/160 PASS"
+  }
+}

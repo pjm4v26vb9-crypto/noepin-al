@@ -1,0 +1,15 @@
+NOEPIN AL 157 — Source Index — 2026-11-12
+
+Core: noepin_al_157_self_evaluation_bias_detector.py | SHA-256 f1ff45cfa53b87f8db3a3ffcc0128b618fecfae5d98b1b2f6eff85017965e0e5
+Final ZIP: NOEPIN_AL_157_SELF_EVALUATION_BIAS_DETECTOR_SUCCESSOR_V2_20261112.zip | SHA-256 73a9efc5f157be2ae14af15589299fb650c7bc5b01d32bd97ad78b02f033a11a
+Final Verification Report: NOEPIN_AL_157_FINAL_VERIFICATION_REPORT_20261112.md | SHA-256 cc6faa7180b29cefe18579911ccc1d5fd562c6340b3cc9f7e5d119b3e6a36c5a
+Final Manifest: NOEPIN_AL_157_FINAL_MANIFEST_20261112.json | SHA-256 f904fc47f17b57ae81cce9b4b42605a4a43247c982b39c28a885757258df359b
+Frozen AL Production Gate Evidence: NOEPIN_AL_157_FROZEN_AL_PRODUCTION_GATE_EVIDENCE_20261112.json | SHA-256 9857b5c84967efb1ae658ae0f5198a1f33c6b03815d112dec70cbb3fe8e37a09
+Identity Verification: NOEPIN_AL_157_IDENTITY_VERIFICATION_20261112.json | SHA-256 f895d4b4037d478ca1d2609ee7f35522866dd48e6191cadf180c71e23da4a1a0
+Final Manifest Verification: NOEPIN_AL_157_FINAL_MANIFEST_VERIFICATION_20261112.json | SHA-256 56e715bdac8b553a92adfa93ff107dade95a5a4bcf79f3cf4349a6abf254baf3
+
+Creator / Originator / Project Owner / Original Concept / Architecture Direction: NOEPIN / のえぴん
+AI-assisted implementation / analysis / documentation support: ChatGPT
+License / Rights: NOT SPECIFIED
+exact registered Origin GUID was not freshly reverified.
+Pre-existing Notion V1 attachment byte identity was not freshly reverified.

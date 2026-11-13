@@ -1,0 +1,27 @@
+NOEPIN AL 147 — SOURCE INDEX — 2026-11-12
+
+Technology: 147｜意味Secrets検知器
+English: AL Semantic Secret Detector
+Canonical ID: NOEPIN-AL-147
+Creator / Originator / Project Owner / Original Concept / Architecture Direction: NOEPIN / のえぴん
+AI-assisted implementation / analysis / documentation support: using ChatGPT
+License / Rights: NOT SPECIFIED
+DCSR: 補助統合 / AUXILIARY INTEGRATION
+
+Frozen core inside Final ZIP:
+- noepin_al_147_semantic_secret_detector.py
+- SHA-256: dd63be0fc15d0c12ff5797b81582c18d3b710c07ad8ad32a66661d75dff003d9
+
+Final artifacts:
+- NOEPIN_AL_147_SEMANTIC_SECRET_DETECTOR_SUCCESSOR_V2_20261112.zip | SHA-256 be9a9c214a3a32a71228abe84e06b2bc739bd871b2dca91330f838f7a0cf67e5 | Final distribution ZIP
+- NOEPIN_AL_147_FINAL_VERIFICATION_REPORT_20261112.md | SHA-256 5d157d4548ca6b06e1e61d1f405a978b2c7f2f271a4fa7312b32f1a115cb032c | Frozen Final Verification Report
+- NOEPIN_AL_147_FROZEN_AL_PRODUCTION_GATE_EVIDENCE_20261112.json | SHA-256 a6462500d5744a8a6e9a79ce436340518e5f5af6bf9ad8bdc088f9e19c2750ed | Frozen AL037–146 Production Gate Evidence
+- NOEPIN_AL_147_IDENTITY_VERIFICATION_20261112.json | SHA-256 1535d2a5f5478f0e870639df76b7fac20aee683e3c98e8fd8972c85ccbde5441 | Core/Report identity verification
+- NOEPIN_AL_147_FINAL_MANIFEST_VERIFICATION_20261112.json | SHA-256 9e8d19a5ff7882c1e22b836ca4a8d039d214da11eb1f10ccdb7394d2093bce41 | Final manifest verification
+- NOEPIN_AL_147_FINAL_ARTIFACT_SEAL_20261112.json | Final Artifact Seal (hash recorded after seal creation)
+
+Authority boundary:
+Secret Label Candidate != Secret Truth; Confidence != Safety Proof; Redaction Plan Candidate != Redaction Execution; Known Secret Candidate != Credential Use; ALLOW Candidate != Permission Grant / Disclosure Execution; HOLD / DENY Candidate != Stop Execution; DCSR != Authentication / Encryption / Policy / DLP; DCSR Reconstruction != new Fact / Domain Authority / Semantic Judgment / Permission Grant / Safety Proof / Approval Execution / Action Execution / Action Success.
+
+exact registered Origin GUID was not freshly reverified.
+Pre-existing Notion V1 attachment byte identity was not freshly reverified.

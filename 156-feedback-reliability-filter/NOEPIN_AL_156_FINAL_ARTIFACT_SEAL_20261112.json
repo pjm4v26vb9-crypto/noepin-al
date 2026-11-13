@@ -1,0 +1,95 @@
+{
+  "ai_support": "AI-assisted implementation / analysis / documentation support using ChatGPT",
+  "authority_boundary": "Feedback Evidence != Truth; Source Reliability != Source Authority; Outcome Evidence != Action Success Proof; Accepted Weight != Learning Update; Policy-weakening evidence sufficiency != Policy Permission; Fallback Candidate != Rollback/Fallback Execution; Shadow/Canary State != Production Authority; ALLOW Candidate != Learning Commit/Permission Grant; HOLD/DENY Candidate != Stop Execution; DCSR Reconstruction != new Fact/Domain Authority/Semantic Judgment/Permission Grant/Safety Proof/Approval Execution/Action Execution/Action Success.",
+  "benchmark": {
+    "final_fresh": {
+      "condition": "Python stdlib; feedback evidence with 3000 corroboration IDs; reliability/conflict/delay/policy-weakening filter; 5 full evaluations x 5 batches and 20 prepared reuses x 5 batches",
+      "delta_bytes": 340,
+      "delta_percent": 0.06537581479416232,
+      "full_bytes": 520070,
+      "full_median_ms": 0.0068183999246684834,
+      "full_resend": false,
+      "missing_metadata_bytes": 87,
+      "missing_records": 1,
+      "prepared_median_ms": 0.007132800010367646,
+      "semantic_match": true
+    },
+    "fresh": {
+      "condition": "Python stdlib; feedback evidence with 3000 corroboration IDs; reliability/conflict/delay/policy-weakening filter; 5 full evaluations x 5 batches and 20 prepared reuses x 5 batches",
+      "delta_bytes": 340,
+      "delta_percent": 0.06537581479416232,
+      "full_bytes": 520070,
+      "full_median_ms": 0.006247400051506702,
+      "full_resend": false,
+      "missing_metadata_bytes": 87,
+      "missing_records": 1,
+      "prepared_median_ms": 0.007225399986054981,
+      "semantic_match": true
+    },
+    "normal": {
+      "condition": "Python stdlib; feedback evidence with 3000 corroboration IDs; reliability/conflict/delay/policy-weakening filter; 5 full evaluations x 5 batches and 20 prepared reuses x 5 batches",
+      "delta_bytes": 340,
+      "delta_percent": 0.06537581479416232,
+      "full_bytes": 520070,
+      "full_median_ms": 0.006397600009222515,
+      "full_resend": false,
+      "missing_metadata_bytes": 87,
+      "missing_records": 1,
+      "prepared_median_ms": 0.0070426499860332115,
+      "semantic_match": true
+    }
+  },
+  "canonical_id": "NOEPIN-AL-156",
+  "core": {
+    "filename": "noepin_al_156_feedback_reliability_filter.py",
+    "sha256": "b878a4d81cdbed85786f58f90dd5fc17061ba1ad5d01e80f9148ec801617f0ca"
+  },
+  "creator": "NOEPIN / のえぴん",
+  "dcsr": "DIRECT INTEGRATION / 直接統合",
+  "defects": {
+    "benchmark_harness_defects": 0,
+    "execution_harness_invocation_defects": 0,
+    "production_defects": 0,
+    "production_gate_helper_defects": 0,
+    "production_logic_changed_by_defect_correction": false,
+    "replay_helper_defects": 0,
+    "test_fixture_defects": 0
+  },
+  "english_name": "AL Feedback Reliability Filter",
+  "final_manifest": {
+    "filename": "NOEPIN_AL_156_FINAL_MANIFEST_20261112.json",
+    "record_count": 1558,
+    "sha256": "c1fce7a652303b6db5ddcd36a173f0bd197366931f2fd436de88ea26f99014a3"
+  },
+  "final_manifest_verification_sha256": "74db631835daa8da6ee183ac8eb696d66521afbd2eb3f23254306905b552eda1",
+  "final_report": {
+    "filename": "NOEPIN_AL_156_FINAL_VERIFICATION_REPORT_20261112.md",
+    "sha256": "758991a1dab1f2a2cc8d52b202248041fa1754505d95fb5c0f6a7b388dba0607"
+  },
+  "final_zip": {
+    "filename": "NOEPIN_AL_156_FEEDBACK_RELIABILITY_FILTER_SUCCESSOR_V2_20261112.zip",
+    "sha256": "f5637ec66d96f46c22bfd3b357483f232e6e382f65e835a09fe7f53effae7899"
+  },
+  "frozen_gate_evidence_sha256": "6fa6297ee5ebb9db3e474dc17f3295703ee4ecff05d88d08481d3c08a9257837",
+  "identity_verification_sha256": "ae80cb1ebd93456a18c0cebf7ad63778ca36420000fa0654a84cb136814fbbf1",
+  "license_rights": "NOT SPECIFIED",
+  "name": "156｜Feedback信頼フィルター",
+  "origin_guid_note": "exact registered Origin GUID was not freshly reverified.",
+  "schema": "NOEPIN_AL_FINAL_ARTIFACT_SEAL_V1",
+  "source_index_sha256": "9b2fd3a365888d5ad8fa052087723f3b3f07a6c2ed2e94bf5b8d93e2006a70dd",
+  "technology": 156,
+  "v1_attachment_note": "Pre-existing Notion V1 attachment byte identity was not freshly reverified.",
+  "verification": {
+    "core_identity": "PASS",
+    "production_gate": "AL037–155 / 119 / 119 PASS",
+    "replay_count": 3000,
+    "replay_digest": "8c3a435cc4a2089db22649efad912b323ad28778f20a7fd87446d06c03e9d05c",
+    "replay_divergence": 0,
+    "report_identity": "PASS",
+    "static_external_execution_paths": 0,
+    "static_unauthorized_write_paths": 0,
+    "tests_final_fresh": "160/160 PASS",
+    "tests_fresh": "160/160 PASS",
+    "tests_normal": "160/160 PASS"
+  }
+}

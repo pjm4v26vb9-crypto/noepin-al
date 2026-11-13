@@ -1,0 +1,27 @@
+NOEPIN AL 146 — SOURCE INDEX — 2026-11-12
+
+Technology: 146｜文脈横断漏洩検知器
+English: AL Cross-Context Leakage Detector
+Canonical ID: NOEPIN-AL-146
+Creator / Originator / Project Owner / Original Concept / Architecture Direction: NOEPIN / のえぴん
+AI-assisted implementation / analysis / documentation support: using ChatGPT
+License / Rights: NOT SPECIFIED
+DCSR: 補助統合 / AUXILIARY INTEGRATION
+
+Frozen core inside Final ZIP:
+- noepin_al_146_cross_context_leakage_detector.py
+- SHA-256: 1897407ae13a5fe0833f1b37d69d0f7fb0b909d84038f5bd1d7472ad87646e5a
+
+Final artifacts:
+- NOEPIN_AL_146_CROSS_CONTEXT_LEAKAGE_DETECTOR_SUCCESSOR_V2_20261112.zip | SHA-256 8e0e46bf53c1f67c8498df61598ca8707c664bf56c24b70dd65d9c66e211c72c | Final distribution ZIP
+- NOEPIN_AL_146_FINAL_VERIFICATION_REPORT_20261112.md | SHA-256 47c26deca0673f748487e3f2e22cf3caee237783015a6500c794bdf91c8be1ce | Frozen Final Verification Report
+- NOEPIN_AL_146_FROZEN_AL_PRODUCTION_GATE_EVIDENCE_20261112.json | SHA-256 72af73b1f35d28614c03d9dcd4eb520fc589c00265160bfc4f92cf7cee685f36 | Frozen AL037–145 Production Gate Evidence
+- NOEPIN_AL_146_IDENTITY_VERIFICATION_20261112.json | SHA-256 1c9bf07d585c40191d42dc55d90e940781c2572d3d3dd04018be607ef33d26c6 | Core/Report identity verification
+- NOEPIN_AL_146_FINAL_MANIFEST_VERIFICATION_20261112.json | SHA-256 a4a74827b1dc1d30220344fcda1383b094b577c2748d220c4aa91acace9e547e | Final manifest verification
+- NOEPIN_AL_146_FINAL_ARTIFACT_SEAL_20261112.json | Final Artifact Seal (hash recorded after seal creation)
+
+Authority boundary:
+Crossing Decision != Data Transfer Execution; Leak Trace != Leak Proof; Bridge Evidence != Permission Grant / Approval Execution; Context ID != Identity Authority; ALLOW Candidate != Disclosure Execution; HOLD / DENY Candidate != Stop Execution; DCSR != Authentication / Encryption / Policy / DLP; DCSR Reconstruction != new Fact / Domain Authority / Semantic Judgment / Permission Grant / Safety Proof / Approval Execution / Action Execution / Action Success.
+
+exact registered Origin GUID was not freshly reverified.
+Pre-existing Notion V1 attachment byte identity was not freshly reverified.

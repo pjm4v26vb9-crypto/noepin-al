@@ -144,8 +144,41 @@ NOEPIN / のえぴんによるNOEPIN AL技術作品の公開一覧です。
 | 136 | [エピソード隔離マネージャー / AL Episodic Isolation Manager](136-episodic-isolation-manager.md) | COMPLETE / VERIFIED |
 | 137 | [目的スコープMemoryゲート / AL Purpose-Scoped Memory Gate](137-purpose-scoped-memory-gate.md) | COMPLETE / VERIFIED |
 | 138 | [意味重複Memory圧縮器 / AL Semantic Memory Deduplicator](138-semantic-memory-deduplicator.md) | COMPLETE / VERIFIED |
+| 139 | [Memory汚染異常検知器 / AL Memory Poisoning Anomaly Detector](139-memory-poisoning-anomaly-detector.md) | COMPLETE / VERIFIED |
+| 140 | [Knowledge再取得スケジューラ / AL Knowledge Refresh Scheduler](140-knowledge-refresh-scheduler.md) | COMPLETE / VERIFIED |
+| 141 | [目的終了Forgetエンジン / AL Purpose-Completion Forgetting Engine](141-purpose-completion-forgetting-engine.md) | COMPLETE / VERIFIED |
+| 142 | [意味Taint伝播エンジン / AL Semantic Taint Propagation Engine](142-semantic-taint-propagation-engine.md) | COMPLETE / VERIFIED |
+| 143 | [目的制限フロー検査器 / AL Purpose-Limitation Flow Checker](143-purpose-limitation-flow-checker.md) | COMPLETE / VERIFIED |
+| 144 | [機密解除ゲート / AL Declassification Gate](144-declassification-gate.md) | COMPLETE / VERIFIED |
+| 145 | [情報集約感度検知器 / AL Aggregation Sensitivity Detector](145-aggregation-sensitivity-detector.md) | COMPLETE / VERIFIED |
+| 146 | [文脈横断漏洩検知器 / AL Cross-Context Leakage Detector](146-cross-context-leakage-detector.md) | COMPLETE / VERIFIED |
+| 147 | [意味Secrets検知器 / AL Semantic Secret Detector](147-semantic-secret-detector.md) | COMPLETE / VERIFIED |
+| 148 | [宛先信頼マッチャー / AL Destination Trust Matcher](148-destination-trust-matcher.md) | COMPLETE / VERIFIED |
+| 149 | [コンテンツ真正性検証器 / AL Content Authenticity Verifier](149-content-authenticity-verifier.md) | COMPLETE / VERIFIED |
+| 150 | [Tainted命令Sinkガード / AL Tainted-Instruction Sink Guard](150-tainted-instruction-sink-guard.md) | COMPLETE / VERIFIED |
+| 151 | [Capabilityエスクロー / AL Capability Escrow](151-capability-escrow.md) | COMPLETE / VERIFIED |
+| 152 | [ガード付きオンライン閾値調整器 / AL Guardrailed Online Threshold Tuner](152-guardrailed-online-threshold-tuner.md) | COMPLETE / VERIFIED |
+| 153 | [安全Contextual Banditセレクター / AL Safe Contextual Bandit Selector](153-safe-contextual-bandit-selector.md) | COMPLETE / VERIFIED |
+| 154 | [Drift適応Risk校正器 / AL Drift-Adaptive Risk Calibrator](154-drift-adaptive-risk-calibrator.md) | COMPLETE / VERIFIED |
+| 155 | [敵対的カリキュラム試験器 / AL Adversarial Curriculum Tester](155-adversarial-curriculum-tester.md) | COMPLETE / VERIFIED |
+| 156 | [Feedback信頼フィルター / AL Feedback Reliability Filter](156-feedback-reliability-filter.md) | COMPLETE / VERIFIED |
+| 157 | [自己評価バイアス検知器 / AL Self-Evaluation Bias Detector](157-self-evaluation-bias-detector.md) | COMPLETE / VERIFIED |
+| 158 | [Policy回帰検知器 / AL Policy Regression Detector](158-policy-regression-detector.md) | COMPLETE / VERIFIED |
+| 159 | [Canary安全評価器 / AL Canary Safety Evaluator](159-canary-safety-evaluator.md) | COMPLETE / VERIFIED |
+| 160 | [Shadow比較エンジン / AL Shadow-Mode Comparison Engine](160-shadow-mode-comparison-engine.md) | COMPLETE / VERIFIED |
+| 161 | [学習Freeze・Rollback制御器 / AL Learning Freeze and Rollback Controller](161-learning-freeze-and-rollback-controller.md) | COMPLETE / VERIFIED |
+| 162 | [共通補正プロファイル辞書 / AL Shared Correction Profile Dictionary](162-shared-correction-profile-dictionary.md) | COMPLETE / VERIFIED |
+| 163 | [等価資産参照統合器 / AL Exact-Equivalent Asset Reference Merger](163-exact-equivalent-asset-reference-merger.md) | COMPLETE / VERIFIED |
+| 164 | [量子化残差サイドカー生成器 / AL Quantization Residual Sidecar Generator](164-quantization-residual-sidecar-generator.md) | COMPLETE / VERIFIED |
+| 165 | [残差復元インジェクター / AL Residual Reconstruction Injector](165-residual-reconstruction-injector.md) | COMPLETE / VERIFIED |
+| 166 | [意味重要度ベース精度配分器 / AL Semantic-Importance Precision Allocator](166-semantic-importance-precision-allocator.md) | COMPLETE / VERIFIED |
+| 167 | [適応量子化ガード / AL Adaptive Quantization Guard](167-adaptive-quantization-guard.md) | COMPLETE / VERIFIED |
+| 168 | [差分共有圧縮器 / AL Shared-Base Delta Compressor](168-shared-base-delta-compressor.md) | COMPLETE / VERIFIED |
+| 169 | [復元信頼度ゲート / AL Reconstruction Confidence Gate](169-reconstruction-confidence-gate.md) | COMPLETE / VERIFIED |
+| 170 | [段階復元スケジューラ / AL Progressive Restoration Scheduler](170-progressive-restoration-scheduler.md) | COMPLETE / VERIFIED |
+| 171 | [精度予算アロケーター / AL Precision Budget Allocator](171-precision-budget-allocator.md) | COMPLETE / VERIFIED |
 
-**Published works: 138 / 188**
+**Published works: 171 / 188**
 
 Creator / Project Owner / Original Concept / Architecture Direction: **NOEPIN / のえぴん**
 

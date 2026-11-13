@@ -1,0 +1,62 @@
+{
+  "ai_support": "AI-assisted implementation / analysis / documentation support using ChatGPT",
+  "authority_boundary": "Crossing Decision != Data Transfer Execution; Leak Trace != Leak Proof; Bridge Evidence != Permission Grant / Approval Execution; Context ID != Identity Authority; ALLOW Candidate != Disclosure Execution; HOLD / DENY Candidate != Stop Execution; DCSR != Authentication / Encryption / Policy / DLP; DCSR Reconstruction != new Fact / Domain Authority / Semantic Judgment / Permission Grant / Safety Proof / Approval Execution / Action Execution / Action Success.",
+  "baseline_preservation": "PASS",
+  "benchmark": {
+    "delta_bytes": 312,
+    "delta_percent": 0.04224139331611184,
+    "final_fresh_full_median_ms": 0.8284541998364148,
+    "final_fresh_prepared_median_ms": 0.00781759999881615,
+    "fresh_full_median_ms": 0.7533921998401638,
+    "fresh_prepared_median_ms": 0.007797650005159085,
+    "full_bytes": 738612,
+    "full_resend": false,
+    "missing_metadata_bytes": 119,
+    "missing_records": 1,
+    "normal_full_median_ms": 0.9804375999010517,
+    "normal_prepared_median_ms": 0.007663849964956171,
+    "semantic_match": true
+  },
+  "canonical_id": "NOEPIN-AL-146",
+  "core_sha256": "1897407ae13a5fe0833f1b37d69d0f7fb0b909d84038f5bd1d7472ad87646e5a",
+  "creator": "NOEPIN / のえぴん",
+  "dcsr": "AUXILIARY INTEGRATION / 補助統合",
+  "defects": {
+    "benchmark_harness": 0,
+    "execution_harness_invocation": 0,
+    "production": 0,
+    "production_gate_helper": 0,
+    "production_logic_changed": false,
+    "replay_helper": 0,
+    "test_fixture": 0
+  },
+  "final_manifest_verification_sha256": "a4a74827b1dc1d30220344fcda1383b094b577c2748d220c4aa91acace9e547e",
+  "final_zip": "NOEPIN_AL_146_CROSS_CONTEXT_LEAKAGE_DETECTOR_SUCCESSOR_V2_20261112.zip",
+  "final_zip_sha256": "8e0e46bf53c1f67c8498df61598ca8707c664bf56c24b70dd65d9c66e211c72c",
+  "frozen_gate_evidence_sha256": "72af73b1f35d28614c03d9dcd4eb520fc589c00265160bfc4f92cf7cee685f36",
+  "identity_verification_sha256": "1c9bf07d585c40191d42dc55d90e940781c2572d3d3dd04018be607ef33d26c6",
+  "license_rights": "NOT SPECIFIED",
+  "name_en": "AL Cross-Context Leakage Detector",
+  "name_jp": "146｜文脈横断漏洩検知器",
+  "origin_guid_note": "exact registered Origin GUID was not freshly reverified.",
+  "report_sha256": "47c26deca0673f748487e3f2e22cf3caee237783015a6500c794bdf91c8be1ce",
+  "schema": "NOEPIN_AL_FINAL_ARTIFACT_SEAL_V1",
+  "source_index_sha256": "1b3a5f8ed3d6fd6a3b73987b4d5e194eae739f09d0f6d6ef65a4658ced02bdca",
+  "technology": 146,
+  "v1_attachment_note": "Pre-existing Notion V1 attachment byte identity was not freshly reverified.",
+  "verification": {
+    "core_identity": "PASS",
+    "final_manifest": "1259/1259 matched",
+    "production_gate": "AL037-145 109/109 PASS",
+    "replay_final_fresh": {
+      "digest": "bec154252b7e9c385dd1775e0989a4a44a09f7fdfc779bdfe1d09f61fbdc697b",
+      "divergence": 0,
+      "replays": 3000
+    },
+    "report_identity": "PASS",
+    "static_safety": "0/0",
+    "tests_final_fresh": "160/160 PASS",
+    "tests_fresh": "160/160 PASS",
+    "tests_normal": "160/160 PASS"
+  }
+}

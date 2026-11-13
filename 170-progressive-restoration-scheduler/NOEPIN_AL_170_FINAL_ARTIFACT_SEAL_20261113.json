@@ -1,0 +1,60 @@
+{
+  "baseline_preservation": "PASS",
+  "canonical_id": "NOEPIN-AL-170",
+  "core": {
+    "filename": "noepin_al_170_progressive_restoration_scheduler.py",
+    "sha256": "ccc06b82a34894daafe6575379862c9e3776728794df9743eb1b241be812f136"
+  },
+  "core_identity_pass": true,
+  "creator": "NOEPIN / のえぴん",
+  "date": "2026-11-13",
+  "dcsr": "DIRECT INTEGRATION / 直接統合",
+  "defects": {
+    "benchmark_harness": 0,
+    "execution_harness_invocation": "1 CORRECTED",
+    "production": 0,
+    "production_gate_helper": 0,
+    "replay_helper": 0,
+    "test_fixture": 0
+  },
+  "existing_v1": "IMMUTABLE / NOT OVERWRITTEN",
+  "final_fresh_evidence": {
+    "filename": "NOEPIN_AL_170_FINAL_FRESH_EVIDENCE_20261113.json",
+    "sha256": "1c610ad00eef28b9301eacaaf31a21538cf081ca9e4fbe9fb22487a9daebcbc4"
+  },
+  "final_manifest": "1960/1960 matched",
+  "final_manifest_verification": {
+    "filename": "NOEPIN_AL_170_FINAL_MANIFEST_VERIFICATION_20261113.json",
+    "sha256": "57671c79de6da82555a5990626545d284824c5199102b22e31fb92443d1df2ec"
+  },
+  "final_verification_report": {
+    "filename": "NOEPIN_AL_170_FINAL_VERIFICATION_REPORT_20261113.md",
+    "sha256": "c466508d9dd7fafc75ba0ebf8b8f229664e9b148c58171daf8bfd4901e04a3ea"
+  },
+  "final_zip": {
+    "filename": "NOEPIN_AL_170_PROGRESSIVE_RESTORATION_SCHEDULER_SUCCESSOR_V2_20261113.zip",
+    "sha256": "bc4aed690c44c6966d3ac4ebabe438c792941c5814c27ead0751f468318a73f4"
+  },
+  "frozen_production_gate_evidence": {
+    "filename": "NOEPIN_AL_170_FROZEN_AL_PRODUCTION_GATE_EVIDENCE_20261113.json",
+    "sha256": "1ac08d8e39424f50f1de391ca92d18424487bd715a1e14eab4cf39353297d5c4"
+  },
+  "identity_verification": {
+    "filename": "NOEPIN_AL_170_IDENTITY_VERIFICATION_20261113.json",
+    "sha256": "4c851f6e1231940feac4e23bf9f15f61ac6cde069bd6fdbb57deaccd9254b952"
+  },
+  "license_rights": "NOT SPECIFIED",
+  "origin_guid_note": "exact registered Origin GUID was not freshly reverified.",
+  "production_gate": "AL037-169 133/133 PASS each",
+  "replay": "Normal/Fresh/Final Fresh 3000 divergence 0",
+  "report_identity_pass": true,
+  "source_index": {
+    "filename": "NOEPIN_AL_170_SOURCE_INDEX.txt",
+    "sha256": "64db5ce19789bb94cc26399d6b3d7686d69405e5e0507d4a1fb35c7bcbe881eb"
+  },
+  "static_safety": "external execution paths 0 / unauthorized write paths 0",
+  "status": "COMPLETE / VERIFIED",
+  "technology": 170,
+  "tests": "Normal/Fresh/Final Fresh 160/160 PASS each",
+  "v1_byte_identity_note": "Pre-existing Notion V1 attachment byte identity was not freshly reverified."
+}
