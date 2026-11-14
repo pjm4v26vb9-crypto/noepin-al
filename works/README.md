@@ -179,8 +179,9 @@ NOEPIN / のえぴんによるNOEPIN AL技術作品の公開一覧です。
 | 171 | [精度予算アロケーター / AL Precision Budget Allocator](171-precision-budget-allocator.md) | COMPLETE / VERIFIED |
 | 172 | [軽量化戦略オーケストレーター / AL Lightweighting Strategy Orchestrator](172-lightweighting-strategy-orchestrator.md) | COMPLETE / VERIFIED |
 | 173 | [圧縮・復元整合マニフェスト / AL Compression-Restoration Integrity Manifest](173-compression-restoration-integrity-manifest.md) | COMPLETE / VERIFIED |
+| 174 | [Intent Contract / AL Intent Contract Artifact](174-intent-contract-artifact.md) | COMPLETE / VERIFIED |
 
-**Published works: 173 / 188**
+**Published works: 174 / 188**
 
 Creator / Project Owner / Original Concept / Architecture Direction: **NOEPIN / のえぴん**
 
