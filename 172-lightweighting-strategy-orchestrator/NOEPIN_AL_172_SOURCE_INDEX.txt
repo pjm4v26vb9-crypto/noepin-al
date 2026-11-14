@@ -1,0 +1,17 @@
+NOEPIN AL 172 SOURCE INDEX — 2026-11-13
+Canonical ID: NOEPIN-AL-172
+Name: 172｜軽量化戦略オーケストレーター
+Final ZIP: NOEPIN_AL_172_LIGHTWEIGHTING_STRATEGY_ORCHESTRATOR_SUCCESSOR_V2_20261113.zip
+Final ZIP SHA-256: d4f197770ee6ef7d67d50b5d9ee2e3b10600cc51fad9e7f7264a47d7556e6377
+Core SHA-256: 525eb985552aecafd0768f571e9eef263c2baeb9466bd69c7151fb591cac1570
+Final Verification Report SHA-256: 3dfb516ad8de134e48011a4384ccfdfc209d5a0d6a67ccacaa6ccff54be83d74
+Final Artifact Seal SHA-256: 1ccd219be91dae54d70cd04acd495878754cf53f98eea2bb16601e44f9bd5366
+Frozen AL Production Gate Evidence SHA-256: d5170fc2de07a59ff72ea82fce2bc2220d254018a4060d6bc103032ec8886593
+Identity Verification SHA-256: c3dc362e3504c0c46c0517466629896211c6971c0b46da205a53d772d9a91d66
+Final Manifest Verification SHA-256: 849f208b7846ef4c825ffdc31efe878abcc4270a3038834db5e9474fbe60f34f
+Final Fresh Evidence SHA-256: f93fa8c5de20f62eb7aa604b8f97f2a96e2c15e5fe79288ff111f332efcc4019
+Replay digest: 32eb1a80cef2728e6a022102d215f1689702a9fa6be2f9e03bb3471be1cf0ae3
+Production Gate: AL037-171 / 135/135 PASS
+License / Rights: NOT SPECIFIED
+exact registered Origin GUID was not freshly reverified.
+Pre-existing Notion V1 attachment byte identity was not freshly reverified.

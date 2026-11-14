@@ -177,8 +177,9 @@ NOEPIN / のえぴんによるNOEPIN AL技術作品の公開一覧です。
 | 169 | [復元信頼度ゲート / AL Reconstruction Confidence Gate](169-reconstruction-confidence-gate.md) | COMPLETE / VERIFIED |
 | 170 | [段階復元スケジューラ / AL Progressive Restoration Scheduler](170-progressive-restoration-scheduler.md) | COMPLETE / VERIFIED |
 | 171 | [精度予算アロケーター / AL Precision Budget Allocator](171-precision-budget-allocator.md) | COMPLETE / VERIFIED |
+| 172 | [軽量化戦略オーケストレーター / AL Lightweighting Strategy Orchestrator](172-lightweighting-strategy-orchestrator.md) | COMPLETE / VERIFIED |
 
-**Published works: 171 / 188**
+**Published works: 172 / 188**
 
 Creator / Project Owner / Original Concept / Architecture Direction: **NOEPIN / のえぴん**
 

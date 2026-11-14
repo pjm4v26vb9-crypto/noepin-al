@@ -6,7 +6,7 @@ NOEPIN ALは、**NOEPIN / のえぴん**がゲーム「もふもふの森」を�
 
 現在、検証が完了した技術から順番にGitHubへ公開しています。
 
-> 公開進捗: **171 / 188**  
+> 公開進捗: **172 / 188**  
 > Creator / Project Owner / Original Concept / Architecture Direction: **NOEPIN / のえぴん**  
 > Implementation / analysis / documentation support: AI-assisted using ChatGPT
 
@@ -187,6 +187,7 @@ NOEPIN ALは、**NOEPIN / のえぴん**がゲーム「もふもふの森」を�
 | 169 | [AL Reconstruction Confidence Gate / 復元信頼度ゲート](works/169-reconstruction-confidence-gate.md) | COMPLETE / VERIFIED |
 | 170 | [AL Progressive Restoration Scheduler / 段階復元スケジューラ](works/170-progressive-restoration-scheduler.md) | COMPLETE / VERIFIED |
 | 171 | [AL Precision Budget Allocator / 精度予算アロケーター](works/171-precision-budget-allocator.md) | COMPLETE / VERIFIED |
+| 172 | [AL Lightweighting Strategy Orchestrator / 軽量化戦略オーケストレーター](works/172-lightweighting-strategy-orchestrator.md) | COMPLETE / VERIFIED |
 
 **Formal completion / publication progress: 171 / 188**
 

@@ -1,0 +1,19 @@
+{
+  "authority_boundary": "Lightweighting strategy / exact match / reconstruction guarantee / size benefit / budget feasible are candidates or evidence only and do not grant Truth, Permission, Safety Proof, Authoritative State, execution, or Action Success.",
+  "canonical_id": "NOEPIN-AL-172",
+  "core_sha256": "525eb985552aecafd0768f571e9eef263c2baeb9466bd69c7151fb591cac1570",
+  "creator": "NOEPIN / のえぴん",
+  "dcsr": "DIRECT INTEGRATION",
+  "final_fresh_evidence_sha256": "f93fa8c5de20f62eb7aa604b8f97f2a96e2c15e5fe79288ff111f332efcc4019",
+  "final_manifest_verification_sha256": "849f208b7846ef4c825ffdc31efe878abcc4270a3038834db5e9474fbe60f34f",
+  "final_report_filename": "NOEPIN_AL_172_FINAL_VERIFICATION_REPORT_20261113.md",
+  "final_report_sha256": "3dfb516ad8de134e48011a4384ccfdfc209d5a0d6a67ccacaa6ccff54be83d74",
+  "final_zip_filename": "NOEPIN_AL_172_LIGHTWEIGHTING_STRATEGY_ORCHESTRATOR_SUCCESSOR_V2_20261113.zip",
+  "final_zip_sha256": "d4f197770ee6ef7d67d50b5d9ee2e3b10600cc51fad9e7f7264a47d7556e6377",
+  "frozen_gate_evidence_sha256": "d5170fc2de07a59ff72ea82fce2bc2220d254018a4060d6bc103032ec8886593",
+  "identity_verification_sha256": "c3dc362e3504c0c46c0517466629896211c6971c0b46da205a53d772d9a91d66",
+  "license_rights": "NOT SPECIFIED",
+  "schema": "NOEPIN_AL_FINAL_ARTIFACT_SEAL_V1",
+  "status": "COMPLETE / VERIFIED",
+  "technology": 172
+}
