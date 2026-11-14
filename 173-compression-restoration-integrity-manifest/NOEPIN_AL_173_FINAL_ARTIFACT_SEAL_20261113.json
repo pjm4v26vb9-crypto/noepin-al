@@ -1,0 +1,44 @@
+{
+  "artifacts": {
+    "final_fresh_evidence": {
+      "bytes": 1350,
+      "filename": "NOEPIN_AL_173_FINAL_FRESH_EVIDENCE_20261113.json",
+      "sha256": "b568d69adcae9e437f518162b6ff882c7f2011a56475fc29c0a604d125e0f112"
+    },
+    "final_manifest_verification": {
+      "bytes": 104,
+      "filename": "NOEPIN_AL_173_FINAL_MANIFEST_VERIFICATION_20261113.json",
+      "sha256": "15d6cf315ed4c15befe46b215e7f22e63078191586480196f4575411ad7e48b6"
+    },
+    "final_verification_report": {
+      "bytes": 5094,
+      "filename": "NOEPIN_AL_173_FINAL_VERIFICATION_REPORT_20261113.md",
+      "sha256": "1059016b2b068cc5b2c407d263ed6340c95675b21e863c9e23d1eacba664d8f0"
+    },
+    "final_zip": {
+      "bytes": 67277128,
+      "filename": "NOEPIN_AL_173_COMPRESSION_RESTORATION_INTEGRITY_MANIFEST_SUCCESSOR_V2_20261113.zip",
+      "sha256": "b65479410023f21cf94f5fe1aad02f317f847d2d5ce6077d2dc024b85128a5b7"
+    },
+    "frozen_gate_evidence": {
+      "bytes": 99913,
+      "filename": "NOEPIN_AL_173_FROZEN_AL_PRODUCTION_GATE_EVIDENCE_20261113.json",
+      "sha256": "413ed86539b1e95f91adef046056eb87b813a662b342aa99f92de90a39937888"
+    },
+    "identity_verification": {
+      "bytes": 636,
+      "filename": "NOEPIN_AL_173_IDENTITY_VERIFICATION_20261113.json",
+      "sha256": "007b25cf8cf7d13a4955e71e79be5b228b06543326ffc555ae4faf0180469663"
+    }
+  },
+  "authority_boundary": "Manifest/component/target/version integrity evidence is not Truth, Permission, Safety Proof, Authoritative State, restoration execution, or Action Success.",
+  "canonical_id": "NOEPIN-AL-173",
+  "core_sha256": "446ce89ba6f2a1c1e2a165da81ed6dd3db8288b4fdd7e512fd2332455075fb32",
+  "creator": "NOEPIN / のえぴん",
+  "english_name": "AL Compression-Restoration Integrity Manifest",
+  "license_rights": "NOT SPECIFIED",
+  "name": "圧縮・復元整合マニフェスト",
+  "schema": "NOEPIN_AL_FINAL_ARTIFACT_SEAL_V1",
+  "status": "COMPLETE / VERIFIED",
+  "technology": 173
+}

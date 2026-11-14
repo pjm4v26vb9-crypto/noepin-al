@@ -178,8 +178,9 @@ NOEPIN / のえぴんによるNOEPIN AL技術作品の公開一覧です。
 | 170 | [段階復元スケジューラ / AL Progressive Restoration Scheduler](170-progressive-restoration-scheduler.md) | COMPLETE / VERIFIED |
 | 171 | [精度予算アロケーター / AL Precision Budget Allocator](171-precision-budget-allocator.md) | COMPLETE / VERIFIED |
 | 172 | [軽量化戦略オーケストレーター / AL Lightweighting Strategy Orchestrator](172-lightweighting-strategy-orchestrator.md) | COMPLETE / VERIFIED |
+| 173 | [圧縮・復元整合マニフェスト / AL Compression-Restoration Integrity Manifest](173-compression-restoration-integrity-manifest.md) | COMPLETE / VERIFIED |
 
-**Published works: 172 / 188**
+**Published works: 173 / 188**
 
 Creator / Project Owner / Original Concept / Architecture Direction: **NOEPIN / のえぴん**
 
