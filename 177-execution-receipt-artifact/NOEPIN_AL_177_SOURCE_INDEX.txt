@@ -1,0 +1,25 @@
+NOEPIN AL 177 SOURCE INDEX
+Canonical ID: NOEPIN-AL-177
+Title: Execution Receipt
+Creator: NOEPIN / のえぴん
+License / Rights: NOT SPECIFIED
+
+Core SHA-256: ec15adb81ffe8d470340221ef31fd860cac0850645be79f83ddfb67ffa1ab3f4
+final_zip: NOEPIN_AL_177_EXECUTION_RECEIPT_ARTIFACT_SUCCESSOR_V2_20261114.zip
+  SHA-256: 3748986675c90945cd56ab0ada01331176bccb84cc0404e9ef08948b3ce412ee
+final_report: NOEPIN_AL_177_FINAL_VERIFICATION_REPORT_20261114.md
+  SHA-256: 7481b948c6441fc3e027f600f92fb72cf843a83365ae7df01fe24dd2a4a791c9
+frozen_gate: NOEPIN_AL_177_FROZEN_AL_PRODUCTION_GATE_EVIDENCE_20261114.json
+  SHA-256: af81becd8ca2e4734e01c7b34da0e58cc82ffb8aecfb0de0d6cab895ee7888cb
+identity: NOEPIN_AL_177_IDENTITY_VERIFICATION_20261114.json
+  SHA-256: c7b999d35d6587a81e5fd0958f73ed5cffe29ce86367af606ae5322693943cc1
+final_manifest_verification: NOEPIN_AL_177_FINAL_MANIFEST_VERIFICATION_20261114.json
+  SHA-256: e003eb5672733516328aaab38ac40007932102444e3e4ba9adc502d4214aa190
+final_fresh: NOEPIN_AL_177_FINAL_FRESH_EVIDENCE_20261114.json
+  SHA-256: 03ff84922d79cc9689e312965c3bf9e52f06f590a9f656217ca697a8651208c4
+Final Artifact Seal: NOEPIN_AL_177_FINAL_ARTIFACT_SEAL_20261114.json
+  SHA-256: 1794c8c0d14ad49e37bb5a633079e5f94ac50fcde99bcfdc62217585a073ecdd
+
+Authority boundary: Receipt/SUCCEEDED != Permission / Permit issuance / Approval execution / Tool invocation / Action execution / independently verified Action Success. DCSR does not generate success Receipt or promote Partial State to Success.
+exact registered Origin GUID was not freshly reverified.
+Pre-existing Notion V1 attachment byte identity was not freshly reverified.

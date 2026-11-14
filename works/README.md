@@ -182,8 +182,9 @@ NOEPIN / のえぴんによるNOEPIN AL技術作品の公開一覧です。
 | 174 | [Intent Contract / AL Intent Contract Artifact](174-intent-contract-artifact.md) | COMPLETE / VERIFIED |
 | 175 | [Decision Envelope / AL Decision Envelope Artifact](175-decision-envelope-artifact.md) | COMPLETE / VERIFIED |
 | 176 | [Evidence Bundle / AL Evidence Bundle Artifact](176-evidence-bundle-artifact.md) | COMPLETE / VERIFIED |
+| 177 | [Execution Receipt / AL Execution Receipt Artifact](177-execution-receipt-artifact.md) | COMPLETE / VERIFIED |
 
-**Published works: 176 / 188**
+**Published works: 177 / 188**
 
 Creator / Project Owner / Original Concept / Architecture Direction: **NOEPIN / のえぴん**
 

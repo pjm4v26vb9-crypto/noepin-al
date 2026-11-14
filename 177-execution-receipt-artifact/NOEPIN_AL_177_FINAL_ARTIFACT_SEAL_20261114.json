@@ -1,0 +1,53 @@
+{
+  "ai_support": "AI-assisted implementation / analysis / documentation support using ChatGPT",
+  "artifacts": {
+    "final_fresh": {
+      "filename": "NOEPIN_AL_177_FINAL_FRESH_EVIDENCE_20261114.json",
+      "sha256": "03ff84922d79cc9689e312965c3bf9e52f06f590a9f656217ca697a8651208c4"
+    },
+    "final_manifest_verification": {
+      "filename": "NOEPIN_AL_177_FINAL_MANIFEST_VERIFICATION_20261114.json",
+      "sha256": "e003eb5672733516328aaab38ac40007932102444e3e4ba9adc502d4214aa190"
+    },
+    "final_report": {
+      "filename": "NOEPIN_AL_177_FINAL_VERIFICATION_REPORT_20261114.md",
+      "sha256": "7481b948c6441fc3e027f600f92fb72cf843a83365ae7df01fe24dd2a4a791c9"
+    },
+    "final_zip": {
+      "filename": "NOEPIN_AL_177_EXECUTION_RECEIPT_ARTIFACT_SUCCESSOR_V2_20261114.zip",
+      "sha256": "3748986675c90945cd56ab0ada01331176bccb84cc0404e9ef08948b3ce412ee"
+    },
+    "frozen_gate": {
+      "filename": "NOEPIN_AL_177_FROZEN_AL_PRODUCTION_GATE_EVIDENCE_20261114.json",
+      "sha256": "af81becd8ca2e4734e01c7b34da0e58cc82ffb8aecfb0de0d6cab895ee7888cb"
+    },
+    "identity": {
+      "filename": "NOEPIN_AL_177_IDENTITY_VERIFICATION_20261114.json",
+      "sha256": "c7b999d35d6587a81e5fd0958f73ed5cffe29ce86367af606ae5322693943cc1"
+    }
+  },
+  "authority_boundary": "Receipt validity/binding or SUCCEEDED status does not itself grant Permission, issue Permit, execute Approval/Tool/Action, prove World Truth, or promote independent Action Success. DCSR does not generate success Receipt or promote Partial State to Success.",
+  "baseline_preservation": "2382 files / mutation 0",
+  "canonical_id": "NOEPIN-AL-177",
+  "core_filename": "noepin_al_177_execution_receipt_artifact.py",
+  "core_sha256": "ec15adb81ffe8d470340221ef31fd860cac0850645be79f83ddfb67ffa1ab3f4",
+  "creator": "NOEPIN / のえぴん",
+  "defects": {
+    "benchmark_harness": 0,
+    "execution_harness_invocation": "1 CORRECTED",
+    "production": 0,
+    "production_gate_helper": 0,
+    "replay_helper": 0,
+    "test_fixture": 0
+  },
+  "external_evidence_assembly_note": "One post-freeze Seal assembly attempt stopped before writing Seal because root report copy was not yet present; frozen artifact and verification results were unchanged.",
+  "final_manifest_records": 2431,
+  "license_rights": "NOT SPECIFIED",
+  "production_gate": "AL037-176 140/140 PASS Normal/Fresh/Final Fresh",
+  "replay": "Normal/Fresh/Final Fresh 3000 divergence 0 each",
+  "schema": "NOEPIN_AL_FINAL_ARTIFACT_SEAL_V1",
+  "static_safety": "external execution paths 0 / unauthorized write paths 0",
+  "technology": 177,
+  "tests": "Normal/Fresh/Final Fresh 160/160 PASS each",
+  "title": "Execution Receipt"
+}
