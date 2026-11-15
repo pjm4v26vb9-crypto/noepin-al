@@ -195,7 +195,7 @@ NOEPIN / のえぴんによるNOEPIN AL技術作品の公開一覧です。
 | 187 | [共通Security Gateway補助基盤 / AUX-00 AL Security Gateway](187-security-gateway.md) | COMPLETE / VERIFIED |
 | 188 | [統合Safety Suite補助基盤 / NOEPIN AL Safety Suite V1](188-safety-suite-v1.md) | COMPLETE / VERIFIED |
 
-**Published works: 188 / 188**
+**Published works: 186 / 188**
 
 Creator / Project Owner / Original Concept / Architecture Direction: **NOEPIN / のえぴん**
 
