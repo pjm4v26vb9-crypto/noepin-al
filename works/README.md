@@ -192,8 +192,10 @@ NOEPIN / のえぴんによるNOEPIN AL技術作品の公開一覧です。
 | 184 | [AL量子転送・干渉・自己復元シミュレーター / AL Quantum Transport and Interference Simulator](184-quantum-transport-interference-simulator.md) | COMPLETE / VERIFIED |
 | 185 | [共通Stateカーネル / AL Common State Kernel V1](185-common-state-kernel-v1.md) | COMPLETE / VERIFIED |
 | 186 | [分散共通State再構成 / AL Distributed Common State Reconstruction V1](186-distributed-common-state-reconstruction-v1.md) | COMPLETE / VERIFIED |
+| 187 | [共通Security Gateway補助基盤 / AUX-00 AL Security Gateway](187-security-gateway.md) | COMPLETE / VERIFIED |
+| 188 | [統合Safety Suite補助基盤 / NOEPIN AL Safety Suite V1](188-safety-suite-v1.md) | COMPLETE / VERIFIED |
 
-**Published works: 186 / 188**
+**Published works: 188 / 188**
 
 Creator / Project Owner / Original Concept / Architecture Direction: **NOEPIN / のえぴん**
 

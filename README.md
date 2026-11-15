@@ -6,7 +6,7 @@ NOEPIN ALは、**NOEPIN / のえぴん**がゲーム「もふもふの森」を�
 
 現在、検証が完了した技術から順番にGitHubへ公開しています。
 
-> 公開進捗: **186 / 188**  
+> 公開進捗: **188 / 188**  
 > Creator / Project Owner / Original Concept / Architecture Direction: **NOEPIN / のえぴん**  
 > Implementation / analysis / documentation support: AI-assisted using ChatGPT
 
@@ -202,8 +202,10 @@ NOEPIN ALは、**NOEPIN / のえぴん**がゲーム「もふもふの森」を�
 | 184 | [AL Quantum Transport and Interference Simulator / AL量子転送・干渉・自己復元シミュレーター](works/184-quantum-transport-interference-simulator.md) | COMPLETE / VERIFIED |
 | 185 | [AL Common State Kernel V1 / 共通Stateカーネル](works/185-common-state-kernel-v1.md) | COMPLETE / VERIFIED |
 | 186 | [AL Distributed Common State Reconstruction V1 / 分散共通State再構成](works/186-distributed-common-state-reconstruction-v1.md) | COMPLETE / VERIFIED |
+| 187 | [AUX-00 AL Security Gateway / 共通Security Gateway補助基盤](works/187-security-gateway.md) | COMPLETE / VERIFIED |
+| 188 | [NOEPIN AL Safety Suite V1 / 統合Safety Suite補助基盤](works/188-safety-suite-v1.md) | COMPLETE / VERIFIED |
 
-**Formal completion: 188 / 188 · GitHub publication progress: 186 / 188**
+**Formal completion: 188 / 188 · GitHub publication progress: 188 / 188**
 
 [作品一覧ページを開く](works/)
 

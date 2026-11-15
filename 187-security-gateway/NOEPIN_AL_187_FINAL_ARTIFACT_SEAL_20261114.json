@@ -1,0 +1,52 @@
+{
+  "authority_boundary": "Gateway ALLOW / Semantic ALLOW / Human Approval Evidence / Permit Candidate / DCSR cache are control evidence only and do not become Permission Grant, Approval Execution, Permit issuance, Tool invocation, Action Execution, Action Success, Domain Truth, or universal Safety Proof.",
+  "core": {
+    "identity_pass": true,
+    "name": "noepin_al_187_security_gateway.py",
+    "sha256": "ffba29fd277c81a354c89be6de82f86b8943a310fd225f81dbc1013982d78d85"
+  },
+  "creator": "NOEPIN / のえぴん",
+  "exact_registered_origin_guid_freshly_reverified": false,
+  "final_fresh_evidence": {
+    "pass": true,
+    "sha256": "d0466680c88297ae91472496d9a1b93eb1ecd4c60e57810d8fc637589317c247"
+  },
+  "final_manifest": {
+    "name": "NOEPIN_AL_187_FINAL_MANIFEST_20261114.json",
+    "records": 2804,
+    "sha256": "02cbc1720e28f9d957ab8ed061ed06609e9488d70e324d760b495d421000980b",
+    "verification_pass": true
+  },
+  "final_manifest_verification": {
+    "pass": true,
+    "sha256": "549223d2e59c7d13b55a1a60bc63840eb8ff34d408d8b26725133d8f7cb66ed0"
+  },
+  "final_verification_report": {
+    "identity_pass": true,
+    "name": "NOEPIN_AL_187_FINAL_VERIFICATION_REPORT_20261114.md",
+    "sha256": "2a78773d24589679b33325222e2851e2608e2b99fa9647c258e6fff1ed83fcb3"
+  },
+  "final_zip": {
+    "name": "NOEPIN_AL_187_SECURITY_GATEWAY_SUCCESSOR_V2_20261114.zip",
+    "sha256": "9bbe02446ea958457f24502a51bb82618a8ba379d5b4f618bf8e2ec8f78ea59c"
+  },
+  "frozen_production_gate": {
+    "pass": true,
+    "pass_count": 150,
+    "range": "AL037-186",
+    "sha256": "c53552d0d7e141e73db0a175d147a292f226f7fcaf2dd7a1ec44934638d7dc7a",
+    "total": 150
+  },
+  "identity_verification": {
+    "pass": true,
+    "sha256": "b4b1d581e417e7a056cff669250b4a4240f15cad46d215c7087530da62a30acb"
+  },
+  "license_rights": "NOT SPECIFIED",
+  "name": "00｜AL Security Gateway",
+  "pre_existing_notion_v2_attachment_byte_identity_freshly_reverified": false,
+  "schema": "NOEPIN_AL_FINAL_ARTIFACT_SEAL_V1",
+  "source_index": {
+    "sha256": "fdd75034861757c8b9e21552d02ac0aaf9f941b2edf4a615979354a3670d1b85"
+  },
+  "technology": "187 / AUX-00"
+}
