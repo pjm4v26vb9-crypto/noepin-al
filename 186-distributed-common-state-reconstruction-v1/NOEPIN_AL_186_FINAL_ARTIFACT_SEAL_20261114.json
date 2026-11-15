@@ -1,0 +1,52 @@
+{
+  "authority_boundary": "DCSR is State Infrastructure Authority only. Shared/Transferred/Reconstructed/Partial/Fingerprint-matched State != Domain Authority, Truth, Approval, Permission, Action Execution, Action Success, or universal Safety Proof.",
+  "core": {
+    "identity_pass": true,
+    "name": "noepin_al_186_distributed_common_state_reconstruction_v1.py",
+    "sha256": "93544ac42eceed60aeec1646056ca691ac63c69d058c30b71206ce346767dc3a"
+  },
+  "creator": "NOEPIN / のえぴん",
+  "exact_registered_origin_guid_freshly_reverified": false,
+  "external_qualification_boundary": "Physical two-device LAN and real public WAN were not freshly verified; production transport migration was not executed by this completion.",
+  "final_fresh_evidence": {
+    "pass": true,
+    "sha256": "9f85a93f356f4468ad37def1992a55b1ee903359b67c89ead2494065bad6b3e4"
+  },
+  "final_manifest": {
+    "name": "NOEPIN_AL_186_FINAL_MANIFEST_20261114.json",
+    "records": 2762,
+    "sha256": "de5d51d7dcd3d5358d5c79329d0ab5129d47a55a0e7600f22d9d67da46e128f7",
+    "verification_pass": true
+  },
+  "final_manifest_verification": {
+    "pass": true,
+    "sha256": "e60f104fef4c352246afa239cab2e12d9eca95791af480a7ce127bd513bb3ff3"
+  },
+  "final_verification_report": {
+    "identity_pass": true,
+    "name": "NOEPIN_AL_186_FINAL_VERIFICATION_REPORT_20261114.md",
+    "sha256": "1add09903c31beb79b89545c842f87402e481516ce8929adb278a40d85e67e05"
+  },
+  "final_zip": {
+    "name": "NOEPIN_AL_186_DISTRIBUTED_COMMON_STATE_RECONSTRUCTION_V1_SUCCESSOR_V2_20261114.zip",
+    "sha256": "9a13e93ce6a83e471cbcc063dceb61cf7b32ba28b2e70b224fbab15aa90c81c5"
+  },
+  "frozen_production_gate": {
+    "pass": true,
+    "pass_count": 149,
+    "range": "AL037-185",
+    "sha256": "629a147002e63fe721f563f93928301c3af68b32d5c442d0227ee68e1dc06226",
+    "total": 149
+  },
+  "identity_verification": {
+    "pass": true,
+    "sha256": "a4a9abe722be4cd9555f32b841f3d21e162ae05e25b79c8ac7bcfed572a4f177"
+  },
+  "license_rights": "NOT SPECIFIED",
+  "name": "AL Distributed Common State Reconstruction V1",
+  "schema": "NOEPIN_AL_FINAL_ARTIFACT_SEAL_V1",
+  "source_index": {
+    "sha256": "0e6c765727d700bf1b8cec78c462a34b991d19f89e986de6e119150b9b727f0f"
+  },
+  "technology": 186
+}
