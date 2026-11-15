@@ -1,0 +1,49 @@
+{
+  "ai_support": "AI-assisted implementation / analysis / documentation support using ChatGPT",
+  "authority_boundary": "Handshake Artifact binding / Final Verified / transition validity does not establish Truth, Permission, Approval execution, Permit issuance, Tool invocation, Action execution, Action Success, Stop execution, or universal Safety Proof. DCSR cannot advance partial reconstruction, change transition order, create bindings, or promote unverified Artifacts.",
+  "baseline_preservation": "2468/2468 matched; mutation 0",
+  "canonical_id": "NOEPIN-AL-179",
+  "creator": "NOEPIN / のえぴん",
+  "dcsr": "DIRECT INTEGRATION / 直接統合",
+  "english_name": "AL Decision-to-Execution Handshake Protocol",
+  "final_manifest": "2504/2504 matched",
+  "hashes": {
+    "core_sha256": "b74071327ce9d99bec1292a27196c03134a3325ea750c144925216561613dba5",
+    "final_fresh_evidence_sha256": "ca516502eb26e394fe878936978246918a0976b0b2902341a196518059580a7c",
+    "final_manifest_verification_sha256": "10cf7ba669943d4ebf6b9ec9d60781c5c26b3335fd2dd3753a2de4ad70a47d0b",
+    "final_verification_report_sha256": "fb21ead94813c636f060bc8cff219d44da7c34a1857fed14d285679a9daf250c",
+    "final_zip_sha256": "6074d2b6d351715d9cd7f0b86b3a1ad0862fff6b8395d0bcb0056313cb27f63f",
+    "frozen_production_gate_evidence_sha256": "fd8e65ead956ac6ece49d5a823ee434906c54cb5cfca3417b2763607639ab466",
+    "identity_verification_sha256": "b9e6ebd3c34243ed161b4db6ed30de14ba9edd1be61fdd508a3ba0a2b00d041a",
+    "source_index_sha256": "b39c95bb8eab83b07b3dc810518498739378f499369b54aba9139fdfb00bcf49"
+  },
+  "identity_pass": true,
+  "license_rights": "NOT SPECIFIED",
+  "name": "Decision-to-Execution Handshake",
+  "origin_guid_note": "exact registered Origin GUID was not freshly reverified.",
+  "production_gate": {
+    "final_fresh": "142/142 PASS",
+    "fresh": "142/142 PASS",
+    "normal": "142/142 PASS",
+    "range": "AL037-178"
+  },
+  "replay": {
+    "digest": "5b0026353135fb2d72fdedee1f70a1cb30699fe7ebd67c30a95ea0336171f5c8",
+    "final_fresh": "3000 / divergence 0",
+    "fresh": "3000 / divergence 0",
+    "normal": "3000 / divergence 0"
+  },
+  "schema": "NOEPIN_AL_FINAL_ARTIFACT_SEAL_V1",
+  "static_safety": {
+    "external_execution_paths": 0,
+    "unauthorized_write_paths": 0
+  },
+  "status": "COMPLETE / VERIFIED",
+  "technology": 179,
+  "tests": {
+    "final_fresh": "160/160 PASS",
+    "fresh": "160/160 PASS",
+    "normal": "160/160 PASS"
+  },
+  "v1_attachment_note": "Pre-existing Notion V1 attachment byte identity was not freshly reverified."
+}
