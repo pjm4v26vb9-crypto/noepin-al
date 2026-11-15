@@ -1,0 +1,32 @@
+{
+  "authority_boundary": "Schema-Version negotiation candidate does not grant Permission, execute connection/tool/action, prove Truth/Safety, or establish Action Success. DCSR cannot select unadvertised versions or bypass schema/fingerprint compatibility.",
+  "baseline_mutation": 0,
+  "canonical_id": "NOEPIN-AL-183",
+  "core_sha256": "29da03ee08bcbab56f868ea8616677d3604e3b3e06d3f21e61e7cf986784bf05",
+  "creator": "NOEPIN / \u306e\u3048\u3074\u3093",
+  "defects": {
+    "benchmark_harness": 0,
+    "execution_harness_invocation": 3,
+    "execution_harness_invocation_status": "CORRECTED",
+    "production": 0,
+    "production_gate_helper": 0,
+    "replay_helper": 0,
+    "test_fixture": 0
+  },
+  "final_fresh_evidence_sha256": "3d4f607bb8cc4b070c952ade19822c5a39b953c018f3cbe58babc385b7cf43dc",
+  "final_manifest_verification_sha256": "0a699c0d5a6830160fff7fd7524ff70e9c8cb19cfa89f6c843fdf81f3078b7fa",
+  "final_verification_report_sha256": "c384b8b595af9271e59688795b2b049896b456f1227c80186622d457dd5c3fa5",
+  "final_zip_filename": "NOEPIN_AL_183_SCHEMA_VERSION_NEGOTIATION_PROTOCOL_SUCCESSOR_V2_20261114.zip",
+  "final_zip_sha256": "547262e0c19c30bc17311142bce6dc328df28d1f22b117e60246d8ad38b4e071",
+  "frozen_production_gate_evidence_sha256": "92bbec192a14149c1fe6400e205a53ee79fd026bbafc6c3730911c883c7f169b",
+  "identity_verification_sha256": "ae17028973f01be1bebc960d1c742645421c7dcf9d7290317e5add954c119823",
+  "license_rights": "NOT SPECIFIED",
+  "production_gate": "AL037-182 / 146/146 PASS each",
+  "replay": "3000 / divergence 0 each",
+  "schema": "NOEPIN_AL_FINAL_ARTIFACT_SEAL_V1",
+  "source_index_sha256": "4c9cecb28efbac1b454b062894eb20ac75d319729384286ad4f599ac359d003d",
+  "static_safety": "external execution paths 0 / unauthorized write paths 0",
+  "technology": 183,
+  "tests": "160/160 Normal, Fresh, Final Fresh",
+  "title": "183\uff5cSchema-Version Negotiation"
+}

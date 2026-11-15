@@ -188,8 +188,9 @@ NOEPIN / のえぴんによるNOEPIN AL技術作品の公開一覧です。
 | 180 | [Evidence Deficiency Request / AL Evidence Deficiency Request Protocol](180-evidence-deficiency-request-protocol.md) | COMPLETE / VERIFIED |
 | 181 | [Human Approval Challenge-Response / AL Human Approval Challenge-Response Protocol](181-human-approval-challenge-response-protocol.md) | COMPLETE / VERIFIED |
 | 182 | [Failure-State Propagation / AL Failure-State Propagation Protocol](182-failure-state-propagation-protocol.md) | COMPLETE / VERIFIED |
+| 183 | [Schema-Version Negotiation / AL Schema-Version Negotiation Protocol](183-schema-version-negotiation-protocol.md) | COMPLETE / VERIFIED |
 
-**Published works: 182 / 188**
+**Published works: 183 / 188**
 
 Creator / Project Owner / Original Concept / Architecture Direction: **NOEPIN / のえぴん**
 

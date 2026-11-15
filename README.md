@@ -6,7 +6,7 @@ NOEPIN ALは、**NOEPIN / のえぴん**がゲーム「もふもふの森」を�
 
 現在、検証が完了した技術から順番にGitHubへ公開しています。
 
-> 公開進捗: **182 / 188**  
+> 公開進捗: **183 / 188**  
 > Creator / Project Owner / Original Concept / Architecture Direction: **NOEPIN / のえぴん**  
 > Implementation / analysis / documentation support: AI-assisted using ChatGPT
 
@@ -198,8 +198,9 @@ NOEPIN ALは、**NOEPIN / のえぴん**がゲーム「もふもふの森」を�
 | 180 | [AL Evidence Deficiency Request Protocol / Evidence Deficiency Request](works/180-evidence-deficiency-request-protocol.md) | COMPLETE / VERIFIED |
 | 181 | [AL Human Approval Challenge-Response Protocol / Human Approval Challenge-Response](works/181-human-approval-challenge-response-protocol.md) | COMPLETE / VERIFIED |
 | 182 | [AL Failure-State Propagation Protocol / Failure-State Propagation](works/182-failure-state-propagation-protocol.md) | COMPLETE / VERIFIED |
+| 183 | [AL Schema-Version Negotiation Protocol / Schema-Version Negotiation](works/183-schema-version-negotiation-protocol.md) | COMPLETE / VERIFIED |
 
-**Formal completion: 188 / 188 · GitHub publication progress: 182 / 188**
+**Formal completion: 188 / 188 · GitHub publication progress: 183 / 188**
 
 [作品一覧ページを開く](works/)
 
