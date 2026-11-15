@@ -185,8 +185,9 @@ NOEPIN / のえぴんによるNOEPIN AL技術作品の公開一覧です。
 | 177 | [Execution Receipt / AL Execution Receipt Artifact](177-execution-receipt-artifact.md) | COMPLETE / VERIFIED |
 | 178 | [Risk Envelope / AL Risk Envelope Artifact](178-risk-envelope-artifact.md) | COMPLETE / VERIFIED |
 | 179 | [Decision-to-Execution Handshake / AL Decision-to-Execution Handshake Protocol](179-decision-execution-handshake-protocol.md) | COMPLETE / VERIFIED |
+| 180 | [Evidence Deficiency Request / AL Evidence Deficiency Request Protocol](180-evidence-deficiency-request-protocol.md) | COMPLETE / VERIFIED |
 
-**Published works: 179 / 188**
+**Published works: 180 / 188**
 
 Creator / Project Owner / Original Concept / Architecture Direction: **NOEPIN / のえぴん**
 
