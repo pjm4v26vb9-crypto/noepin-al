@@ -1,0 +1,34 @@
+{
+  "ai_support": "AI-assisted implementation / analysis / documentation support using ChatGPT",
+  "authority_boundary": "Evidence response acceptance/close != Truth, Parent Decision ALLOW, HOLD release, Permission, Approval execution, Permit issuance, Tool invocation, Action execution, Action Success, Stop execution, or universal Safety Proof. DCSR does not invent Evidence, widen Sources, or close unresolved Claims.",
+  "canonical_id": "NOEPIN-AL-180",
+  "creator": "NOEPIN / のえぴん",
+  "dcsr": "DIRECT INTEGRATION / 直接統合",
+  "english_name": "AL Evidence Deficiency Request Protocol",
+  "hashes": {
+    "core": "2fd64c3e20092143da91c9966b13d8aa0d2fddf9ff4831cbf813afa10d13d9ef",
+    "final_fresh_evidence": "fefc20c504e6392ee9cc0d79f5cfc75079affcde7af8732ff5150a20fb9fef0f",
+    "final_manifest_verification": "b71a61ea3934c6ee273ee1ee748ea11f7d8d789439776bb6a8fe44d574c46b89",
+    "final_report": "9d428f298edbe4bd5cb31b9879d368628fba24ea16122135b433502426227347",
+    "final_zip": "e0fb802952aafc197569a64bace6f881a789c573567deacf6b0587db5f76327e",
+    "frozen_gate": "3b4daa4418c676ded382655f3f451fee27115af5312fc5cfa0e6aa6c7960f991",
+    "identity": "d222a8dee4c21edccc48355c92502e14577963905392d919df5f35be169fa99c"
+  },
+  "license_rights": "NOT SPECIFIED",
+  "name": "Evidence Deficiency Request",
+  "schema": "NOEPIN_AL_FINAL_ARTIFACT_SEAL_V1",
+  "status": "COMPLETE / VERIFIED",
+  "technology": 180,
+  "verification": {
+    "baseline_preservation": "2504/2504 matched / mutation 0",
+    "core_identity": "PASS",
+    "final_manifest": "2536/2536 matched",
+    "production_gate_each": "AL037-179 / 143/143 PASS",
+    "replay_each": "3000 / divergence 0",
+    "report_identity": "PASS",
+    "static_safety_each": "external execution paths 0 / unauthorized write paths 0",
+    "tests_final_fresh": "160/160 PASS",
+    "tests_fresh": "160/160 PASS",
+    "tests_normal": "160/160 PASS"
+  }
+}
