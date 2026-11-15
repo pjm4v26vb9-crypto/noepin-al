@@ -183,8 +183,9 @@ NOEPIN / のえぴんによるNOEPIN AL技術作品の公開一覧です。
 | 175 | [Decision Envelope / AL Decision Envelope Artifact](175-decision-envelope-artifact.md) | COMPLETE / VERIFIED |
 | 176 | [Evidence Bundle / AL Evidence Bundle Artifact](176-evidence-bundle-artifact.md) | COMPLETE / VERIFIED |
 | 177 | [Execution Receipt / AL Execution Receipt Artifact](177-execution-receipt-artifact.md) | COMPLETE / VERIFIED |
+| 178 | [Risk Envelope / AL Risk Envelope Artifact](178-risk-envelope-artifact.md) | COMPLETE / VERIFIED |
 
-**Published works: 177 / 188**
+**Published works: 178 / 188**
 
 Creator / Project Owner / Original Concept / Architecture Direction: **NOEPIN / のえぴん**
 
