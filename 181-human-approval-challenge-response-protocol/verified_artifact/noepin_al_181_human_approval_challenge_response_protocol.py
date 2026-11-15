@@ -112,6 +112,7 @@ class ApprovalChange:
 class MissingOnlyPlan:
     missing_or_changed_record_ids:tuple[str,...]; metadata_bytes_required:int; full_resend_required:bool
 
+
 def _challenge_payload(schema,request_id,action_digest,risk_digest,scope_summary,nonce,issued_at,expires_at):
     return {'schema':schema,'request_id':request_id,'action_digest':action_digest,'risk_digest':risk_digest,
             'scope_summary':scope_summary,'nonce':nonce,'issued_at':issued_at,'expires_at':expires_at}
