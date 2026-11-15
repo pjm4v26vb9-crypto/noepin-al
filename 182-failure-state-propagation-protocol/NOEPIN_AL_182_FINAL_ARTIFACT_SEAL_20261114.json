@@ -1,0 +1,23 @@
+{
+  "authority_boundary": "Failure-State propagation/recovery downgrade candidate does not grant Permission, execute Recovery/Stop/Tool/Action, prove Truth, or establish Action Success. DCSR cannot downgrade severity or substitute Recovery Authorization.",
+  "baseline_mutation": 0,
+  "canonical_id": "NOEPIN-AL-182",
+  "core_sha256": "c3d78ad0917803cea6d654f743e0d71f071ce7ea178ecea08a43e7a7393885b2",
+  "creator": "NOEPIN / のえぴん",
+  "final_fresh_evidence_sha256": "daad1942fab7319ce97c0d9f5e61fbec4ec62387e10cb4008124f9d6f54b1a5e",
+  "final_manifest_verification_sha256": "e3068c72960fba74899e3073b492c93108336a601773e04120e57728992aac5e",
+  "final_verification_report_sha256": "fae2b6acc0c933c7044666533dfeca222143da79ef62a62de59e6ea41cddc86c",
+  "final_zip_filename": "NOEPIN_AL_182_FAILURE_STATE_PROPAGATION_PROTOCOL_SUCCESSOR_V2_20261114.zip",
+  "final_zip_sha256": "b64d225b9ab14fa25a4313dec05e5566b8cb4d20b84bedeea051a2d8325ea68b",
+  "frozen_production_gate_evidence_sha256": "51e1e4af4c53a7a196f9862acadf061823edc5f570d61fbc9cfa85a7f809f50f",
+  "identity_verification_sha256": "0b70bf15f4a1603374c99dee1366d4c4453c4af35f26e68e51580b748fb0a307",
+  "license_rights": "NOT SPECIFIED",
+  "production_gate": "AL037-181 / 145/145 PASS each",
+  "replay": "3000 / divergence 0 each",
+  "schema": "NOEPIN_AL_FINAL_ARTIFACT_SEAL_V1",
+  "source_index_sha256": "4882a4c8539e98f8251b00f99533a1ddf542c6bc1b0c5e1e3473368c90a5c6c5",
+  "static_safety": "external execution paths 0 / unauthorized write paths 0",
+  "technology": 182,
+  "tests": "160/160 Normal, Fresh, Final Fresh",
+  "title": "182｜Failure-State Propagation"
+}
