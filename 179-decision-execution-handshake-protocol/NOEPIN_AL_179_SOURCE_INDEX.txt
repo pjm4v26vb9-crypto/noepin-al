@@ -1,0 +1,16 @@
+NOEPIN AL 179 — Source Index
+Creator / Originator / Project Owner / Original Concept / Architecture Direction: NOEPIN / のえぴん
+AI-assisted implementation / analysis / documentation support: ChatGPT
+License / Rights: NOT SPECIFIED
+
+Core	noepin179_finalfresh/noepin_al_179_decision_execution_handshake_protocol.py	SHA-256=b74071327ce9d99bec1292a27196c03134a3325ea750c144925216561613dba5
+Final ZIP	NOEPIN_AL_179_DECISION_EXECUTION_HANDSHAKE_PROTOCOL_SUCCESSOR_V2_20261114.zip	SHA-256=6074d2b6d351715d9cd7f0b86b3a1ad0862fff6b8395d0bcb0056313cb27f63f
+Final Verification Report	NOEPIN_AL_179_FINAL_VERIFICATION_REPORT_20261114.md	SHA-256=fb21ead94813c636f060bc8cff219d44da7c34a1857fed14d285679a9daf250c
+Frozen AL Production Gate Evidence	NOEPIN_AL_179_FROZEN_AL_PRODUCTION_GATE_EVIDENCE_20261114.json	SHA-256=fd8e65ead956ac6ece49d5a823ee434906c54cb5cfca3417b2763607639ab466
+Identity Verification	NOEPIN_AL_179_IDENTITY_VERIFICATION_20261114.json	SHA-256=b9e6ebd3c34243ed161b4db6ed30de14ba9edd1be61fdd508a3ba0a2b00d041a
+Final Manifest Verification	NOEPIN_AL_179_FINAL_MANIFEST_VERIFICATION_20261114.json	SHA-256=10cf7ba669943d4ebf6b9ec9d60781c5c26b3335fd2dd3753a2de4ad70a47d0b
+Final Fresh Evidence	NOEPIN_AL_179_FINAL_FRESH_EVIDENCE_20261114.json	SHA-256=ca516502eb26e394fe878936978246918a0976b0b2902341a196518059580a7c
+
+Authority Boundary: Handshake binding/transition != Truth, Permission, Approval execution, Permit issuance, Tool invocation, Action execution, Action Success, or Safety Proof.
+exact registered Origin GUID was not freshly reverified.
+Pre-existing Notion V1 attachment byte identity was not freshly reverified.
