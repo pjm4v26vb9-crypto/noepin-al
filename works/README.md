@@ -190,8 +190,9 @@ NOEPIN / のえぴんによるNOEPIN AL技術作品の公開一覧です。
 | 182 | [Failure-State Propagation / AL Failure-State Propagation Protocol](182-failure-state-propagation-protocol.md) | COMPLETE / VERIFIED |
 | 183 | [Schema-Version Negotiation / AL Schema-Version Negotiation Protocol](183-schema-version-negotiation-protocol.md) | COMPLETE / VERIFIED |
 | 184 | [AL量子転送・干渉・自己復元シミュレーター / AL Quantum Transport and Interference Simulator](184-quantum-transport-interference-simulator.md) | COMPLETE / VERIFIED |
+| 185 | [共通Stateカーネル / AL Common State Kernel V1](185-common-state-kernel-v1.md) | COMPLETE / VERIFIED |
 
-**Published works: 184 / 188**
+**Published works: 185 / 188**
 
 Creator / Project Owner / Original Concept / Architecture Direction: **NOEPIN / のえぴん**
 
