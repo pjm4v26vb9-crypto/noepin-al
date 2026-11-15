@@ -1,0 +1,16 @@
+NOEPIN AL 180 — SOURCE INDEX — 2026-11-14
+Creator / Originator / Project Owner / Original Concept / Architecture Direction: NOEPIN / のえぴん
+AI-assisted implementation / analysis / documentation support: ChatGPT
+License / Rights: NOT SPECIFIED
+
+final_zip: NOEPIN_AL_180_EVIDENCE_DEFICIENCY_REQUEST_PROTOCOL_SUCCESSOR_V2_20261114.zip | SHA-256=e0fb802952aafc197569a64bace6f881a789c573567deacf6b0587db5f76327e
+final_report: NOEPIN_AL_180_FINAL_VERIFICATION_REPORT_20261114.md | SHA-256=9d428f298edbe4bd5cb31b9879d368628fba24ea16122135b433502426227347
+frozen_gate: NOEPIN_AL_180_FROZEN_AL_PRODUCTION_GATE_EVIDENCE_20261114.json | SHA-256=3b4daa4418c676ded382655f3f451fee27115af5312fc5cfa0e6aa6c7960f991
+identity: NOEPIN_AL_180_IDENTITY_VERIFICATION_20261114.json | SHA-256=d222a8dee4c21edccc48355c92502e14577963905392d919df5f35be169fa99c
+final_manifest_verification: NOEPIN_AL_180_FINAL_MANIFEST_VERIFICATION_20261114.json | SHA-256=b71a61ea3934c6ee273ee1ee748ea11f7d8d789439776bb6a8fe44d574c46b89
+final_fresh_evidence: NOEPIN_AL_180_FINAL_FRESH_EVIDENCE_20261114.json | SHA-256=fefc20c504e6392ee9cc0d79f5cfc75079affcde7af8732ff5150a20fb9fef0f
+core: noepin_al_180_evidence_deficiency_request_protocol.py | SHA-256=2fd64c3e20092143da91c9966b13d8aa0d2fddf9ff4831cbf813afa10d13d9ef
+artifact_seal: NOEPIN_AL_180_FINAL_ARTIFACT_SEAL_20261114.json | SHA-256=8d83943f04d1ec165396b7cca87cf1574995b583e19736f3be3c768a70876488
+
+exact registered Origin GUID was not freshly reverified.
+Pre-existing Notion V1 attachment byte identity was not freshly reverified.
