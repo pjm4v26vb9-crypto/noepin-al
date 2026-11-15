@@ -195,7 +195,7 @@ NOEPIN ALは、**NOEPIN / のえぴん**がゲーム「もふもふの森」を�
 | 177 | [AL Execution Receipt Artifact / Execution Receipt](works/177-execution-receipt-artifact.md) | COMPLETE / VERIFIED |
 | 178 | [AL Risk Envelope Artifact / Risk Envelope](works/178-risk-envelope-artifact.md) | COMPLETE / VERIFIED |
 
-**Formal completion / publication progress: 178 / 188**
+**Formal completion: 188 / 188 · GitHub publication progress: 178 / 188**
 
 [作品一覧ページを開く](works/)
 
