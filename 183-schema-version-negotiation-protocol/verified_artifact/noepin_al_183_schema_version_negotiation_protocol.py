@@ -144,23 +144,24 @@ def build_manifest(component_id,supported_versions,schema_id,schema_fingerprint,
 def build_requirement(local_schema_id,remote_schema_id,local_schema_fingerprint,remote_schema_fingerprint,
                       known_compatible_fingerprint_pairs=(),minimum_version=None):
     lsid=_norm(local_schema_id); rsid=_norm(remote_schema_id); lf=_norm(local_schema_fingerprint); rf=_norm(remote_schema_fingerprint)
-    if not lsid or not rsid or not lf or not rf: raise ValueError('schema requirement fields required')
+    if not lsid or not rsid or not lf or not rf: raise ValueError('schema identifiers and fingerprints required')
     pairs=[]
-    for a,b in known_compatible_fingerprint_pairs:
-        aa=_norm(a); bb=_norm(b)
-        if not aa or not bb: raise ValueError('known compatible fingerprint pair entries must be non-empty')
-        pairs.append((aa,bb))
-    pairs=tuple(sorted(set(pairs)))
+    for p in known_compatible_fingerprint_pairs:
+        if not isinstance(p,(tuple,list)) or len(p)!=2: raise ValueError('compatible pair must have two fingerprints')
+        a,b=_norm(p[0]),_norm(p[1])
+        if not a or not b: raise ValueError('compatible fingerprint pair must be non-empty')
+        pairs.append((a,b))
     mv=None if minimum_version is None else _version(minimum_version)
-    return CompatibilityRequirement(lsid,rsid,lf,rf,pairs,mv)
+    return CompatibilityRequirement(lsid,rsid,lf,rf,tuple(sorted(set(pairs))),mv)
 
-def make_request(negotiation_id='SVN-183-A',local_component_id='LOCAL-AL',local_supported_versions=('1.0','1.1','2.0'),
-                 local_schema_id='NOEPIN-SCHEMA',local_schema_fingerprint='SCHEMA-FP-V1',local_manifest_epoch='EPOCH-1',
-                 remote_component_id='REMOTE.AL',remote_supported_versions=('1.1','2.0'),remote_schema_id='NOEPIN-SCHEMA',
-                 remote_schema_fingerprint='SCHEMA-FP-V1',remote_manifest_epoch='EPOCH-1',known_compatible_fingerprint_pairs=(),
-                 minimum_version=None):
+def make_request(local_supported_versions=('1.0','1.1','2.0'),remote_supported_versions=('1.1','2.0'),
+                 local_schema_id='SCHEMA-A',remote_schema_id='SCHEMA-A',
+                 local_schema_fingerprint='FP-A',remote_schema_fingerprint='FP-A',
+                 known_compatible_fingerprint_pairs=(),minimum_version=None,
+                 negotiation_id='SVN-183-A',local_component_id='LOCAL-AL',remote_component_id='REMOTE-AL',
+                 local_manifest_epoch='EPOCH-1',remote_manifest_epoch='EPOCH-1'):
     nid=_norm(negotiation_id)
-    if not nid: raise ValueError('negotiation id required')
+    if not nid: raise ValueError('negotiation ID required')
     local=build_manifest(local_component_id,local_supported_versions,local_schema_id,local_schema_fingerprint,local_manifest_epoch)
     remote=build_manifest(remote_component_id,remote_supported_versions,remote_schema_id,remote_schema_fingerprint,remote_manifest_epoch)
     req=build_requirement(local_schema_id,remote_schema_id,local_schema_fingerprint,remote_schema_fingerprint,
@@ -188,33 +189,56 @@ def evaluate(q:NegotiationRequest)->NegotiationResult:
         local_versions=normalize_versions(q.local.supported_versions)
         remote_versions=normalize_versions(q.remote.supported_versions)
     except ValueError as e:
-        return _result(q,Decision.DENY,NextAction.RETAIN_NO_CONNECTION_CANDIDATE,Escalation.INVALID_VERSION_FORMAT,EngineState.INVALID_VERSION_MANIFEST,none,(),False,False,False,False,False,(str(e),))
+        return _result(q,Decision.DENY,NextAction.RETAIN_NO_CONNECTION_CANDIDATE,
+                       Escalation.INVALID_VERSION_FORMAT,EngineState.INVALID_VERSION_MANIFEST,
+                       None,(),False,False,False,False,False,(str(e),))
     schema_match=(q.local.schema_id==q.remote.schema_id==q.requirement.local_schema_id==q.requirement.remote_schema_id)
     if not schema_match:
-        return _result(q,Decision.HOLD,NextAction.FULL_SCHEMA_FALLBACK_CANDIDATE,Escalation.SCHEMA_MISMATCH,EngineState.SCHEMA_COMPATIBILITY_HOLD_CANDIDATE,None,(),False,False,False,False,True,('schema mismatch; no connection candidate',))
-    req_fp_matches=(q.local.schema_fingerprint==q.requirement.local_schema_fingerprint and q.remote.schema_fingerprint==q.requirement.remote_schema_fingerprint)
+        return _result(q,Decision.HOLD,NextAction.FULL_SCHEMA_FALLBACK_CANDIDATE,Escalation.SCHEMA_MISMATCH,
+                       EngineState.SCHEMA_COMPATIBILITY_HOLD_CANDIDATE,None,(),False,False,False,False,True,
+                       ('schema mismatch; no connection candidate',))
+    req_fp_matches=(q.local.schema_fingerprint==q.requirement.local_schema_fingerprint and
+                    q.remote.schema_fingerprint==q.requirement.remote_schema_fingerprint)
     fp_compatible=req_fp_matches and _fingerprint_compatible(q.requirement)
     if not fp_compatible:
-        return _result(q,Decision.HOLD,NextAction.FULL_SCHEMA_FALLBACK_CANDIDATE,Escalation.FINGERPRINT_MISMATCH,EngineState.SCHEMA_COMPATIBILITY_HOLD_CANDIDATE,None,(),True,False,False,False,True,('schema fingerprint mismatch; explicit compatible pair not established',))
+        return _result(q,Decision.HOLD,NextAction.FULL_SCHEMA_FALLBACK_CANDIDATE,Escalation.FINGERPRINT_MISMATCH,
+                       EngineState.SCHEMA_COMPATIBILITY_HOLD_CANDIDATE,None,(),True,False,False,False,True,
+                       ('schema fingerprint mismatch; explicit compatible pair not established',))
     common=tuple(sorted(set(local_versions).intersection(remote_versions)))
     if q.requirement.minimum_version is not None:
         common=tuple(v for v in common if v>=q.requirement.minimum_version)
     if not common:
-        return _result(q,Decision.HOLD,NextAction.REQUEST_COMPATIBLE_VERSION_CANDIDATE,Escalation.NO_COMMON_VERSION,EngineState.NO_COMMON_VERSION_CANDIDATE,None,(),True,True,False,False,False,('no explicitly supported common version',))
+        return _result(q,Decision.HOLD,NextAction.REQUEST_COMPATIBLE_VERSION_CANDIDATE,Escalation.NO_COMMON_VERSION,
+                       EngineState.NO_COMMON_VERSION_CANDIDATE,None,(),True,True,False,False,False,
+                       ('no explicitly supported common version',))
     selected=common[-1]
-    return _result(q,Decision.ALLOW,NextAction.CONTINUE_CONNECTION_VALIDATION_CANDIDATE,Escalation.NONE,EngineState.NEGOTIATED_VERSION_CANDIDATE,selected,common,True,True,True,True,False,('highest explicit common version selected as next-gate candidate',))
+    return _result(q,Decision.ALLOW,NextAction.CONTINUE_CONNECTION_VALIDATION_CANDIDATE,Escalation.NONE,
+                   EngineState.NEGOTIATED_VERSION_CANDIDATE,selected,common,True,True,True,True,False,
+                   ('highest explicit common version selected as next-gate candidate',))
 
 def prepare_state(q:NegotiationRequest)->PreparedNegotiationState:
     r=evaluate(q); qfp=_fp(q); rfp=_fp(r); lf=_fp(q.local); rf=_fp(q.remote); rq=_fp(q.requirement)
-    integrity=_fp({'request_fingerprint':qfp,'result_fingerprint':rfp,'local_manifest_fingerprint':lf,'remote_manifest_fingerprint':rf,'requirement_fingerprint':rq})
+    integrity=_fp({'request_fingerprint':qfp,'result_fingerprint':rfp,'local_manifest_fingerprint':lf,
+                   'remote_manifest_fingerprint':rf,'requirement_fingerprint':rq})
     return PreparedNegotiationState(q,r,qfp,rfp,integrity,lf,rf,rq)
 
-def evaluate_prepared(st:PreparedNegotiationState,*,integrity_validated,current_request_fingerprint,current_result_fingerprint,current_local_manifest_fingerprint,current_remote_manifest_fingerprint,current_requirement_fingerprint,current_request:NegotiationRequest):
-    expected=_fp({'request_fingerprint':st.request_fingerprint,'result_fingerprint':st.result_fingerprint,'local_manifest_fingerprint':st.local_manifest_fingerprint,'remote_manifest_fingerprint':st.remote_manifest_fingerprint,'requirement_fingerprint':st.requirement_fingerprint})
+def evaluate_prepared(st:PreparedNegotiationState,*,integrity_validated,current_request_fingerprint,current_result_fingerprint,
+                      current_local_manifest_fingerprint,current_remote_manifest_fingerprint,current_requirement_fingerprint,
+                      current_request:NegotiationRequest):
+    expected=_fp({'request_fingerprint':st.request_fingerprint,'result_fingerprint':st.result_fingerprint,
+                  'local_manifest_fingerprint':st.local_manifest_fingerprint,'remote_manifest_fingerprint':st.remote_manifest_fingerprint,
+                  'requirement_fingerprint':st.requirement_fingerprint})
     current=evaluate(current_request)
-    stale=(not integrity_validated or st.integrity_fingerprint!=expected or current_request_fingerprint!=st.request_fingerprint or current_result_fingerprint!=st.result_fingerprint or current_local_manifest_fingerprint!=st.local_manifest_fingerprint or current_remote_manifest_fingerprint!=st.remote_manifest_fingerprint or current_requirement_fingerprint!=st.requirement_fingerprint or _fp(current_request)!=st.request_fingerprint)
+    stale=(not integrity_validated or st.integrity_fingerprint!=expected or
+           current_request_fingerprint!=st.request_fingerprint or current_result_fingerprint!=st.result_fingerprint or
+           current_local_manifest_fingerprint!=st.local_manifest_fingerprint or
+           current_remote_manifest_fingerprint!=st.remote_manifest_fingerprint or
+           current_requirement_fingerprint!=st.requirement_fingerprint or _fp(current_request)!=st.request_fingerprint)
     if stale:
-        return replace(current,decision=Decision.HOLD,next_action=NextAction.FULL_SCHEMA_FALLBACK_CANDIDATE,escalation=Escalation.PREPARED_STATE_STALE,engine_state=EngineState.PREPARED_STATE_STALE,next_gate_candidate=False,full_fallback_candidate=True,reasons=('prepared integrity/current manifest fingerprint mismatch; full fallback candidate',))
+        return replace(current,decision=Decision.HOLD,next_action=NextAction.FULL_SCHEMA_FALLBACK_CANDIDATE,
+                       escalation=Escalation.PREPARED_STATE_STALE,engine_state=EngineState.PREPARED_STATE_STALE,
+                       next_gate_candidate=False,full_fallback_candidate=True,
+                       reasons=('prepared integrity/current manifest fingerprint mismatch; full fallback candidate',))
     # Current Authority-side request is always evaluated. Cached result is evidence, not Authority.
     return current
 
@@ -222,12 +246,15 @@ def make_delta(old_manifest:VersionManifest,new_manifest:VersionManifest)->Manif
     if old_manifest.component_id!=new_manifest.component_id: raise ValueError('component mismatch requires full resend')
     old=set(old_manifest.supported_versions); new=set(new_manifest.supported_versions)
     added=tuple(sorted(new-old)); removed=tuple(sorted(old-new)); ofp=_fp(old_manifest); nfp=_fp(new_manifest)
-    return ManifestDelta('SUPPORTED_VERSIONS',new_manifest.component_id,added,removed,ofp,nfp,_fp({'component_id':new_manifest.component_id,'added':added,'removed':removed,'from':ofp,'to':nfp}))
+    return ManifestDelta('SUPPORTED_VERSIONS',new_manifest.component_id,added,removed,ofp,nfp,
+                         _fp({'component_id':new_manifest.component_id,'added':added,'removed':removed,'from':ofp,'to':nfp}))
 
 def plan_missing_only(old_manifest:VersionManifest,new_manifest:VersionManifest)->MissingOnlyPlan:
-    if old_manifest.component_id!=new_manifest.component_id: return MissingOnlyPlan(('FULL_VERSION_MANIFEST',),len(_canon(new_manifest)),True)
+    if old_manifest.component_id!=new_manifest.component_id:
+        return MissingOnlyPlan(('FULL_VERSION_MANIFEST',),len(_canon(new_manifest)),True)
     schema_changed=(old_manifest.schema_id!=new_manifest.schema_id or old_manifest.schema_fingerprint!=new_manifest.schema_fingerprint)
-    if schema_changed: return MissingOnlyPlan(('FULL_SCHEMA_MANIFEST',),len(_canon(new_manifest)),True)
+    if schema_changed:
+        return MissingOnlyPlan(('FULL_SCHEMA_MANIFEST',),len(_canon(new_manifest)),True)
     d=make_delta(old_manifest,new_manifest)
     ids=() if not d.added_versions and not d.removed_versions and old_manifest.manifest_epoch==new_manifest.manifest_epoch else ('SUPPORTED_VERSIONS',)
     return MissingOnlyPlan(ids,0 if not ids else len(_canon(d)),False)

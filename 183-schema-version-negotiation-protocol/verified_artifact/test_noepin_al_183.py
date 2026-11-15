@@ -45,7 +45,7 @@ def scenario(k,v):
  if k==13:
   x=m.evaluate(m.make_request(('1.0','1.5','2.0'),('1.0','1.5','2.0'),minimum_version='1.5')); return tuple(map(str,x.common_versions))==('1.5','2.0') and str(x.negotiated_version)=='2.0'
  if k==14:
-  x=m.evaluate(m.make_request(('1.0',),('1.0',),minimum_version='2.0')); return x.decision==m.Decision.HOLD and x.escalation==m.Escalation.NO_COMMMON_VERSION
+  x=m.evaluate(m.make_request(('1.0',),('1.0',),minimum_version='2.0')); return x.decision==m.Decision.HOLD and x.escalation==m.Escalation.NO_COMMON_VERSION
  if k==15:
   q=m.default_request(); return prepared(q)==m.evaluate(q)
  if k==16:
@@ -63,7 +63,7 @@ def scenario(k,v):
  if k==22:
   a=m.default_evaluation(); b=m.default_evaluation(); return a==b and m._canon(a)==m._canon(b)
  if k==23:
-  x=m.evaluate(m.make_request(('1.0','3.0'),('1.0','2.0')); return str(x.negotiated_version)=='1.0' and all(str(x.negotiated_version) in {str(v) for v in q} for q in (m.default_request().local.supported_versions,m.default_request().local.supported_versions))
+  x=m.evaluate(m.make_request(('1.0','3.0'),('1.0','2.0'))); return str(x.negotiated_version)=='1.0' and all(str(x.negotiated_version) in {str(v) for v in q} for q in (m.default_request().local.supported_versions,m.default_request().local.supported_versions))
  if k==24:
   try: m.build_manifest('',('1.0',),'S','F'); return False
   except ValueError: return True
